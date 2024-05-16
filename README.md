@@ -1,6 +1,6 @@
 # Linguistic evaluation of generative language models
 
-This repo contains pipelines and notebooks for linguistic evaluation of generative language models.
+This repo contains functionality for linguistic evaluation of generative language models.
 
 ## Setup
 You will need Python 3.10:
