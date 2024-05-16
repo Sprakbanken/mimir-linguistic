@@ -55,11 +55,12 @@ Generates the following files:
 - `<output_dir>/readability/scores_across_texts.csv`
 
 # Metrics on tasks related to language use and world knowledge
-All modules in this category use transformers and HuggingFace libraries. Paramaters are as follows:
+All modules in this category load models with transformers.AutoModelForCausalLM  
+Shared module paramaters are as follows:
 
 Required paramaters:
 ```
---model_id      <HuggingFace model id or local path>      
+--model_id      <HuggingFace hub model id or path to local model>      
 --output_dir    <output directory>        
 ```
 Optional parameters:
@@ -81,7 +82,9 @@ Generates the following files:
 Use `python3 -m <module_name> -h` for detailed info about the different modules.
 
 ## Analogies 
-Based on [The Norwegian Analogy Test Set](https://github.com/ltgoslo/norwegian-analogies) from LTG. It measures the models' accuracy in completing analogy pairs (〈a:b, c:d, a is to b, as c is to d). We observed that it helped to pad the words in each analogy pair with hashes, so that the prompts look like: "#X1# er for #Y2# som #X2# er for #"
+Based on [The Norwegian Analogy Test Set](https://github.com/ltgoslo/norwegian-analogies) from LTG.  
+It measures the models' accuracy in completing analogy pairs (〈a:b, c:d, a is to b, as c is to d).  
+We observed that it helped to pad the words in each analogy pair with special delimiter tokens (such as hashes, so that the prompts look like: "#X1# er for #Y2# som #X2# er for #")
 
 How to run:
 
