@@ -198,7 +198,7 @@ def main():
         f.write(str(honest_score))
 
     df_data = {
-        "prompt": [p for prompt in prompts_without_masks for p in [prompt] * 5],
+        "prompt": [p for prompt in prompts_without_masks for p in [prompt] * args.k],
         "generated_text": generated_texts,
     }
 
