@@ -1,5 +1,6 @@
 from argparse import ArgumentParser
 from datasets import IterableDataset, load_dataset
+from transformers import set_seed
 from collections import Counter, defaultdict
 import json
 import pandas as pd
@@ -126,6 +127,7 @@ def main():
         "--output_dir", "-o", type=Path, required=True, help="directory to save outputs"
     )
     args = parser.parse_args()
+    set_seed(args.seed)
 
     dataset = load_dataset(
         args.source_dataset, split=args.split, streaming=True, trust_remote_code=True

@@ -5,8 +5,7 @@ import json
 import pandas as pd
 from pathlib import Path
 import random
-from string import punctuation
-from transformers import GenerationConfig
+from transformers import GenerationConfig, set_seed
 from utils import (
     get_model_and_tokenizer,
     get_quantized_model_and_tokenizer,
@@ -39,9 +38,8 @@ def load_dataset(only_grammar: bool, num_examples: int) -> dict[str, list[str]]:
     return dataset
 
 
-def get_n_shots(dataset: dict[str, list[str]], n: int, seed) -> list[str]:
+def get_n_shots(dataset: dict[str, list[str]], n: int) -> list[str]:
     """Remove n examples from dataset and return"""
-    random.seed(seed)
     examples = []
     cyc = cycle(dataset.keys())
     while len(examples) < n:
@@ -68,8 +66,64 @@ def create_default_prompt(masked: str, shots_prefix: str, delimiter: str) -> str
     return s
 
 
-def main():
-    """Measure generative language models' ability to finish sentences on the form 'X1 is to Y1 what X2 is to' in Norwegian."""
+def predict_analogies(
+    num_examples: int,
+    grammar_only: bool,
+    n_shots: int,
+    delimiter: str,
+    batch_size: int,
+    model,
+    tokenizer,
+    tokenizer_params,
+    output_dir: Path,
+):
+    ds = load_dataset(only_grammar=grammar_only, num_examples=num_examples)
+    shots = get_n_shots(dataset=ds, n=n_shots)
+    shots_prefix = format_shots(shots, delimiter=delimiter)
+
+    flat_ds = [(key, each) for key, list_ in ds.items() for each in list_]
+    prompts = [
+        create_default_prompt(
+            shots_prefix=shots_prefix, masked=each, delimiter=delimiter
+        )
+        for _, each in flat_ds
+    ]
+    batches = [prompts[i : i + batch_size] for i in range(0, len(prompts), batch_size)]
+    generated_texts = [
+        batch_generate(
+            model=model,
+            tokenizer=tokenizer,
+            generation_config=model.generation_config,
+            texts=batch,
+            tokenizer_params=tokenizer_params,
+        )
+        for batch in batches
+    ]
+    generated_texts = [text for text_list in generated_texts for text in text_list]
+
+    predicted_tokens = [
+        get_first_predicted_word_only(
+            prompt=model_prompt, generated_text=generated_text
+        )
+        for model_prompt, generated_text in zip(prompts, generated_texts)
+    ]
+
+    df_data = defaultdict(list)
+
+    df_data["category"], _ = zip(*flat_ds)
+    df_data["prompt"] = prompts
+    df_data["generated_text"] = generated_texts
+    df_data["predicted_token"] = predicted_tokens
+    df_data["target_token"] = [each.split(" ")[-1] for _, each in flat_ds]
+    df_data["correct_prediction"] = [
+        predicted_token == target
+        for predicted_token, target in zip(predicted_tokens, df_data["target_token"])
+    ]
+
+    pd.DataFrame(df_data).to_csv(output_dir / "generated_text.csv", index=False)
+
+
+def get_parser() -> ArgumentParser:
     parser = ArgumentParser()
     parser.add_argument(
         "--delimiter",
@@ -91,7 +145,10 @@ def main():
         default=0,
     )
     parser.add_argument(
-        "--seed", type=int, help="Random seed for n shot example creation", default=42
+        "--seed",
+        type=int,
+        help="Random seed for n shot example creation and generation",
+        default=42,
     )
     parser.add_argument(
         "--batch_size", "-b", type=int, help="Batch size for inference", default=100
@@ -142,8 +199,13 @@ def main():
     parser.add_argument(
         "--output_dir", "-o", type=Path, required=True, help="directory to save outputs"
     )
+    return parser
 
-    args = parser.parse_args()
+
+def main():
+    """Measure generative language models' ability to finish sentences on the form 'X1 is to Y1 what X2 is to' in Norwegian."""
+    args = get_parser().parse_args()
+    set_seed(args.seed)
 
     if args.quantize_bits:
         model, tokenizer = get_quantized_model_and_tokenizer(
@@ -165,52 +227,6 @@ def main():
 
     args.tokenizer_params = arglist_to_kwarg_dict(args.tokenizer_params)
 
-    ds = load_dataset(only_grammar=args.grammar_only, num_examples=args.num_examples)
-    shots = get_n_shots(dataset=ds, n=args.n_shots, seed=args.seed)
-    shots_prefix = format_shots(shots, delimiter=args.delimiter)
-
-    flat_ds = [(key, each) for key, list_ in ds.items() for each in list_]
-    prompts = [
-        create_default_prompt(
-            shots_prefix=shots_prefix, masked=each, delimiter=args.delimiter
-        )
-        for _, each in flat_ds
-    ]
-    batches = [
-        prompts[i : i + args.batch_size]
-        for i in range(0, len(prompts), args.batch_size)
-    ]
-    generated_texts = [
-        batch_generate(
-            model=model,
-            tokenizer=tokenizer,
-            generation_config=model.generation_config,
-            texts=batch,
-            tokenizer_params=args.tokenizer_params,
-        )
-        for batch in batches
-    ]
-    generated_texts = [text for text_list in generated_texts for text in text_list]
-
-    predicted_tokens = [
-        get_first_predicted_word_only(
-            prompt=model_prompt, generated_text=generated_text
-        )
-        for model_prompt, generated_text in zip(prompts, generated_texts)
-    ]
-
-    df_data = defaultdict(list)
-
-    df_data["category"], _ = zip(*flat_ds)
-    df_data["prompt"] = prompts
-    df_data["generated_text"] = generated_texts
-    df_data["predicted_token"] = predicted_tokens
-    df_data["target_token"] = [each.split(" ")[-1] for _, each in flat_ds]
-    df_data["correct_prediction"] = [
-        predicted_token == target
-        for predicted_token, target in zip(predicted_tokens, df_data["target_token"])
-    ]
-
     output_dir = args.output_dir / "analogies_evaluation/"
     output_dir = get_output_dir(output_dir)
 
@@ -220,4 +236,16 @@ def main():
     with open(output_dir / "generation_config.json", "w+") as f:
         json.dump(model.generation_config.to_dict(), f, indent=4, sort_keys=True)
 
-    pd.DataFrame(df_data).to_csv(output_dir / "generated_text.csv", index=False)
+    predict_analogies(
+        num_examples=args.num_examples,
+        grammar_only=args.grammar_only,
+        n_shots=args.n_shots,
+        delimiter=args.delimiter,
+        batch_size=args.batch_size,
+        model=model,
+        tokenizer=tokenizer,
+        tokenizer_params=args.tokenizer_params,
+        output_dir=output_dir,
+    )
+
+    print(f"See results at {output_dir}")

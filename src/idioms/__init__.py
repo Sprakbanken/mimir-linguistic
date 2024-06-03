@@ -3,8 +3,7 @@ from collections import defaultdict
 import json
 import pandas as pd
 from pathlib import Path
-from string import punctuation
-from transformers import GenerationConfig
+from transformers import GenerationConfig, set_seed
 from utils import (
     get_model_and_tokenizer,
     get_quantized_model_and_tokenizer,
@@ -30,6 +29,51 @@ def format_prompt(prompt: str, idiom_start: str) -> str:
     return f"{prompt}{idiom_start}"
 
 
+def predict_idioms(prompt: str, model, tokenizer, tokenizer_params, output_dir: Path):
+    nno_idioms = load_masked_idioms(
+        "src/idioms/norwegian-idioms/nno_idioms_curated.txt"
+    )
+    nob_idioms = load_masked_idioms(
+        "src/idioms/norwegian-idioms/nob_idioms_curated.txt"
+    )
+
+    df_data = defaultdict(list)
+
+    formatted_prompts = [
+        format_prompt(prompt, idiom_start) for idiom_start in nno_idioms
+    ] + [format_prompt(prompt, idiom_start) for idiom_start in nob_idioms]
+
+    generated_texts = batch_generate(
+        model=model,
+        tokenizer=tokenizer,
+        generation_config=model.generation_config,
+        texts=formatted_prompts,
+        tokenizer_params=tokenizer_params,
+    )
+    predicted_tokens = [
+        get_first_predicted_word_only(
+            prompt=model_prompt, generated_text=generated_text
+        )
+        for model_prompt, generated_text in zip(formatted_prompts, generated_texts)
+    ]
+
+    df_data["prompt"] = formatted_prompts
+    df_data["generated_text"] = generated_texts
+    df_data["predicted_token"] = predicted_tokens
+    df_data["accepted_predictions"] = list(nno_idioms.values()) + list(
+        nob_idioms.values()
+    )
+    df_data["correct_prediction"] = [
+        predicted_token in accepted_predictions
+        for predicted_token, accepted_predictions in zip(
+            df_data["predicted_token"], df_data["accepted_predictions"]
+        )
+    ]
+    df_data["language"] = ["nno"] * len(nno_idioms) + ["nob"] * len(nob_idioms)
+
+    pd.DataFrame(df_data).to_csv(output_dir / "generated_text.csv", index=False)
+
+
 def main():
     """Measure generative language models' ability to finish Norwegian idioms.
     Will present idioms with the last word missing, and count how often the model correctly generates the last word of the idiom.
@@ -50,6 +94,7 @@ def main():
         required=True,
         help="Huggingface hub model_id or path of model to evaluate",
     )
+    parser.add_argument("--seed", type=int, help="Seed for generation", default=42)
     parser.add_argument(
         "--quantize_bits",
         "-qb",
@@ -84,6 +129,7 @@ def main():
     )
 
     args = parser.parse_args()
+    set_seed(args.seed)
 
     if args.quantize_bits:
         model, tokenizer = get_quantized_model_and_tokenizer(
@@ -105,47 +151,6 @@ def main():
 
     args.tokenizer_params = arglist_to_kwarg_dict(args.tokenizer_params)
 
-    nno_idioms = load_masked_idioms(
-        "src/idioms/norwegian-idioms/nno_idioms_curated.txt"
-    )
-    nob_idioms = load_masked_idioms(
-        "src/idioms/norwegian-idioms/nob_idioms_curated.txt"
-    )
-
-    df_data = defaultdict(list)
-
-    formatted_prompts = [
-        format_prompt(args.prompt, idiom_start) for idiom_start in nno_idioms
-    ] + [format_prompt(args.prompt, idiom_start) for idiom_start in nob_idioms]
-
-    generated_texts = batch_generate(
-        model=model,
-        tokenizer=tokenizer,
-        generation_config=model.generation_config,
-        texts=formatted_prompts,
-        tokenizer_params=args.tokenizer_params,
-    )
-    predicted_tokens = [
-        get_first_predicted_word_only(
-            prompt=model_prompt, generated_text=generated_text
-        )
-        for model_prompt, generated_text in zip(formatted_prompts, generated_texts)
-    ]
-
-    df_data["prompt"] = formatted_prompts
-    df_data["generated_text"] = generated_texts
-    df_data["predicted_token"] = predicted_tokens
-    df_data["accepted_predictions"] = list(nno_idioms.values()) + list(
-        nob_idioms.values()
-    )
-    df_data["correct_prediction"] = [
-        predicted_token in accepted_predictions
-        for predicted_token, accepted_predictions in zip(
-            df_data["predicted_token"], df_data["accepted_predictions"]
-        )
-    ]
-    df_data["language"] = ["nno"] * len(nno_idioms) + ["nob"] * len(nob_idioms)
-
     output_dir = args.output_dir / "idioms_evaluation/"
     output_dir = get_output_dir(output_dir)
 
@@ -155,4 +160,12 @@ def main():
     with open(output_dir / "generation_config.json", "w+") as f:
         json.dump(model.generation_config.to_dict(), f, indent=4, sort_keys=True)
 
-    pd.DataFrame(df_data).to_csv(output_dir / "generated_text.csv", index=False)
+    predict_idioms(
+        prompt=args.prompt,
+        model=model,
+        tokenizer=tokenizer,
+        tokenizer_params=args.tokenizer_params,
+        output_dir=output_dir,
+    )
+
+    print(f"See results at {output_dir}")

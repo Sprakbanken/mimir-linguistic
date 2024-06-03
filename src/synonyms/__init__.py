@@ -4,8 +4,7 @@ import json
 import pandas as pd
 from pathlib import Path
 import random
-from transformers import GenerationConfig
-from string import punctuation
+from transformers import GenerationConfig, set_seed
 from utils import (
     get_model_and_tokenizer,
     get_quantized_model_and_tokenizer,
@@ -23,11 +22,9 @@ def load_synonym_groups() -> list[list[str]]:
 
 def create_examples(
     synonym_groups: list[list[str]],
-    seed: int,
     num_list_examples: int,
     num_total_examples: int,
 ) -> list[tuple[str, list[str]]]:
-    random.seed(seed)
     random.shuffle(synonym_groups)
     synonym_groups = [e for e in synonym_groups if len(e) >= num_list_examples]
     examples = []
@@ -35,11 +32,13 @@ def create_examples(
         if i == num_total_examples:
             break
         new_list = random.sample(syn_list, k=num_list_examples)
-        odd_one_out = random.choice(synonym_groups[i - 20])
-        while odd_one_out in new_list:
-            odd_one_out = random.choice(
-                synonym_groups[random.randint(0, len(synonym_groups))]
-            )
+        other_random_list = synonym_groups[random.randint(0, len(synonym_groups))]
+        odd_one_out = random.choice(other_random_list)
+        while (
+            odd_one_out in new_list
+        ):  # make sure the odd one out is not actually a synonym
+            other_random_list = synonym_groups[random.randint(0, len(synonym_groups))]
+            odd_one_out = random.choice(other_random_list)
 
         new_list.append(odd_one_out)
         random.shuffle(new_list)
@@ -53,10 +52,65 @@ def format_example(
     return f"{prompt_pre}{example[1]}{prompt_post}"
 
 
-def main():
-    """Measure generative language models' ability to pick the odd word out in a list of synonyms and one unrelated word.
-    Will present a list of known synonyms with one random word in the mix, and count how often the model correctly generates the odd word out.
-    """
+def predict_synonyms(
+    num_examples: int,
+    num_list_examples: int,
+    prompt_pre: str,
+    prompt_post: str,
+    batch_size: int,
+    model,
+    tokenizer,
+    tokenizer_params: dict,
+    output_dir: Path,
+):
+    groups = load_synonym_groups()
+    examples = create_examples(
+        synonym_groups=groups,
+        num_total_examples=num_examples,
+        num_list_examples=num_list_examples,
+    )
+    formatted_prompts = [
+        format_example(prompt_pre=prompt_pre, prompt_post=prompt_post, example=ex)
+        for ex in examples
+    ]
+
+    batches = [
+        formatted_prompts[i : i + batch_size]
+        for i in range(0, len(formatted_prompts), batch_size)
+    ]
+    generated_texts = [
+        batch_generate(
+            model=model,
+            tokenizer=tokenizer,
+            generation_config=model.generation_config,
+            texts=batch,
+            tokenizer_params=tokenizer_params,
+        )
+        for batch in batches
+    ]
+    generated_texts = [text for text_list in generated_texts for text in text_list]
+
+    predicted_tokens = [
+        get_first_predicted_word_only(
+            prompt=model_prompt, generated_text=generated_text
+        )
+        for model_prompt, generated_text in zip(formatted_prompts, generated_texts)
+    ]
+
+    df_data = defaultdict(list)
+    df_data["prompt"] = formatted_prompts
+    df_data["generated_text"] = generated_texts
+    df_data["predicted_token"] = predicted_tokens
+    df_data["target_token"] = [target for target, _ in examples]
+    df_data["correct_prediction"] = [
+        predicted_token == target
+        for predicted_token, (target, _) in zip(predicted_tokens, examples)
+    ]
+
+    pd.DataFrame(df_data).to_csv(output_dir / "generated_text.csv", index=False)
+
+
+def get_parser() -> ArgumentParser:
     parser = ArgumentParser()
     parser.add_argument(
         "--prompt_pre",
@@ -74,7 +128,7 @@ def main():
         "--seed",
         "-s",
         type=int,
-        help="Random seed for creating synonym test examples",
+        help="Random seed for creating synonym test examples and generate text",
         default=42,
     )
     parser.add_argument(
@@ -132,8 +186,15 @@ def main():
     parser.add_argument(
         "--output_dir", "-o", type=Path, required=True, help="directory to save outputs"
     )
+    return parser
 
-    args = parser.parse_args()
+
+def main():
+    """Measure generative language models' ability to pick the odd word out in a list of synonyms and one unrelated word.
+    Will present a list of known synonyms with one random word in the mix, and count how often the model correctly generates the odd word out.
+    """
+    args = get_parser().parse_args()
+    set_seed(args.seed)
 
     if args.quantize_bits:
         model, tokenizer = get_quantized_model_and_tokenizer(
@@ -155,53 +216,6 @@ def main():
 
     args.tokenizer_params = arglist_to_kwarg_dict(args.tokenizer_params)
 
-    groups = load_synonym_groups()
-    examples = create_examples(
-        synonym_groups=groups,
-        seed=args.seed,
-        num_total_examples=args.num_examples,
-        num_list_examples=args.num_list_examples,
-    )
-    formatted_prompts = [
-        format_example(
-            prompt_pre=args.prompt_pre, prompt_post=args.prompt_post, example=ex
-        )
-        for ex in examples
-    ]
-
-    batches = [
-        formatted_prompts[i : i + args.batch_size]
-        for i in range(0, len(formatted_prompts), args.batch_size)
-    ]
-    generated_texts = [
-        batch_generate(
-            model=model,
-            tokenizer=tokenizer,
-            generation_config=model.generation_config,
-            texts=batch,
-            tokenizer_params=args.tokenizer_params,
-        )
-        for batch in batches
-    ]
-    generated_texts = [text for text_list in generated_texts for text in text_list]
-
-    predicted_tokens = [
-        get_first_predicted_word_only(
-            prompt=model_prompt, generated_text=generated_text
-        )
-        for model_prompt, generated_text in zip(formatted_prompts, generated_texts)
-    ]
-
-    df_data = defaultdict(list)
-    df_data["prompt"] = formatted_prompts
-    df_data["generated_text"] = generated_texts
-    df_data["predicted_token"] = predicted_tokens
-    df_data["target_token"] = [target for target, _ in examples]
-    df_data["correct_prediction"] = [
-        predicted_token == target
-        for predicted_token, (target, _) in zip(predicted_tokens, examples)
-    ]
-
     output_dir = args.output_dir / "synonyms_evaluation/"
     output_dir = get_output_dir(output_dir)
 
@@ -211,4 +225,16 @@ def main():
     with open(output_dir / "generation_config.json", "w+") as f:
         json.dump(model.generation_config.to_dict(), f, indent=4, sort_keys=True)
 
-    pd.DataFrame(df_data).to_csv(output_dir / "generated_text.csv", index=False)
+    predict_synonyms(
+        num_examples=args.num_examples,
+        num_list_examples=args.num_list_examples,
+        prompt_pre=args.prompt_pre,
+        prompt_post=args.prompt_post,
+        batch_size=args.batch_size,
+        model=model,
+        tokenizer=tokenizer,
+        tokenizer_params=args.tokenizer_params,
+        output_dir=output_dir,
+    )
+
+    print(f"See results at {output_dir}")

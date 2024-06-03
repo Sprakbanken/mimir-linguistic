@@ -35,7 +35,8 @@ def get_evaluator_and_templates() -> (
     evaluator.words = set(evaluator.hurtlex["lemma"].unique())
 
     masked_templates = evaluator.templates(
-        data_set="binary", path="ScandinavianHONEST/resources/binary/no_template.tsv"
+        data_set="binary",
+        path="src/no_honest/ScandinavianHONEST/resources/binary/no_template.tsv",
     )
 
     return evaluator, masked_templates
@@ -84,7 +85,7 @@ def plot(honest_df: pd.DataFrame, img_path: Path, k: int) -> None:
     fig.write_image(img_path)
 
 
-def main():
+def get_parser() -> ArgumentParser:
     parser = ArgumentParser()
     parser.add_argument(
         "--k", "-k", type=int, help="Number of outputs for each example", default=5
@@ -132,7 +133,65 @@ def main():
     parser.add_argument(
         "--output_dir", "-o", type=Path, required=True, help="directory to save outputs"
     )
-    args = parser.parse_args()
+    return parser
+
+
+def calculate_HONEST_score(
+    model,
+    tokenizer,
+    tokenizer_params,
+    k: int,
+    batch_size: int,
+    plot_scores: bool,
+    output_dir: Path,
+):
+    evaluator, masked_templates = get_evaluator_and_templates()
+    prompts_without_masks = [remove_mask(e) for e in masked_templates]
+
+    batches = [
+        prompts_without_masks[i : i + batch_size]
+        for i in range(0, len(prompts_without_masks), batch_size)
+    ]
+    generated_texts = [
+        batch_generate(
+            model=model,
+            tokenizer=tokenizer,
+            generation_config=model.generation_config,
+            texts=batch,
+            tokenizer_params=tokenizer_params,
+        )
+        for batch in batches
+    ]
+    generated_texts = [text for text_list in generated_texts for text in text_list]
+
+    only_generated_parts = [
+        text[len(prompt) :]
+        for text, prompt in zip(generated_texts, prompts_without_masks)
+    ]
+
+    # #Compute HONEST score
+    honest_score, honest_df = evaluator.honest_dataframe(
+        only_generated_parts, masked_templates
+    )
+
+    honest_df.to_csv(output_dir / "honest_scores.csv", index=False)
+
+    with open(output_dir / "overall_honest_score.txt", "w+") as f:
+        f.write(str(honest_score))
+
+    df_data = {
+        "prompt": [p for prompt in prompts_without_masks for p in [prompt] * k],
+        "generated_text": generated_texts,
+    }
+
+    pd.DataFrame(df_data).to_csv(output_dir / "generated_text.csv", index=False)
+
+    if plot_scores:
+        plot(honest_df=honest_df, img_path=output_dir / "plot.png", k=k)
+
+
+def main():
+    args = get_parser().parse_args()
     set_seed(args.seed)
 
     if args.quantize_bits:
@@ -162,27 +221,6 @@ def main():
 
     args.tokenizer_params = arglist_to_kwarg_dict(args.tokenizer_params)
 
-    evaluator, masked_templates = get_evaluator_and_templates()
-    prompts_without_masks = [remove_mask(e) for e in masked_templates]
-
-    generated_texts = batch_generate(
-        texts=prompts_without_masks,
-        model=model,
-        generation_config=model.generation_config,
-        tokenizer=tokenizer,
-        tokenizer_params=args.tokenizer_params,
-    )
-
-    only_generated_parts = [
-        text[len(prompt) :]
-        for text, prompt in zip(generated_texts, prompts_without_masks)
-    ]
-
-    # #Compute HONEST score
-    honest_score, honest_df = evaluator.honest_dataframe(
-        only_generated_parts, masked_templates
-    )
-
     output_dir = args.output_dir / "honest_evaluation"
     output_dir = get_output_dir(output_dir)
 
@@ -192,19 +230,13 @@ def main():
     with open(output_dir / "generation_config.json", "w+") as f:
         json.dump(model.generation_config.to_dict(), f, indent=4, sort_keys=True)
 
-    honest_df.to_csv(output_dir / "honest_scores.csv", index=False)
-
-    with open(output_dir / "overall_honest_score.txt", "w+") as f:
-        f.write(str(honest_score))
-
-    df_data = {
-        "prompt": [p for prompt in prompts_without_masks for p in [prompt] * args.k],
-        "generated_text": generated_texts,
-    }
-
-    pd.DataFrame(df_data).to_csv(output_dir / "generated_text.csv", index=False)
-
-    if args.plot_scores:
-        plot(honest_df=honest_df, img_path=output_dir / "plot.png", k=args.k)
+    calculate_HONEST_score(
+        model=model,
+        tokenizer=tokenizer,
+        tokenizer_params=args.tokenizer_params,
+        k=args.k,
+        plot_scores=args.plot_scores,
+        output_dir=output_dir,
+    )
 
     print(f"See results at {output_dir}")

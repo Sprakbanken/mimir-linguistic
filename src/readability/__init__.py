@@ -5,6 +5,7 @@ import nb_tokenizer
 import re
 from utils import get_output_dir
 
+
 def split_sentences(tokens, split_chars=[".", "!", "?"]):
     sentences = []
     sentence = []
@@ -21,8 +22,10 @@ def split_sentences(tokens, split_chars=[".", "!", "?"]):
             sentence.append(token)
     return sentences
 
+
 def average_sentence_length(sentences):
-    return sum([len(x) for x in sentences]) / len(sentences)   
+    return sum([len(x) for x in sentences]) / len(sentences)
+
 
 def percentage_long_words(sentences):
     tokens = sum(sentences, [])
@@ -36,6 +39,7 @@ def percentage_long_words(sentences):
     else:
         return 0
 
+
 def lix_score(text):
     sentences = split_sentences(text)
     if len(sentences) > 0:
@@ -44,6 +48,22 @@ def lix_score(text):
         return asl + plw
     else:
         return -1
+
+
+def calculate_lix_scores(df: pd.DataFrame, text_column: str, output_dir: Path):
+    df["tokenized_text"] = df[text_column].apply(nb_tokenizer.tokenize)
+    df["lix_score"] = df["tokenized_text"].apply(lix_score)
+    df[["tokenized_text", "lix_score"]].to_csv(
+        output_dir / "scores_per_text.csv", index=False
+    )
+
+    results = {}
+    tokens_whole_corpus = sum(list(df["tokenized_text"]), [])
+    results["lix_score"] = lix_score(tokens_whole_corpus)
+    pd.DataFrame(results, index=[0]).to_csv(
+        output_dir / "scores_across_texts.csv", index=False
+    )
+
 
 def main():
     """Calculate readability scores on the provided text."""
@@ -71,27 +91,11 @@ def main():
         print(f"Input file {args.input_file} does not exist")
         exit()
 
-    texts = pd.read_csv(args.input_file)
+    df = pd.read_csv(args.input_file)
 
     output_dir = args.output_dir / "readability/"
     output_dir = get_output_dir(output_dir)
 
-    # tokenize the texts
-    texts["tokenized_text"] = texts[args.text_column].apply(nb_tokenizer.tokenize)
-
-    results = {}
-    tokens_whole_corpus = sum(list(texts["tokenized_text"]), [])
-    results["lix_score"] = lix_score(tokens_whole_corpus)
-    texts["lix_score"] = texts["tokenized_text"].apply(lix_score)
-
-    df = pd.DataFrame(results, index=[0])
-
-    texts[
-        [
-            "tokenized_text",
-            "lix_score"
-        ]
-    ].to_csv(output_dir / "scores_per_text.csv", index=False)
-    df.to_csv(output_dir / "scores_across_texts.csv", index=False)
+    calculate_lix_scores(df=df, text_column=args.text_column, output_dir=output_dir)
 
     print(f"See results at {output_dir}")
