@@ -13,6 +13,89 @@ python -m venv <venv_name>      # make a virtual environment
 pip install .                   # install dependencies and modules
 ```
 
+
+# How to run full pipeline
+To run all metrics on a specific model, you can use the `evaluate_all` module. See the below sections for more detailed explanations of the different metrics.
+
+Run `python3 -m evaluate_all -h` for argument information.
+
+## Required arguments
+- model_id:                  huggingface hub model id or path to local model that can be loaded with transformers.AutoModelForCausalLM
+- output_dir:                directory to store all outputs of evaluation pipeline
+- input_file:                .csv file with prompts for text generation
+- prompt_column:             prompt column in input_file
+
+
+## Optional arguments
+### Shared:
+- lang_column:              language column in input file
+- hf_token:                 huggingface token with read access (private models)                
+- quantize_bits:            4 or 8. Will load quantized model if set                            
+- eos_token:                 custom eos_token                                          
+- tokenizer_params:          sequence of key=value pairs for the tokenizer*           
+- generation_params:         sequence of key=value pairs for the generation config*  
+- seed:                      random seed for generation and other sampling
+- batch_size:                number of examples per batch (for the tasks that may require batching)  
+
+### Task specific
+
+- texts_per_prompt:          number of texts to generate for each prompt
+- ns:                        list of Ns for n-gram diversity score
+- delimiter:                 custom token for padding the words in the analogy eval                   
+- num_examples_a:            number of analogy examples to use (max and default 17807)
+- grammar_only:              will only use analogies in the grammar category if flagged
+- n_shots:                   number of analogy examples in context of each test example                 
+- prompt_i:                  startprompt for idioms 
+- k:                         number of outputs per prompt for HONEST score (default 5)
+- plot_scores:               will plot HONEST-scores if flagged
+- prompt_pre:                prompt before each example in synonym eval       
+- prompt_post:               prompt after each example in synonym eval       
+- num_examples_s:            number of synonyms to use in synonym eval (max 33909, default 1000)       
+- num_list_examples:         number of synonyms in list per example (default 2)       
+
+
+\* Depending on the model, some values of generation_params and/or tokenizer_params must be set for the generation to work properly 
+See [this document](https://huggingface.co/docs/transformers/v4.15.0/main_classes/tokenizer#transformers.PreTrainedTokenizerBase.__call__) for paramaters that can be used with  `--tokenizer_params`  
+See [this document](https://huggingface.co/docs/transformers/v4.39.3/en/main_classes/text_generation#transformers.GenerationConfig) for paramaters that can be used with `--generation_params`
+
+## Example run 
+```bash
+python3 -m evaluate_all --model_id mimir-project/nb-llama-1.5b-mimirbase --input_file sentence-starters/sentence_starters.csv --prompt_column prompt --output_dir output/mimir-project/nb-llama-1.5b-mimirbase --generation_params max_new_tokens=200 min_new_tokens=170 --plot_scores
+```
+
+## Output
+Will create the following directory structure:
+```
+evaluate_all/
+├─ analogies/
+│  ├─ generated_text.csv
+├─ honest/
+│  ├─ generated_text.csv
+│  ├─ honest_scores.csv
+│  ├─ overall_honest_score
+│  ├─ plot.png
+├─ idioms/
+│  ├─ generated_text.csv
+├─ lexical_diversity/
+│  ├─ scores_across_texts.csv
+│  ├─ scores_per_text.csv
+├─ readability/
+│  ├─ scores_across_texts.csv
+│  ├─ scores_per_text.csv
+├─ synonyms/
+│  ├─ generated_text.csv
+args.json
+generated_text.csv
+generation_config.json
+results.jsonl
+```
+
+`results.jsonl`  contains overall results for all tasks in the evaluate_all pipeline
+
+
+
+
+
 # Metrics for use on generated text
 
 The following metrics may be used with the module "lexical_diviersities". For evaluation, metrics on generated text should be compared with the same metrics on training material within the same domain.
@@ -151,5 +234,35 @@ python3 -m synonyms --model_id
                     --batch_size        <number of examples per batch>              # optional       
                     # plus other parameters as mentioned above
 ```
-Kjør `python3 -m synonyms -h` for detailed information.
+Run `python3 -m synonyms -h` for detailed information.
+
+# Generation utility module
+
+In order to generate text for evaluation, use the generation module.  
+It loads a model with the transformers library and a .csv file with prompts to generate from.  
+
+Required paramaters:
+```
+--input_file        <.csv file with prompts>
+--prompt_column     <prompt column in input_file>
+--texts_per_prompt  <number of texts to generate for each prompt>
+--seed              <random seed for text generation>
+--model_id          <HuggingFace model id or local path>      
+--output_dir        <output directory>        
+```
+Optional parameters:
+```
+--hf_token          <hf token with read access (private models)>                
+--quantize_bits     <4 or 8 bit, model quantization>                            
+--eos_token         <custom eos_token>                                          
+--tokenizer_params  <sequence with key=value pairs for the tokenizer>           
+--generation_params <sequence with key=value pairs for the generation config>   
+```
+See [this document](https://huggingface.co/docs/transformers/v4.15.0/main_classes/tokenizer#transformers.PreTrainedTokenizerBase.__call__) for paramaters that can be used with  `--tokenizer_params`  
+See [this document](https://huggingface.co/docs/transformers/v4.39.3/en/main_classes/text_generation#transformers.GenerationConfig) for paramaters that can be used with `--generation_params`
+
+Generates the following files:
+- `<output_dir>/<evaluation_name>/args.json`           
+- `<output_dir>/<evaluation_name>/generated_text.csv`         
+- `<output_dir>/<evaluation_name>/generation_config.json` 
 
