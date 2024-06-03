@@ -1,0 +1,245 @@
+prompt,dataset,language
+Men det var,books,nno
+Det var ein,books,nno
+Det var så,books,nno
+Ja det var,books,nno
+Ja det er,books,nno
+Så var det,books,nno
+Det var som,books,nno
+Det er ikkje,books,nno
+Kor mange prosent,books,nno
+Det er veldig,factual,nno
+Det er ein,factual,nno
+Det er eit,factual,nno
+Det er viktig,factual,nno
+Men det er,factual,nno
+Han fortel at,factual,nno
+Eg har ikkje,factual,nno
+Det er mykje,factual,nno
+Vi har ikkje,factual,nno
+Ei stund etter,fiction,nno
+Hans og Knut,fiction,nno
+Eg veit ikkje,fiction,nno
+No er det,fiction,nno
+Det var ei,fiction,nno
+No var det,fiction,nno
+Så var det,fiction,nno
+Men best som,fiction,nno
+Dagen etter var,fiction,nno
+Det var godt,fiction,nno
+Det har vore,newspapers,nno
+Det er eit,newspapers,nno
+Det er jo,newspapers,nno
+Når det gjeld,newspapers,nno
+I tillegg til,newspapers,nno
+Men det er,newspapers,nno
+I dag er,newspapers,nno
+Vi har fått,newspapers,nno
+Eg synest det,newspapers,nno
+Matrikkelframlegget 1863 seier,nonfiction,nno
+Han sa til,translated,nno
+Du skal ikkje,translated,nno
+Då dei kom,translated,nno
+Dei sa til,translated,nno
+Men Jesus sa,translated,nno
+Dei kom til,translated,nno
+Frå brev som,translated,nno
+Ein dag då,translated,nno
+Han skunda seg,translated,nno
+Det vart som,translated,nno
+So var det,untranslated,nno
+Han snudde seg,untranslated,nno
+Då dei hadde,untranslated,nno
+Kva er det,untranslated,nno
+So sprang hanen,untranslated,nno
+I det same,untranslated,nno
+For det første,untranslated,nno
+Då han hadde,untranslated,nno
+Noen beskjed i tilfelle han,books,nob
+Men så banket jomfru Hansen,books,nob
+Det synspunkt at miljøskifte og,books,nob
+Nei sa Beatrice Bare gå,books,nob
+For 2 av elevene har,books,nob
+Utover høsten 1987 vil det,books,nob
+Personell og organisering av sekretariatet,books,nob
+De nevnte artiklene i FN,books,nob
+Bør minimum være 10 av,books,nob
+Artikkel 3 tar opp Kommisjonens,books,nob
+Din skrønemaker sa en av,books,nob
+Å tenke negative tanker er,books,nob
+Etter talen ble sunget Min,factual,nob
+Lovendringen vil føre til at,factual,nob
+En regjeringskilde i Mexico bekrefter,factual,nob
+Like før klokka 02 00,factual,nob
+Har man ikke alt man,factual,nob
+Det har ikke vært noe,factual,nob
+Formannskapet var vel å merke,factual,nob
+Mer bruk av biodrivstoff kan,factual,nob
+Hva skjer med jentefotballen i,factual,nob
+Selv om vi har mistet,factual,nob
+Som omtalt tidligere denne uken,factual,nob
+Bare i Spania som står,factual,nob
+Og i et kort flyktig,fiction,nob
+De finner vel ut av,fiction,nob
+Jeg håper du unnskylder meg,fiction,nob
+Ved lunsjen i dag ville,fiction,nob
+Vi var alene og vi,fiction,nob
+McDermott skyver rullatoren sakte framfor,fiction,nob
+Jeg er nede på alle,fiction,nob
+Jeg trodde vi hadde funnet,fiction,nob
+Mens de satt og drakk,fiction,nob
+Er dere sprøyte gale begge,fiction,nob
+Tåka hadde tetnet da Johan,fiction,nob
+Politiet sier de to 18,newspapers,nob
+En av dem som sikret,newspapers,nob
+Det er en del klubber,newspapers,nob
+Sist lørdag var bygdefolket in,newspapers,nob
+Ja du sier noe sa,newspapers,nob
+Er det også den verste,newspapers,nob
+I disse dager synges julen,newspapers,nob
+Denne kampen blir Innsats åttende,newspapers,nob
+Vedkommende som er en mann,newspapers,nob
+Tilstanden er fortsatt kritisk for,newspapers,nob
+Rettsreglenes viktigste formål er adferdsregulering,nonfiction,nob
+Under kartlegginga har vi konsentrert,nonfiction,nob
+Når en trygdet arbeider hos,nonfiction,nob
+Det er i Norge ikke,nonfiction,nob
+Hvilken betalingsbetingelse er den sikreste,nonfiction,nob
+Dette er viktig for kommunene,nonfiction,nob
+Den andre forutsetningen er kompetanse,nonfiction,nob
+Vil du vite om du,nonfiction,nob
+Den pedagogisk psykologiske tjenesten arbeider,nonfiction,nob
+Hvem kunne si nei til,translated,nob
+Varselklokken på stekeovnen ringte Betty,translated,nob
+Med ett hørte jeg dem,translated,nob
+Han satt midt imellom de,translated,nob
+En bedrift kan også henvende,translated,nob
+Alle de selgerne jeg har,translated,nob
+Det kan med andre ord,translated,nob
+Ja veldig koselig svarte Jane,translated,nob
+Jeg lar den stå her,translated,nob
+Ryggen hennes var fin men,translated,nob
+Hvor er du såret Tommy,translated,nob
+Nye medier i regional utvikling,untranslated,nob
+For det første er 35,untranslated,nob
+En sentral faktor knyttet til,untranslated,nob
+Et tilleggsmål med rapporten har,untranslated,nob
+Under prosjektets gang har vi,untranslated,nob
+I radiell retning bruker vi,untranslated,nob
+I dette avsnittet skal vi,untranslated,nob
+Foreldrene ble skilt etter 12,untranslated,nob
+Det skjer nå raske endringer,untranslated,nob
+Selv om de nye rundturene,untranslated,nob
+Dette vedtaket er vel kjent,untranslated,nob
+De miljømessige kostnadene ved de,untranslated,nob
+Jeg vet ikke,books,nob
+Hva er det,books,nob
+Det er en,books,nob
+Det var ikke,books,nob
+Det var en,books,nob
+Jeg har ikke,books,nob
+Jeg kan ikke,books,nob
+Men det var,books,nob
+Det er viktig,books,nob
+Jeg tror ikke,books,nob
+Det er et,books,nob
+Til tross for,factual,nob
+Jeg synes det,factual,nob
+Det er i,factual,nob
+Nå er det,factual,nob
+I forbindelse med,factual,nob
+For det første,factual,nob
+Det er jo,factual,nob
+Det er ingen,factual,nob
+Men det var,fiction,nob
+Men det er,fiction,nob
+Han snudde seg,fiction,nob
+Han så på,fiction,nob
+Hun snudde seg,fiction,nob
+Hun så på,fiction,nob
+Det er bare,fiction,nob
+Hva mener du,fiction,nob
+Jeg tror det,fiction,nob
+Det har vært,newspapers,nob
+Han forteller at,newspapers,nob
+Det er veldig,newspapers,nob
+I tillegg til,newspapers,nob
+Dette er en,newspapers,nob
+Men det er,newspapers,nob
+I løpet av,newspapers,nob
+Vi har ikke,newspapers,nob
+Det er jo,newspapers,nob
+Det er mange,newspapers,nob
+Det er ingen,newspapers,nob
+Når det gjelder,nonfiction,nob
+Jeg er født,nonfiction,nob
+I forbindelse med,nonfiction,nob
+For det andre,nonfiction,nob
+For det første,nonfiction,nob
+Det kan være,nonfiction,nob
+For å få,nonfiction,nob
+I dette kapitlet,nonfiction,nob
+På bakgrunn av,nonfiction,nob
+Til tross for,nonfiction,nob
+Hva er det,translated,nob
+Jeg vet det,translated,nob
+Ja det er,translated,nob
+Jeg tror ikke,translated,nob
+Nei det er,translated,nob
+Jeg vil ikke,translated,nob
+Hun ristet på,translated,nob
+Det var det,translated,nob
+Det er bare,translated,nob
+Hun så på,translated,nob
+Hva er det,untranslated,nob
+For det første,untranslated,nob
+Det er også,untranslated,nob
+Det er i,untranslated,nob
+Det kan være,untranslated,nob
+Ja det er,untranslated,nob
+Det var ikke,untranslated,nob
+Men det er,untranslated,nob
+Det har vært,untranslated,nob
+Det er et,untranslated,nob
+Det følger av,untranslated,nob
+Ja ja de skal få,books,nno
+Då eg fekk høyra at,books,nno
+I Aurlandselva var andelen presmolt,books,nno
+Det vart berre ei hås,books,nno
+Ei lita kjøle av austavind,books,nno
+Praktisk tolka for skule og,books,nno
+Han hevder dette blir siste,factual,nno
+Kvinnheringen har tidlegare skrive om,factual,nno
+Undulat med bur til salgs,factual,nno
+Like tydelege har ordførar Jenny,factual,nno
+Hjertelig takk for gåver og,factual,nno
+Det er det store spørsmålet,factual,nno
+Mannen er funnet på en,factual,nno
+Ulykka skjedde ved ei avkøyring,factual,nno
+Vi veit nok i dag,factual,nno
+Men du skulde høyrt og,fiction,nno
+Dagen etter var båten til,fiction,nno
+Frosken var veldig redd Han,fiction,nno
+Goddag karar sagde eg og,fiction,nno
+Jeg er ekstremt tilfreds med,newspapers,nno
+Det er ei trist melding,newspapers,nno
+Etter forvaltningslova har P4 rett,newspapers,nno
+Det er heilt mindblowing kva,newspapers,nno
+Men eg er ikkje van,newspapers,nno
+Det finst i alle fall,newspapers,nno
+Nokre kommunar får midlar til,newspapers,nno
+På eit tidspunkt såg det,newspapers,nno
+Fredag skreiv Bergens Tidende at,newspapers,nno
+Erklæring frå lege om tilstanden,nonfiction,nno
+Nei eg ser ikkje anna,nonfiction,nno
+Eg prøvde å snu hingsten,nonfiction,nno
+Sjølv om kvantitative data manglar,nonfiction,nno
+Her kjem eg til å,translated,nno
+Saulus hadde lært om det,translated,nno
+Tomas gjekk ein varm sumardag,untranslated,nno
+Borte på Vindheim hadde folk,untranslated,nno
+Eit anna vilkår som ligg,untranslated,nno
+Det hadde rent så vond,untranslated,nno
+Ja spring etter doktaren sa,untranslated,nno
+I det året som var,untranslated,nno
+Så strauk Per bort i,untranslated,nno
