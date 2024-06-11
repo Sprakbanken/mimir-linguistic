@@ -1,0 +1,2961 @@
+prompt,generated_text,predicted_token,accepted_predictions,correct_prediction,language
+"Idiom:
+Alderdommen er ikkje ungdommen","Idiom:
+Alderdommen er ikkje ungdommen - den kjem seinare",,['lik'],False,nno
+"Idiom:
+Alle gode ting er","Idiom:
+Alle gode ting er tre (eller for så vidt",tre,['tre'],True,nno
+"Idiom:
+Alle har bra døtrer, men ingen får bra","Idiom:
+Alle har bra døtrer, men ingen får bra sønner!
+En ung","sønner!
+En",['sonekone'],False,nno
+"Idiom:
+Alle manns venn er alle manns","Idiom:
+Alle manns venn er alle manns eye! Det betyr",eye,['narr'],False,nno
+"Idiom:
+Alle sko kan ikkje lagast over ein","Idiom:
+Alle sko kan ikkje lagast over ein lest – sjølv ikkje ein",lest,['lest'],True,nno
+"Idiom:
+Alle svin er svarte i","Idiom:
+Alle svin er svarte i Kina.
+sviner til","Kina.
+sviner",['mørkret'],False,nno
+"Idiom:
+Alle vegar fører til","Idiom:
+Alle vegar fører til Rom(s) : Bygg",Rom(s,['Rom'],False,nno
+"Idiom:
+Alle vil ape og ingen vil","Idiom:
+Alle vil ape og ingen vil bli ape. Og vi",bli,['skape'],False,nno
+"Idiom:
+Alle vil leve lenge, men ingen vil bli","Idiom:
+Alle vil leve lenge, men ingen vil bli gammel!
+En eldre person","gammel!
+En",['gammal'],False,nno
+"Idiom:
+Alt lyt ha si","Idiom:
+Alt lyt ha si tid
+det som kjem","tid
+det",['tid'],False,nno
+"Idiom:
+Alt stygt trivst i","Idiom:
+Alt stygt trivst i fuktig klima. På Sunn",fuktig,['mørkret'],False,nno
+"Idiom:
+Altfor kvast er og til","Idiom:
+Altfor kvast er og tilvisande / altform",visande,['last'],False,nno
+"Idiom:
+Altfor romhendt står att","Idiom:
+Altfor romhendt står attende med eit uop",ende,['tomhendt'],False,nno
+"Idiom:
+Andre tider gjev andre","Idiom:
+Andre tider gjev andre svar.
+Lagt inn av Kjetil","svar.
+Lagt",['tankar'],False,nno
+"Idiom:
+Annan manns lyte er lett å","Idiom:
+Annan manns lyte er lett å rette på, men ingen manns",rette,['sjå'],False,nno
+"Idiom:
+Annan manns vilje er vond å","Idiom:
+Annan manns vilje er vond å vende.
+Idiom:
+A","vende.
+Idiom:
+A",['vite'],False,nno
+"Idiom:
+Auget ser aldri seg","Idiom:
+Auget ser aldri seg sjølv. Auget ser",sjølv,['sjølv'],True,nno
+"Idiom:
+Av skade vert ein klok, men ikkje","Idiom:
+Av skade vert ein klok, men ikkje rik.
+Forhåpninger","rik.
+Forhåpninger",['rik'],False,nno
+"Idiom:
+Bak skya er himmelen alltid","Idiom:
+Bak skya er himmelen alltid blå. Bak skyene",blå,['blå'],True,nno
+"Idiom:
+Barn gjer barns","Idiom:
+Barn gjer barnsleg ting av lyst eller",leg,['verk'],False,nno
+"Idiom:
+Barn lærer snarare å tale enn å","Idiom:
+Barn lærer snarare å tale enn å lese, ser det ut",lese,['teie'],False,nno
+"Idiom:
+Barnet er far til","Idiom:
+Barnet er far til mannen, mor til datter",mannen,['mannen'],True,nno
+"Idiom:
+Barnet har berre gråten å ta","Idiom:
+Barnet har berre gråten å ta til når noe er gæ",til,['til'],True,nno
+"Idiom:
+Beste fruktene heng","Idiom:
+Beste fruktene hengslet sammen på midten,",slet,['høgast'],False,nno
+"Idiom:
+Betre med ein fugl i handa en med ti på","Idiom:
+Betre med ein fugl i handa en med ti på taket, er gammal norsk",taket,['taket'],True,nno
+"Idiom:
+Betre med eit ærleg nei enn med eit falskt","Idiom:
+Betre med eit ærleg nei enn med eit falskt ja.",ja,['ja'],True,nno
+"Idiom:
+Betre seint enn","Idiom:
+Betre seint enn aldri, heiter det,",aldri,['aldri'],True,nno
+"Idiom:
+Betre ulært enn ille","Idiom:
+Betre ulært enn ille lært.
+Henrik Ibsen","lært.
+Henrik",['lært'],False,nno
+"Idiom:
+Blind høne finn og eit","Idiom:
+Blind høne finn og eit korn: Blind hø",korn,['korn'],True,nno
+"Idiom:
+Blod er aldri så tunt at det er tjukkare enn","Idiom:
+Blod er aldri så tunt at det er tjukkare enn vatn. Tunnare",vatn,['vatn'],True,nno
+"Idiom:
+Brent barn skyr","Idiom:
+Brent barn skyr ilden; skyr",ilden,['elden'],False,nno
+"Idiom:
+Bønder trivst mellom bønder","Idiom:
+Bønder trivst mellom bønder; dei likar seg",,['best'],False,nno
+"Idiom:
+Dei gamle skal ein ære, dei unge skal ein","Idiom:
+Dei gamle skal ein ære, dei unge skal ein lokke.
+Ideal","lokke.
+Ideal",['lære'],False,nno
+"Idiom:
+Dei vil alle følgje den store","Idiom:
+Dei vil alle følgje den store vegen.",vegen,['straumen'],False,nno
+"Idiom:
+Dei vise kan og fare","Idiom:
+Dei vise kan og fare vill
+Det er ikkje lett","vill
+Det",['vill'],False,nno
+"Idiom:
+Den eine løgna dreg den andre etter","Idiom:
+Den eine løgna dreg den andre etter seg i ei lang re",seg,['seg'],True,nno
+"Idiom:
+Den eine ramnen vil den andre skal vere like","Idiom:
+Den eine ramnen vil den andre skal vere like stor.
+Den eine reven","stor.
+Den",['svart'],False,nno
+"Idiom:
+Den eine sin død er den andre sitt","Idiom:
+Den eine sin død er den andre sitt brød.
+Av det følgj","brød.
+Av",['brød'],False,nno
+"Idiom:
+Den eine ulukka dreg den andre etter","Idiom:
+Den eine ulukka dreg den andre etter seg. I ein slik situasjon",seg,['seg'],True,nno
+"Idiom:
+Den einøygde kallen er konge blant dei","Idiom:
+Den einøygde kallen er konge blant dei gamle. Han sit på",gamle,['blinde'],False,nno
+"Idiom:
+Den er mykje verd som vert","Idiom:
+Den er mykje verd som vert mykje brukt, og som",mykje,['baktala'],False,nno
+"Idiom:
+Den er sjølv vond, som trur at alle er","Idiom:
+Den er sjølv vond, som trur at alle er lik .
+Lat då",lik,['vonde'],False,nno
+"Idiom:
+Den gryta som kokar før seks, kokar også før","Idiom:
+Den gryta som kokar før seks, kokar også før sju og elleve.
+Kor",sju,['sju'],True,nno
+"Idiom:
+Den handa som er for rom, vil snart vere","Idiom:
+Den handa som er for rom, vil snart vere for liten.
+Lagt inn av",for,['tom'],False,nno
+"Idiom:
+Den skal tidleg krøkjast som god krok skal","Idiom:
+Den skal tidleg krøkjast som god krok skal bli. Kua har",bli,['bli'],True,nno
+"Idiom:
+Den som byrjar for hardt, sluttar for","Idiom:
+Den som byrjar for hardt, sluttar for tidleg.
+Kvalitet er noko","tidleg.
+Kvalitet",['snart'],False,nno
+"Idiom:
+Den som er utru i smått, er og utru i","Idiom:
+Den som er utru i smått, er og utru i stort, og den som er",stort,['stort'],True,nno
+"Idiom:
+Den som gjer mest, får minste","Idiom:
+Den som gjer mest, får minste straff.
+Dansk:
+Den","straff.
+Dansk:
+Den",['takka'],False,nno
+"Idiom:
+Den som gjer narr av andre, er sjølv største","Idiom:
+Den som gjer narr av andre, er sjølv største niding og n",niding,['narren'],False,nno
+"Idiom:
+Den som går ubeden til, går utakka","Idiom:
+Den som går ubeden til, går utakka til.
+Ordet i dag","til.
+Ordet",['frå'],False,nno
+"Idiom:
+Den som har gjeld, er aldri","Idiom:
+Den som har gjeld, er aldri fri.
+Den som ikke kjenner","fri.
+Den",['sorglaus'],False,nno
+"Idiom:
+Den som har noko å selje, får og noko å","Idiom:
+Den som har noko å selje, får og noko å leige. Men når le",leige,['telje'],False,nno
+"Idiom:
+Den som hjelper i naud, hjelper to","Idiom:
+Den som hjelper i naud, hjelper to gonger:
+(F","gonger:
+(F",['gonger'],False,nno
+"Idiom:
+Den som ikkje får ride, fell heller ikkje av","Idiom:
+Den som ikkje får ride, fell heller ikkje av.
+Det finnes ingen som er","
+Det",['hesten'],False,nno
+"Idiom:
+Den som ikkje spør, blir ikkje visare enn","Idiom:
+Den som ikkje spør, blir ikkje visare enn han var før.",han,['før'],False,nno
+"Idiom:
+Den som ingenting vågar, han ingenting","Idiom:
+Den som ingenting vågar, han ingenting får.",får,['vinn'],False,nno
+"Idiom:
+Den som kjenner sin eigen dårskap, er på veg mot","Idiom:
+Den som kjenner sin eigen dårskap, er på veg mot visdom. (Ben",visdom,['visdom'],True,nno
+"Idiom:
+Den som kviskrar, han","Idiom:
+Den som kviskrar, han samtykkjer. Den som",samtykkjer,['lyg'],False,nno
+"Idiom:
+Den som ler sist ler","Idiom:
+Den som ler sist ler best !
+Idiom",best,['best'],True,nno
+"Idiom:
+Den som lite veit, han lite","Idiom:
+Den som lite veit, han lite får.
+Hans Seland","får.
+Hans",['gløymer'],False,nno
+"Idiom:
+Den som lite vågar, han lite","Idiom:
+Den som lite vågar, han lite vinner
+är en gammal","vinner
+är",['vinn'],False,nno
+"Idiom:
+Den som lyg, kan stele; og den som stel, kan","Idiom:
+Den som lyg, kan stele; og den som stel, kan få sin neste til å",få,['lyge'],False,nno
+"Idiom:
+Den som lærer ti handverk, han kan ikkje eitt til","Idiom:
+Den som lærer ti handverk, han kan ikkje eitt til.
+14. august 1559","
+14",['gagns'],False,nno
+"Idiom:
+Den som sjeldan ror ut, får sjeldan","Idiom:
+Den som sjeldan ror ut, får sjeldan fangst, og den som",fangst,['fisk'],False,nno
+"Idiom:
+Den som skal gjete, lyt ha auga med","Idiom:
+Den som skal gjete, lyt ha auga med seg så han ikkje driv",seg,['seg'],True,nno
+"Idiom:
+Den som skal lyge, skal ha godt","Idiom:
+Den som skal lyge, skal ha godt handlag med ord, og",handlag,['minne'],False,nno
+"Idiom:
+Den som sparer hendene, får og spare","Idiom:
+Den som sparer hendene, får og spare til fant. Fritt",til,['tennene'],False,nno
+"Idiom:
+Den som talar sanning, vinn over","Idiom:
+Den som talar sanning, vinn over fienden sin.
+f",fienden,['djevelen'],False,nno
+"Idiom:
+Den som teier,","Idiom:
+Den som teier, talar ikkje sant.
+25.",talar,['samtykkjer'],False,nno
+"Idiom:
+Den som vil freden nyte, må ikkje freden","Idiom:
+Den som vil freden nyte, må ikkje freden bydje. Det er",bydje,['bryte'],False,nno
+"Idiom:
+Den som vil ha kjernen, skal først bite","Idiom:
+Den som vil ha kjernen, skal først bite kjer nen.
+Dette kan være",kjer,['skalet'],False,nno
+"Idiom:
+Den som vil på havet, skal ikkje ro","Idiom:
+Den som vil på havet, skal ikkje ro i dag.
+Idioms",i,['hardt'],False,nno
+"Idiom:
+Den som vil sleikje i alle fat, får kjenne mang ein","Idiom:
+Den som vil sleikje i alle fat, får kjenne mang ein stein i magen.
+Stat",stein,['smak'],False,nno
+"Idiom:
+Den som vil smake på alt, han får både surt og","Idiom:
+Den som vil smake på alt, han får både surt og salt i munnen.
+Gi",salt,['salt'],True,nno
+"Idiom:
+Den som vågar, han anten vinn eller","Idiom:
+Den som vågar, han anten vinn eller far.
+Den som vågar","far.
+Den",['tapar'],False,nno
+"Idiom:
+Den talar mest som minst","Idiom:
+Den talar mest som minst förstår mest. Den talar",förstår,['veit'],False,nno
+"Idiom:
+Der dygda vantar, er venleiken lite","Idiom:
+Der dygda vantar, er venleiken lite til nytte. Det ven",til,['verd'],False,nno
+"Idiom:
+Der ein pløyer grunt, vil det vekse","Idiom:
+Der ein pløyer grunt, vil det vekse grønt opp av jorda.
+M",grønt,['tunt'],False,nno
+"Idiom:
+Der makt og vilje vantar, er inga","Idiom:
+Der makt og vilje vantar, er inga kvinne god.
+Litt om",kvinne,['råd'],False,nno
+"Idiom:
+Der makta har rett, har retten inga","Idiom:
+Der makta har rett, har retten inga makt.",makt,['makt'],True,nno
+"Idiom:
+Det alle skal gjere, blir helst","Idiom:
+Det alle skal gjere, blir helst aldri gjort. Idiom",aldri,['ugjort'],False,nno
+"Idiom:
+Det alle skal gjere, vert aldri","Idiom:
+Det alle skal gjere, vert aldri gjort.
+Råd til ny","gjort.
+Råd",['gjort'],False,nno
+"Idiom:
+Det auget som ikkje ser, slepp å","Idiom:
+Det auget som ikkje ser, slepp å skue - / ",skue,['gråte'],False,nno
+"Idiom:
+Det avgjerande er ikkje korleis ein har det, men korleis ein tar","Idiom:
+Det avgjerande er ikkje korleis ein har det, men korleis ein tar det
+Gjenom","det
+Gjenom",['det'],False,nno
+"Idiom:
+Det beste er godt","Idiom:
+Det beste er godt nok – eller?
+Det blir",nok,['nok'],True,nno
+"Idiom:
+Det brenn ikkje alt som","Idiom:
+Det brenn ikkje alt som tar fyr.
+. I",tar,['ryk'],False,nno
+"Idiom:
+Det dømmer kvar etter sitt","Idiom:
+Det dømmer kvar etter sitt, det som er rett",,['vit'],False,nno
+"Idiom:
+Det ein ikkje kan bere, får ein","Idiom:
+Det ein ikkje kan bere, får ein syte for at ein",syte,['drage'],False,nno
+"Idiom:
+Det ein ikkje veit, gjer ein verken kald eller","Idiom:
+Det ein ikkje veit, gjer ein verken kald eller varm. (Olav Du",varm,['heit'],False,nno
+"Idiom:
+Det ein sår, skal ein og","Idiom:
+Det ein sår, skal ein og hauste.
+Innanfor","hauste.
+Innanfor",['hausta'],False,nno
+"Idiom:
+Det eine gode skjemmer ikkje det andre","Idiom:
+Det eine gode skjemmer ikkje det andre.
+nynorsk, som","
+nynorsk",['ut'],False,nno
+"Idiom:
+Det er aldri så gale, det ikkje er godt for","Idiom:
+Det er aldri så gale, det ikkje er godt for noko.",noko,['noko'],True,nno
+"Idiom:
+Det er alltid dyrt som ikkje","Idiom:
+Det er alltid dyrt som ikkje smakar godt.
+Histor",smakar,['duger'],False,nno
+"Idiom:
+Det er best å gjere mykje og seie","Idiom:
+Det er best å gjere mykje og seie lite.",lite,['lite'],True,nno
+"Idiom:
+Det er best å tenkje før ein","Idiom:
+Det er best å tenkje før ein snakkar. Ein bør tenk",snakkar,['talar'],False,nno
+"Idiom:
+Det er beste lækjedomen som møter sykja før ho kjem i","Idiom:
+Det er beste lækjedomen som møter sykja før ho kjem i huset.",huset,['huset'],True,nno
+"Idiom:
+Det er betre for fullt enn for tidleg","Idiom:
+Det er betre for fullt enn for tidleg.
+eit gamalt","
+eit",['tomt'],False,nno
+"Idiom:
+Det er betre med ei god handling enn med tusen gode","Idiom:
+Det er betre med ei god handling enn med tusen gode ord.
+Ironi:
+E","ord.
+Ironi:
+E",['tankar'],False,nno
+"Idiom:
+Det er betre med trøytte armar enn tomme","Idiom:
+Det er betre med trøytte armar enn tomme tarmar.
+Idiom","tarmar.
+Idiom",['tarmar'],False,nno
+"Idiom:
+Det er betre å falle med ære enn å stå med","Idiom:
+Det er betre å falle med ære enn å stå med skam; Å falle for",skam,['skam'],True,nno
+"Idiom:
+Det er betre å ha éin ting enn å ønskje seg","Idiom:
+Det er betre å ha éin ting enn å ønskje seg noko.
+(Jesus","noko.
+(Jesus",['to'],False,nno
+"Idiom:
+Det er betre å kle seg vel enn å fryse i","Idiom:
+Det er betre å kle seg vel enn å fryse i hel. Ein treng ikkje",hel,['hel'],True,nno
+"Idiom:
+Det er betre å lide for sanning enn å få løn for","Idiom:
+Det er betre å lide for sanning enn å få løn for lygn.",lygn,['lygn'],True,nno
+"Idiom:
+Det er betre å spørje to gonger enn fare éin gong","Idiom:
+Det er betre å spørje to gonger enn fare éin gong i fjellom - og",i,['vilt'],False,nno
+"Idiom:
+Det er betre å tigge enn å","Idiom:
+Det er betre å tigge enn å stinke. Du som",stinke,['stele'],False,nno
+"Idiom:
+Det er betre å vere einsleg enn i vondt","Idiom:
+Det er betre å vere einsleg enn i vondt lag.
+Middag:
+Middag","lag.
+Middag:
+Middag",['følgje'],False,nno
+"Idiom:
+Det er betre å vere herre i eit lite hus enn træl i eit","Idiom:
+Det er betre å vere herre i eit lite hus enn træl i eit stort.
+Den som gjer alle","stort.
+Den",['stort'],False,nno
+"Idiom:
+Det er betre å vike enn å","Idiom:
+Det er betre å vike enn å gå rett fram.",gå,['velte'],False,nno
+"Idiom:
+Det er brotne kvistar i alle","Idiom:
+Det er brotne kvistar i alle skogar / Det er",skogar,['skogar'],True,nno
+"Idiom:
+Det er dei vakraste fuglane som vert sette i","Idiom:
+Det er dei vakraste fuglane som vert sette i bur. Der lærer dei",bur,['bur'],True,nno
+"Idiom:
+Det er den gode vanen som den vonde skal","Idiom:
+Det er den gode vanen som den vonde skal.",,['drive'],False,nno
+"Idiom:
+Det er fleire som spør etter rikdom enn etter","Idiom:
+Det er fleire som spør etter rikdom enn etter mat.
+Nasjonal kultur:
+F","mat.
+Nasjonal",['visdom'],False,nno
+"Idiom:
+Det er fleire æretjuvar enn","Idiom:
+Det er fleire æretjuvar enn tjuvar, heiter",tjuvar,['pengetjuvar'],False,nno
+"Idiom:
+Det er frå barn og fulle folk ein får høyre","Idiom:
+Det er frå barn og fulle folk ein får høyre san ninga...",san,['sanninga'],False,nno
+"Idiom:
+Det er få så rike, at dei aldri meir vil","Idiom:
+Det er få så rike, at dei aldri meir vil kome til å verte",kome,['ha'],False,nno
+"Idiom:
+Det er fåfengt å vere rik der ingen fattig","Idiom:
+Det er fåfengt å vere rik der ingen fattigmann bur. Det er",mann,['finst'],False,nno
+"Idiom:
+Det er gale å gjere andre visare enn seg","Idiom:
+Det er gale å gjere andre visare enn seg sjølv. Det er godt",sjølv,['sjølv'],True,nno
+"Idiom:
+Det er ikkje alltid den visaste som","Idiom:
+Det er ikkje alltid den visaste som vinn mest ære.",vinn,['vinn'],True,nno
+"Idiom:
+Det er ikkje fullt før det renn","Idiom:
+Det er ikkje fullt før det renn over! Det er ikkje",over,['over'],True,nno
+"Idiom:
+Det er ikkje gull alt som","Idiom:
+Det er ikkje gull alt som glimar! Eg hø",glimar,['glimrar'],False,nno
+"Idiom:
+Det er ikkje langt mellom dygd og","Idiom:
+Det er ikkje langt mellom dygd og synd, dette med å",synd,['udygd'],False,nno
+"Idiom:
+Det er ikkje lett å lære ei gammal merr å","Idiom:
+Det er ikkje lett å lære ei gammal merr å fise. (Sam",fise,['kneggje'],False,nno
+"Idiom:
+Det er ikkje lett å sitje på lånt","Idiom:
+Det er ikkje lett å sitje på lånt stol og bere fram dette",stol,['krakk'],False,nno
+"Idiom:
+Det er ikkje liv i alt som rører","Idiom:
+Det er ikkje liv i alt som rører seg på jord, men",seg,['seg'],True,nno
+"Idiom:
+Det er ikkje verdt å bere vatn i","Idiom:
+Det er ikkje verdt å bere vatn i eit spann som snart",eit,['å'],False,nno
+"Idiom:
+Det er ille når gikta set seg i","Idiom:
+Det er ille når gikta set seg i kneet, og ein ikkje",kneet,['trefoten'],False,nno
+"Idiom:
+Det er ilt å angre på","Idiom:
+Det er ilt å angre på det vi ikke har gjort",det,['velgjort'],False,nno
+"Idiom:
+Det er inga skam å falle for ei","Idiom:
+Det er inga skam å falle for ei vakker dame, men det",vakker,['kjempe'],False,nno
+"Idiom:
+Det er ingen for god til å tene seg","Idiom:
+Det er ingen for god til å tene seg en slant.
+:",en,['sjølv'],False,nno
+"Idiom:
+Det er ingen forbode å leite på","Idiom:
+Det er ingen forbode å leite på eiga hand for å finne",eiga,['allmenningen'],False,nno
+"Idiom:
+Det er ingen lagnad som ein lagar","Idiom:
+Det er ingen lagnad som ein lagar.
+Dei fleste norske dø","
+Dei",['sjølv'],False,nno
+"Idiom:
+Det er ingenting nytt under","Idiom:
+Det er ingenting nytt under solen. Ikke noe origin",solen,['sola'],False,nno
+"Idiom:
+Det er klein fugl som skjemmer sitt eige","Idiom:
+Det er klein fugl som skjemmer sitt eige reir, men ingen seier",reir,['reir'],True,nno
+"Idiom:
+Det er langt å leite etter den som er","Idiom:
+Det er langt å leite etter den som er gått bort.
+Det er betre",gått,['lytelaus'],False,nno
+"Idiom:
+Det er leitt å vere stor heime og liten","Idiom:
+Det er leitt å vere stor heime og liten ute!
+Av og til","ute!
+Av",['borte'],False,nno
+"Idiom:
+Det er leitt å våge alt på eitt","Idiom:
+Det er leitt å våge alt på eitt kort, men det kan godt",kort,['kast'],False,nno
+"Idiom:
+Det er lett å sitje på lånt","Idiom:
+Det er lett å sitje på lånt stol, i ein lånt",stol,['krakk'],False,nno
+"Idiom:
+Det er lett å skjere breie reimar av annan manns","Idiom:
+Det er lett å skjere breie reimar av annan manns rygg. Men det krev",rygg,['ler'],False,nno
+"Idiom:
+Det er lett å vere god når det ikkje","Idiom:
+Det er lett å vere god når det ikkje kostar noko.
+nasjonale",kostar,['kostar'],True,nno
+"Idiom:
+Det er lettare å gøyme rikdom enn","Idiom:
+Det er lettare å gøyme rikdom enn synd.
+Matthew","synd.
+Matthew",['fattigdom'],False,nno
+"Idiom:
+Det er lettare å love enn å","Idiom:
+Det er lettare å love enn å følge opp med eit re",følge,['halde'],False,nno
+"Idiom:
+Det er makta som","Idiom:
+Det er makta som rår, og så i",rår,['rår'],True,nno
+"Idiom:
+Det er mangt eit godt hovud under ein gammal","Idiom:
+Det er mangt eit godt hovud under ein gammal hatt. — — Ein",hatt,['hatt'],True,nno
+"Idiom:
+Det er mangt rart i","Idiom:
+Det er mangt rart i ein skog. (Sp",ein,['havet'],False,nno
+"Idiom:
+Det er på kjeften ein kjenner","Idiom:
+Det er på kjeften ein kjenner presten | SAL",presten,['hunden'],False,nno
+"Idiom:
+Det er rev som rev skal","Idiom:
+Det er rev som rev skal være, sier Peer G",være,['fange'],False,nno
+"Idiom:
+Det er rikdom nok i sterk manns","Idiom:
+Det er rikdom nok i sterk manns vilje.
+Fredrik den","vilje.
+Fredrik",['armar'],False,nno
+"Idiom:
+Det er rom nok der ingen er","Idiom:
+Det er rom nok der ingen er
+Idiom:
+On","Idiom:
+On",['uvener'],False,nno
+"Idiom:
+Det er seint å spare på berre","Idiom:
+Det er seint å spare på berre ein femøre. Den",ein,['botnen'],False,nno
+"Idiom:
+Det er skilnad på å rake skjegget og å skjere haka","Idiom:
+Det er skilnad på å rake skjegget og å skjere haka av seg.
+Den første gjer",av,['av'],True,nno
+"Idiom:
+Det er slutt på den snøen som fall i","Idiom:
+Det er slutt på den snøen som fall i fjor.
+:Det er","fjor.
+:Det",['fjor'],False,nno
+"Idiom:
+Det er vandt å vite kva den teiande","Idiom:
+Det er vandt å vite kva den teiande har på hjartet.
+Det",har,['tenkjer'],False,nno
+"Idiom:
+Det er verste bikkja som bit og ikkje","Idiom:
+Det er verste bikkja som bit og ikkje kjeften hennar.",kjeften,['gøyr'],False,nno
+"Idiom:
+Det er vissa ein har og vona ein","Idiom:
+Det er vissa ein har og vona ein har, men kan henda",har,['får'],False,nno
+"Idiom:
+Det er vondt når vitet","Idiom:
+Det er vondt når vitet vert stytta. (K",vert,['vantar'],False,nno
+"Idiom:
+Det er vondt å få det alle vil","Idiom:
+Det er vondt å få det alle vil ha.
+Det var det å","ha.
+Det",['ha'],False,nno
+"Idiom:
+Det er vondt å ta seg vatn over","Idiom:
+Det er vondt å ta seg vatn over hovudet. Det er lett",hovudet,['hovudet'],True,nno
+"Idiom:
+Det fell ikkje tre med første","Idiom:
+Det fell ikkje tre med første blad, og ikkje med",blad,['hogg'],False,nno
+"Idiom:
+Det får vere ein måte med","Idiom:
+Det får vere ein måte med alt.
+Idiom er","alt.
+Idiom",['alt'],False,nno
+"Idiom:
+Det gror ikkje gras på","Idiom:
+Det gror ikkje gras på eit bilhjul.
+Det er",eit,['allemannsvegen'],False,nno
+"Idiom:
+Det hjelper ingen vilje når makta","Idiom:
+Det hjelper ingen vilje når makta tek makta. (Gud",tek,['vantar'],False,nno
+"Idiom:
+Det kan sitje eit godt hovud under ein gammal","Idiom:
+Det kan sitje eit godt hovud under ein gammal hatt.
+Det nyfødde","hatt.
+Det",['hatt'],False,nno
+"Idiom:
+Det kan vere eit hardt skal kring ein mjuk","Idiom:
+Det kan vere eit hardt skal kring ein mjuk kjerne. Her ser du",kjerne,['kjerne'],True,nno
+"Idiom:
+Det kjem fant av folk og folk av","Idiom:
+Det kjem fant av folk og folk av fant. (Innlei",fant,['fant'],True,nno
+"Idiom:
+Det ordet som ligg nest hjartet, kjem først i","Idiom:
+Det ordet som ligg nest hjartet, kjem først i setningen.
+KVA:","setningen.
+KVA",['munnen'],False,nno
+"Idiom:
+Det passar ikkje same segl i alle","Idiom:
+Det passar ikkje same segl i alle himlars veir.",himlars,['båtar'],False,nno
+"Idiom:
+Det renn mykje vatn mens møllaren","Idiom:
+Det renn mykje vatn mens møllaren søv.",søv,['søv'],True,nno
+"Idiom:
+Det sanne er oftast seinast","Idiom:
+Det sanne er oftast seinast.
+Mykje av det","
+Mykje",['trudd'],False,nno
+"Idiom:
+Det skal ein sterk rygg til å bere gode","Idiom:
+Det skal ein sterk rygg til å bere gode dagar.
+Ironi:
+","dagar.
+Ironi",['dagar'],False,nno
+"Idiom:
+Det skal gode ord til å selje dårleg","Idiom:
+Det skal gode ord til å selje dårleg vêr, men dår",vêr,['vare'],False,nno
+"Idiom:
+Det skal vere godt gjerde mellom gode","Idiom:
+Det skal vere godt gjerde mellom gode vennar! Det var",vennar,['grannar'],False,nno
+"Idiom:
+Det som er gjort i dag, det ligg ikkje ugjort i","Idiom:
+Det som er gjort i dag, det ligg ikkje ugjort i det som kjem i morgon",det,['morgon'],False,nno
+"Idiom:
+Det som gagnar er godt","Idiom:
+Det som gagnar er godt for noko: Det som",for,['nok'],False,nno
+"Idiom:
+Det som kjem inn med synd, går ut att med","Idiom:
+Det som kjem inn med synd, går ut att med skam. (Gal 6",skam,['sorg'],False,nno
+"Idiom:
+Det står ikkje tre så fast, at det ei kan","Idiom:
+Det står ikkje tre så fast, at det ei kan koma ei vindfla",koma,['falle'],False,nno
+"Idiom:
+Det treet bøyer seg djupast, som ber mest","Idiom:
+Det treet bøyer seg djupast, som ber mest.
+Metat:
+Det er","
+Metat:
+Det",['frukt'],False,nno
+"Idiom:
+Det trivst ikkje mus i matlaust","Idiom:
+Det trivst ikkje mus i matlaust hus.
+Kategori: Humor","hus.
+Kategori",['hus'],False,nno
+"Idiom:
+Det veks ikkje tre så høgt som til","Idiom:
+Det veks ikkje tre så høgt som til himmels og breidt",himmels,['himmels'],True,nno
+"Idiom:
+Det vert ingen kjærleik utan","Idiom:
+Det vert ingen kjærleik utan tvang! Det går ikkje",tvang,['kjennskap'],False,nno
+"Idiom:
+Det vert ingen siger utan","Idiom:
+Det vert ingen siger utan kamp. Det er som",kamp,['strid'],False,nno
+"Idiom:
+Det vert sjeldan uår i alle","Idiom:
+Det vert sjeldan uår i alle stokkar utan at",stokkar,['land'],False,nno
+"Idiom:
+Det vonde kjem snart i","Idiom:
+Det vonde kjem snart i staden for det verre.",staden,['vane'],False,nno
+"Idiom:
+Djupe dalar har liten","Idiom:
+Djupe dalar har liten botn; bratte",botn,['himmel'],False,nno
+"Idiom:
+Drukken talar det udrukken","Idiom:
+Drukken talar det udrukken taler.
+Tysk:
+Mord","taler.
+Tysk:
+Mord",['tenkjer'],False,nno
+"Idiom:
+Drukken trivst mellom drukne","Idiom:
+Drukken trivst mellom drukne menn.
+drukken","menn.
+drukken",['best'],False,nno
+"Idiom:
+Du bit ikkje den handa som gjev deg","Idiom:
+Du bit ikkje den handa som gjev deg mat.
+Svensk: L","mat.
+Svensk",['mat'],False,nno
+"Idiom:
+Døden lyt no ei årsak","Idiom:
+Døden lyt no ei årsak ha, — at han er",ha,['ha'],True,nno
+"Idiom:
+Døden spør ikkje stort etter","Idiom:
+Døden spør ikkje stort etter alder. Det å vera sær",alder,['alderen'],False,nno
+"Idiom:
+Ei god helse er betre enn","Idiom:
+Ei god helse er betre enn rikdom.",rikdom,['rikdom'],True,nno
+"Idiom:
+Ei lita gjer mykje medan ei stor snur seg","Idiom:
+Ei lita gjer mykje medan ei stor snur seg i ring og verkar ikkje",i,['rundt'],False,nno
+"Idiom:
+Ei lita gryte kan og koke","Idiom:
+Ei lita gryte kan og koke på eit stort bål.
+M",på,['mat'],False,nno
+"Idiom:
+Ei lita hand kan gje stor","Idiom:
+Ei lita hand kan gje stor hjelp – men òg liten",hjelp,['hjelp'],True,nno
+"Idiom:
+Ei rik enkje slepp å sørgje","Idiom:
+Ei rik enkje slepp å sørgje over at ho hadde ein",over,['lenge'],False,nno
+"Idiom:
+Ei ulukke kjem sjeldan","Idiom:
+Ei ulukke kjem sjeldan åleine. Idi",åleine,['åleine'],True,nno
+"Idiom:
+Ein arv er snart","Idiom:
+Ein arv er snart oppbrukt når det",oppbrukt,['oppeten'],False,nno
+"Idiom:
+Ein ber ikkje betre børa enn mykje","Idiom:
+Ein ber ikkje betre børa enn mykje bertak; betre",bertak,['vett'],False,nno
+"Idiom:
+Ein drope er ingen","Idiom:
+Ein drope er ingen sprekk. - Ein",sprekk,['drikk'],False,nno
+"Idiom:
+Ein fager kveld spår ein fager","Idiom:
+Ein fager kveld spår ein fager morgon.
+Idiom:
+","morgon.
+Idiom",['morgon'],False,nno
+"Idiom:
+Ein fangar fisk med agn og folk med fagre","Idiom:
+Ein fangar fisk med agn og folk med fagre ord.
+Ein er ute","ord.
+Ein",['ord'],False,nno
+"Idiom:
+Ein finn stundom ein venn imellom sine","Idiom:
+Ein finn stundom ein venn imellom sine vennar.",vennar,['uvenner'],False,nno
+"Idiom:
+Ein får bruke det vitet ein har","Idiom:
+Ein får bruke det vitet ein har eller ikkje ha, eller ikkje",eller,['fått'],False,nno
+"Idiom:
+Ein får bøye kvisten medan han er","Idiom:
+Ein får bøye kvisten medan han er kvist. Ikkje b",kvist,['ung'],False,nno
+"Idiom:
+Ein får setje segl som vinden","Idiom:
+Ein får setje segl som vinden når segla er stor",når,['blæs'],False,nno
+"Idiom:
+Ein får ta dagen som han","Idiom:
+Ein får ta dagen som han er i dag. Det har",er,['kjem'],False,nno
+"Idiom:
+Ein god vilje er betre enn","Idiom:
+Ein god vilje er betre enn god rygg.
+eller noko",god,['gåver'],False,nno
+"Idiom:
+Ein kan leve vel med lite og ille med","Idiom:
+Ein kan leve vel med lite og ille med mykje.
+Eg har levd","mykje.
+Eg",['mykje'],False,nno
+"Idiom:
+Ein kan øyde det sju kan","Idiom:
+Ein kan øyde det sju kan byggje opp. På ein",byggje,['sanke'],False,nno
+"Idiom:
+Ein kjenner sine venner best, når nauda","Idiom:
+Ein kjenner sine venner best, når nauda er der.
+Synonym",er,['kjem'],False,nno
+"Idiom:
+Ein krokete stav er betre enn","Idiom:
+Ein krokete stav er betre enn ein strak, rak.",ein,['ingen'],False,nno
+"Idiom:
+Ein køyrer betre på to hjul enn på","Idiom:
+Ein køyrer betre på to hjul enn på fire.
+Scientific","fire.
+Scientific",['eitt'],False,nno
+"Idiom:
+Ein liten fisk på bordet er betre enn ein stor i","Idiom:
+Ein liten fisk på bordet er betre enn ein stor i fjorden.
+Fisk med ut","fjorden.
+Fisk",['fjorden'],False,nno
+"Idiom:
+Ein lyt lide for venleiken si","Idiom:
+Ein lyt lide for venleiken si skuld.",skuld,['skuld'],True,nno
+"Idiom:
+Ein lærer så lenge ein","Idiom:
+Ein lærer så lenge ein har elevar: Ein",har,['lever'],False,nno
+"Idiom:
+Ein må smede medan jarnet er","Idiom:
+Ein må smede medan jarnet er varmt, seier det. På",varmt,['varmt'],True,nno
+"Idiom:
+Ein må ta vondet ved","Idiom:
+Ein må ta vondet ved rota når ein skal",rota,['rota'],True,nno
+"Idiom:
+Ein ny nagle driv den gamle","Idiom:
+Ein ny nagle driv den gamle ut. Ein ny syll",ut,['ut'],True,nno
+"Idiom:
+Ein ser ikkje folk lenger enn til","Idiom:
+Ein ser ikkje folk lenger enn til tennene.
+Kjellaren","tennene.
+Kjellaren",['tennene'],False,nno
+"Idiom:
+Ein skal bøye treet mens det er","Idiom:
+Ein skal bøye treet mens det er i barndommen. Det",i,['mjukt'],False,nno
+"Idiom:
+Ein skal ikkje gå imellom når to oksar","Idiom:
+Ein skal ikkje gå imellom når to oksar slåst. Men når dei",slåst,['stangast'],False,nno
+"Idiom:
+Ein skal ikkje kaste gamle sko før ein har fått","Idiom:
+Ein skal ikkje kaste gamle sko før ein har fått nye.",nye,['nye'],True,nno
+"Idiom:
+Ein skal ikkje kaste stein når ein sit i","Idiom:
+Ein skal ikkje kaste stein når ein sit i glasshus.
+Direkte oversatt","glasshus.
+Direkte",['glashus'],False,nno
+"Idiom:
+Ein skal ikkje kjemme alle med ein","Idiom:
+Ein skal ikkje kjemme alle med ein kam. Men ein kan",kam,['kam'],True,nno
+"Idiom:
+Ein skal ikkje kjøpe katta i","Idiom:
+Ein skal ikkje kjøpe katta i sekken! Dette er",sekken,['sekken'],True,nno
+"Idiom:
+Ein skal ikkje love meir enn ein kan","Idiom:
+Ein skal ikkje love meir enn ein kan halde.
+Vi lover ikkje","halde.
+Vi",['halde'],False,nno
+"Idiom:
+Ein skal ikkje rose dagen før kvelden er","Idiom:
+Ein skal ikkje rose dagen før kvelden er komen.
+Idiom","komen.
+Idiom",['komen'],False,nno
+"Idiom:
+Ein skal ikkje selje skinnet før bjørnen er","Idiom:
+Ein skal ikkje selje skinnet før bjørnen er skoten er et uttrykk",skoten,['skoten'],True,nno
+"Idiom:
+Ein skal ikkje setje bukken til å passe","Idiom:
+Ein skal ikkje setje bukken til å passe havresekken, han skal",havresekken,['havresekken'],True,nno
+"Idiom:
+Ein skal ikkje setje reven til å gjete","Idiom:
+Ein skal ikkje setje reven til å gjete høns.
+Setninger:
+""","høns.
+Setninger:
+",['gjæsene'],False,nno
+"Idiom:
+Ein skal ikkje skode hunden på","Idiom:
+Ein skal ikkje skode hunden på håra, har fått en",håra,['håra'],True,nno
+"Idiom:
+Ein skal ikkje smørje smør på","Idiom:
+Ein skal ikkje smørje smør på flesk. Å overdrive",flesk,['flesk'],True,nno
+"Idiom:
+Ein skal ikkje ta sorga på","Idiom:
+Ein skal ikkje ta sorga på forskot. Ikkje før",forskot,['forskot'],True,nno
+"Idiom:
+Ein skal ikkje vente seg vinning før verket er","Idiom:
+Ein skal ikkje vente seg vinning før verket er fullferdig, eller å",fullferdig,['gjort'],False,nno
+"Idiom:
+Ein skal smi mens jernet er","Idiom:
+Ein skal smi mens jernet er heitt. Det er betre",heitt,['varmt'],False,nno
+"Idiom:
+Ein skal tru det beste og bu seg på det","Idiom:
+Ein skal tru det beste og bu seg på det verste i alle situasjonar,",verste,['verste'],True,nno
+"Idiom:
+Ein skal vere glad om ein ikkje får alt ein","Idiom:
+Ein skal vere glad om ein ikkje får alt ein har putta i brød",har,['ønskjer'],False,nno
+"Idiom:
+Ein skjemmer ikkje hendene på ærleg","Idiom:
+Ein skjemmer ikkje hendene på ærleg arbeid (eg brukar pe",arbeid,['arbeid'],True,nno
+"Idiom:
+Ein skyt ikkje sporv med","Idiom:
+Ein skyt ikkje sporv med kanon, men ein sky",kanon,['kanoner'],False,nno
+"Idiom:
+Ein slett måndag betyr ei god","Idiom:
+Ein slett måndag betyr ei god veke, men det er",veke,['veke'],True,nno
+"Idiom:
+Ein står best på eigne","Idiom:
+Ein står best på eigne bein.
+Det er fint å","bein.
+Det",['føter'],False,nno
+"Idiom:
+Ein syr ikkje silkepung av","Idiom:
+Ein syr ikkje silkepung av noko med tjukk ull",noko,['hampegarn'],False,nno
+"Idiom:
+Ein tosk kan spørje meir enn ti vise kan","Idiom:
+Ein tosk kan spørje meir enn ti vise kan svare, sa den a",svare,['svare'],True,nno
+"Idiom:
+Ein treng ikkje gå over bekken etter","Idiom:
+Ein treng ikkje gå over bekken etter vatn. Vi har det",vatn,['vatn'],True,nno
+"Idiom:
+Ein trur ikkje løgnaren meir enn éin","Idiom:
+Ein trur ikkje løgnaren meir enn éin gong.
+Bergeners","gong.
+Bergeners",['gong'],False,nno
+"Idiom:
+Ein veit ikkje kva ein greier før ein","Idiom:
+Ein veit ikkje kva ein greier før ein har prøvd.",har,['prøver'],False,nno
+"Idiom:
+Ein veit kva ein har, men ikkje kva ein","Idiom:
+Ein veit kva ein har, men ikkje kva ein får.
+Gjerning:
+H","får.
+Gjerning:
+H",['får'],False,nno
+"Idiom:
+Ein vert aldri for gammal til å","Idiom:
+Ein vert aldri for gammal til å lære. Det kjem alltid",lære,['lære'],True,nno
+"Idiom:
+Ein vert ikkje fattig av det ein gjev","Idiom:
+Ein vert ikkje fattig av det ein gjev. Ein er ikkje fattig",,['bort'],False,nno
+"Idiom:
+Ein vert ikkje mann av det ein tener, men av det ein","Idiom:
+Ein vert ikkje mann av det ein tener, men av det ein slit. (Bjøm",slit,['sparer'],False,nno
+"Idiom:
+Ein vrang dom feller dommaren","Idiom:
+Ein vrang dom feller dommaren og ikkje domarane.
+E",og,['sjølv'],False,nno
+"Idiom:
+Eit barn er som ingen, to som","Idiom:
+Eit barn er som ingen, to som to, tre som tre, fire",to,['ti'],False,nno
+"Idiom:
+Eit godt råd er gull","Idiom:
+Eit godt råd er gull verdt. Bruk det f",verdt,['verdt'],True,nno
+"Idiom:
+Eit godt øyre får mykje","Idiom:
+Eit godt øyre får mykje dritt inn. Ditta",dritt,['høyre'],False,nno
+"Idiom:
+Eit år er ingen","Idiom:
+Eit år er ingen lang tid for meg, men",lang,['alder'],False,nno
+"Idiom:
+Eitt tre er ingen","Idiom:
+Eitt tre er ingen skog, men ei samling",skog,['skog'],True,nno
+"Idiom:
+Ekte kjærleik kjenner ingen","Idiom:
+Ekte kjærleik kjenner ingen grenser.
+(Din lykk","grenser.
+(Din",['grenser'],False,nno
+"Idiom:
+Eplet fell ikkje langt frå","Idiom:
+Eplet fell ikkje langt frå stamma.
+Epic","stamma.
+Epic",['apalen'],False,nno
+"Idiom:
+Etter den søte kløe kjem den sure","Idiom:
+Etter den søte kløe kjem den sure svie.
+Phras","svie.
+Phras",['svide'],False,nno
+"Idiom:
+Etter smil kjem","Idiom:
+Etter smil kjem skuffelse.
+Ting som","skuffelse.
+Ting",['tåre'],False,nno
+"Idiom:
+Falske venner følgjer ikkje","Idiom:
+Falske venner følgjer ikkje regelen om, «den",regelen,['langt'],False,nno
+"Idiom:
+Fattigdom og sjukdom kan du ikkje","Idiom:
+Fattigdom og sjukdom kan du ikkje sjå. Idiom",sjå,['dølje'],False,nno
+"Idiom:
+Fattige frendar får lita","Idiom:
+Fattige frendar får lita hjelp og har for lite",hjelp,['ære'],False,nno
+"Idiom:
+Fattige og rike er alle i døden","Idiom:
+Fattige og rike er alle i døden nå. De fattiges liv",nå,['like'],False,nno
+"Idiom:
+For mykje klokskap er","Idiom:
+For mykje klokskap er sjølvbedrag.",sjølvbedrag,['dårskap'],False,nno
+"Idiom:
+For mykje og for lite skjemmer","Idiom:
+For mykje og for lite skjemmer alt - alt med måte.",alt,['alt'],True,nno
+"Idiom:
+Frå ord til handling vert vegen ofte","Idiom:
+Frå ord til handling vert vegen ofte svært lang. Og når",svært,['lang'],False,nno
+"Idiom:
+Føde vil ha","Idiom:
+Føde vil ha en fest. Det vil",en,['møde'],False,nno
+"Idiom:
+Galne venner er verre enn","Idiom:
+Galne venner er verre enn ingenting, det er bare",ingenting,['uvenner'],False,nno
+"Idiom:
+Gammal vane er vond å","Idiom:
+Gammal vane er vond å vende; eller; å",vende,['vende'],True,nno
+"Idiom:
+Gjord gjerning står ikkje til å","Idiom:
+Gjord gjerning står ikkje til å endre
+Det er ikkje lov","endre
+Det",['endre'],False,nno
+"Idiom:
+Godt gammalt er betre enn","Idiom:
+Godt gammalt er betre enn nymoderne ordspel",nymoderne,['nytt'],False,nno
+"Idiom:
+Godt lag gjer kortare","Idiom:
+Godt lag gjer kortare arbeidsdag.
+; The","arbeidsdag.
+",['dag'],False,nno
+"Idiom:
+Godt lag gjer stutt","Idiom:
+Godt lag gjer stutt arbeid.
+Korpus:
+","arbeid.
+Korpus",['dag'],False,nno
+"Idiom:
+Godt mot er god","Idiom:
+Godt mot er god medisin
+Idiom:
+","medisin
+Idiom",['verje'],False,nno
+"Idiom:
+Godt samvit er godt å sove","Idiom:
+Godt samvit er godt å sove med.",med,['med'],True,nno
+"Idiom:
+Godt ver er ikkje å få for","Idiom:
+Godt ver er ikkje å få for mykje, eller for lite",mykje,['pengar'],False,nno
+"Idiom:
+Gull er godt, men mat lyt ein fyrst","Idiom:
+Gull er godt, men mat lyt ein fyrst gjera seg mett på",gjera,['have'],False,nno
+"Idiom:
+Gåve skal ikkje vente","Idiom:
+Gåve skal ikkje vente. Forbigå",,['attergåve'],False,nno
+"Idiom:
+Hallande lass er lett å","Idiom:
+Hallande lass er lett å ta. Slaget skal",ta,['velte'],False,nno
+"Idiom:
+Halv bot er inga","Idiom:
+Halv bot er inga bot. Halv mann er",bot,['bot'],True,nno
+"Idiom:
+Halvgjort verk skal ein ikkje vise","Idiom:
+Halvgjort verk skal ein ikkje vise fram - ikkje engang som",fram,['fram'],True,nno
+"Idiom:
+Han er klok, som lærer av annan manns","Idiom:
+Han er klok, som lærer av annan manns skade.
+Han er klok,","skade.
+Han",['skade'],False,nno
+"Idiom:
+Han er sjølv vond, som trur at alle er","Idiom:
+Han er sjølv vond, som trur at alle er det. (Lorentz",det,['vonde'],False,nno
+"Idiom:
+Han hjelper to gonger, som hjelper i","Idiom:
+Han hjelper to gonger, som hjelper i det hele tatt. To er",det,['nauda'],False,nno
+"Idiom:
+Han skal grave djupt, som vil byggje","Idiom:
+Han skal grave djupt, som vil byggje vegen, kan han vente",vegen,['høgt'],False,nno
+"Idiom:
+Han talar ikkje best som taler","Idiom:
+Han talar ikkje best som taler seinast, men om han",seinast,['mest'],False,nno
+"Idiom:
+Har du klave, får du","Idiom:
+Har du klave, får du ku. (Har du",ku,['ku'],True,nno
+"Idiom:
+Har du sagt A, får du også seie","Idiom:
+Har du sagt A, får du også seie B. - Ikkje alle",B,['B'],True,nno
+"Idiom:
+Heime er kvar mann","Idiom:
+Heime er kvar mann herre.
+There you see","herre.
+There",['herre'],False,nno
+"Idiom:
+Heimegjort kan og vere","Idiom:
+Heimegjort kan og vere eit idiom som tyd",eit,['velgjort'],False,nno
+"Idiom:
+Heller fattig med ære enn rik med","Idiom:
+Heller fattig med ære enn rik med forakt. Å bli",forakt,['skam'],False,nno
+"Idiom:
+Herrar og narrar talar","Idiom:
+Herrar og narrar talar aldri om nokon annan enn",aldri,['fritt'],False,nno
+"Idiom:
+Himmelen er blå, om ikkje den blinde ser","Idiom:
+Himmelen er blå, om ikkje den blinde ser det. Om ein liten gut",det,['det'],True,nno
+"Idiom:
+Hungeren er beste","Idiom:
+Hungeren er beste medisin mot alt.
+Tro",medisin,['kokken'],False,nno
+"Idiom:
+I dag raud, i morgon","Idiom:
+I dag raud, i morgon kanskje svart. Eg veit",kanskje,['daud'],False,nno
+"Idiom:
+I mørket er alle kattar","Idiom:
+I mørket er alle kattar grå
+Idiom:
+A","grå
+Idiom:
+A",['grå'],False,nno
+"Idiom:
+Inga rose utan","Idiom:
+Inga rose utan torn, heter det,",torn,['taggar'],False,nno
+"Idiom:
+Ingen røyk utan","Idiom:
+Ingen røyk utan eld: Det første som",eld,['eld'],True,nno
+"Idiom:
+Ingen ting er så visst som døden, og ingen ting så uviss som","Idiom:
+Ingen ting er så visst som døden, og ingen ting så uviss som framtida.",framtida,['dødstimen'],False,nno
+"Idiom:
+Inkje nytt er godt","Idiom:
+Inkje nytt er godt nytt.
+Torbjørn Eg","nytt.
+Torbjørn",['nytt'],False,nno
+"Idiom:
+Inkje svar er og eit","Idiom:
+Inkje svar er og eit svar - med mindre ein",svar,['svar'],True,nno
+"Idiom:
+Jorda gøymer og vi","Idiom:
+Jorda gøymer og vi gravde til vi såg",gravde,['gløymer'],False,nno
+"Idiom:
+Kjelen ler av gryta, men er svart","Idiom:
+Kjelen ler av gryta, men er svart utenpå.
+Main menu","utenpå.
+Main",['sjølv'],False,nno
+"Idiom:
+Kjem tid, kjem","Idiom:
+Kjem tid, kjem skit, seier vi på",skit,['råd'],False,nno
+"Idiom:
+Klenaste hjulet knakar","Idiom:
+Klenaste hjulet knakar på den sämsta",på,['mest'],False,nno
+"Idiom:
+Kvar er sin eigen","Idiom:
+Kvar er sin eigen lykkes smed.
+Då",lykkes,['lukkesmed'],False,nno
+"Idiom:
+Kvar fugl syng med sitt","Idiom:
+Kvar fugl syng med sitt nebb: Eg",nebb,['nebb'],True,nno
+"Idiom:
+Lat skreddar brukar lang","Idiom:
+Lat skreddar brukar lang tid om han syr i",tid,['tråd'],False,nno
+"Idiom:
+Like barn leikar","Idiom:
+Like barn leikar best. Men også like får",best,['best'],True,nno
+"Idiom:
+Lita tue kan velte stort","Idiom:
+Lita tue kan velte stort lass, var et",lass,['lass'],True,nno
+"Idiom:
+Lukka er ikkje lenge om å snu","Idiom:
+Lukka er ikkje lenge om å snu seg når ulukka",seg,['seg'],True,nno
+"Idiom:
+Lærdom er lett å","Idiom:
+Lærdom er lett å bære, hvis man har",bære,['bere'],False,nno
+"Idiom:
+Mange bekker små gjer ei stor","Idiom:
+Mange bekker små gjer ei stor å. (= når",å,['å'],True,nno
+"Idiom:
+Mange forbod gjer mange","Idiom:
+Mange forbod gjer mange frie.
+Idiom:
+","frie.
+Idiom",['lovbrot'],False,nno
+"Idiom:
+Mange kokkar mykje","Idiom:
+Mange kokkar mykje søl
+Idiom:
+","søl
+Idiom",['søl'],False,nno
+"Idiom:
+Med lov skal ein land","Idiom:
+Med lov skal ein land byggjast, og ikkje",byggjast,['byggje'],False,nno
+"Idiom:
+Morgonstund har gull i","Idiom:
+Morgonstund har gull i munn.
+Mark:
+What","munn.
+Mark:
+What",['munn'],False,nno
+"Idiom:
+Mot fører mannen over","Idiom:
+Mot fører mannen over til «det motsatte av",til,['heia'],False,nno
+"Idiom:
+Namnet skjemmer ingen, men ein kan sjølv skjemme","Idiom:
+Namnet skjemmer ingen, men ein kan sjølv skjemme sitt eige namn med",sitt,['namnet'],False,nno
+"Idiom:
+Naud lyder inga","Idiom:
+Naud lyder inga omsetjing til engelsk",omsetjing,['lov'],False,nno
+"Idiom:
+Naud lærer naken kjerring å","Idiom:
+Naud lærer naken kjerring å spinne
+""Naud","spinne
+""Naud",['spinne'],False,nno
+"Idiom:
+Nauda gjer det sure","Idiom:
+Nauda gjer det sure saltet søtt. Eller",saltet,['søtt'],False,nno
+"Idiom:
+Når det går som best, skal ein akte seg","Idiom:
+Når det går som best, skal ein akte seg når ein gjer ting ein",når,['mest'],False,nno
+"Idiom:
+Når det regnar på presten, så dryp det på","Idiom:
+Når det regnar på presten, så dryp det på klokkaren, sa dei",klokkaren,['klokkaren'],True,nno
+"Idiom:
+Når katten er borte dansar musene på","Idiom:
+Når katten er borte dansar musene på bordet.
+norske ord","bordet.
+norske",['bordet'],False,nno
+"Idiom:
+Når leiken er best, skal ein halde","Idiom:
+Når leiken er best, skal ein halde seg til det ein ve",seg,['opp'],False,nno
+"Idiom:
+Når lukka er god, går allting","Idiom:
+Når lukka er god, går allting greitt - på godt",greitt,['godt'],False,nno
+"Idiom:
+Når våren kjem, er vinteren","Idiom:
+Når våren kjem, er vinteren slutt.
+Når det lid mot","slutt.
+Når",['gløymd'],False,nno
+"Idiom:
+Når ølet går inn, går vitet","Idiom:
+Når ølet går inn, går vitet ut. Dette er et uttrykk",ut,['ut'],True,nno
+"Idiom:
+Om sommaren er det hus i kvar","Idiom:
+Om sommaren er det hus i kvar ein krok. Det er",ein,['busk'],False,nno
+"Idiom:
+Pengelaus mann går trygt mellom","Idiom:
+Pengelaus mann går trygt mellom vegkryss med hø",vegkryss,['tjuvar'],False,nno
+"Idiom:
+Retten er for alle den","Idiom:
+Retten er for alle den samme som om den ble",samme,['same'],False,nno
+"Idiom:
+Rikdom gjer friaren","Idiom:
+Rikdom gjer friaren til træl.
+Hans",til,['fager'],False,nno
+"Idiom:
+Ros ikkje fisken før han ligg på","Idiom:
+Ros ikkje fisken før han ligg på fatet. Ikkje se",fatet,['disken'],False,nno
+"Idiom:
+Røynsla er ein dyr","Idiom:
+Røynsla er ein dyr vare, og den som",vare,['læremeister'],False,nno
+"Idiom:
+Sanninga kan vere vond å","Idiom:
+Sanninga kan vere vond å sveige – eit argument",sveige,['høyre'],False,nno
+"Idiom:
+Set ikkje ut til i morgon det du kan gjere i","Idiom:
+Set ikkje ut til i morgon det du kan gjere i dag!
+Idiom:
+S","dag!
+Idiom:
+S",['dag'],False,nno
+"Idiom:
+Sinne gjer vonde","Idiom:
+Sinne gjer vonde tankar, det er ein",tankar,['minne'],False,nno
+"Idiom:
+Siste svaret er best å","Idiom:
+Siste svaret er best å bruke hvis man er mer",bruke,['minnast'],False,nno
+"Idiom:
+Sjølvvis vert aldri","Idiom:
+Sjølvvis vert aldri noko anna enn eit sjølv",noko,['vis'],False,nno
+"Idiom:
+Skogen har mange","Idiom:
+Skogen har mange navn. Vi kaller skogen det",navn,['auge'],False,nno
+"Idiom:
+Skogen veks mens folket","Idiom:
+Skogen veks mens folket søv?
+Ordene","søv?
+Ordene",['søv'],False,nno
+"Idiom:
+Smular er også","Idiom:
+Smular er også et ord som vi bruker",et,['brød'],False,nno
+"Idiom:
+Små barn og galne folk seier","Idiom:
+Små barn og galne folk seier: Du kan ikkje sjå",,['sanninga'],False,nno
+"Idiom:
+Små bitar er også","Idiom:
+Små bitar er også brød.
+Little pie","brød.
+Little",['mat'],False,nno
+"Idiom:
+Små båtar smetter seg fram der store skip står","Idiom:
+Små båtar smetter seg fram der store skip står fast.",fast,['fast'],True,nno
+"Idiom:
+Små gryter har og","Idiom:
+Små gryter har og øyre
+Ei god","øyre
+Ei",['øyro'],False,nno
+"Idiom:
+Små sorger taler, men dei store","Idiom:
+Små sorger taler, men dei store tier. Små tårer",tier,['teier'],False,nno
+"Idiom:
+Snøen som fell i mai blir ikkje lenge","Idiom:
+Snøen som fell i mai blir ikkje lenge på bakken. Idi",på,['liggjande'],False,nno
+"Idiom:
+Som du kokar, lyt du","Idiom:
+Som du kokar, lyt du eta det du kok",eta,['ete'],False,nno
+"Idiom:
+Som ein kokar får ein","Idiom:
+Som ein kokar får ein vatn. Ein lagar",vatn,['ete'],False,nno
+"Idiom:
+Som ein reider, skal ein","Idiom:
+Som ein reider, skal ein liggja
+Idiom","liggja
+Idiom",['liggje'],False,nno
+"Idiom:
+Som ein skilst med folk, finn ein dei","Idiom:
+Som ein skilst med folk, finn ein dei att.
+Engelsk:
+A","att.
+Engelsk:
+A",['att'],False,nno
+"Idiom:
+Spe og spott gjer ingen mann","Idiom:
+Spe og spott gjer ingen mann godt.
+Language:","godt.
+Language",['godt'],False,nno
+"Idiom:
+Spenner ein bogen for hardt, vil han","Idiom:
+Spenner ein bogen for hardt, vil han bikke framover (slå",bikke,['breste'],False,nno
+"Idiom:
+Stor fugl treng stort","Idiom:
+Stor fugl treng stort reir.
+Ein stor","reir.
+Ein",['reir'],False,nno
+"Idiom:
+Stor naud gjer korte","Idiom:
+Stor naud gjer korte ord:",ord,['bøner'],False,nno
+"Idiom:
+Store ord fyller ingen","Idiom:
+Store ord fyller ingen mage
+Fyll meg med","mage
+Fyll",['sekk'],False,nno
+"Idiom:
+Store ord og feitt flesk sit ikkje fast i","Idiom:
+Store ord og feitt flesk sit ikkje fast i halsen.
+Lagt inn av Frid","halsen.
+Lagt",['halsen'],False,nno
+"Idiom:
+Store skip krev djupe","Idiom:
+Store skip krev djupe farteyer fordi den",farteyer,['sund'],False,nno
+"Idiom:
+Store tre vil seint vere","Idiom:
+Store tre vil seint vere høge. Dei vil vokse",høge,['vaksne'],False,nno
+"Idiom:
+Størst er ikkje alltid det","Idiom:
+Størst er ikkje alltid det beste.
+Bilde av Per","beste.
+Bilde",['beste'],False,nno
+"Idiom:
+Så lenge det er liv, er det","Idiom:
+Så lenge det er liv, er det håp.
+(Jesus","håp.
+(Jesus",['håp'],False,nno
+"Idiom:
+Sølv i pungen gjev mat i","Idiom:
+Sølv i pungen gjev mat i munn.
+Kategori: Lån","munn.
+Kategori",['munnen'],False,nno
+"Idiom:
+Søvnen er ein stor tjuv, han stel halve","Idiom:
+Søvnen er ein stor tjuv, han stel halve livet.",livet,['tida'],False,nno
+"Idiom:
+Ta tyngste taket først og beste biten","Idiom:
+Ta tyngste taket først og beste biten etterpå, som ofte betyr",etterpå,['sist'],False,nno
+"Idiom:
+Tanken er ikkje god å","Idiom:
+Tanken er ikkje god å gjera slik at det",gjera,['tøyme'],False,nno
+"Idiom:
+Tap og vinn med same","Idiom:
+Tap og vinn med same sinn! Eller ein kan",sinn,['sinn'],True,nno
+"Idiom:
+Tidleg lært vert seint","Idiom:
+Tidleg lært vert seint forstått – og omvendt
+«",forstått,['gløymt'],False,nno
+"Idiom:
+Til lausare grunn, til lettare å","Idiom:
+Til lausare grunn, til lettare å kunne verta misforstått",kunne,['grave'],False,nno
+"Idiom:
+To fuglar ber betre til reirs enn","Idiom:
+To fuglar ber betre til reirs enn ein sit og tel til",ein,['éin'],False,nno
+"Idiom:
+To hender kan snart verte","Idiom:
+To hender kan snart verte til to andre hender og",til,['fulle'],False,nno
+"Idiom:
+Tomme tønner ramlar","Idiom:
+Tomme tønner ramlar best, seier eit gam",best,['mest'],False,nno
+"Idiom:
+Tomt hus treng ingen","Idiom:
+Tomt hus treng ingen gardin.
+Kva er","gardin.
+Kva",['lås'],False,nno
+"Idiom:
+Ugjord gjerning får inga","Idiom:
+Ugjord gjerning får inga glede på lang sikt.",glede,['lønn'],False,nno
+"Idiom:
+Ulike strenger gjev beste","Idiom:
+Ulike strenger gjev beste resultat: Lengd",resultat,['klangen'],False,nno
+"Idiom:
+Ungdommen gjer mangt, som alderdommen","Idiom:
+Ungdommen gjer mangt, som alderdommen ikkje kan lide.",ikkje,['angrar'],False,nno
+"Idiom:
+Utan fiende blir det ingen","Idiom:
+Utan fiende blir det ingen motstandsmann; utan motstand",motstandsmann,['strid'],False,nno
+"Idiom:
+Utan mat og drikke, duger helten","Idiom:
+Utan mat og drikke, duger helten ikkje. Vi snakkar",ikkje,['ikkje'],True,nno
+"Idiom:
+Utan møde inga","Idiom:
+Utan møde inga pengar! Det är inte",pengar,['føde'],False,nno
+"Idiom:
+Var alle rike, så ville ingen ro","Idiom:
+Var alle rike, så ville ingen rope ""idiot.""",pe,['båten'],False,nno
+"Idiom:
+Varsemd er mor åt","Idiom:
+Varsemd er mor åt for arging.
+er",for,['visdomen'],False,nno
+"Idiom:
+Vatnet er sterkaste drikken: det driv både kvern og","Idiom:
+Vatnet er sterkaste drikken: det driv både kvern og sjøl. Difor:",sjøl,['sag'],False,nno
+"Idiom:
+Vatnet veit kva veg det skal","Idiom:
+Vatnet veit kva veg det skal gå
+Idiom:
+","gå
+Idiom",['gå'],False,nno
+"Idiom:
+Vegen til Helvete er brulagd med","Idiom:
+Vegen til Helvete er brulagd med gode intensjonar. Som å",gode,['pengar'],False,nno
+"Idiom:
+Vel begynt er halvt","Idiom:
+Vel begynt er halvt fullendt. I norsk",fullendt,['gjort'],False,nno
+"Idiom:
+Vene eple kan og vere","Idiom:
+Vene eple kan og vere:",,['sure'],False,nno
+"Idiom:
+Venleik utan vit er lite","Idiom:
+Venleik utan vit er lite verd; det er vit",verd,['verdt'],False,nno
+"Idiom:
+Vi har alle sett vogga, men ikkje","Idiom:
+Vi har alle sett vogga, men ikkje alle har vakna frå",alle,['grava'],False,nno
+"Idiom:
+Vi veit kva vi har, men ikkje kva vi","Idiom:
+Vi veit kva vi har, men ikkje kva vi får.
+Tech:
+En","får.
+Tech:
+En",['får'],False,nno
+"Idiom:
+Visdom er ikkje","Idiom:
+Visdom er ikkje for dei som berre trur",for,['arvegods'],False,nno
+"Idiom:
+Vonde gjerningar hatar","Idiom:
+Vonde gjerningar hatar dei som gode gjerningar",dei,['lyset'],False,nno
+"Idiom:
+Vonde ord gjer vondt folk","Idiom:
+Vonde ord gjer vondt folk får vondt i hjartet",får,['verre'],False,nno
+"Idiom:
+Vonde tankar skal ein møte på","Idiom:
+Vonde tankar skal ein møte på vegen, ikkje frå nokon",vegen,['dørstokken'],False,nno
+"Idiom:
+Vonde varer er seine å","Idiom:
+Vonde varer er seine å selje
+Linear","selje
+Linear",['selje'],False,nno
+"Idiom:
+Vondt heiter godt når verre kjem","Idiom:
+Vondt heiter godt når verre kjem til verre.
+ordtaket",til,['etter'],False,nno
+"Idiom:
+Vågande vinn, og vågande","Idiom:
+Vågande vinn, og vågande vin i vinen.
+H",vin,['taper'],False,nno
+"Idiom:
+Å halde opp i rett tid er ein god","Idiom:
+Å halde opp i rett tid er ein god vane - men dette",vane,['kunst'],False,nno
+"Idiom:
+Å prøve kostar ingen","Idiom:
+Å prøve kostar ingen ting, har ingen kostnad;",ting,['ting'],True,nno
+"Idiom:
+Ære den som ærast","Idiom:
+Ære den som ærast bør. - Æren",bør,['bør'],True,nno
+"Idiom:
+Ærlegdom varer","Idiom:
+Ærlegdom varer lengst, sier et gam",lengst,['lengst'],True,nno
+"Idiom:
+Éin drope gjer glaset for","Idiom:
+Éin drope gjer glaset for stivt og for u",stivt,['fullt'],False,nno
+"Idiom:
+Aldri så galt at det ikke er godt for","Idiom:
+Aldri så galt at det ikke er godt for noe.
+En god latter forl","noe.
+En",['noe'],False,nob
+"Idiom:
+Alle bekker renner ut i","Idiom:
+Alle bekker renner ut i havet til sjuende og",havet,['havet'],True,nob
+"Idiom:
+Alle gode ting er","Idiom:
+Alle gode ting er tre?
+Idiom:
+F","tre?
+Idiom:
+F",['tre'],False,nob
+"Idiom:
+Alle har et søskenbarn på","Idiom:
+Alle har et søskenbarn på Gjøvik! (They",Gjøvik,['Gjøvik'],True,nob
+"Idiom:
+Alle har sitt kors å","Idiom:
+Alle har sitt kors å bære, som Paulus sier",bære,['bære'],True,nob
+"Idiom:
+Alle mine drømmer er falt i","Idiom:
+Alle mine drømmer er falt i grus.
+Alle mine drømmer er","grus.
+Alle",['grus'],False,nob
+"Idiom:
+Alle veier fører til","Idiom:
+Alle veier fører til Rom, står det å",Rom,['Rom'],True,nob
+"Idiom:
+Alt er klappet og","Idiom:
+Alt er klappet og klart for KappA",klart,['klart'],True,nob
+"Idiom:
+Alt går sin vante","Idiom:
+Alt går sin vante gang for tiden. Ikke helt",gang,['gang'],True,nob
+"Idiom:
+Alt vil komme for en","Idiom:
+Alt vil komme for en dag.
+Jeg vil bare bli","dag.
+Jeg",['dag'],False,nob
+"Idiom:
+Ane fred og ingen","Idiom:
+Ane fred og ingen fare – ""we are",fare,['fare'],True,nob
+"Idiom:
+Ane ugler i","Idiom:
+Ane ugler i mosen: An error",mosen,['mosen'],True,nob
+"Idiom:
+Av en liten gnist blir det en stor","Idiom:
+Av en liten gnist blir det en stor flamme
+It takes","flamme
+It",['ild'],False,nob
+"Idiom:
+Av to onder velger man det","Idiom:
+Av to onder velger man det minste, men av to",minste,['minste'],True,nob
+"Idiom:
+Bak lås og","Idiom:
+Bak lås og slå
+Utdrag
+B","slå
+Utdrag
+B",['slå'],False,nob
+"Idiom:
+Bak skyene er himmelen alltid","Idiom:
+Bak skyene er himmelen alltid blå, eller?
+Kj",blå,['blå'],True,nob
+"Idiom:
+Be for sin syke","Idiom:
+Be for sin syke mor: Be for seg",mor,['mor'],True,nob
+"Idiom:
+Berget fødte en","Idiom:
+Berget fødte en sønn på sykehuset mandag.
+-",sønn,['mus'],False,nob
+"Idiom:
+Bestemme hvor skapet skal","Idiom:
+Bestemme hvor skapet skal stå, dvs. hvor er",stå,['stå'],True,nob
+"Idiom:
+Betale alt på ett","Idiom:
+Betale alt på ett sted - én faktura i",sted,['brett'],False,nob
+"Idiom:
+Bli møtt med en kald","Idiom:
+Bli møtt med en kald skulder.
+See also:","skulder.
+See",['skulder'],False,nob
+"Idiom:
+Blod, svette og","Idiom:
+Blod, svette og tårer: Alt som er",tårer,['tårer'],True,nob
+"Idiom:
+Blodet fryser til","Idiom:
+Blodet fryser til is når man hører eller",is,['is'],True,nob
+"Idiom:
+Blåse noen av","Idiom:
+Blåse noen av banen i forbindelse med konkurran",banen,['banen'],True,nob
+"Idiom:
+Brenne sitt lys i begge","Idiom:
+Brenne sitt lys i begge ender, og aldri komme",ender,['ender'],True,nob
+"Idiom:
+Brent barn skyr","Idiom:
+Brent barn skyr ilden - du kan",ilden,['ilden'],True,nob
+"Idiom:
+Brød og sirkus til","Idiom:
+Brød og sirkus til massene; en slags",massene,['folket'],False,nob
+"Idiom:
+Bøye seg i","Idiom:
+Bøye seg i støvet — to sm",støvet,['støvet'],True,nob
+"Idiom:
+Créme de la","Idiom:
+Créme de la création, l'une des",création,['créme'],False,nob
+"Idiom:
+Dag ut og dag","Idiom:
+Dag ut og dag inn
+Sider
+Hjem
+Om","inn
+Sider
+Hjem
+Om",['inn'],False,nob
+"Idiom:
+Dagen er ennå","Idiom:
+Dagen er ennå ung....
+Italiensk","ung....
+Italiensk",['ung'],False,nob
+"Idiom:
+Den dag i","Idiom:
+Den dag i dag er det fortsatt er",dag,['dag'],True,nob
+"Idiom:
+Den enes brød er den andres","Idiom:
+Den enes brød er den andres død. Når en person dør",død,['død'],True,nob
+"Idiom:
+Den er giftig som en","Idiom:
+Den er giftig som en slange i sitt skinn",slange,['slange'],True,nob
+"Idiom:
+Den er god som","Idiom:
+Den er god som den er.
+som den",den,['gull'],False,nob
+"Idiom:
+Den skal tidlig krøkes som god krok skal","Idiom:
+Den skal tidlig krøkes som god krok skal bli. Idiomer",bli,['bli'],True,nob
+"Idiom:
+Den som er med på leken må også tåle","Idiom:
+Den som er med på leken må også tåle steken.",steken,['steken'],True,nob
+"Idiom:
+Den som graver en grav for andre, skal selv falle i","Idiom:
+Den som graver en grav for andre, skal selv falle i den;
+Idiom","den;
+Idiom",['den'],False,nob
+"Idiom:
+Den som lever får","Idiom:
+Den som lever får se - og de færre",se,['se'],True,nob
+"Idiom:
+Den som sover, synder","Idiom:
+Den som sover, synder ikke.
+Bokmål
+S","ikke.
+Bokmål
+S",['ikke'],False,nob
+"Idiom:
+Der fikk du noe å tygge","Idiom:
+Der fikk du noe å tygge på! En idiomatisk",på,['på'],True,nob
+"Idiom:
+Der ligger hunden","Idiom:
+Der ligger hunden begravet. Den er i",begravet,['begravet'],True,nob
+"Idiom:
+Derom strides de","Idiom:
+Derom strides de lærde. Noen mener at",lærde,['lærde'],True,nob
+"Idiom:
+Det ene med det","Idiom:
+Det ene med det andre
+En del faste uttrykk","andre
+En",['andre'],False,nob
+"Idiom:
+Det er alfa og","Idiom:
+Det er alfa og omega – det grunnleggende",omega,['omega'],True,nob
+"Idiom:
+Det er bare en dråpe i","Idiom:
+Det er bare en dråpe i havet, sier du. Ja,",havet,['havet'],True,nob
+"Idiom:
+Det er bare rett og","Idiom:
+Det er bare rett og rimelig. Du er ikke",rimelig,['rimelig'],True,nob
+"Idiom:
+Det er den blinde som fører den","Idiom:
+Det er den blinde som fører den blinde.",blinde,['blinde'],True,nob
+"Idiom:
+Det er den rake","Idiom:
+Det er den rake motsetningen av ordet idi",motsetningen,['motsetning'],False,nob
+"Idiom:
+Det er det verste jeg har","Idiom:
+Det er det verste jeg har hørt! Har du hørt",hørt,['hørt'],True,nob
+"Idiom:
+Det er en dårlig fugl som skiter i eget","Idiom:
+Det er en dårlig fugl som skiter i eget rede. Det kan være",rede,['reir'],False,nob
+"Idiom:
+Det er en røst i","Idiom:
+Det er en røst i den tidlige norske filosofien",den,['ørkenen'],False,nob
+"Idiom:
+Det er en saga","Idiom:
+Det er en saga blott. Den er",blott,['blott'],True,nob
+"Idiom:
+Det er en smal","Idiom:
+Det er en smal sak å bli kvitt en",sak,"['sak', 'sak']",True,nob
+"Idiom:
+Det er et ekko fra","Idiom:
+Det er et ekko fra Ibsen, som han kaller",Ibsen,['fortiden'],False,nob
+"Idiom:
+Det er et helvete på","Idiom:
+Det er et helvete på jord at ingenting ser ut",jord,['jord'],True,nob
+"Idiom:
+Det er et plaster på","Idiom:
+Det er et plaster på såret for alle som",såret,['såret'],True,nob
+"Idiom:
+Det er et skår i","Idiom:
+Det er et skår i gleden med hensyn til vår",gleden,['gleden'],True,nob
+"Idiom:
+Det er et tveegget","Idiom:
+Det er et tveegget sverd å forby",sverd,['sverd'],True,nob
+"Idiom:
+Det er gjort på et","Idiom:
+Det er gjort på et par strakser å lese",par,['blunk'],False,nob
+"Idiom:
+Det er hipp som","Idiom:
+Det er hipp som happ. Det spiller ingen",happ,['happ'],True,nob
+"Idiom:
+Det er ikke en dans på","Idiom:
+Det er ikke en dans på roser å få en ball",roser,['roser'],True,nob
+"Idiom:
+Det er ikke tvil i min","Idiom:
+Det er ikke tvil i min sjel om at når vi",sjel,['sjel'],True,nob
+"Idiom:
+Det er ingen sak med den pølsa som er for","Idiom:
+Det er ingen sak med den pølsa som er for lang. Men det er",lang,['lang'],True,nob
+"Idiom:
+Det er meg en sann","Idiom:
+Det er meg en sann fryd å høre og",fryd,['fornøyelse'],False,nob
+"Idiom:
+Det er meg revnende","Idiom:
+Det er meg revnende likegyldig om han",likegyldig,['likegyldig'],True,nob
+"Idiom:
+Det er som falt ned fra","Idiom:
+Det er som falt ned fra de klare stjernene et",de,['oven'],False,nob
+"Idiom:
+Det er som å se maling","Idiom:
+Det er som å se maling tørke.
+Det er som å","tørke.
+Det",['tørke'],False,nob
+"Idiom:
+Det er til å ta og føle","Idiom:
+Det er til å ta og føle på. Dette språket er i",på,"['på', 'på']",True,nob
+"Idiom:
+Det er tøffere enn","Idiom:
+Det er tøffere enn du tror å komme i",du,['toget'],False,nob
+"Idiom:
+Det er verre enn","Idiom:
+Det er verre enn jeg kunne frykte.
+Jeg",jeg,['verst'],False,nob
+"Idiom:
+Det får tiden","Idiom:
+Det får tiden vise, men jeg tror",vise,['vise'],True,nob
+"Idiom:
+Det gjør ikke noe fra eller","Idiom:
+Det gjør ikke noe fra eller til; det har ikke",til,['til'],True,nob
+"Idiom:
+Det har rent mye vann i havet","Idiom:
+Det har rent mye vann i havet siden sist jeg publiserte",siden,['siden'],True,nob
+"Idiom:
+Det henger ikke på","Idiom:
+Det henger ikke på greip, det er",greip,['greip'],True,nob
+"Idiom:
+Det ligner ikke","Idiom:
+Det ligner ikke ham!, og betyder",ham,['grisen'],False,nob
+"Idiom:
+Det raker deg","Idiom:
+Det raker deg ikke
+at jeg velger","ikke
+at",['ikke'],False,nob
+"Idiom:
+Det regner i bøtter og","Idiom:
+Det regner i bøtter og spann! - D",spann,['spann'],True,nob
+"Idiom:
+Det regner katter og","Idiom:
+Det regner katter og hester i Russland: D",hester,['hunder'],False,nob
+"Idiom:
+Det skal sterk rygg til å bære gode","Idiom:
+Det skal sterk rygg til å bære gode dager. De blir som regel",dager,['dager'],True,nob
+"Idiom:
+Det skal være sikkert og","Idiom:
+Det skal være sikkert og visst. I vår moderne",visst,['visst'],True,nob
+"Idiom:
+Det som kommer lett, går","Idiom:
+Det som kommer lett, går lett. Et idiom",lett,['lett'],True,nob
+"Idiom:
+Det strider mot all","Idiom:
+Det strider mot all vår språklige fornuft,",vår,['fornuft'],False,nob
+"Idiom:
+Det står skrevet i","Idiom:
+Det står skrevet i evangeliet etter Markus",evangeliet,['stjernene'],False,nob
+"Idiom:
+Det var rene ord for","Idiom:
+Det var rene ord for penga.",penga,['pengene'],False,nob
+"Idiom:
+Det var så snørr og tårer","Idiom:
+Det var så snørr og tårer rant nedover kinnene",rant,['rant'],True,nob
+"Idiom:
+Dra dit pepperen","Idiom:
+Dra dit pepperen gror!
+Gå dit","gror!
+Gå",['gror'],False,nob
+"Idiom:
+Dra seg selv opp etter","Idiom:
+Dra seg selv opp etter nakkeskinnet.
+I","nakkeskinnet.
+I",['håret'],False,nob
+"Idiom:
+Drive noen fra skanse til","Idiom:
+Drive noen fra skanse til skanse
+Synony","skanse
+Synony",['skanse'],False,nob
+"Idiom:
+Drive noen fra","Idiom:
+Drive noen fra noe/noen som",noe/noen,['vettet'],False,nob
+"Idiom:
+Dømme noen nord og","Idiom:
+Dømme noen nord og ned - dømme noe kraftig",ned,['ned'],True,nob
+"Idiom:
+En fugl i hånden er bedre enn ti på","Idiom:
+En fugl i hånden er bedre enn ti på taket. Å handle i",taket,['taket'],True,nob
+"Idiom:
+En kamp på liv og","Idiom:
+En kamp på liv og død som finner sted på",død,['død'],True,nob
+"Idiom:
+En skjebne verre enn","Idiom:
+En skjebne verre enn døden
+: Et idi","døden
+",['døden'],False,nob
+"Idiom:
+En svale gjør ingen","Idiom:
+En svale gjør ingen sommer, ei heller en be",sommer,['sommer'],True,nob
+"Idiom:
+En ulv i","Idiom:
+En ulv i fåreklær: en",fåreklær,['fåreklær'],True,nob
+"Idiom:
+Enhver er sin egen lykkes","Idiom:
+Enhver er sin egen lykkes smed. Men nå har",smed,['smed'],True,nob
+"Idiom:
+Enhver fugl synger med sitt","Idiom:
+Enhver fugl synger med sitt nebb. Det sies",nebb,['nebb'],True,nob
+"Idiom:
+Eplet faller ikke langt fra","Idiom:
+Eplet faller ikke langt fra stammen, og denne",stammen,['stammen'],True,nob
+"Idiom:
+Er det ikke det ene så er det det","Idiom:
+Er det ikke det ene så er det det andre.
+engelsk:","andre.
+engelsk",['andre'],False,nob
+"Idiom:
+Et bilde sier mer enn tusen","Idiom:
+Et bilde sier mer enn tusen ord. I tillegg til å",ord,['ord'],True,nob
+"Idiom:
+Et langt lerret å","Idiom:
+Et langt lerret å bleke, har aldri kommet",bleke,['bleke'],True,nob
+"Idiom:
+Et menneske av kjøtt og","Idiom:
+Et menneske av kjøtt og blod har et godt utgangspunkt",blod,['blod'],True,nob
+"Idiom:
+Et skritt i riktig","Idiom:
+Et skritt i riktig retning, sier en fornøyd",retning,['retning'],True,nob
+"Idiom:
+Et strå til","Idiom:
+Et strå til å veie en vekt",å,['stakken'],False,nob
+"Idiom:
+Et øye på hver","Idiom:
+Et øye på hver finger
+Metafor:
+H","finger
+Metafor:
+H",['finger'],False,nob
+"Idiom:
+Falle mellom to","Idiom:
+Falle mellom to stoler. Tjenestem",stoler,['stoler'],True,nob
+"Idiom:
+Familiens sorte","Idiom:
+Familiens sorte får. Den største idi",får,['får'],True,nob
+"Idiom:
+Fanden og hans","Idiom:
+Fanden og hans oldemor var en",oldemor,['oldemor'],True,nob
+"Idiom:
+Femte hjul på","Idiom:
+Femte hjul på vognen betyr at man",vognen,['vogna'],False,nob
+"Idiom:
+Fiske i rørt","Idiom:
+Fiske i rørt vann: Når du prøver",vann,['vann'],True,nob
+"Idiom:
+For godt til å være","Idiom:
+For godt til å være sant? En «w",sant,['sant'],True,nob
+"Idiom:
+Forsvinne som et olja","Idiom:
+Forsvinne som et olja lyn. Ikke være noen",lyn,['lyn'],True,nob
+"Idiom:
+Fra den ene dagen til den","Idiom:
+Fra den ene dagen til den neste, den dagen til",neste,['andre'],False,nob
+"Idiom:
+Fram og tilbake er like","Idiom:
+Fram og tilbake er like langt
+Kommer du til","langt
+Kommer",['langt'],False,nob
+"Idiom:
+Få et slag under","Idiom:
+Få et slag under beltestedet betyr å",beltestedet,['beltestedet'],True,nob
+"Idiom:
+Få hjertet i","Idiom:
+Få hjertet i halsen når dere tar sjansen",halsen,['halsen'],True,nob
+"Idiom:
+Få nissen med på","Idiom:
+Få nissen med på laget!
+I en god strategi","laget!
+I",['lasset'],False,nob
+"Idiom:
+Få så hatten","Idiom:
+Få så hatten passa, få så hatt",passa,['passer'],False,nob
+"Idiom:
+Få så ørene","Idiom:
+Få så ørene flagrer! Få så",flagrer,['flagrer'],True,nob
+"Idiom:
+Få vind i","Idiom:
+Få vind i seilene
+Idiom","seilene
+Idiom",['seilene'],False,nob
+"Idiom:
+Gammel vane er vond å","Idiom:
+Gammel vane er vond å vende. Så det vil",vende,['vende'],True,nob
+"Idiom:
+Gape kjevene av","Idiom:
+Gape kjevene av ledd - gå av heng",ledd,['ledd'],True,nob
+"Idiom:
+Gape over for","Idiom:
+Gape over for mye for å fullføre en",mye,['mye'],True,nob
+"Idiom:
+Gi avskjed på grått","Idiom:
+Gi avskjed på grått papir – Leave in sil",papir,['papir'],True,nob
+"Idiom:
+Gi noen blod på","Idiom:
+Gi noen blod på tohundre - null",tohundre,['tann'],False,nob
+"Idiom:
+Gir man fanden lillefingeren tar han hele","Idiom:
+Gir man fanden lillefingeren tar han hele hånda
+Idiom","hånda
+Idiom",['hånda'],False,nob
+"Idiom:
+Gjengjelde godt med","Idiom:
+Gjengjelde godt med ondt. Føre tilbake",ondt,['ondt'],True,nob
+"Idiom:
+Gjengjelde ondt med","Idiom:
+Gjengjelde ondt med ondt, ikke gjøre godt",ondt,['godt'],False,nob
+"Idiom:
+Gjøre et helhjertet","Idiom:
+Gjøre et helhjertet forsøk på å utrette",forsøk,['forsøk'],True,nob
+"Idiom:
+Gjøre sine hoser","Idiom:
+Gjøre sine hoser grønne
+Litterært virkemiddel","grønne
+Litterært",['grønne'],False,nob
+"Idiom:
+Gjøre vann til","Idiom:
+Gjøre vann til vin
+Idiom:
+","vin
+Idiom",['vin'],False,nob
+"Idiom:
+Glimre med sitt","Idiom:
+Glimre med sitt fravær
+Idiom:
+G","fravær
+Idiom:
+G",['fravær'],False,nob
+"Idiom:
+Gresset er alltid grønnere på den andre","Idiom:
+Gresset er alltid grønnere på den andre siden; det sa min",siden,['siden'],True,nob
+"Idiom:
+Gripe etter","Idiom:
+Gripe etter:",,['halmstrå'],False,nob
+"Idiom:
+Grønn av","Idiom:
+Grønn av misunnelse er ikke",misunnelse,['misunnelse'],True,nob
+"Idiom:
+Gå for lut og kaldt","Idiom:
+Gå for lut og kaldt vann. Skitt under neg",vann,['vann'],True,nob
+"Idiom:
+Gå fra sans og","Idiom:
+Gå fra sans og samling – gå fra vett",samling,['samling'],True,nob
+"Idiom:
+Gå fra vondt til","Idiom:
+Gå fra vondt til verre: - Bli som",verre,['verre'],True,nob
+"Idiom:
+Gå gjennom ild og","Idiom:
+Gå gjennom ild og vann med en dårlig sak",vann,['vann'],True,nob
+"Idiom:
+Gå med livet i","Idiom:
+Gå med livet i en hand och lita",en,['hendene'],False,nob
+"Idiom:
+Gå over bekken etter","Idiom:
+Gå over bekken etter - Å dra lengre enn",,['vann'],False,nob
+"Idiom:
+Gå over stokk og","Idiom:
+Gå over stokk og stein
+To go over st","stein
+To",['stein'],False,nob
+"Idiom:
+Gå på med krum","Idiom:
+Gå på med krum hals!
+Sist helg kunne","hals!
+Sist",['hals'],False,nob
+"Idiom:
+Ha alt hva hjertet","Idiom:
+Ha alt hva hjertet begjærer, og mere",begjærer,['begjærer'],True,nob
+"Idiom:
+Ha begge beina godt planta på","Idiom:
+Ha begge beina godt planta på jorda, og hodet i",jorda,['jorda'],True,nob
+"Idiom:
+Ha blod på","Idiom:
+Ha blod på hendene, legg ikkje fing",hendene,['hendene'],True,nob
+"Idiom:
+Ha det hett rundt","Idiom:
+Ha det hett rundt ørene. Gå med hatt",ørene,['ørene'],True,nob
+"Idiom:
+Ha det som fisken i","Idiom:
+Ha det som fisken i vann? Eller: å",vann,['vannet'],False,nob
+"Idiom:
+Ha en finger med i","Idiom:
+Ha en finger med i spillet, men ikke særlig",spillet,['spillet'],True,nob
+"Idiom:
+Ha en fot i begge","Idiom:
+Ha en fot i begge leire. Ha god kjennskap",leire,['leire'],True,nob
+"Idiom:
+Ha en knute på","Idiom:
+Ha en knute på et plagg - å ha",et,['tråden'],False,nob
+"Idiom:
+Ha en skrue","Idiom:
+Ha en skrue løs = Do be a",løs,['løs'],True,nob
+"Idiom:
+Ha et ess i","Idiom:
+Ha et ess i ermet, som han sier",ermet,['ermet'],True,nob
+"Idiom:
+Ha et øye på hver","Idiom:
+Ha et øye på hver finger.
+: Idi","finger.
+",['finger'],False,nob
+"Idiom:
+Ha fanden i","Idiom:
+Ha fanden i hælene = ha hele",hælene,['hælene'],True,nob
+"Idiom:
+Ha fem tommeltotter på hver","Idiom:
+Ha fem tommeltotter på hver av hendene. Eller;",av,['hånd'],False,nob
+"Idiom:
+Ha gullhår i","Idiom:
+Ha gullhår i ræven betyr å ha",ræven,['ræva'],False,nob
+"Idiom:
+Ha lite kjøtt på","Idiom:
+Ha lite kjøtt på bena, ha en bra",bena,['beina'],False,nob
+"Idiom:
+Ha mange baller i","Idiom:
+Ha mange baller i lufta samtidig.
+Hall",lufta,['luften'],False,nob
+"Idiom:
+Ha mange jern i","Idiom:
+Ha mange jern i ilden / Ha mange",ilden,['ilden'],True,nob
+"Idiom:
+Ha mange år på","Idiom:
+Ha mange år på baken eller få år",baken,['baken'],True,nob
+"Idiom:
+Ha noen i sin hule","Idiom:
+Ha noen i sin hule hånd. (I eldre engelsk brukes",hånd,['hånd'],True,nob
+"Idiom:
+Ha sett sine beste","Idiom:
+Ha sett sine beste dager.
+Ein gong var","dager.
+Ein",['dager'],False,nob
+"Idiom:
+Ha sine meningers","Idiom:
+Ha sine meningers mot.
+Punktum:
+L","mot.
+Punktum:
+L",['mot'],False,nob
+"Idiom:
+Ha stått opp med det gale beinet","Idiom:
+Ha stått opp med det gale beinet først.
+En fin solskinn","først.
+En",['først'],False,nob
+"Idiom:
+Ha stått opp på feil","Idiom:
+Ha stått opp på feil fot? Er det en",fot,['bein'],False,nob
+"Idiom:
+Ha øyne i","Idiom:
+Ha øyne i nakken: Å være",nakken,['nakken'],True,nob
+"Idiom:
+Han er sin far opp av","Idiom:
+Han er sin far opp av dage.
+En mann som gjør","dage.
+En",['dage'],False,nob
+"Idiom:
+Han er tørr bak","Idiom:
+Han er tørr bak øra som en god",øra,['ørene'],False,nob
+"Idiom:
+Hans dager er","Idiom:
+Hans dager er talte og hans livsverk",talte,['talte'],True,nob
+"Idiom:
+Har man sagt A, må man si","Idiom:
+Har man sagt A, må man si B. Men for norske innvandrere",B,['B'],True,nob
+"Idiom:
+Henge i en tynn","Idiom:
+Henge i en tynn tråd.
+Synonym:
+H","tråd.
+Synonym:
+H",['tråd'],False,nob
+"Idiom:
+Her er det ingen slinger i","Idiom:
+Her er det ingen slinger i den musikalske valsen. V",den,['valsen'],False,nob
+"Idiom:
+Herren gir, og herren","Idiom:
+Herren gir, og herren tar – men Gud tar",tar,['tar'],True,nob
+"Idiom:
+Holde hodet over","Idiom:
+Holde hodet over vann. På engelsk heter det:",vann,['vann'],True,nob
+"Idiom:
+Holde noe tett til","Idiom:
+Holde noe tett til brystet.
+Main menu
+Skip","brystet.
+Main",['brystet'],False,nob
+"Idiom:
+Hoppe etter","Idiom:
+Hoppe etter Wirkola er et",Wirkola,['Wirkola'],True,nob
+"Idiom:
+Hovmod står for","Idiom:
+Hovmod står for fall... - Dagbladet
+I",fall,['fall'],True,nob
+"Idiom:
+Hva i all verdens land og","Idiom:
+Hva i all verdens land og rike er det Bane",rike,['riker'],False,nob
+"Idiom:
+Hva kom først, høna eller","Idiom:
+Hva kom først, høna eller egget? Forklar",egget,['egget'],True,nob
+"Idiom:
+Hverken fugl eller","Idiom:
+Hverken fugl eller fisk
+Enten er den","fisk
+Enten",['fisk'],False,nob
+"Idiom:
+Hvor intet er, har keiseren tapt sin","Idiom:
+Hvor intet er, har keiseren tapt sin rett, heter det blant",rett,['rett'],True,nob
+"Idiom:
+Høre en knappenål","Idiom:
+Høre en knappenål falle
+Tegne seg et","falle
+Tegne",['falle'],False,nob
+"Idiom:
+Høre etter med et halvt","Idiom:
+Høre etter med et halvt øre, det betyr at",øre,['øre'],True,nob
+"Idiom:
+Høyre hånd vet ikke hva den venstre","Idiom:
+Høyre hånd vet ikke hva den venstre gjør, og venstre hånd vet",gjør,['gjør'],True,nob
+"Idiom:
+I den syvende","Idiom:
+I den syvende og siste sesongen av Hom",og,['himmel'],False,nob
+"Idiom:
+I det vide og det","Idiom:
+I det vide og det brede brukes uttrykk som «",brede,['brede'],True,nob
+"Idiom:
+I grevens","Idiom:
+I grevens tid var et uttrykk som",tid,['tid'],True,nob
+"Idiom:
+I seng med","Idiom:
+I seng med fienden
+«I seng","fienden
+«I",['fienden'],False,nob
+"Idiom:
+I sju lange og sju","Idiom:
+I sju lange og sju brede har Høyre vært Norges",brede,['brede'],True,nob
+"Idiom:
+Ikke den skarpeste kniven i","Idiom:
+Ikke den skarpeste kniven i skuffen. Ikke den sterkeste",skuffen,['skuffen'],True,nob
+"Idiom:
+Ikke gjøre en flue","Idiom:
+Ikke gjøre en flue fortred.
+Idium","fortred.
+Idium",['fortred'],False,nob
+"Idiom:
+Ikke ha mer enn tiden og","Idiom:
+Ikke ha mer enn tiden og veien som man trenger.
+N",veien,['veien'],True,nob
+"Idiom:
+Ikke ha smakt hverken vått eller","Idiom:
+Ikke ha smakt hverken vått eller tørt siden du sjekket vær",tørt,['tørt'],True,nob
+"Idiom:
+Ikke kunne svare på stående","Idiom:
+Ikke kunne svare på stående fot.",fot,['fot'],True,nob
+"Idiom:
+Ikke la noe gå upåaktet","Idiom:
+Ikke la noe gå upåaktet hen. Vær oppmerksom på",hen,['hen'],True,nob
+"Idiom:
+Ikke lee på et","Idiom:
+Ikke lee på et øyenbryn til",øyenbryn,['øyelokk'],False,nob
+"Idiom:
+Ikke legge to pinner i","Idiom:
+Ikke legge to pinner i kors - ikke gjøre mer",kors,['kors'],True,nob
+"Idiom:
+Ikke se skogen for bare","Idiom:
+Ikke se skogen for bare trær? Idiom",trær,['trær'],True,nob
+"Idiom:
+Ikke suge noe av eget","Idiom:
+Ikke suge noe av eget bryst.
+Forsøke","bryst.
+Forsøke",['bryst'],False,nob
+"Idiom:
+Ikke ta noe for god","Idiom:
+Ikke ta noe for god fisk. Det er ikke",fisk,['fisk'],True,nob
+"Idiom:
+Ikke ta sorgene på","Idiom:
+Ikke ta sorgene på forskudd: I går",forskudd,['forskudd'],True,nob
+"Idiom:
+Ikke tåle dagens","Idiom:
+Ikke tåle dagens lys.
+Idioma:
+I","lys.
+Idioma:
+I",['lys'],False,nob
+"Idiom:
+Ikke vite sin arme","Idiom:
+Ikke vite sin arme råd / Ikke riktig skjønne",råd,['råd'],True,nob
+"Idiom:
+Ikke være bare fryd og","Idiom:
+Ikke være bare fryd og gammen, men også smerte",gammen,['gammen'],True,nob
+"Idiom:
+Ikke være høy i","Idiom:
+Ikke være høy i hatten
+Idiom","hatten
+Idiom",['hatten'],False,nob
+"Idiom:
+Ikke være verdt fem","Idiom:
+Ikke være verdt fem flate øre (d.v.",flate,['øre'],False,nob
+"Idiom:
+Ikke være verdt to sure","Idiom:
+Ikke være verdt to sure sild.
+Defin","sild.
+Defin",['sild'],False,nob
+"Idiom:
+Ingen blir profet i eget","Idiom:
+Ingen blir profet i eget land.
+Johannes D","land.
+Johannes",['land'],False,nob
+"Idiom:
+Ingen nevnt, ingen","Idiom:
+Ingen nevnt, ingen glemt. Om en så",glemt,['glemt'],True,nob
+"Idiom:
+Inn det ene øret og ut av det","Idiom:
+Inn det ene øret og ut av det andre.
+Idiomatisk","andre.
+Idiomatisk",['andre'],False,nob
+"Idiom:
+Intet nytt under","Idiom:
+Intet nytt under solen
+Teksten ble","solen
+Teksten",['solen'],False,nob
+"Idiom:
+Jeg er klar som en","Idiom:
+Jeg er klar som en pannekake til å gå",pannekake,['egg'],False,nob
+"Idiom:
+Jeg er klar som et","Idiom:
+Jeg er klar som et glass med iskaldt vann",glass,['egg'],False,nob
+"Idiom:
+Jeg er lammet av","Idiom:
+Jeg er lammet av frykt for fremtiden min.
+Jeg",frykt,['skrekk'],False,nob
+"Idiom:
+Jeg gir meg ende","Idiom:
+Jeg gir meg ende over.
+Pronomen:","over.
+Pronomen",['over'],False,nob
+"Idiom:
+Kaste gode penger etter","Idiom:
+Kaste gode penger etter dårlige
+Forskjellig pris","dårlige
+Forskjellig",['dårlige'],False,nob
+"Idiom:
+Kaste noen ut på dypt","Idiom:
+Kaste noen ut på dypt vann - For å gi",vann,['vann'],True,nob
+"Idiom:
+Kaste perler for","Idiom:
+Kaste perler for svin? - kast",svin,"['svin', 'svin']",True,nob
+"Idiom:
+Kaste stein i","Idiom:
+Kaste stein i egne glashus.
+Komme",egne,['glasshus'],False,nob
+"Idiom:
+Kaste stein når man sitter i","Idiom:
+Kaste stein når man sitter i glasshus
+
+Idi","glasshus
+
+Idi",['glasshus'],False,nob
+"Idiom:
+Kjempe for en god","Idiom:
+Kjempe for en god sak
+Date: 21.","sak
+Date",['sak'],False,nob
+"Idiom:
+Kjenne hvor skoen","Idiom:
+Kjenne hvor skoen trykker
+: Kjenn","trykker
+",['trykker'],False,nob
+"Idiom:
+Kjenne lusa på","Idiom:
+Kjenne lusa på gangen
+Idiom
+K","gangen
+Idiom
+K",['gangen'],False,nob
+"Idiom:
+Kloke er de som tar imot","Idiom:
+Kloke er de som tar imot råd; uvitende",råd,['råd'],True,nob
+"Idiom:
+Koke suppe på en","Idiom:
+Koke suppe på en spik
+Idiom","spik
+Idiom",['spiker'],False,nob
+"Idiom:
+Komme fra det med","Idiom:
+Komme fra det med æren og livet i",æren,['livet'],False,nob
+"Idiom:
+Komme inn i en ond","Idiom:
+Komme inn i en ond sirkel / sirkel",sirkel,['sirkel'],True,nob
+"Idiom:
+Komme listende på","Idiom:
+Komme listende på te, kæller",te,['tå'],False,nob
+"Idiom:
+Komme med eder og","Idiom:
+Komme med eder og om at han vil lære",om,['galle'],False,nob
+"Idiom:
+Komme noen i","Idiom:
+Komme noen i skade for å tro at",skade,['forkjøpet'],False,nob
+"Idiom:
+Komme som en tyv om","Idiom:
+Komme som en tyv om natten. Vi var kommet tidlig",natten,['natten'],True,nob
+"Idiom:
+Komme som julekvelden på","Idiom:
+Komme som julekvelden på kjerringa! Det å",kjerringa,['kjerringa'],True,nob
+"Idiom:
+Komme som manna fra","Idiom:
+Komme som manna fra himme len.
+som",himme,['himmelen'],False,nob
+"Idiom:
+Koste det hvite ut av","Idiom:
+Koste det hvite ut av øyet.
+Kjøpe katt","øyet.
+Kjøpe",['øyet'],False,nob
+"Idiom:
+Kua glemmer at hun har vært","Idiom:
+Kua glemmer at hun har vært kalv, men husker alltid",kalv,['kalv'],True,nob
+"Idiom:
+La noen steke i sitt eget","Idiom:
+La noen steke i sitt eget fett.",fett,['fett'],True,nob
+"Idiom:
+Lage ris til egen","Idiom:
+Lage ris til egen bak.",bak,['bak'],True,nob
+"Idiom:
+Le seg glugg i","Idiom:
+Le seg glugg i hel, forfjam",hel,['hjel'],False,nob
+"Idiom:
+Legge hodet på","Idiom:
+Legge hodet på en skulder, gni",en,['blokka'],False,nob
+"Idiom:
+Legge øret til","Idiom:
+Legge øret til jorden og vurdere situasjonen i",jorden,['jorda'],False,nob
+"Idiom:
+Lete både vidt og","Idiom:
+Lete både vidt og bredt, langt og lenge,",bredt,['bredt'],True,nob
+"Idiom:
+Lete etter en nål i en","Idiom:
+Lete etter en nål i en høystakk
+Snu ryggen","høystakk
+Snu",['høystakk'],False,nob
+"Idiom:
+Lete etter nåla i","Idiom:
+Lete etter nåla i høystakken.
+L'","høystakken.
+L",['høystakken'],False,nob
+"Idiom:
+Leve fra hånd til","Idiom:
+Leve fra hånd til hånd, leve av å",hånd,['munn'],False,nob
+"Idiom:
+Leve på luft og","Idiom:
+Leve på luft og kjærlighet.
+Idiom:
+G","kjærlighet.
+Idiom:
+G",['kjærlighet'],False,nob
+"Idiom:
+Like som to dråper","Idiom:
+Like som to dråper vann - de har mye",vann,['vann'],True,nob
+"Idiom:
+Listig som en","Idiom:
+Listig som en katt, smart som en",katt,['slange'],False,nob
+"Idiom:
+Love gull og grønne","Idiom:
+Love gull og grønne skoger
+Idiom","skoger
+Idiom",['skoger'],False,nob
+"Idiom:
+Lur som en","Idiom:
+Lur som en rev i jakta på",rev,['rev'],True,nob
+"Idiom:
+Lure en opp i","Idiom:
+Lure en opp i stry ved å gjøre deg",stry,['stry'],True,nob
+"Idiom:
+Lure noen trill","Idiom:
+Lure noen trill rundt er det samme som",rundt,['rundt'],True,nob
+"Idiom:
+Lykken står den kjekke","Idiom:
+Lykken står den kjekke bi. (utal",bi,['bi'],True,nob
+"Idiom:
+Lyve så sterkt som en hest kan","Idiom:
+Lyve så sterkt som en hest kan springe eller så sterkt",springe,['renne'],False,nob
+"Idiom:
+Lære å krype før man lærer å","Idiom:
+Lære å krype før man lærer å gå. Det er lettere for",gå,['gå'],True,nob
+"Idiom:
+Løpe fra sin egen","Idiom:
+Løpe fra sin egen skyld:
+The winner","skyld:
+The",['skygge'],False,nob
+"Idiom:
+Løpe hals over","Idiom:
+Løpe hals over hode. Få en rett",hode,['hode'],True,nob
+"Idiom:
+Løse den gordiske","Idiom:
+Løse den gordiske knuten ved hjelp av",knuten,['knute'],False,nob
+"Idiom:
+Magen blir mett før","Idiom:
+Magen blir mett før øynene.
+Bildspråk:
+E","øynene.
+Bildspråk:
+E",['øynene'],False,nob
+"Idiom:
+Male en viss mann på","Idiom:
+Male en viss mann på veggen
+Synonym:
+M","veggen
+Synonym:
+M",['veggen'],False,nob
+"Idiom:
+Male fanden på","Idiom:
+Male fanden på veggen. Fanden på",veggen,['veggen'],True,nob
+"Idiom:
+Male seg inn i et","Idiom:
+Male seg inn i et hjørne
+Sigmund Grø","hjørne
+Sigmund",['hjørne'],False,nob
+"Idiom:
+Man er sitt ansvar","Idiom:
+Man er sitt ansvar bevisst. (Idio",bevisst,['bevisst'],True,nob
+"Idiom:
+Man må lide for","Idiom:
+Man må lide for skjønnheten.
+Berømt","skjønnheten.
+Berømt",['skjønnheten'],False,nob
+"Idiom:
+Man skal aldri si","Idiom:
+Man skal aldri si aldri.
+Nei, man skal","aldri.
+Nei",['aldri'],False,nob
+"Idiom:
+Man skal ikke skue hunden på","Idiom:
+Man skal ikke skue hunden på hårene – man skal",hårene,['hårene'],True,nob
+"Idiom:
+Man skal ikke trette om navnet før barnet er","Idiom:
+Man skal ikke trette om navnet før barnet er født og har slått ut",født,['født'],True,nob
+"Idiom:
+Man tager hva man","Idiom:
+Man tager hva man haver...
+Den gangen vi","haver...
+Den",['haver'],False,nob
+"Idiom:
+Man vet hva man har, men ikke hva man","Idiom:
+Man vet hva man har, men ikke hva man får.
+It seems to","får.
+It",['får'],False,nob
+"Idiom:
+Mange skjær i","Idiom:
+Mange skjær i sjøen er det blitt.
+",sjøen,['sjøen'],True,nob
+"Idiom:
+Med brask og","Idiom:
+Med brask og bram gikk KRI",bram,['bram'],True,nob
+"Idiom:
+Med hjertet i","Idiom:
+Med hjertet i et av verdens beste land",et,['halsen'],False,nob
+"Idiom:
+Med hodet under","Idiom:
+Med hodet under armen og armen i bind",armen,['armen'],True,nob
+"Idiom:
+Med hud og","Idiom:
+Med hud og hår - som i «h",hår,['hår'],True,nob
+"Idiom:
+Med hue under armen og armen i","Idiom:
+Med hue under armen og armen i bind, prøver vi å",bind,['bind'],True,nob
+"Idiom:
+Med list og lempe kommer en dverg lenger enn en","Idiom:
+Med list og lempe kommer en dverg lenger enn en kjempe med stabeis",kjempe,['kjempe'],True,nob
+"Idiom:
+Med loven i","Idiom:
+Med loven i sin hånd
+Det er mange",sin,['hånd'],False,nob
+"Idiom:
+Mele sin egen","Idiom:
+Mele sin egen kropp 
+Typ",kropp,['kake'],False,nob
+"Idiom:
+Mellom barken og","Idiom:
+Mellom barken og veden, mellom det som",veden,['veden'],True,nob
+"Idiom:
+Miste både munn og","Idiom:
+Miste både munn og mæle.
+Hvilket","mæle.
+Hvilket",['mæle'],False,nob
+"Idiom:
+Morgenstund har gull i","Idiom:
+Morgenstund har gull i munn, heter det. Men",munn,['munn'],True,nob
+"Idiom:
+Mure med sverd ved","Idiom:
+Mure med sverd ved lend (etter gammel",lend,['lend'],True,nob
+"Idiom:
+Må ikke komme her og komme","Idiom:
+Må ikke komme her og komme her! (substant",her,['her'],True,nob
+"Idiom:
+Måtte bite i det sure","Idiom:
+Måtte bite i det sure eplet
+Added","eplet
+Added",['eplet'],False,nob
+"Idiom:
+Måtte bite i","Idiom:
+Måtte bite i det sure gress.
+f",det,['gresset'],False,nob
+"Idiom:
+Måtte gå fra gård og","Idiom:
+Måtte gå fra gård og grunn
+Måtte forlate gården","grunn
+Måtte",['grunn'],False,nob
+"Idiom:
+Måtte svelge sin","Idiom:
+Måtte svelge sin stolthet og legge opp",stolthet,['stolthet'],True,nob
+"Idiom:
+Mørkt som i en","Idiom:
+Mørkt som i en sekk, en liten gutt",sekk,['sekk'],True,nob
+"Idiom:
+Møte seg selv i","Idiom:
+Møte seg selv i døra
+På grunn av teknisk","døra
+På",['døra'],False,nob
+"Idiom:
+Nesten rir ingen mann av","Idiom:
+Nesten rir ingen mann av heste sin.
+(1789",heste,['hesten'],False,nob
+"Idiom:
+Nye koster feier","Idiom:
+Nye koster feier best!
+Kjell Arne Tot","best!
+Kjell",['best'],False,nob
+"Idiom:
+Når det regner på presten, drypper det på","Idiom:
+Når det regner på presten, drypper det på klokkeren. En dansk",klokkeren,['klokkeren'],True,nob
+"Idiom:
+Når en blind leder en blind, faller de begge i","Idiom:
+Når en blind leder en blind, faller de begge i grøften.
+Idiom","grøften.
+Idiom",['grøften'],False,nob
+"Idiom:
+Når enden er god er allting","Idiom:
+Når enden er god er allting godt - eller?
+Nå",godt,['godt'],True,nob
+"Idiom:
+Når katten er borte, danser musene på","Idiom:
+Når katten er borte, danser musene på bordet.
+Når katten din har","bordet.
+Når",['bordet'],False,nob
+"Idiom:
+Nød lærer naken kvinne å","Idiom:
+Nød lærer naken kvinne å spinne, heter det.",spinne,['spinne'],True,nob
+"Idiom:
+Også små gryter har","Idiom:
+Også små gryter har ører.
+
+
+O","ører.
+
+
+O",['ører'],False,nob
+"Idiom:
+Opp som en løve og ned som en","Idiom:
+Opp som en løve og ned som en skinnfell. Det går",skinnfell,['skinnfell'],True,nob
+"Idiom:
+Over stokk og","Idiom:
+Over stokk og stein i en uber",stein,['stein'],True,nob
+"Idiom:
+Pipen skal få en annen","Idiom:
+Pipen skal få en annen lyd!
+Hva betyr dette?","lyd!
+Hva",['lyd'],False,nob
+"Idiom:
+På lykke og","Idiom:
+På lykke og fromme!
+Du og","fromme!
+Du",['fromme'],False,nob
+"Idiom:
+Ridder av den bedrøvelige","Idiom:
+Ridder av den bedrøvelige skikkelse som står opp",skikkelse,['skikkelse'],True,nob
+"Idiom:
+Risikere liv og","Idiom:
+Risikere liv og lemmer for å få",lemmer,['lemmer'],True,nob
+"Idiom:
+Riste støvet av sine","Idiom:
+Riste støvet av sine egne og gjøre ting ordentlig",egne,['føtter'],False,nob
+"Idiom:
+Rive noe i stumper og","Idiom:
+Rive noe i stumper og stykker.
+Rive noe i","stykker.
+Rive",['stykker'],False,nob
+"Idiom:
+Rystes i sine","Idiom:
+Rystes i sine grundvolde, skrig",grundvolde,['grunnvoller'],False,nob
+"Idiom:
+Sakte men","Idiom:
+Sakte men sikkert kom eg fram til",sikkert,['sikkert'],True,nob
+"Idiom:
+Se noen dypt i","Idiom:
+Se noen dypt i øynene uten å blun",øynene,['øynene'],True,nob
+"Idiom:
+Se splinten i sin brors øye, men ikke bjelken i sitt","Idiom:
+Se splinten i sin brors øye, men ikke bjelken i sitt eget. /Idi",eget,['eget'],True,nob
+"Idiom:
+Ser ikke skogen for bare","Idiom:
+Ser ikke skogen for bare trær? Idiom",trær,['trær'],True,nob
+"Idiom:
+Sette glødende kull på noens","Idiom:
+Sette glødende kull på noens hode
+Kasus:
+N","hode
+Kasus:
+N",['hode'],False,nob
+"Idiom:
+Sette kroken på","Idiom:
+Sette kroken på døra
+Kebabnorsk","døra
+Kebabnorsk",['døra'],False,nob
+"Idiom:
+Sette kronen på","Idiom:
+Sette kronen på noe
+Gjentakelse,","noe
+Gjentakelse",['verket'],False,nob
+"Idiom:
+Sette kryss i","Idiom:
+Sette kryss i alfabetisk rekkefølge",alfabetisk,['margen'],False,nob
+"Idiom:
+Sette sitt lys under en","Idiom:
+Sette sitt lys under en skjeppe, i et",skjeppe,['skjeppe'],True,nob
+"Idiom:
+Sette spaden i","Idiom:
+Sette spaden i jorda
+Banalisere
+T","jorda
+Banalisere
+T",['jorda'],False,nob
+"Idiom:
+Skille fårene fra","Idiom:
+Skille fårene fra fårene er et idi",fårene,['bukkene'],False,nob
+"Idiom:
+Skille klinten fra","Idiom:
+Skille klinten fra hveten, for å si",hveten,['hveten'],True,nob
+"Idiom:
+Skyte seg en kule for","Idiom:
+Skyte seg en kule for pannen: Å gjøre",pannen,['pannen'],True,nob
+"Idiom:
+Skyte spurv med","Idiom:
+Skyte spurv med kanoner
+Kilde: el","kanoner
+Kilde",['kanoner'],False,nob
+"Idiom:
+Slikke seg om","Idiom:
+Slikke seg om fingrene: ta store sj",fingrene,['munnen'],False,nob
+"Idiom:
+Slippe katta ut av","Idiom:
+Slippe katta ut av sekken.
+Slippe","sekken.
+Slippe",['sekken'],False,nob
+"Idiom:
+Slu som en","Idiom:
+Slu som en slange
+Idiom","slange
+Idiom",['rev'],False,nob
+"Idiom:
+Slå barnet ut med","Idiom:
+Slå barnet ut med badevannet
+Blir man","badevannet
+Blir",['badevannet'],False,nob
+"Idiom:
+Slå seg gul og","Idiom:
+Slå seg gul og blå
+Avoid:
+Akt","blå
+Avoid:
+Akt",['blå'],False,nob
+"Idiom:
+Slå to fluer i én","Idiom:
+Slå to fluer i én smekk eller oppnå",smekk,['smekk'],True,nob
+"Idiom:
+Slå ut med","Idiom:
+Slå ut med armana, ta på",armana,['armene'],False,nob
+"Idiom:
+Smake sin egen","Idiom:
+Smake sin egen medisin: - Ikke kast",medisin,['medisin'],True,nob
+"Idiom:
+Smi mens jernet er","Idiom:
+Smi mens jernet er varmt – å sette i",varmt,['varmt'],True,nob
+"Idiom:
+Smykke seg med lånte","Idiom:
+Smykke seg med lånte fjær
+Remember","fjær
+Remember",['fjær'],False,nob
+"Idiom:
+Snakke for sin egen syke","Idiom:
+Snakke for sin egen syke mor, eller snakke for mye",mor,['mor'],True,nob
+"Idiom:
+Snakke om alt mellom himmel og","Idiom:
+Snakke om alt mellom himmel og jord.
+Idiom:
+I","jord.
+Idiom:
+I",['jord'],False,nob
+"Idiom:
+Snuble i egne","Idiom:
+Snuble i egne bein - to wound",bein,['bein'],True,nob
+"Idiom:
+Snøen som falt i","Idiom:
+Snøen som falt i fjor eller for to år",fjor,['fjor'],True,nob
+"Idiom:
+Som et piska","Idiom:
+Som et piska skinn, men her er",skinn,['skinn'],True,nob
+"Idiom:
+Som ild i tørt","Idiom:
+Som ild i tørt gress. Som en lø",gress,['gress'],True,nob
+"Idiom:
+Som lyn fra klar","Idiom:
+Som lyn fra klar himmel, eller plutselig.
+K",himmel,['himmel'],True,nob
+"Idiom:
+Som man reder, så ligger","Idiom:
+Som man reder, så ligger man. (engelsk",man,['man'],True,nob
+"Idiom:
+Som plommen i","Idiom:
+Som plommen i egget
+Idiom","egget
+Idiom",['egget'],False,nob
+"Idiom:
+Som sagt, så","Idiom:
+Som sagt, så gjort, på den måten at",gjort,['gjort'],True,nob
+"Idiom:
+Sove som en","Idiom:
+Sove som en stein med åpne øyne.
+I",stein,['stein'],True,nob
+"Idiom:
+Spille med skjulte","Idiom:
+Spille med skjulte brikkene kan ikke",brikkene,['kort'],False,nob
+"Idiom:
+Spille med åpne","Idiom:
+Spille med åpne kort er en av flere",kort,['kort'],True,nob
+"Idiom:
+Spre seg som ild i tørt","Idiom:
+Spre seg som ild i tørt gress, og ikke la",gress,['gress'],True,nob
+"Idiom:
+Spy edder og","Idiom:
+Spy edder og galle
+Character","galle
+Character",['galle'],False,nob
+"Idiom:
+Stable seg på","Idiom:
+Stable seg på beina igjen, få litt fot",beina,['beina'],True,nob
+"Idiom:
+Starte med blanke","Idiom:
+Starte med blanke ark - a new start",ark,['ark'],True,nob
+"Idiom:
+Starte på ny","Idiom:
+Starte på ny runde
+Slutte på","runde
+Slutte",['frisk'],False,nob
+"Idiom:
+Stikke hodet i","Idiom:
+Stikke hodet i sanden? Nei takk",sanden,['sanden'],True,nob
+"Idiom:
+Stikke hodet inn i løvens","Idiom:
+Stikke hodet inn i løvens gap. Nynorsk:",gap,['gap'],True,nob
+"Idiom:
+Stikke kjepper i","Idiom:
+Stikke kjepper i hjula for noen.",hjula,['hjulene'],False,nob
+"Idiom:
+Stille med blanke","Idiom:
+Stille med blanke ark
+Klippekort
+Vi","ark
+Klippekort
+Vi",['ark'],False,nob
+"Idiom:
+Stiv som en","Idiom:
+Stiv som en stokk er et idi",stokk,['pinne'],False,nob
+"Idiom:
+Stoppe mens leken er","Idiom:
+Stoppe mens leken er god
+Går ut på","god
+Går",['god'],False,nob
+"Idiom:
+Stritte imot med hender og","Idiom:
+Stritte imot med hender og føtter. Gjøre motstand",føtter,['føtter'],True,nob
+"Idiom:
+Stryke noen med","Idiom:
+Stryke noen med håret = Komme godt",håret,['hårene'],False,nob
+"Idiom:
+Stryke noen mot","Idiom:
+Stryke noen mothårs
+Try to","hårs
+Try",['hårene'],False,nob
+"Idiom:
+Strø salt i","Idiom:
+Strø salt i såret?
+Om oss","såret?
+Om",['såret'],False,nob
+"Idiom:
+Stå med det ene beinet i","Idiom:
+Stå med det ene beinet i fryseren og det andre",fryseren,['graven'],False,nob
+"Idiom:
+Stå med livet i","Idiom:
+Stå med livet i hansker og i hend",hansker,['hendene'],False,nob
+"Idiom:
+Stå med skjegget i","Idiom:
+Stå med skjegget i postkassa
+How","postkassa
+How",['postkassa'],False,nob
+"Idiom:
+Stå og samle","Idiom:
+Stå og samle inn penger.",inn,['støv'],False,nob
+"Idiom:
+Svare med samme","Idiom:
+Svare med samme ord, men endre betydning
+I",ord,['mynt'],False,nob
+"Idiom:
+Sveve mellom himmel og","Idiom:
+Sveve mellom himmel og jord.
+I den grad du","jord.
+I",['jord'],False,nob
+"Idiom:
+Sy puter under","Idiom:
+Sy puter under såre armeer",såre,['armene'],False,nob
+"Idiom:
+Så vind og høste","Idiom:
+Så vind og høste storm, og ingen mann",storm,['storm'],True,nob
+"Idiom:
+Ta det onde ved","Idiom:
+Ta det onde ved røttene! En viktig",røttene,['roten'],False,nob
+"Idiom:
+Ta noe med en klype","Idiom:
+Ta noe med en klype salt! Noe er så",salt,['salt'],True,nob
+"Idiom:
+Ta seg vann over","Idiom:
+Ta seg vann over hodet, å ha for",hodet,['hodet'],True,nob
+"Idiom:
+Ta sin hatt og","Idiom:
+Ta sin hatt og gå
+Duration:
+","gå
+Duration",['gå'],False,nob
+"Idiom:
+Ta skjeen i den andre","Idiom:
+Ta skjeen i den andre hånden.  Å gjøre",hånden,['hånden'],True,nob
+"Idiom:
+Ta skjeen i en annen","Idiom:
+Ta skjeen i en annen munn, eller se om",munn,['hånd'],False,nob
+"Idiom:
+Ta til takke","Idiom:
+Ta til takke
+Krämiga bi",Krämiga,['med'],False,nob
+"Idiom:
+Ta tyren ved","Idiom:
+Ta tyren ved hornet – ta den",hornet,['hornene'],False,nob
+"Idiom:
+Takke noen av hele sitt","Idiom:
+Takke noen av hele sitt hjerte:",hjerte,['hjerte'],True,nob
+"Idiom:
+Tale Roma midt","Idiom:
+Tale Roma midt i mot, være en",i,['imot'],False,nob
+"Idiom:
+Tale med to","Idiom:
+Tale med to betydninger om noe ikke",betydninger,['tunger'],False,nob
+"Idiom:
+Tapt bak en","Idiom:
+Tapt bak en dør! Jeg kom inn,",dør,['vogn'],False,nob
+"Idiom:
+Tatt på fersk","Idiom:
+Tatt på fersken: Her er det noen",en,['gjerning'],False,nob
+"Idiom:
+Tennene løper i","Idiom:
+Tennene løper i vann for deg
+Is",vann,['vann'],True,nob
+"Idiom:
+Til syvende og","Idiom:
+Til syvende og sist er det et idi",sist,['sist'],True,nob
+"Idiom:
+To alen av samme","Idiom:
+To alen av samme stykke? Det er vanskelig",stykke,['stykke'],True,nob
+"Idiom:
+Tomme tønner ramler","Idiom:
+Tomme tønner ramler mest. Tomme ord",mest,['mest'],True,nob
+"Idiom:
+Treffe spikeren på","Idiom:
+Treffe spikeren på hodet!
+Asking","hodet!
+Asking",['hodet'],False,nob
+"Idiom:
+Trekke en kanin opp av","Idiom:
+Trekke en kanin opp av hatten. Være på",hatten,['hatten'],True,nob
+"Idiom:
+Trengt opp i et","Idiom:
+Trengt opp i et hjørne
+From the same","hjørne
+From",['hjørne'],False,nob
+"Idiom:
+Tro kan flytte","Idiom:
+Tro kan flytte fjell; du blir sterkere",fjell,['fjell'],True,nob
+"Idiom:
+Under lås og","Idiom:
+Under lås og slå
+Under lås og","slå
+Under",['slå'],False,nob
+"Idiom:
+Veie sine ord på","Idiom:
+Veie sine ord på gullvekt når han skriver",gullvekt,['gullvekt'],True,nob
+"Idiom:
+Veien til helvete er brolagt med gode","Idiom:
+Veien til helvete er brolagt med gode intensjoner.
+Det handler om","intensjoner.
+Det",['intensjoner'],False,nob
+"Idiom:
+Velge mellom pest og","Idiom:
+Velge mellom pest og kolera - To",kolera,['kolera'],True,nob
+"Idiom:
+Vende det annet kinn","Idiom:
+Vende det annet kinn til
+Idiom:","til
+Idiom",['til'],False,nob
+"Idiom:
+Vende det døve øret","Idiom:
+Vende det døve øret til (eng. to",til,['til'],True,nob
+"Idiom:
+Vende kappen etter","Idiom:
+Vende kappen etter vinden.
+See also:","vinden.
+See",['vinden'],False,nob
+"Idiom:
+Verden står ikke til","Idiom:
+Verden står ikke til påske. Hvis den gjor",påske,['påske'],True,nob
+"Idiom:
+Vippe noen av","Idiom:
+Vippe noen av pinnen, for eksempel",pinnen,['pinnen'],True,nob
+"Idiom:
+Vise sitt sanne","Idiom:
+Vise sitt sanne jeg
+Idiom:
+I","jeg
+Idiom:
+I",['jeg'],False,nob
+"Idiom:
+Vite hverken ut eller","Idiom:
+Vite hverken ut eller inn
+Det er på samme","inn
+Det",['inn'],False,nob
+"Idiom:
+Vokse noen over","Idiom:
+Vokse noen over hodet.",hodet,['hodet'],True,nob
+"Idiom:
+Ærlighet varer","Idiom:
+Ærlighet varer lengst    ",lengst,['lengst'],True,nob
+"Idiom:
+Øye for øye, tann for","Idiom:
+Øye for øye, tann for tann
+— Theoph","tann
+—",['tann'],False,nob
