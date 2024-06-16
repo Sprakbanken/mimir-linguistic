@@ -1,0 +1,20 @@
+tokenized_text,parts_of_speech,simple_ttr,moving_average_ttr,number_of_tokens,text_str_len,stopword_density,self_bleu,compression_ratio,pos_compression_ratio,3_gram_diversity_score,4_gram_diversity_score
+"[ , Her, kjem, eg, til, å, få, mykje, fisk, ,, tenkte, han, glad, ., 
+, -, Frå, denne, båten, får, eg, sikkert, mange, fisk, ,, tenkte, han, nøgd, ., 
+, tre, og, dingla, med, føtene, nedi, vatnet, ., 
+, trestamme, ,, og, den, sjette, broren, stilte, seg, heilt, i, vasskanten, ., Alle, brørne, var, sikre, på, å, få, fisk, ., 
+, krokodilla, ., Då, ropte, han, til, brørne, sine, :, 
+, -, Sjå, opp, for, krokodilla, !, 
+, Ingen, av, brørne, høyrde, etter, ., 
+, |, gr, », Hi, ;, i, ], /, Mer, ,, Å, fiske, ., Alle, ville, vere, den, som, hadde, fått, flest, fisk, ., 
+, bestemte, brørne, seg, for, å, gå, heim, ., 
+, fisk, dei, hadde, fått, ., 
+, vere, trygg, på, ., 
+, om, alle, seks, er, her, ., 
+, -, Ein, ,, to, ,, tre, ,, fire, ,, fem, ., Det, stemmer, jo, ikkje, !, Han, talde, ein, gong, til, ,, men, kom, berre, til, fem, ., -, Hjelp, ,, vi, er, berre, fem, !, ropte, han, ., 
+, -, Er, du, sikker, ?, La, meg, telje, ., 
+, I, og, byrja, å, telje, ., Han, kom]",SPACE ADV VERB PROPN SCONJ PART VERB ADJ NOUN PUNCT VERB PRON ADJ PUNCT SPACE PUNCT NUM DET NOUN VERB PRON ADJ ADJ NOUN PUNCT VERB PRON ADJ PUNCT SPACE NUM CCONJ NOUN ADP NOUN ADP NOUN PUNCT SPACE NOUN PUNCT CCONJ DET ADJ NOUN VERB PRON ADJ ADP NOUN PUNCT DET NOUN AUX ADJ SCONJ PART VERB NOUN PUNCT SPACE NOUN PUNCT ADV VERB PRON ADP NOUN PRON PUNCT SPACE PUNCT VERB ADP ADP ADJ PUNCT SPACE DET ADP NOUN VERB ADP PUNCT SPACE PUNCT NOUN PUNCT PROPN PUNCT ADP PROPN PUNCT ADJ PUNCT PART VERB PUNCT PRON AUX VERB PRON PRON AUX VERB ADJ NOUN PUNCT SPACE VERB NOUN PRON SCONJ PART VERB ADP PUNCT SPACE NOUN PROPN AUX VERB PUNCT SPACE VERB ADJ ADP PUNCT SPACE ADP DET NUM AUX ADV PUNCT SPACE PUNCT X PUNCT NUM PUNCT NUM PUNCT NUM PUNCT NUM PUNCT PRON VERB ADV X PUNCT PRON X X X ADP PUNCT CCONJ VERB ADV ADP NUM PUNCT PUNCT VERB PUNCT PRON AUX ADV NUM PUNCT VERB PRON PUNCT SPACE PUNCT AUX PRON ADJ PUNCT VERB PRON DET PUNCT SPACE ADP CCONJ PROPN PART VERB PUNCT PRON VERB,0.06506364922206506,0.42297872340425585,194,707,0.4948453608247423,0.011685987118837917,1.544,3.441,2.763,3.763
+"[ , Saulus, hadde, lært, om, det, som, stod, i, dei, heilage, skriftene, ., Han, hadde, vore, lenge, i, Jerusalem, for, å, bli, skriftlærd, ., Han, hadde, gått, i, skule, hos, den, beste, læraren, der, ., 
+, No, var, Saulus, opprørt, og, sint, ., Læresveinane, skulle, ikkje, få, halda, fram, med, å, seia, at, Jesus, var, Messias, ,, Frelsaren, ., Dei, måtte, stoppast, ., Same, dagen, som, Stefanus, vart, drepen, ,, starta, det, ei, hard, forfølging, av, dei, som, trudde, på, Jesus, ., Saulus, var, med, på, det, ., Han, drog, menneske, ut, av, heimane, deira, og, sette, dei, i, fengsel, ., 
+, Mange, av, læresveinane, flykta, frå, Jerusalem, den, dagen, ., Men, dei, heldt, fram, med, å, fortelja, om, Jesus, i, andre, byar, og, på, andre, stader, ., 
+, Saulus, fekk, høyra, at, det, var, læresveinar, også, i, Damaskus, ., Saulus, ville, dra, dit, ., Han, fekk, med, seg, eit, brev, frå, øvstepresten, ., Der, stod, det, at, han, kunne, fengsla, alle, som, tru]",SPACE PROPN AUX VERB ADP PRON PRON VERB ADP PROPN X NOUN PUNCT PRON VERB VERB ADJ ADP PROPN SCONJ PART VERB NOUN PUNCT PRON AUX VERB ADP NOUN ADP DET ADJ NOUN ADV PUNCT SPACE PROPN AUX PROPN ADJ CCONJ ADJ PUNCT PROPN AUX ADV VERB NOUN ADP SCONJ PART VERB SCONJ PROPN AUX PROPN PUNCT PROPN PUNCT NOUN VERB NOUN PUNCT ADJ NOUN PRON PROPN AUX DET PUNCT VERB PRON DET ADJ NOUN ADP NOUN PRON VERB ADP PROPN PUNCT PROPN AUX ADP ADP PRON PUNCT PRON VERB NOUN ADP ADP PROPN PROPN CCONJ VERB PRON ADP NOUN PUNCT SPACE ADJ ADP NOUN PROPN X PROPN DET NOUN PUNCT CCONJ X ADJ ADP SCONJ PART VERB SCONJ PROPN ADP DET PROPN CCONJ ADP DET NOUN PUNCT SPACE PROPN VERB PROPN SCONJ PRON AUX NOUN ADV ADP PROPN PUNCT PROPN AUX VERB ADV PUNCT PRON VERB ADP PRON DET NOUN PROPN PROPN PUNCT ADV VERB PRON SCONJ PRON AUX VERB PRON X X,0.046153846153846156,0.40845417236662035,164,780,0.5853658536585366,0.011617614695770143,1.657,3.14,2.641,3.641
