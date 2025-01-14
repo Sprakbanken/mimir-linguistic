@@ -75,11 +75,6 @@ def arglist_to_kwarg_dict(args: list[str]) -> dict[str, str | float | bool]:
         )
     return arg_dict
 
-
-def get_first_predicted_word_only(prompt: str, generated_text: str) -> str:
-    return generated_text[len(prompt) :].strip().split(" ")[0].strip(punctuation)
-
-
 def get_output_dir(output_dir: Path) -> Path:
     """Make a new output_dir if it already exists"""
     if output_dir.exists():
