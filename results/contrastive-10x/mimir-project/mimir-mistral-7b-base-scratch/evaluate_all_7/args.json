@@ -1,0 +1,34 @@
+{
+    "batch_size": 100,
+    "delimiter": "#",
+    "eos_token": "</s>",
+    "generation_params": [
+        "max_new_tokens=200",
+        "min_new_tokens=170",
+        "do_sample=True",
+        "penalty_alpha=0.9"
+    ],
+    "hf_token": null,
+    "input_file": "sentence-starters/sentence_starters.csv",
+    "lang_column": "language",
+    "model_id": "mimir-project/mimir-mistral-7b-base-scratch",
+    "n_shots": 0,
+    "ns": [
+        3,
+        4
+    ],
+    "num_examples_a": 0,
+    "num_examples_s": 1000,
+    "num_list_examples": 2,
+    "output_dir": "final/mimir-project/mimir-mistral-7b-base-scratch",
+    "plot_scores": true,
+    "prompt_column": "prompt",
+    "prompt_i": "Idiom:\n",
+    "prompt_post": "\nOrdet som ikke hører hjemme er:",
+    "prompt_pre": "Hvilket ord hører ikke hjemme i lista?:\n",
+    "quantize_bits": null,
+    "seed": 47,
+    "texts_per_prompt": 1,
+    "texts_per_prompt_honest": 5,
+    "tokenizer_params": {}
+}

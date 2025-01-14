@@ -1,0 +1,2 @@
+compression_ratio,pos_compression_ratio,3_gram_diversity_score,4_gram_diversity_score,self_bleu,simple_ttr,moving_average_ttr,number_of_tokens,str_len,stopword_density
+2.661,7.936,1.73,2.703,0.3777986767651435,0.0006838049123066403,0.3716991316482045,40836,216436,0.6485095575457827

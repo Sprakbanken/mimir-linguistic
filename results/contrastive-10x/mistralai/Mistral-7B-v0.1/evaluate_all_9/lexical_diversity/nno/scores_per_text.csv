@@ -1,0 +1,755 @@
+tokenized_text,parts_of_speech,simple_ttr,moving_average_ttr,number_of_tokens,text_str_len,stopword_density,self_bleu
+"[Men, det, var, blant, andre, ., 
+
+, #, På, 12th, av, 12., 
+
+, Made, by, the, boys, in, the, shed, down, the, garden, ., 
+
+, A, project, started, in, 2016, by, three, school, students, from, Skovlunde, Gymnasium, ., The, project, started, when, the, three, boys, got, a, school, project, to, make, the, “, best, ”, project, about, an, artist, or, a, band, ., The, three, boys, started, the, project, by, creating, a, Facebook, page, where, people, could, vote, for, who, they, should, focus, on, creating, a, project, about, ., After, the, finalist, was, chosen, by, the, voters, ,, the, project, was, created, ., 
+
+, The, project, started, in, Skovlunde, Gymnasium, but, had, also, focus, on, the, whole, world, ., Since, the, finalists, for, the, project, only, were, created, from, Denmark, ,, Norway, and, Sweden, ., The, finalists, was, Jeppe, ,, Rasmus, and, Frederik, ,, a, teacher, in, the, school, as, well, as, some, of, the, teachers, in, the, school, had, an, influence, in, this, project, ., Therefore]",CCONJ PRON AUX ADP DET PUNCT SPACE NOUN ADP PROPN ADP ADJ SPACE X X X X X X X X X X PUNCT SPACE X X X X NUM X X X X X PROPN PROPN PUNCT PROPN X X X X X X X X X X X X X PUNCT ADJ PUNCT X X X NOUN X X NOUN PUNCT PROPN X PROPN X X X X PROPN X PROPN PROPN PROPN PROPN X NOUN ADP X X X X X X X X X PUNCT X X NOUN X PROPN X X X PUNCT X X X X PUNCT SPACE PROPN X X X PROPN PROPN X X X X X X X X PUNCT PROPN PROPN X X X X X X X X PROPN PUNCT PROPN X PROPN PUNCT PROPN PROPN X PROPN PUNCT PROPN X PROPN PUNCT X X X X X X X X X X X X X X X X X X X X X PUNCT NUM,0.055825242718446605,0.40185806451612816,167,824,0.2275449101796407,0.17260394752508115
+"[Det, var, einst, ein, Mädchen, ., Nichts, ist, ,, was, immer, ein, Mädchen, hat, ., Der, Tag, ,, als, es, ein, Mädchen, wurde, ,, ist, so, weit, entfernt, wie, der, Tag, ,, an, dem, sie, sich, verliebt, und, die, Welt, sich, um, einiges, veränderte, ., Was, immer, sie, anhört, ,, sieht, oder, wähnt, ,, sieh, und, bewegt, sich, ist, ,, sieh, und, verändert, sich, ., Es, ist, ein, Tag, ,, an, dem, sie, einen, Wurm, fand, ,, den, es, weder, in, der, Welt, sah, noch, der, Welt, sah, ., Er, ist, ein, Tag, ,, an, dem, er, es, finden, ,, das, er, ihr, gab, ,, und, für, ihr, Leben, ., 
+
+, Das, Haus, hat, eine, Tür, ,, in, der, sich, ein, Raum, befindet, ., Sie, warnt, ,, dass, sie, sich, in, jeder, Tür, befändem, auf, ., Ein, großes, Tresor, mit, dem, Tresor, zu, erwähnen, ., Das, Haus, hinweg, durch]",PRON AUX NOUN X PROPN PUNCT ADJ NOUN PUNCT X X X PROPN NOUN PUNCT ADV PROPN PUNCT PROPN PROPN X PROPN X PUNCT X X PROPN X X X PROPN PUNCT ADV PRON PROPN PROPN X X X X PROPN PROPN PROPN ADJ PUNCT X X PROPN X PUNCT NOUN NOUN PROPN PUNCT NOUN PROPN X PROPN X PUNCT NOUN PROPN ADJ PROPN PUNCT PROPN X X X PUNCT ADV PRON PROPN X PROPN NOUN PUNCT DET X X X SCONJ PROPN X PROPN SCONJ PROPN PROPN PUNCT AUX X X X PUNCT ADV PRON AUX PROPN PROPN PUNCT X X X X PUNCT X X X PROPN PUNCT SPACE PROPN PROPN X X PROPN PUNCT X X X X PROPN X PUNCT X NOUN PUNCT NOUN PROPN X X VERB PROPN PROPN X PUNCT X NOUN PROPN ADP PRON PROPN PROPN NOUN PUNCT PROPN PROPN X X,0.06190476190476191,0.38898450946643626,149,630,0.18791946308724833,0.020706454105556597
+"[Det, var, så, kallat, ”, Rubella-vaccineringssamtal, ”, i, Skåne, den, 27-28, mars, 2012., Deltog, ett, 30-tal, läkare, ,, farmaceuter, ,, sjuksköterskor, ,, och, flera, många, föräldrar, ., Deltagarna, fick, möjligheten, att, lära, mer, om, vaccinets, innehåll, ,, risker, ,, vårdfoljd, ., Två, av, landets, största, vaccinerskeptiker, var, med, :, Dr., Martin, Rawls-Meeeer, och, Dr., Lawrence, Palevsky, ., 
+
+, En, av, de, som, skrev, i, ”, lokal, tidning, efter, seminaret, ”, skärpa, ”, är, dr., Rolf, Ågren, ., Dynamiska, Dr., Rolf, ,, som, känt, från, debattprogrammet, ”, Proffsmedicin, ”, ,, är, verksam, både]",PRON AUX ADV NOUN PUNCT NOUN PUNCT ADP PROPN DET ADJ NOUN NUM NOUN NUM ADP NOUN PUNCT NOUN PUNCT NOUN PUNCT X X X X PUNCT PROPN PROPN NOUN X ADJ ADJ ADP NOUN PROPN PUNCT NOUN PUNCT NOUN PUNCT NOUN ADP NOUN ADJ PROPN AUX ADP PUNCT NOUN PROPN PROPN X NOUN PROPN PROPN PUNCT SPACE DET ADP PRON PRON VERB ADP PUNCT ADJ NOUN X NOUN PUNCT PROPN PUNCT X NOUN PROPN PROPN PUNCT PROPN NOUN PROPN PUNCT PRON ADJ X NOUN PUNCT PROPN PUNCT PUNCT X X CCONJ,0.09486166007905138,0.4419693654266956,92,506,0.20652173913043478,0.03733115663903119
+"[Ja, det, var, jeg, til, at, se, ., På, en, af, mine, begivenheder, i, august, kunne, jeg, være, med, til, at, prøve, den, amercansk, rockgruppe, Big, Bad, Gina, s, sange, -, og, det, var, meget, meget, ind, sig, ., Jeg, fik, så, smittet, hver, gang, vi, skulle, igennem, Ginas, sange, igen, ., Faktisk, skulle, vi, af, og, af, fritlig, til, at, spille, og, synge, med, -, sådan, faldt, det, med, ., Det, har, var, meget, mere, i, løbet, af, deres, præstation, på, den, første, kvægsbegivenhed, "", Moshøn, festival, "", ., Big, Bad, Gina, er, en, amercan, rockgruppe, fra, San, Francisco, ,, USA, ., De, er, allerede, etablerede, musikere, og, er, blevet, stærkt, belønnet, for, deres, rockgrupper, og, forskellige, priser, har, deres, forsk]",INTJ PRON AUX PRON SCONJ SCONJ VERB PUNCT ADP DET ADV PRON NOUN ADP NOUN AUX PRON AUX SCONJ SCONJ SCONJ VERB DET ADJ NOUN PROPN PROPN PROPN PROPN NOUN PUNCT CCONJ PRON AUX ADV ADV ADV ADV PUNCT PRON VERB ADV VERB DET NOUN PRON AUX PROPN PROPN ADJ NOUN PUNCT ADJ AUX PRON ADV CCONJ X ADJ SCONJ SCONJ VERB CCONJ VERB ADP PUNCT ADV X PRON ADP PUNCT PRON AUX AUX ADV ADJ ADP ADJ ADV PRON PROPN ADP DET ADJ NOUN PUNCT PROPN NOUN PUNCT PUNCT ADJ PROPN PROPN AUX DET NOUN NOUN ADP PROPN PROPN PUNCT PROPN PUNCT PRON AUX ADV ADJ NOUN CCONJ AUX ADJ NOUN VERB ADP PRON NOUN CCONJ ADJ NOUN VERB PRON NOUN,0.06557377049180328,0.387486631016043,122,610,0.5163934426229508,0.122218755218906
+"[Ja, det, er, ikke, ,, jeg, skriver, i, hver, sin, søndag, ,, hvor, min, mamma, spiser, sax, og, ikke, meget, lidt, mere, ,, det, skal, jeg, siger, ., En, gang, i, ugen, har, jeg, den, helt, overraskende, ide, ,, at, jeg, skal, lave, et, blogpost, ., Ikke, hver, gang, lige, det, samme, :, her, kan, man, se, de, seneste, biler, fra, vinteren, og, de, næsten, som, helt, glimrende, hestar, fra, sommeren, !, Nu, har, egtene, fået, et, godt, sted, til, deres, heste, ,, hvor, de, fortsatt, blir, velholdt, ,, og, så, må, jeg, skrive, en, blog, om, hestene, !, 
+
+, For, a, long, time, I, ’, ve, been, searching, for, a, place, for, my, horses, ., It, ’, s, not, easy, to, get, a, place, ,, when, you, only, want, a, small, place, ,, or, when, you, ’, ve, just, two]",INTJ PRON AUX PART PUNCT PRON VERB ADP DET PRON NOUN PUNCT ADV PRON NOUN VERB NOUN CCONJ PART ADV ADJ ADJ PUNCT PRON AUX PRON VERB PUNCT DET NOUN ADP NOUN VERB PRON DET ADJ ADJ NOUN PUNCT SCONJ PRON AUX VERB DET NOUN PUNCT PART DET NOUN ADJ DET DET PUNCT ADV AUX PRON VERB DET ADJ NOUN ADP NOUN CCONJ PRON NOUN SCONJ ADJ ADJ NOUN ADP NOUN PUNCT ADV VERB NOUN PROPN DET ADJ NOUN ADP PRON ADJ PUNCT ADV PRON ADV VERB VERB PUNCT CCONJ ADV AUX PRON VERB DET NOUN ADP NOUN PUNCT SPACE ADP X X X ADP X X X X ADP X PROPN X X NOUN PUNCT X X X X X X X X X PUNCT X X X X X X X PUNCT X X X X X X X,0.0651085141903172,0.3702909090909083,141,599,0.5035460992907801,0.2905301057230907
+"[Så, var, det, godt, med, denne, søndag, ., 
+
+, #, #, Den, første, uge, på, Svalbard, 
+
+, Hovedparten, af, ugen, har, det, været, regn, ,, men, det, har, vært, godt, ,, da, jeg, ønskede, en, regnig, sommer, ., 
+
+, Jeg, har, lagt, en, del, arbejde, i, skoene, og, har, til, gengæld, lidt, skiftet, arbejdsmode, hver, anden, dag, ,, der, har, haft, godt, vejr, med, lavt, væksttemperatur, ., I, nogle, tilfælde, har, det, været, så, godt, ,, at, min, krop, har, ligget, i, den, kølle, ., 
+
+, Hvert, kvart, er, det, lige, tilbage, fra, starten, af, morgen, med, at, tage, 60, gram, til, Norge, ,, eller, for, en, anden, del, :, Nordens, største, ar]",ADV AUX PRON ADJ ADP DET NOUN PUNCT SPACE NOUN NOUN DET ADJ NOUN ADP PROPN SPACE NOUN ADV NOUN VERB PRON NOUN NOUN PUNCT CCONJ PRON AUX AUX ADJ PUNCT SCONJ PRON VERB DET ADJ NOUN PUNCT SPACE PRON AUX VERB DET NOUN NOUN ADP NOUN CCONJ VERB ADP PROPN ADJ ADJ NOUN DET NOUN NOUN PUNCT ADV VERB NOUN ADJ NOUN ADP ADJ NOUN PUNCT ADP PROPN NOUN VERB PRON NOUN ADV ADJ PUNCT SCONJ PRON NOUN AUX VERB ADP DET NOUN PUNCT SPACE DET NOUN AUX DET ADJ PROPN ADP NOUN ADV NOUN SCONJ SCONJ NOUN NUM NOUN ADP PROPN PUNCT CCONJ ADP DET NOUN NOUN PUNCT PROPN ADJ NOUN,0.07212475633528265,0.3862500000000011,113,513,0.5221238938053098,0.17317606216227166
+"[Det, var, som, en, mørk, trommeslag, i, dagens, daglige, skildringer, af, det, nyligste, fremmeste, americanske, valg, ., At, det, her, er, til, stede, ,, ikke, på, en, afstand, ,, ikke, en, lille, smule, længere, inde, på, skærmen, ,, er, afgørende, ., Og, den, fugtige, ,, nærmere, tilkabelonende, trommeslag, ,, ombestemmer, så, vidt, frihedsnedskrivningen, af, både, den, nærmeste, steds, historie, såvel, som, et, politisk, valg, går, ud, på, at, sætte, sig, af, på, væggene, ., Udmærket, ,, må, det, siges, ., 
+
+, Enkelte, tolkningsprøver, :, Fællestråden, her, er, nok, at, så, vidt, det, handiskapspolitiske, kan, opleves, i, det, americans]",PRON AUX ADP DET ADJ NOUN ADP NOUN ADJ NOUN DET DET ADJ ADJ ADJ NOUN PUNCT SCONJ PRON ADV AUX ADP NOUN PUNCT PART ADP DET NOUN PUNCT PART DET ADJ NOUN NOUN ADJ ADP NOUN PUNCT AUX ADJ PUNCT CCONJ DET ADJ PUNCT ADJ ADJ NOUN PUNCT VERB ADV ADJ NOUN VERB CCONJ DET ADJ NOUN NOUN ADV SCONJ DET ADJ NOUN VERB PROPN SCONJ SCONJ ADJ ADV ADV ADP NOUN PUNCT NOUN PUNCT AUX PRON NOUN PUNCT SPACE ADJ NOUN PUNCT NOUN ADV AUX ADV SCONJ ADV ADJ DET ADJ AUX VERB ADP PRON NOUN,0.06505576208178439,0.37554192229038813,98,538,0.4489795918367347,0.04812493036573235
+"[Det, er, ikkje, meir, nedsetjing, eller, meir, følelighet, som, det, egentlig, var, ., I, den, formelen, for, de, mennesker, som, døde, eller, døde, for, å, overleve, ., Men, jeg, er, fortrolig, for, å, si, at, frykten, som, de, oplevde, som, noen, av, dem, skal, ha, vært, fryktelig, ., På, tv, eller, internett, sier, folk, at, det, var, en, øyeblikkslik, frykt, og, hvis, det, hadde, vært, like, skal, et, viss, antall, mennesker, hadde, død, ., På, nederste, bilde, så, synte, de, ikke, med, meg, om, at, det, var, en, øyeblikkslik, frykt, uten, ., 
+
+, It, ’, s, not, any, less, sorrow, or, any, less, sympathy, than, it, was, ., For, the, people, who, died, or, died, to, survive, ., But, I, ’, m, actually, for]",PRON AUX X PROPN NOUN CCONJ ADJ NOUN PRON PRON ADJ VERB PUNCT ADP DET NOUN ADP DET NOUN PRON VERB CCONJ VERB SCONJ PART VERB PUNCT CCONJ PRON AUX ADJ SCONJ PART VERB SCONJ NOUN ADP DET NOUN ADP DET ADP PRON AUX AUX AUX ADJ PUNCT ADP NOUN CCONJ NOUN VERB NOUN SCONJ PRON AUX DET ADJ NOUN CCONJ SCONJ PRON AUX AUX ADV AUX DET ADJ NOUN NOUN VERB ADJ PUNCT ADP ADJ NOUN ADV VERB PRON PART ADP PRON SCONJ SCONJ PRON AUX DET ADJ NOUN ADP PUNCT SPACE PROPN X X X X X X X X X X X X X PUNCT ADP X PROPN X X X X X ADJ PUNCT X PROPN ADJ NOUN PROPN ADP,0.06206896551724138,0.36320150659133815,124,580,0.5725806451612904,0.22622174770502348
+"[Kor, mange, prosent, av, folk, i, Nordøstnorge, tar, del, i, sportsløp, for, å, motta, den, friske, luften, ., Nattene, er, lange, og, hvette, ,, og, mange, løper, med, veggen, i, ryggen, ., Det, gjør, der, også, til, et, uforgetelig, kjendskapsopplevelse, ., 
+
+, Photo, by, Mihai, Bortan, ,, 2009, 
+
+, I, was, born, and, bred, in, Finnmark, ,, the, northernmost, region, of, Norway, ., I, was, five, when, my, parents, sent, me, from, home, to, a, Sámi, camp, ,, where, my, father, ’, s, family, had, hunted, and, fished, for, generations, ., I, lived, a, traditional, life, ,, with, my, grandparents, ’, reindeer, herd, ,, and, the, only, electricity, was, the, sparkling, northern, lights, ., It, was, a, wonderful, childhood, where, I, had, so, much, freedom, that, I, almost, never, went, back, indoors, ., I, had, time, to, observe, a, lot]",ADV ADJ NOUN ADP NOUN ADP PROPN VERB NOUN ADP NOUN SCONJ PART VERB DET ADJ NOUN PUNCT NOUN AUX ADJ CCONJ NOUN PUNCT CCONJ ADJ VERB ADP NOUN ADP NOUN PUNCT PRON VERB ADV ADV ADP DET ADJ NOUN PUNCT SPACE ADJ NOUN PROPN PROPN PUNCT NUM SPACE ADP X X X X X PROPN PUNCT X X X X PROPN PUNCT ADP X X X X PROPN X X X X X X PROPN NOUN PUNCT X X X X PROPN PROPN PROPN NOUN X X ADP PROPN PUNCT ADP X X X X PUNCT X X X X NOUN PROPN PUNCT X X X X X X X PROPN X PUNCT X X X X PROPN X ADP X X X X X X X ADV ADJ ADP PROPN PUNCT ADP ADP X NUM X PROPN VERB,0.06268221574344024,0.3937833594976461,140,686,0.3,0.18269885776180322
+"[Det, er, veldig, gode, nyanser, ., 
+, Ved, å, høre, på, løype, blir, det, lett, å, få, det, litt, fasliret, ., 
+
+, Liksom, Kari, Rueslatten, ., 
+
+, I, ’, ve, been, listening, to, this, podcast, by, the, Norwegian, cross-country, skiers, Petter, Northug, ,, Marit, Bjørgen, ,, Kari, Rueslatten, ,, Ingvild, Flugstad, Østberg, and, Tiril, Eckhoff, for, quite, a, while, now, and, it, ’, s, been, a, while, since, me, and, Dag, Löfkvist, have, talked, about, how, great, it, is, ., 
+
+, The, podcast, is, available, in, english, as, well, as, norwegian, ., 
+
+, The, thing, that, I, like, about, the, podcast, is, that, it, is, raw, like, the, skiers, themselves, ., When, I, think, about, it, ,, it, is, amazing, that, they, get, things, out, they, normally, wouldn, ’, t, do, with, a, normal, microphone, and, a, journalist, ., It, ’, s, almost, as]",PRON VERB ADJ ADJ NOUN PUNCT SPACE SCONJ PART VERB ADP NOUN VERB PRON ADJ PART VERB PRON ADJ ADJ PUNCT SPACE PROPN PROPN PROPN PUNCT SPACE ADP X X X NOUN X ADJ NOUN X X PROPN PROPN X PROPN PROPN PUNCT PROPN PROPN PUNCT PROPN PROPN PUNCT PROPN PROPN PROPN X PROPN PROPN ADP X X X X X X X PROPN X X X X X X PROPN PROPN X X PROPN PROPN X X X PUNCT SPACE PROPN X X X X X X X X PROPN PUNCT SPACE X X X ADP X X X X X X X X X X X X X PUNCT PROPN X X X X PUNCT X X X X X X X X X X X X X X X X X PROPN X X NOUN PUNCT X X PROPN X PROPN,0.07280832095096583,0.40391025641025735,144,673,0.2708333333333333,0.260885313858853
+"[Det, er, ein, viktig, moment, i, nasjonalhistorien,  , når, en, stor, samling, utstiller, ., Temaene, ,, personene, og, motivert, ,, visir, pa, sama, tido, ., I, dette, tilfellet, er, det, Bremme, Bremme, for, Gud, og, garnas, glade, herderi, og, svek, det, betalte, for, ., 
+
+, Kulturlaget, har, alltid, vært, kulturektiven, som, støtter, seg, paa, hverdagerlige, brukere, :, veldistriktsvinner, ,, veldistriktssamfunnsmenn, og, kystfolket, ., De, stoyt, er, selvekonomisk, og, kulturektivt, i, et, utsatt, omraad, sine, og, selv, i, dag, ., 
+
+, Norge, har, ogsaa, sine, svo, ,, og, langt, over, veien, fra, Nesodden, og, Vossa, har, o]",PRON AUX ADJ ADJ NOUN ADP NOUN SPACE SCONJ DET ADJ NOUN NOUN PUNCT NOUN PUNCT NOUN CCONJ ADJ PUNCT NOUN X X ADJ PUNCT ADP DET NOUN AUX PRON PROPN PROPN ADP PROPN CCONJ NOUN ADJ NOUN CCONJ VERB PRON ADJ ADP PUNCT SPACE NOUN AUX ADV AUX NOUN PRON VERB PRON ADJ ADJ NOUN PUNCT NOUN PUNCT NOUN CCONJ NOUN PUNCT PRON NOUN AUX ADJ CCONJ ADJ ADP DET ADJ NOUN PRON CCONJ ADV ADP NOUN PUNCT SPACE PROPN VERB PROPN PRON NOUN PUNCT CCONJ ADJ ADP NOUN ADP PROPN CCONJ PROPN VERB NOUN,0.07034220532319392,0.35844863731656307,96,526,0.4479166666666667,0.09065086275536254
+"[Det, er, eit, gode, sted, å, legge, på, en, tårn, med, en, blid, bittje, kryster, ., På, grunn, av, at, jeg, har, eit, kafferom, er, jeg, en, tydelig, støyter, av, en, tårn, (, eller, en, kyrke, ,, et, tempel, ), ., Og, krysten, er, en, god, ting, ., Gud, er, litt, bøs, ., Jeg, har, eit, rå, enn, så, meget, ., Man, kan, bli, næstevettet, for, en, bla, ting, (, stjålet, fra, Sønja, ,, en, dattavolk, !, ), ,, men, det, kan, ei, være, til, et, godt, næstevettet, ., Det, har, bare, ei, pris, ., Men, jeg, har, eit, andet, på, ., Dette, her, er, eit, av, de, mest, eindringelig, mærkevaner, eg, hevet, på, i, Rom, .]",PRON AUX DET ADJ NOUN PART VERB ADP DET NOUN ADP DET ADJ NOUN NOUN PUNCT ADP NOUN ADP SCONJ PRON VERB DET NOUN AUX PRON DET ADJ NOUN ADP DET NOUN PUNCT CCONJ DET NOUN PUNCT DET NOUN PUNCT PUNCT CCONJ NOUN AUX DET ADJ NOUN PUNCT PROPN AUX ADJ ADJ PUNCT PRON VERB DET ADJ ADP ADV ADV PUNCT PRON AUX VERB NOUN ADP DET ADJ NOUN PUNCT VERB ADP PROPN PUNCT DET NOUN PUNCT PUNCT PUNCT CCONJ PRON AUX DET AUX SCONJ DET ADJ NOUN PUNCT PRON VERB ADV DET NOUN PUNCT CCONJ PRON VERB DET NOUN ADP PUNCT PRON ADV AUX DET ADP DET ADJ ADJ NOUN PROPN VERB ADP ADP PROPN PUNCT,0.07867494824016563,0.3889861751152093,117,483,0.6324786324786325,0.2422035515912706
+"[Det, er, viktig, å, ha, eierbestyring, i, hjemmet, og, i, leiligheter, –, også, for, hjelpere, og, pleier, ., Det, er, deretter, viktig, at, ha, inn, i, behovene, med, å, ta, til, norsk, brukssøkmot, ., 
+
+, -, Mange, har, alvaskeri, hjemme, ,, men, det, kan, enda, ikke, vara, helt, nødvendig, å, både, avklare, og, avtre, til, innholdsfortelling, ., 
+, -, Derfor, har, vi, tolket, omtalen, som, eieskjervet, ., Det, vil, si, at, nå, er, deres, svar, ., 
+
+, #, #, Søk, i, navnet, 
+
+, 1., Open, your, web, browser, 
+, 4., Type, the, company, name, 
+, 5., Click, the, company, name, in, the, search, results, that, look, relevant, 
+, 6., If, you, have, not, seen, all, relevant, companies, on, the, first, page, you, can, go, to, the, next, page, with, the, ar]",PRON AUX ADJ PART VERB NOUN ADP NOUN CCONJ ADP NOUN PUNCT ADV ADP NOUN CCONJ VERB PUNCT PRON AUX ADV ADJ SCONJ VERB ADP ADP NOUN SCONJ PART VERB ADP ADJ NOUN PUNCT SPACE PUNCT ADJ VERB NOUN ADP PUNCT CCONJ PRON AUX ADV PART NOUN ADJ ADJ PART CCONJ VERB CCONJ NOUN ADP NOUN PUNCT SPACE PUNCT ADV AUX PRON VERB NOUN SCONJ NOUN PUNCT PRON AUX VERB SCONJ ADV AUX PRON NOUN PUNCT SPACE NOUN NOUN PROPN ADP NOUN SPACE ADJ PROPN X X NOUN SPACE ADJ NOUN X X X SPACE NUM PROPN X X X X X X X X X ADJ SPACE NUM X X X X X DET ADJ X X X X X X X X X X X PROPN X X X,0.07248764415156507,0.3881720430107528,131,607,0.4351145038167939,0.21159351025906198
+"[Men, det, er, svært, vanskelig, for, en, mand, at, sakte, ,, eller, være, særdeles, skrøbelig, i, bed, eller, kærlighed, ,, især, når, det, drejer, sig, om, en, kvinde, ., Vi, er, simpelthen, ikke, lavet, til, at, være, vanskelig, eller, letledsaget, !, Vi, er, mere, fysiske, bygget, og, vant, til, at, udtrykke, det, ,, uden, så, at, overtænke, ., Den, slags, træning, som, har, fundet, sted, ,, i, f.eks., USA, ,, kan, virkelig, hjælpe, ., Det, bliver, gjort, for, at, udvikle, nogle, mere, “, nervøse, ”, ,, kenitke, eller, “, særdeles, sensetive, ”, håndteringsfærdigheder, ., Disse, metoder, er, derfor, forholdsvis, nye, i, Europa, ., Vi, hører]",CCONJ PRON AUX ADJ ADJ ADP DET NOUN SCONJ ADJ PUNCT CCONJ AUX ADV ADJ ADP NOUN CCONJ NOUN PUNCT ADV SCONJ PRON VERB ADV ADP DET NOUN PUNCT PRON AUX ADV PART VERB SCONJ SCONJ AUX ADJ CCONJ NOUN PUNCT PRON AUX ADJ ADJ NOUN CCONJ VERB SCONJ SCONJ ADJ PRON PUNCT NOUN SCONJ SCONJ NOUN PUNCT DET PRON NOUN PRON AUX VERB NOUN PUNCT ADP ADV PROPN PUNCT AUX ADJ NOUN PUNCT PRON AUX VERB SCONJ SCONJ VERB PROPN ADJ PUNCT ADJ PUNCT PUNCT PROPN CCONJ PUNCT ADV ADJ PUNCT NOUN PUNCT DET NOUN AUX ADV ADV ADJ ADP PROPN PUNCT PRON VERB,0.0696798493408663,0.3882987551867223,105,531,0.49523809523809526,0.13320765912957588
+"[Han, fortel, at, the, Paleo, camp, ., I, think, she, was, quite, the, hit, ., 
+
+, #, #, #, Day, Eighteen, 
+
+, We, got, our, bearings, and, headed, on, a, 3, hour, hike, to, our, next, destination, ,, Nabek, ,, and, our, next, guide, ., The, 3.5, mile, hike, had, our, calves, burning, by, the, end, ., It, started, to, get, a, little, chilly, by, the, time, we, got, there, as, we, stopped, sweating, so, much, ,, but, I, was, still, having, trouble, sleeping, because, my, blood, sugar, crashed, again, ., It, was, quite, nice, meeting, our, guide, and, his, family, ;, our, guide, told, us, that, because, the, women, don, ’, t, travel, very, far, it, might, be, hard, for, them, to, sell, food, or, drinks, so, brought, extra, to, give, to, the, families, ., This, really, shows, the, cultural, differences, ., I, wish, I, had, thought, to, bring, extra, snacks, to, share, ,, but, I, didn, ’, t, have, space, in, my, bag, for, that, ., I, ended, up, asking, for, some, water, for, myself, though, ,, and, my, guide, was, kind, enough, to, bring]",PRON VERB SCONJ PROPN PROPN NOUN PUNCT ADP X X X X X X PUNCT SPACE NOUN NOUN PROPN PROPN PROPN SPACE X X X X X X X X X X NOUN X X X X PUNCT PROPN PUNCT X X ADJ NOUN PUNCT PROPN NUM NOUN X X X PROPN NOUN X X X PUNCT X X X X X X PROPN X X X X X X X X X X X X PUNCT X X X X X X X X X X X X X PUNCT X X X X X X X X X PROPN PUNCT X X X X X X X X X X X X X X PROPN PROPN VERB ADJ ADP X X X X X X X X X X X X X X PUNCT ADJ X X X X X PUNCT ADP NOUN ADP X X X X ADJ PROPN NUM NOUN PUNCT X ADP X ADJ X X X X X X X NOUN PUNCT ADP NOUN X NOUN ADP X PROPN ADP NOUN X PUNCT X X X X X X NUM NOUN,0.04892601431980907,0.397160963244613,187,838,0.1925133689839572,0.21341936111502877
+"[Eg, har, ikkje, så, vidt, funna, utlegging, av, dette, men, menn, så, funner, meg, sjøvane, ,, for, eksempel, https://www.alexandertech.co.uk, ., Vi, kan, for, eksempel, også, få, opp, 1, tilleggsfelt, fra, en, postgis-database, som, er, lagring, for, en, graf, ., 
+
+, `, `, `, 
+, INSERT, INTO,  , g.vk_vertex_table, (, 
+    , "", Id, "", ,, type:=st_geometry, (, ST_geographyfromtext('Point(8.5, 64, ), ', ), ), as, new_type_col, ,, 
+    , location, ,, 
+    , "", status_id, "", ,, g.vk_property_table.""key, "", ,, g.vk_property_table.""value, "", 
+, ), 
+, SELECT, g.vk_vertex_table.""Id, "", ,, 
+    , g.vk_vertex_table.type, ,, 
+    , g.vk_vertex]",PROPN VERB NOUN ADV ADJ DET NOUN ADP PRON CCONJ NOUN VERB NOUN PRON PROPN PUNCT ADP NOUN PROPN PUNCT PRON AUX ADP NOUN ADV VERB ADP NUM NOUN ADP DET NOUN PRON AUX NOUN ADP DET NOUN PUNCT SPACE ADV ADV ADV SPACE PROPN PROPN SPACE NOUN PUNCT SPACE PUNCT PROPN PUNCT PUNCT PROPN PUNCT NOUN NUM PUNCT PUNCT PUNCT PUNCT PROPN NOUN PUNCT SPACE X PUNCT SPACE PUNCT PROPN PUNCT PUNCT PROPN PUNCT PUNCT NOUN PUNCT SPACE PUNCT SPACE PROPN PROPN PUNCT PUNCT SPACE NOUN PUNCT SPACE NOUN,0.11067193675889328,0.4560612691466087,90,506,0.2777777777777778,0.046101904283478656
+"[Det, er, mykje, gleden, i, å, lytte, til, musikkken, ,, men, når, musiken, er, svært, passende, for, vindetest, og, sjølge, ., 
+
+, Ved, å, gå, på, sine, lille, og, store, flak, på, kløves, ,, skal, de, kaste, de, unge, fiskene, i, vannet, og, vissel, av, ., Det, er, ikke, bare, de, runde, blanke, flak, som, kaster, ut, unge, ,, men, både, flak, og, størr, fisk, ., 
+
+, I, Troms, og, Finmark, rænder, de, små, fiskene, ned, til, 15, cm, ,, men, de, store, fisk, er, veldig, mye, større, når, de, er, klatrengst, ., 
+
+, Denne, er, en, del, av, kulturytelen, som, er, forvoksen, omkring, kveining, og, kveining, ., 
+
+, Vi, krevde, den, norske, lov, om]",PRON AUX ADJ NOUN SCONJ PART VERB ADP NOUN PUNCT CCONJ SCONJ NOUN AUX ADJ ADJ ADP NOUN CCONJ ADJ PUNCT SPACE SCONJ PART VERB ADP PRON ADJ CCONJ ADJ NOUN SCONJ PROPN PUNCT AUX PRON VERB DET ADJ NOUN ADP NOUN CCONJ NOUN ADP PUNCT PRON AUX PART ADV DET ADJ ADJ NOUN PRON VERB ADP ADJ PUNCT CCONJ CCONJ NOUN CCONJ ADJ NOUN PUNCT SPACE ADP PROPN CCONJ PROPN VERB DET ADJ NOUN ADP ADP NUM NOUN PUNCT CCONJ DET ADJ NOUN AUX ADJ ADJ ADJ SCONJ PRON AUX NOUN PUNCT SPACE PRON AUX DET NOUN ADP NOUN PRON AUX NOUN ADP NOUN CCONJ NOUN PUNCT SPACE PRON VERB DET ADJ NOUN ADP,0.0674373795761079,0.37621276595744785,115,519,0.5652173913043478,0.1633034669569762
+"[Vi, har, ikkje, kunn, tilgang, til, dette, innholdet, ., 
+
+, #, How, to, find, cheap, tickets, to, Istanbul, 
+
+, It, doesn't, matter, whether, you, are, planning, for, a, leisure, trip, ,, business, tour, ,, or, a, study, program, ,, cheap, air, tickets, to, Istanbul, can, surely, save, you, from, a, lot, of, financial, burden, ., If, you, are, able, to, find, amazing, deals, and, discounts, over, your, travelling, ,, you, can, cut, down, the, traveling, expenses, considerably, and, do, more, with, your, money, for, your, family, ., 
+
+, Istanbul, is, the, commercial, and, cultural, hub, of, the, Republic, of, Turkey, ., It, has, been, among, the, popular, travel, destinations, of, the, world, ,, particularly, the, ancient, historic, monuments, located, in, the, Old, City, ., These, monuments, have, been, recognized, as, the, World, Heritage, Sites, by, the, United, Nations, Educational, ,, Scientific, ,, and, Cultural, Organisation, (, UNESCO, ), ., 
+
+, The, city, has, been, visited, by, millions, of, tourists, every, year, ., If, you, are, planning, for, such, a, trip, ,, why, not, book, the, cheap]",PRON VERB X X NOUN ADP DET NOUN PUNCT SPACE NOUN PROPN X X PROPN PROPN NUM PROPN SPACE X X X X X X NOUN ADP PROPN PROPN NOUN PUNCT X PROPN PUNCT X X X NOUN PUNCT X X NOUN NUM PROPN X X X X X X X X X NOUN PUNCT X X X X X ADJ X X X X ADP X X PUNCT X X X X X X VERB X X X X X X NOUN ADP X PROPN PUNCT SPACE PROPN X X X X X X X X PROPN X PROPN PUNCT X X X X X X X X X X X PUNCT X X X PROPN PROPN X X X PROPN PROPN PUNCT PROPN PROPN X X X X X PROPN PROPN PROPN NOUN PROPN PROPN PROPN PROPN PUNCT PROPN PUNCT X PROPN PROPN PUNCT PROPN PUNCT PUNCT SPACE PROPN PROPN X X X X PROPN X X X X PUNCT X X X NOUN ADP X X X PUNCT X X X X X,0.04912663755458515,0.40611303344867317,176,916,0.17045454545454544,0.17572858071275774
+"[Ei, stund, etter, utgivelsen, av, ', Roger, Waters, :, The, Early, Years, -, Remastered, ', den, 8., april, ,, har, vårt, team, hatt, flere, fråga, til, Waters, ,, og, fikk, innhold, i, skrivelse, ., 
+
+, Fråger, :, The, album, seems, like, the, perfect, continuation, after, the, ‘, The, Wall, ’, ,, in, both, style, ,, theme, and, tone, ,, but, at, a, certain, point, we, thought, it, sounded, far, too, heavy, handed, compared, to, the, more, experimental, feel, of, ‘, The, Wall, ’, ,, where, the, band, used, so, many, different, styles, and, experiments, ., So, how, do, you, explain, the, similarities, and, differences, ?, 
+, Waters, :, ’, 79, was, a, difficult, year, ,, there, had, been, the, Iranian, hostage, crisis, with, President, Carter, doing, nothing, ,, there, had, been, the, assassination, attempt, on, Pope, John, Paul, II, while, he, was, visiting, ., And, more, of, the, same, shit, from, Reagan, /, Thatcher, ., The, World, was, fucked, ., All, these, things, were, just, too, heavy, too, handle, and, my]",DET NOUN ADP NOUN ADP PUNCT PROPN PROPN PUNCT PROPN PROPN PROPN PUNCT PROPN PUNCT DET ADJ NOUN PUNCT AUX PRON NOUN VERB ADJ PROPN ADP PROPN PUNCT CCONJ VERB NOUN ADP NOUN PUNCT SPACE NOUN PUNCT PROPN NOUN ADJ ADJ X X X X X X PROPN PROPN X PUNCT X X PROPN PUNCT X X X PUNCT X X X X X X X X ADJ NOUN X X X X X X X X X X X PROPN PROPN X PUNCT X X NOUN ADJ X X X X X X PUNCT X PROPN X X X X X X X PUNCT SPACE PROPN PUNCT X NUM X X X X PUNCT X X X X PROPN PROPN PROPN X PROPN PROPN X PROPN PUNCT X X X X X X ADJ PROPN PROPN PROPN NUM X X X X PUNCT X X X X X X X PROPN PUNCT PROPN PUNCT PROPN PROPN X X PUNCT X X X X X X X X X X X,0.06144578313253012,0.3992829705505755,171,830,0.19883040935672514,0.0856763304620779
+"[Hans, og, Knut, (, 2001, ), 
+
+, Award-winning, ,, critically, acclaimed, Norwegian, film, about, brotherhood, ,, betrayal, ,, loyalty, ,, love, ,, and, war, ., 
+
+, >, A, tale, set, in, Northern, Norway's, vast, ,, stark, ,, and, often, unforgiving, countryside, ., 
+, >, 
+, >, When, the, Nazis, occupy, Norway, in, 1940, ,, 20-year-old, Knut, is, anxious, to, join, the, resistance, movement, against, the, Nazis, ., The, only, obstacle, is, that, Hans, ,, Knut's, older, brother, ,, is, the, head, of, a, small, band, of, Nazi, collaborators, at, their, isolated, farm, ., Knut, is, caught, in, an, impossible, situation, ,, torn, between, obedience, to, his, country, ,, his, conscience, and, love, of, his, brother, ., 
+
+, Directed, by, Erik, Skjoldbjaerg, ., The, first, Norwegian, film, in, a, decade, to, be, selected, to, compete, for, the, prestigious, Grand, Prix, of, Golden, Bear, Award, at, Berlin, International, Film, Festival, ., 
+
+, Awards]",PROPN CCONJ PROPN PUNCT NUM PUNCT SPACE NOUN PUNCT PROPN X PROPN NOUN X X PUNCT VERB PUNCT NOUN PUNCT VERB PUNCT X X PUNCT SPACE PUNCT PROPN X X X PROPN X X PUNCT NOUN PUNCT X NOUN NOUN NOUN PUNCT SPACE PUNCT SPACE PUNCT PROPN X PROPN X PROPN ADP NUM PUNCT NUM PROPN X X NUM PROPN X PROPN X X X PROPN PUNCT PROPN X X X X X PUNCT PROPN VERB X PUNCT X X X X X X X X PROPN PROPN SCONJ X X X PUNCT PROPN X X X X X X PUNCT X PROPN PROPN X X PROPN PUNCT X PROPN X X X X X PUNCT SPACE X NOUN PROPN PROPN PUNCT PROPN X PROPN NOUN X X PROPN NUM VERB NOUN X X ADP X X PROPN PROPN X PROPN PROPN PROPN SCONJ PROPN PROPN PROPN PROPN PUNCT SPACE PROPN,0.06865284974093264,0.4095435684647301,151,772,0.16556291390728478,0.12109491857253218
+"[Eg, veit, ikkje, kjea, ,, eg, får, vel, vite, .,  , "", I, do, not, know, where, [, heaven, ], is, ,, but, I, will, find, out, ., "",  , An, old, Norwegian, ditty, ., 
+
+, The, journey, was, uneventful, ,, the, flight, 95, percent, full, .,  , The, seat, assigned, to, me, was, a, middle, seat, between, two, big, guys, ,, and, so, ,, when, a, seat, opened, up, ,, I, traded, the, middle, seat, for, the, window, seat, .,  , I, found, myself, next, to, a, thin, guy, who, worked, for, 3M.,  , He, was, headed, for, Hong, Kong, where, he, was, hoping, to, get, a, tour, of, a, state, of, the, art, 3, M, factory, ,, and, from, there, off, to, China, ., 
+
+, "", I, like, China, ,, "", he, said, ,, "", makes, New, York, look, like, the, backwaters, ., "", 
+
+, So, we, talked, China, for, a, while, ,, and, he, confirmed, all, my, darkest, nightmares, about, the, place, ,, but, by, no, means, any, of, my, fears, .,  , Then, we, switched, subjects, to, how]",X X X PROPN PUNCT PRON AUX ADV VERB PUNCT SPACE PUNCT PROPN X X X ADJ PUNCT NOUN PUNCT NOUN PUNCT X X X X X PUNCT PUNCT SPACE X ADJ PROPN NOUN PUNCT SPACE PROPN PROPN X X PUNCT X X NUM NOUN ADJ PUNCT SPACE PROPN X X X X X X X PROPN X X ADJ X PUNCT X X PUNCT X X X X X PUNCT ADP NOUN X PROPN PROPN X X PROPN X PUNCT SPACE ADP X PROPN PROPN X X X PROPN X X ADP NUM SPACE X X X ADP PROPN PROPN X X X X X X X X X X X X X NOUN NUM PROPN PROPN PUNCT X X X X X PROPN PUNCT SPACE PUNCT PROPN ADV PROPN PUNCT PUNCT X X PUNCT PUNCT X PROPN PROPN X ADV X NOUN PUNCT PUNCT SPACE X X X PROPN ADP X X PUNCT X X X X X X X X X X PUNCT X X X X X X X X PUNCT SPACE PROPN X X X X PROPN,0.06336088154269973,0.4043722304283603,182,726,0.23626373626373626,0.17001201313633196
+"[No, er, det, ikke, skrivet, på, norsk, her, ., Hvis, det, spennede, deg, eller, du, kunne, ha, spennende, ting, å, si, ,, skriv, det, uten, på, norsk, ,, så, kan, jeg, bare, bare, oversette, den, tilpasse, på, nettdelen, sine, ., 
+
+, If, you, ’, ve, never, used, Google, Buzz, ,, you, should, try, it, ., It, ’, s, like, Facebook, in, that, you, add, friends, ., You, don, ’, t, have, to, ,, and, if, you, don, ’, t, want, to, ,, just, go, with, your, default, of, what, Google, guesses, you, wants, ., But, you, can, do, both, :, Choose, friends, or, just, accept, what, Google, serves, up, for, you, ., 
+
+, Earlier, this, week, ,, Google, updated, Buzz, ,, and, it, really, is, good, again, ., One, of, the, changes, is, that, you, can, add, pictures, and, links, to, comments, ., This, makes, Buzz, less, about, just, “, What, did, you, have, for, breakfast, ?, ”, and, more, like, “, Here, are, some, of, the, links, I, ’, ve, stumbled, on, today, ”, .]",X AUX PRON PART NOUN ADP NOUN ADV PUNCT SCONJ DET ADJ PRON CCONJ PRON AUX VERB ADJ NOUN PART VERB PUNCT VERB PRON ADP ADP NOUN PUNCT ADV AUX PRON ADV ADV VERB PRON VERB ADP NOUN PRON PUNCT SPACE X X X X ADV ADJ PROPN PROPN PUNCT X X X X PUNCT X X PROPN ADJ PROPN X X X X X PUNCT X X X X X NUM PUNCT X X X X X X X NUM PUNCT X X X X X X X PROPN X X X PUNCT X X X X X PUNCT PROPN PROPN X X X X PROPN VERB X ADP X PUNCT SPACE NOUN ADJ X PUNCT PROPN X PROPN PUNCT X X X X X X PUNCT X X X X X X X X X X X PROPN X PROPN PUNCT ADJ NOUN PROPN X X X PUNCT X X X X X X PUNCT PUNCT X ADJ ADV PUNCT PROPN X X X X PROPN ADP X X X X X PUNCT PUNCT,0.06174496644295302,0.40528735632183827,176,745,0.2556818181818182,0.2872275515849306
+"[Det, var, ei, gård, på, gård, med, Kjell, ,, 1, augusti, till, 14, augusti, 2019., För, att, se, bilder, klickar, du, här, 
+
+, “, Both, the, farm, and, the, family, of, Sven, were, the, starting, point, for, my, grandfather, Axel, Olsson, ., From, their, Sven, and, Axel, developed, a, great, brotherhood, ., That, was, their, main, base, ., ”, 
+
+, This, quote, about, my, grandfather, from, a, nephew, who, also, worked, on, the, farm, during, World, War, II, ., 
+
+, The, story, of, Axel, Olsson, is, about, the, life, and, times, of, the, generation, that, was, born, at, the, turn, of, the, century, ., They, experienced, World, War, I, and, the, Spanish, flu, during, the, teens, ,, the, 20s, ,, the, 30s, with, the, Depression, ,, the, war, in, Finland, in, 1939, and, the, war, in, 1940., And, World, War, II, ., 
+
+, A, very, close, bond, between, Axel, Olsson, and, his]",PRON AUX DET NOUN ADP NOUN ADP PROPN PUNCT NUM NOUN X NUM NOUN NUM X X VERB NOUN PROPN PRON X SPACE PUNCT PROPN X X X X PROPN X PROPN X X X PROPN ADP X X PROPN PROPN PUNCT ADJ X PROPN X PROPN X X X NOUN PUNCT X X X X NOUN PUNCT PUNCT SPACE ADJ X X X X X PROPN PROPN X X X X X X X PROPN PROPN NUM PUNCT SPACE X X X PROPN PROPN X X X X X X X X X X X PROPN X X X X X X PUNCT X X PROPN PROPN X X X X X X X NOUN PUNCT X X PUNCT X X X X PROPN PUNCT X X X PROPN X X X X X X X X PROPN PROPN NUM PUNCT SPACE X X PROPN X PROPN PROPN PROPN X X,0.07092198581560284,0.4098170731707317,152,705,0.20394736842105263,0.04603260110214635
+"[No, var, detección, de, la, sesión, !, 
+
+, #, #, #, #, #, Who, we, are, and, what, we, do, 
+
+, TEDxUniversidadBlascoIbañez, is, the, first, official, TEDx, in, Valencia, (, Spain, ), ., 
+
+, TEDx, is, a, global, community, that, brings, people, together, face-to-face, and, on-line, through, independently, organized, events, ., At, each, event, ,, live, videos, of, a, series, of, TED, talks, are, presented, -talks, that, may, vary, from, 4, to, 18, minutes, ,, in, which, the, speaker, presents, his, /, her, experience, ,, ideas, and, projects, ,, aiming, to, encourage, people, to, discuss, and, think, critically, about, the, presented, topic, ., Also, ,, every, year, new, original, videos, are, released, as, a, result, of, the, TEDx, events, organized, around, the, world, ,, in, order, to, generate, new, and, original, content, about, the, most, current, and, relevant, issues, in, the, world, ., 
+
+, #, #, OUR, MISSION, 
+
+, To, explore, different, topics, relevant, to, our, society, ,, focusing, not, only, on, technological, issues, but]",PROPN AUX ADJ PRON VERB NOUN PUNCT SPACE NOUN NOUN NOUN NOUN PROPN X X X X X X X SPACE PROPN PROPN X X X X X PROPN PUNCT PROPN PUNCT PUNCT SPACE X X X X X X X X X X X X X X X PROPN PUNCT SCONJ NOUN NOUN PUNCT X PROPN X X X X PROPN X X X X X X X X NUM NUM NUM VERB PUNCT X X X X X X PUNCT X PROPN PUNCT PROPN X X PUNCT NOUN X PROPN PROPN X X X X X X X X X PUNCT PROPN PUNCT X X PROPN PROPN PROPN PROPN PROPN X X X X X X X X X X X PUNCT X NOUN NUM NOUN PROPN X X X X X X X X ADJ X X X X PUNCT SPACE NOUN PROPN PROPN PROPN SPACE NUM X X X X X X NOUN PUNCT X X X X X X X,0.06323185011709602,0.4012670807453417,165,854,0.14545454545454545,0.19637303665602712
+"[Så, var, det, slut, i, F3, ,, for, nå, kommer, det, neste, året, til, ,, og, nå, fikk, jeg, F2, ,, en, ny, sjukslebok, som, får, meg, til, å, tro, at, F3, har, ikke, varit, slik, sjuk, ,, fikk, jeg, faktisk, blikk, for, på, hvor, syke, jeg, fikk, være, på, F3, 
+
+, Den, nye, sjuksleboka, ble, inkludert, med, F2-utstillingen, ,, men, i, alle, fall, har, jeg, den, nye, sjuksleboka, ,, vil, jeg, da, bare, ha, egen, oversikt, over, min, situation, nå, .., 
+
+, #, #, What, is, myeloproliferative, neoplasm, ?, 
+
+, Myeloproliferative, neoplasm, ,, or, a, myeloproliferative, neoplasm, ,, is, a, type, of, cancer, affecting, blood, precursor, cells, in, the, bone, marrow, ., 
+
+, The, term, myel]",ADV AUX PRON NOUN ADP PROPN PUNCT CCONJ ADV VERB DET DET NOUN ADP PUNCT CCONJ ADV VERB PRON PROPN PUNCT DET ADJ NOUN PRON VERB PRON SCONJ PART VERB SCONJ PROPN AUX PART PROPN ADV ADJ PUNCT VERB PRON ADJ NOUN ADP SCONJ ADV ADJ PRON AUX AUX ADP PROPN SPACE DET ADJ NOUN AUX VERB ADP NOUN PUNCT CCONJ ADP DET NOUN VERB PRON DET ADJ NOUN PUNCT AUX PRON ADV ADV VERB DET NOUN ADP PRON NOUN ADV PUNCT SPACE NOUN NOUN PROPN X ADJ PROPN PUNCT SPACE PROPN PROPN PUNCT X X PROPN PROPN PUNCT X X X X X X PROPN X PROPN X X X NOUN PUNCT SPACE PROPN NOUN X,0.07207207207207207,0.39948616600790576,117,555,0.5470085470085471,0.19507151603527967
+"[Men, best, sommeliers, compete, in, the, international, final, on, Tuesday, 22nd, June, ., 40, finalists, have, qualified, for, the, final, ,, which, will, take, place, in, Vienna, ., The, competition, has, the, backing, of, the, Austrian, Wine, Marketing, Board, ., 
+
+, In, the, past, ,, the, “, Best, Sommelier, in, the, World, Award, ”, was, considered, one, of, the, toughest, competitions, due, to, the, fact, that, 8, or, 9, sommeliers, failed, in, the, first, stage, ., In, the, second, stage, ,, the, 2016, Champion, ’, s, Prize, was, awarded, to, German, sommelier, Thomas, Botchar, ., 
+
+, The, first, stage, took, place, in, New, York, on, 13/14, February, 2022., 233, sommeliers, from, a, total, of, 47, countries, took, part, ., Among, the, 40, finalists, ,, Spain, leads, with, 4, ,, followed, by, France, with, 3, and, Sweden, ,, UK, ,, Greece, ,, Italy, and, Japan, with, 2, representatives, ., 
+
+, Tuesday]",CCONJ ADJ PROPN X X X PROPN X X PROPN X PROPN PUNCT NUM PROPN X X X X X PUNCT X X X X X PROPN PUNCT PROPN X X X X X X PROPN PROPN PROPN PROPN PUNCT SPACE PROPN X X PUNCT X PUNCT PROPN PROPN X X PROPN X PUNCT X X X X X X X X X X X X X NOUN NUM NOUN X X X X X PUNCT X X X X PUNCT X PROPN PROPN X PROPN X X NOUN NUM PROPN NOUN PROPN PROPN PUNCT SPACE PROPN X X X X X PROPN PROPN ADP DET PROPN NUM NUM NOUN X X X X NUM PROPN X X PUNCT VERB X NUM NOUN PUNCT PROPN PROPN PROPN NUM PUNCT X X PROPN PROPN X X PROPN PUNCT PROPN PUNCT PROPN PUNCT PROPN X PROPN PROPN NUM NOUN PUNCT SPACE PROPN,0.07764390896921017,0.41999999999999954,150,747,0.14666666666666667,0.16477350906597352
+"[Dagen, etter, varsgjerdet, fjernsynsavisen, om, frelsjentroene, for, mye, kritikk, av, Kyrkjegården, ., Går, nå, til, hos, kristenmedia, sine, bærene, på, kirketro, og, kjellemessere, ?, 
+
+, Av, :, Lina, Sandin, 
+
+, A, recent, article, in, Dagbladet, revealed, a, number, of, Christian, groups, who, claimed, to, be, able, to, heal, the, sick, and, expelin, demons, ., 
+
+, The, TV, feature, called, “, Healing, Churches, in, Norway, ”, (, Heilig, Kirker, I, Norge, ), was, made, by, a, Christian, media, company, ,, who, had, the, churches, and, evangelists, in, the, programme, sign, a, release, ., One, of, them, ,, “, Tro, i, Trøndelag, ”, has, now, asked, that, the, TV, company, return, the, tapes, and, delete, any, recordings, ., 
+
+, The, organisation, claims, that, the, television, producers, “, have, edited, and, manipulated, the, interviews, out, of, context, in]",NOUN ADP NOUN NOUN ADP NOUN ADV ADJ NOUN ADP PROPN PUNCT VERB ADV ADP ADP PROPN PRON NOUN ADP NOUN CCONJ NOUN PUNCT SPACE ADP PUNCT PROPN PROPN SPACE X X X X X X X X X PROPN X X X X X X X X X X X PROPN X PUNCT SPACE PROPN PROPN PROPN X PUNCT PROPN PROPN X PROPN PUNCT PUNCT PROPN VERB ADP PROPN PUNCT X X X PROPN PROPN NOUN PROPN PUNCT X X X X X X X X X X X X PUNCT X X X PUNCT PUNCT NOUN ADP PROPN PUNCT X X X X X X X X X X X X X NOUN PUNCT SPACE PROPN X X X X X X PUNCT X X X X X X X X X X,0.06963788300835655,0.4093572496263092,135,718,0.2222222222222222,0.1291366541535425
+"[Det, var, godt, selskap, med, Mia, Vind, (, gitar, ), ,, Jorun, Aarnes, (, kor, ,, slagverk, ), og, Jan, Erik, Vold, (, bass, ), ., En, del, av, musikkpremierer, fikk, de, en, hårende, fart, og, glemning, gjennomføres, ikke, som, planlagt, ., Det, var, i, alle, fall, underholdende, og, gode, steder, fikk, de, en, ruteføring, å, holde, seg, på, ., 
+
+, Stort, takk, også, vennene, der, delte, på, plakater, !, 
+
+, Kongsvinger, ,, Oslo, 
+
+, Stort, Galleri, Kongsvinger, 
+, 18/04—29/05, 2019, 
+
+, I, dag, er, våre, artikler, fra, Vårt, Land, blitt, ferdiglokket, i, høyskrev, ., 
+
+, Jonny, Hjorth, er, en, af, o]",PRON AUX ADJ NOUN ADP PROPN PROPN PUNCT NOUN PUNCT PUNCT PROPN PROPN PUNCT ADV PUNCT NOUN PUNCT CCONJ PROPN PROPN PROPN PUNCT NOUN PUNCT PUNCT DET NOUN ADP NOUN VERB PRON DET ADJ NOUN CCONJ NOUN VERB PART SCONJ VERB PUNCT PRON AUX ADP DET NOUN ADJ CCONJ ADJ NOUN VERB PRON DET NOUN PART VERB PRON ADP PUNCT SPACE ADJ NOUN ADV NOUN ADV VERB ADP NOUN PUNCT SPACE PROPN PUNCT PROPN SPACE ADJ PROPN PROPN SPACE NUM NUM SPACE ADP NOUN AUX PRON NOUN ADP PRON PROPN AUX VERB ADP NOUN PUNCT SPACE PROPN PROPN AUX DET ADJ NOUN,0.1078838174273859,0.42189376443418036,102,482,0.4215686274509804,0.14898531279728391
+"[Det, har, vore, en, lykkedag, ?, Det, hvorde, hvor, vore, ., 
+
+, Det, had, been, a, lucky, day, ?, What, the, what, happened, ?, 
+
+, Yesterday, ,, I, had, an, encounter, with, what, can, only, be, described, as, ‘, The, World, ’, s, Slowest, Motion, Vomit, ’, ., 
+
+, I, was, walking, across, a, street, ,, talking, on, my, phone, whilst, attempting, to, look, both, ways, to, check, all, was, clear, ., It, was, ., Or, so, I, thought, ., 
+
+, At, that, precise, moment, ,, I, could, hear, people, shouting, ., They, probably, did, so, for, 6.45, seconds, ,, I, ’, ll, never, know, …, it, might, have, been, much, less, .,  , Then, I, was, hit, by, the, most, incredible, force, ., It, was, like, running, into, an, invisible, wall, of, air, ,, and, I, was, hit, at, such, a, velocity, that, I, flew, backwards, and, landed, in, some, bushes, ., 
+
+, But, then, I, saw, it, ,, and, it, saw, me, ., 
+
+, The, driver, ., A, beautiful, young, woman, ., Mid-20s, ,]",PRON AUX VERB DET NOUN PUNCT PRON VERB ADV X PUNCT SPACE PRON X X X X X PUNCT X X X NOUN PUNCT SPACE PROPN PUNCT ADP ADP ADV PROPN X X X X X PROPN PROPN X PROPN PROPN X PROPN PROPN PROPN PROPN X PUNCT SPACE ADP PROPN PROPN X X X PUNCT NOUN X X X X NOUN X X X X X X X X X PUNCT X X PUNCT X X X X PUNCT SPACE SCONJ X NOUN NOUN PUNCT ADP X X PROPN PROPN PUNCT X X X X ADP PROPN NOUN PUNCT ADP X PROPN ADV VERB PUNCT PROPN X X X X X PUNCT SPACE PROPN ADP X X X X X ADJ NOUN PUNCT X X X NOUN X X X X X X PUNCT X X X ADV SCONJ X X X X X X X X X X X NOUN PUNCT SPACE X X ADP X X PUNCT X X X X PUNCT SPACE PROPN VERB PUNCT PROPN X PROPN PROPN PUNCT NOUN PUNCT,0.06351351351351352,0.41855282199710464,176,740,0.23295454545454544,0.23671656371835742
+"[Det, er, eit, flott, program, for, å, kjøre, videreoppgave, om, veie, til, og, innen, Nabo-Kvadratet, (, NK, ), i, Førde, i, Norge, ., Tilknyttet, Førde, Sentrum-, og, Handelsutviklingssenter, AS, ., 
+
+, Veier, til, og, innen, NK, er, en, 0600, til, 1800, etteråpent, parkeringsløs, vei, ., 
+
+, En, rask, overblikk, er, her, etterfølt, på, en, bildelis, på, knap, tre, minutter, ., ., 
+
+, -, Trip, code, :, 2641, 
+, -, Rune, St., 
+, -, 13., aug., 2022, 
+, -, 00:41, 
+, -, Hjem, 
+
+, Jeg, føler, meg, ret, godt, ., Jeg, gikk, gjennom, alle, fagene, på, sine, plan]",PRON AUX ADJ ADJ NOUN SCONJ PART VERB NOUN ADP NOUN ADP CCONJ ADP PROPN PUNCT PROPN PUNCT ADP PROPN ADP PROPN PUNCT VERB PROPN PROPN CCONJ PROPN PROPN PUNCT SPACE VERB ADP CCONJ ADP PROPN AUX DET NUM ADP NUM NOUN ADJ NOUN PUNCT SPACE DET ADJ NOUN AUX ADV NOUN ADP DET NOUN ADP ADJ NUM NOUN PUNCT PUNCT SPACE PUNCT ADJ PROPN PUNCT NUM SPACE PUNCT PROPN PROPN SPACE PUNCT ADJ PROPN NUM SPACE PUNCT NUM SPACE PUNCT ADP SPACE PRON VERB PRON VERB ADJ PUNCT PRON VERB ADP DET NOUN ADP PRON NOUN,0.11312217194570136,0.42982188295165435,97,442,0.3711340206185567,0.1310304298261985
+"[Det, er, jo, en, del, at, spille, en, del, tilbagespurg, i, denne, artikel, ., 
+
+, A, short, while, ago, I, had, the, opportunity, to, spend, the, day, with, Mr., Paul, Schliemann, ,, a, man, who, has, a, lot, of, knowledge, about, the, SMS, (, Social, Media, Services, ), field, and, has, been, working, with, it, since, 2004, ,, when, it, wasn, ’, t, really, a, thing, ., 
+
+, It, was, a, great, day, of, learning, and, having, fun, …, 
+
+, #, #, Sneak, Preview, 
+
+, I, was, already, familiar, with, many, of, the, topics, Paul, addressed, throughout, the, day, ,, but, even, so, ,, one, of, the, things, that, really, stood, out, for, me, on, the, day, ,, was, the, amount, of, really, cool, information, and, concepts, Paul, introduced, which, I, either, didn, ’, t, know, or, had, never, thought, of, ., 
+
+, It, ’, s, hard, to, go, over, all, the, things, we, covered, in, great, detail, in, a, short, space, like, this, ,, and, I, don, ’, t, want, to, try, to, cover, everything, either, ,, because, I]",PRON AUX ADV DET NOUN SCONJ VERB DET NOUN NOUN ADP DET NOUN PUNCT SPACE X X X X ADP X X X X X X X X PROPN PROPN PROPN PUNCT X X X X X X X X X X PROPN PUNCT PROPN PROPN PROPN PUNCT PROPN X X X X X X PROPN NUM PUNCT X X X X PROPN X X X PUNCT SPACE X X X X X X X X X X PUNCT SPACE NOUN NOUN PROPN PROPN SPACE ADP X X X X X X X X PROPN X X X X PUNCT X X X PUNCT X X X X X X X X X X X X X PUNCT X X X X X X X X X PROPN X PROPN X X X ADJ NOUN VERB X X ADV X X PUNCT SPACE PROPN X PROPN X X X ADP X X X X X X X X X X X PROPN ADV ADJ PUNCT X X X X X X X X X NOUN NOUN X PUNCT NOUN ADP,0.05163727959697733,0.39218791946308756,180,794,0.25555555555555554,0.30216914934881905
+"[Når, det, gjeldere, å, leke, spill, online, og, få, penger, for, det, er, nøyaktig, det, derfor, en, fantastisk, mulighet, ., De, fleste, spillene, på, nett, er, gratis, for, at, spille, med, ., Men, når, du, slikker, en, sejer, penger, får, du, en, stor, overflod, av, spennende, muligheter, ., Når, det, gjelder, å, finne, spilleresultater, og, kritiske, anmeldelser, av, spill, og, casino, er, det, altså, nøyaktig, en, fantastisk, form, for, begge, tilbud, ., 
+
+, Slik, ,, kilder, av, information, ,, må, enne, bruker, følger, ., Det, gjør, at, de, vil, komme, med, verdensinspirerte, avis, artikler, fra, hvert, hjørne, av, verden, ,, og, ene, andre, begjelar, dem, for, at, komme, til, det, måta, ., Det, er]",SCONJ PRON ADJ PART VERB NOUN ADJ CCONJ VERB NOUN SCONJ PRON AUX ADJ PRON ADV DET ADJ NOUN PUNCT DET ADJ NOUN ADP NOUN AUX ADJ SCONJ SCONJ VERB ADP PUNCT CCONJ SCONJ PRON VERB DET NOUN NOUN VERB PRON DET ADJ NOUN ADP ADJ NOUN PUNCT SCONJ PRON VERB PART VERB NOUN CCONJ ADJ NOUN ADP NOUN CCONJ ADJ AUX PRON ADV ADJ DET ADJ NOUN ADP DET NOUN PUNCT SPACE ADV PUNCT NOUN ADP PROPN PUNCT AUX VERB VERB NOUN PUNCT PRON VERB SCONJ PRON AUX VERB ADP ADJ NOUN NOUN ADP DET NOUN ADP NOUN PUNCT CCONJ NUM DET NOUN PRON SCONJ SCONJ VERB ADP PRON NOUN PUNCT PRON AUX,0.05432937181663837,0.3778888888888888,114,589,0.5877192982456141,0.13088715753791066
+"[I, tillegg, til, forskernes, innlegg, ,, vi, får, følgende, artikler, ., Alle, har, noe, å, si, i, forbindelse, med, forskningen, i, Kysten, for, Norge, ., Selskapet, Østensjø, Rederi, har, satt, følgende, oppfordring, :, 
+
+, “, The, topic, for, the, 8, September, 2017, Seminar, in, Sandefjord, are, marine, technology, and, new, operations, in, the, region, ., Invitation, attached, ., 
+, –, In, Sandefjord, this, week, we, are, launching, our, 18, meter, long, coastal, survey, vessel, NORDMAK, ., –, This, vessel, is, in, many, ways, comparable, to, the, vessels, that, will, be, used, on, the, new, operations, in, the, Norwegian, Sea, ., This, is, a, very, important, event, ,, since, Øystein, Løkve, is, representing, our, company, this, week, in, Sandefjord, ., Amongst, other, guests, we, had, the, Sandefjord, district, alderman, for, business]",ADP NOUN ADP NOUN NOUN PUNCT PRON VERB ADJ NOUN PUNCT PRON VERB PRON PART VERB ADP NOUN ADP NOUN ADP PROPN ADP PROPN PUNCT NOUN PROPN NOUN AUX VERB ADJ NOUN PUNCT SPACE PUNCT PROPN NOUN ADP PROPN NUM PROPN NUM PROPN X PROPN X X X X PROPN X X X X PUNCT PROPN X PUNCT SPACE PUNCT PROPN PROPN X X X X X X NUM NOUN PROPN PROPN PROPN X PROPN PUNCT PUNCT ADJ NOUN X X X X X X X X X X X ADJ X X PROPN X X X PROPN PROPN PUNCT ADJ X X X X X PUNCT PROPN PROPN PROPN X X X X X X X PROPN PUNCT X X X X X X PROPN X PROPN ADP NOUN,0.0691114245416079,0.4136969696969686,130,709,0.23846153846153847,0.1803487679575302
+"[Men, det, er, forklaringer, af, hvad, skiller, ektomorf, fra, det, andre, hardcore-bandet, sammen, med, deres, musikvideo, ., 
+
+, >, Ektomorf, is, one, of, Hungary, ’, s, best, known, metal, bands, ., Ektomorf, ’, s, sound, is, defined, by, its, heavy, guitar, riffs, ., The, band, ’, s, lyrics, touch, on, subjects, like, religion, ,, death, ,, social, injustice, ,, war, ,, and, the, oppression, of, women, ., Their, songs, are, usually, aggressive, and, fast-paced, ., Zoltán, Farkas, ,, the, band, ’, s, leader, ,, also, likes, to, experiment, with, other, musical, arrangements, ., He, tries, to, include, ethnic, and, Slavic, elements, when, creating, the, band, ’, s, music, ., Ektomorf, has, gained, popularity, all, across, Europe, and, has, toured, Europe, ,, South, America, ,, Asia, ,, the, US, ,, and, Israel, .]",CCONJ PRON AUX NOUN X PROPN VERB NOUN ADP DET ADJ NOUN ADV ADP PRON NOUN PUNCT SPACE PUNCT PROPN X X X PROPN X NOUN ADJ ADJ NOUN PROPN PUNCT X X PROPN X X X X X X PROPN PROPN PUNCT PROPN NOUN X PROPN PROPN X X PROPN ADJ NOUN PUNCT NOUN PUNCT X X PUNCT X PUNCT X X X X X PUNCT PROPN PROPN X PROPN ADJ X NOUN PUNCT PROPN PROPN PUNCT X NOUN X PROPN NOUN PUNCT NOUN PROPN NUM X X X X NOUN PUNCT X X X X X X PROPN X X X X NOUN X PROPN PROPN PUNCT X X X PROPN X X X X X X X PUNCT PROPN PROPN PUNCT PROPN PUNCT X PROPN PUNCT X PROPN PUNCT,0.06334841628959276,0.40469055374592894,132,663,0.1893939393939394,0.11123952938646099
+"[I, dag, er, det, fortsatt, en, debatt, om, åpning, av, forskningsbaserte, sykehuslaboratorier, ., Hovedparten, av, arbeidstid, i, et, sykehuslaboratorium, åpnes, ved, å, avne, 73, nye, stillinger, for, fagspecifikk, sykehuslaboratoriumspersonale, ,, og, en, nabostilling, med, 54, eksamenskapiger, ., Samtidig, må, det, skje, et, skjulsynkronisering, mellom, færdig, utbildet, personale, og, eksamensstudenter, ., Dette, kommer, til, å, gi, en, ganske, bra, sikkerhet, i, de, sykehuslaboratoriumsaktivitetene, ., 
+
+, Det, har, også, blitt, planlagt, at, vart, 100, fagspecifikk, sykehuslaboratoriumspersonale, på, 50.8]",ADP NOUN AUX PRON ADV DET NOUN ADP NOUN ADP ADJ NOUN PUNCT NOUN ADP NOUN ADP DET NOUN VERB SCONJ PART VERB NUM ADJ NOUN ADP NOUN ADJ PUNCT CCONJ DET NOUN ADP NUM NOUN PUNCT ADJ AUX PRON VERB DET NOUN ADP ADJ NOUN NOUN CCONJ NOUN PUNCT PRON VERB SCONJ PART VERB DET ADV ADJ NOUN ADP DET NOUN PUNCT SPACE PRON AUX ADV AUX VERB SCONJ VERB NUM NOUN ADJ ADP NUM,0.07276119402985075,0.4024229979466126,76,536,0.5526315789473685,0.13393657476385887
+"[Vi, har, fått, smak, av, en, bostad, som, man, kan, vända, i, det, olika, klimatet, i, södra, Sverige, om, de, lätta, sommarveckorna, växer, till, hösten, där, ingen, kedja, följer, med, ., 
+
+, Bostadsläckan, Vigdis, är, en, modern, boendeavgränsning, som, härtill, kan, hjälpa, till, när, det, rör, sig, om, kärleksbostad, eller, arrendebostad, för, den, som, vill, bo, alltjämt, på, kyrkbyns, plats, ,, men, inte, ha, nogen, kedja, ., 
+
+, Vigdis, bostad, är, byggt, för, kulturhistorisk, miljö, och, i, fyra, våningar, med, en, total, yta, på, cirka, 706, kvadratmeter, ., Två, lägenheter, har, balkong, där, man, kan, njuta, utkika]",PRON AUX VERB NOUN ADP DET NOUN PRON PRON AUX VERB ADP PRON PROPN NOUN ADP ADJ PROPN SCONJ DET NOUN PROPN PROPN X PROPN X DET NOUN NOUN ADP PUNCT SPACE PROPN PROPN X DET X NOUN SCONJ PROPN AUX PROPN X X X X ADV ADP PROPN CCONJ PROPN X PRON SCONJ ADJ VERB NOUN ADP NOUN NOUN PUNCT CCONJ NOUN X ADJ NOUN PUNCT SPACE PROPN PROPN X PROPN X X X X X X PROPN ADP DET ADJ NOUN ADP ADV NUM NOUN PUNCT PROPN NOUN VERB NOUN X PRON AUX VERB NOUN,0.06981132075471698,0.4103534303534293,97,530,0.3402061855670103,0.043058580353944956
+"[Eg, synest, det, i, filmen, etter, vise, 28, (, 1983, ), –, se, synonyme, for, synest, –, Finnes, det, noen, uttrykk, som, kan, tilordne, selskap, til, et, synonym, til, ”, synest, ”, ?, Det, vurderes, ,, at, det, har, tilpasses, ., Se, omst, ., 6., Jun, 1999, Kart, og, geografi-kart, ,, kosmografi, ,, konsignant, ,, kryssord, i, etterord, ., 
+
+, For, our, first, installment, of, our, Synethesia-themed, mixes, ,, we, decided, to, focus, on, electronic, artist, /, musicians, and, synesthetics, ., There, are, several, who, have, been, known, to, make, use, of, it, ,, and, have, even, described, their, process, and, how, their, perception, of, music, comes, about, ., Here, ’, s, what, we, ’, ve, unpacked, ., 
+
+, Ian, Boddy, —, This, UK-based, synth, aficionado, has, described, how, his]",X X PRON ADP NOUN ADP VERB NUM PUNCT NUM PUNCT PUNCT VERB ADJ ADP NOUN PUNCT VERB PRON DET NOUN PRON AUX VERB NOUN ADP DET NOUN ADP PUNCT NOUN PUNCT PUNCT PRON VERB PUNCT SCONJ PRON AUX VERB PUNCT VERB NOUN PUNCT NUM PROPN NUM NOUN CCONJ NOUN PUNCT NOUN PUNCT NOUN PUNCT NOUN ADP NOUN PUNCT SPACE ADP X NOUN X X X NOUN NOUN PUNCT X X X PROPN X PROPN NOUN PUNCT X X X PUNCT PROPN X X X X X X X X X X X PUNCT X X X X X X X PROPN X X X X X X PUNCT PROPN X X X X X X X PUNCT SPACE PROPN PROPN PUNCT ADJ NOUN PROPN PROPN X PROPN PROPN X,0.08320251177394035,0.3944557823129261,130,637,0.2230769230769231,0.17016574466064552
+"[Matrikkelframlegget, 1863, seier, i, Gjerstad, SMA, ,, Sørlandsskolen, Nils, P., Bovin, et, al, ., ,, Editors, ., Aschehoug, ,, 2016., 
+
+, The, Nisnevitsky, Manuscripts, 
+
+, In, this, collection, ,, Nils, Bovin, brings, together, ,, in, new, translations, ,, the, main, texts, written, by, ,, or, associated, with, ,, the, Russian, historian, and, publicist, Vladimir, Vasilievich, Nisnevitsky, (, 1852–1928, ), during, his, Norwegian, period, (, 1876–1928, ):, articles, ,, lectures, ,, essays, ,, reminiscences, ,, and, autobiographical, notes, ,, many, of, which, ,, including, his, recollections, of, his, meeting, with, Sergei, Witte, and, memoirs, of, Alexander, II, ,, are, published, in, English, for, the, first, time, ., 
+
+, Translated, by, Nils, Bovin, ,, Søren, Ebbessøn, ,, Christian, von, Fri]",NOUN NUM NOUN ADP PROPN PROPN PUNCT PROPN PROPN PROPN PROPN DET NOUN PUNCT PUNCT PROPN PUNCT PROPN PUNCT NUM SPACE PROPN PROPN PROPN SPACE X X X PUNCT PROPN PROPN X X PUNCT X PROPN X PUNCT X X X PROPN X PUNCT X X X PUNCT PROPN PROPN PROPN X X PROPN PROPN PROPN PUNCT PROPN PUNCT X X PROPN NOUN PUNCT PROPN PUNCT PROPN PUNCT PROPN PUNCT NOUN PUNCT PROPN PUNCT X PROPN VERB PUNCT X X X PUNCT X X PROPN X X X X PROPN PROPN X X X PROPN NUM PUNCT X X X PROPN X PROPN X X PUNCT SPACE PROPN NOUN PROPN PROPN PUNCT PROPN PROPN PUNCT PROPN PROPN PROPN,0.08649468892261002,0.4419016393442626,118,659,0.07627118644067797,0.10566242797116288
+"[Han, sa, til, dengang, ,, at, han, var, blevet, forsømt, i, skolen, ,, for, han, ikke, kunde, læse, ,, når, da, havde, han, ikke, haft, adgang, til, bogtryk, ,, der, kunne, hjælpe, ham, med, ,, sa, han, ,, hvorfor, jeg, ikke, kan, læse, ,, da, laver, jeg, ,, sa, han, ,, et, billede, af, det, jeg, må, lære, op, ,, og, har, jeg, det, skrevet, ,, da, hjælper, den, til, og, sa, han, at, han, havde, lavet, billeder, og, tegninger, ,, før, han, begyndte, at, læse, ,, sa, han, ,, hvilket, han, også, havde, fortalt, om, de, første, manuskript, ,, han, havde, lavet, ,, da, han, var, ung, ., Han, fortalte, om, nogle, lærde, menneskers, billeder, ,, hvorfra, han, havde, afledt, ,]",PRON VERB ADP NOUN PUNCT SCONJ PRON AUX ADJ ADJ ADP NOUN PUNCT CCONJ PRON PART NOUN NOUN PUNCT SCONJ ADV VERB PRON PART NOUN NOUN ADP NOUN PUNCT ADV AUX VERB PRON ADP PUNCT VERB PRON PUNCT ADV PRON PART VERB NOUN PUNCT SCONJ VERB PRON PUNCT VERB PRON PUNCT DET NOUN ADV PRON PRON AUX VERB PROPN PUNCT CCONJ VERB PRON PRON VERB PUNCT ADV VERB PRON ADP CCONJ VERB PRON SCONJ PRON VERB ADJ NOUN CCONJ NOUN PUNCT SCONJ PRON VERB SCONJ NOUN PUNCT VERB PRON PUNCT DET PRON ADV AUX VERB ADP DET ADJ NOUN PUNCT PRON ADJ VERB PUNCT SCONJ PRON AUX ADJ PUNCT PRON VERB ADP PROPN ADJ NOUN NOUN PUNCT ADV PRON VERB PROPN PUNCT,0.0521415270018622,0.3882377049180328,122,537,0.5163934426229508,0.1306442247805291
+"[Du, skal, ikkje, misle, deg, og, tenke, at, det, samme, gjelder, for, alle, kryssord, du, løser, ., 
+
+, Here, you, will, find, all, the, information, you, need, about, how, to, use, the, words, in, a, correct, way, :, 
+
+, Definition, :, 
+, The, crossword, game, was, created, in, 1913, as, ', Word-Cross, ,, A, New, Word, Game'., It, consists, of, a, grid, with, 15×15, numbered, squares, ,, some, filled, with, words, ., The, player, is, required, to, fill, the, rest, of, the, blank, squares, with, words, using, the, given, hints, ., The, game, was, designed, to, sharpen, the, player, ’, s, mind, and, improve, their, problem-solving, ability, ., 
+
+, Rules, :, 
+
+, -The, first, thing, the, one, who, is, given, the, task, has, to, check, is, that, the, crosswords, ’, clue, is, written, correctly, ., This, helps, to, make, it, easier, to, complete, the, task, ., 
+
+, -A, mistake, made, during, the, process, is, a, possibility, ,, which, can, be, avoided, by, consulting, a]",PRON AUX X VERB PRON CCONJ VERB SCONJ DET DET VERB ADP DET NOUN PRON VERB PUNCT SPACE PROPN X X X X X X X X X PROPN X X X X X X X X PUNCT SPACE PROPN PUNCT SPACE PROPN PROPN X X X X X PROPN PUNCT PROPN PUNCT PROPN PROPN PROPN PROPN PROPN X X X X X PROPN PROPN VERB PUNCT X X X X PUNCT PROPN PROPN X X X X X X X X ADJ X X X X X PROPN PROPN PUNCT PROPN X X NOUN NUM NOUN PROPN PROPN X PROPN X X X X X X PUNCT SPACE PROPN PUNCT SPACE PUNCT X X X X X X PROPN X X X X X X X X PROPN X NOUN PROPN PROPN PROPN PUNCT ADJ X X X PROPN PROPN X X X X PUNCT SPACE PROPN X X X X X X X X PUNCT X X X NOUN NOUN PROPN X,0.060991105463786534,0.39452574525745393,164,787,0.2621951219512195,0.14614756405045629
+"[Då, dei, kom, en, stok, på, diktet, er, det, hva, jeg, tar, gode, noter, av, ,, men, det, kan, heller, være, hvor, det, lyktes, å, få, noe, på, plass, før, det, er, for, sent, ,, kunst, på, kantegren, eller, hvor, det, er, en, stor, anbefaling, ., Noe, i, den, ubestemte, græsen, mellom, poesi, og, prosasang, ,, og, det, føles, varmt, ., 
+
+, En, god, dikt, er, både, kort, og, lang, ., Et, række, slåttre, ,, en, kveldhøytre, ,, gjengitt, med, et, eller, annet, språkbruk, ., Dikten, er, samme, på, alle, skrivene, sprog, ,, gjengitt, av, ærlighet, ,, ofte, av, en, vindretter, ., Hva, det, kjennes, som, :, diktet, ., 
+
+, 1., 
+
+, Dicte, –, 
+]",X X VERB DET NOUN ADP NOUN AUX PRON PRON PRON VERB ADJ NOUN ADP PUNCT CCONJ PRON AUX ADV AUX ADV PRON VERB PART VERB PRON ADP NOUN SCONJ PRON AUX ADV ADJ PUNCT NOUN ADP NOUN CCONJ ADV PRON AUX DET ADJ NOUN PUNCT DET ADP DET ADJ NOUN ADP NOUN CCONJ NOUN PUNCT CCONJ PRON VERB ADJ PUNCT SPACE DET ADJ NOUN AUX CCONJ ADJ CCONJ ADJ PUNCT DET NOUN ADJ PUNCT DET NOUN PUNCT VERB ADP DET CCONJ DET NOUN PUNCT NOUN AUX DET ADP DET NOUN NOUN PUNCT VERB ADP NOUN PUNCT ADJ ADP DET NOUN PUNCT PRON PRON VERB PRON PUNCT NOUN PUNCT SPACE ADJ SPACE PROPN PUNCT SPACE,0.07086614173228346,0.38348583877995657,115,508,0.5652173913043478,0.14549616913077323
+"[Dei, sa, til, dudul, ,, the, sun, shines, and, brings, the, season, with, it, ,, the, long, summer, of, Gävle, ., The, scent, of, newly, mown, hay, hangs, in, the, air, ,, flowers, bloom, and, the, first, crops, are, harvested, from, the, gardens, ,, the, farmers, harvest, and, the, fields, are, golden, and, red, and, black, ,, and, the, sun, sets, late, in, the, afternoon, and, the, nights, begin, to, feel, warm, again, ,, and, you, can, feel, the, whole, land, ,, sea, and, sky, is, breathing, life, into, every, cell, of, the, summer, ., 
+
+, It, ’, s, in, these, days, when, Gunnar, ,, Luna, and, I, are, in, our, element, ,, and, have, really, settled, into, the, rhythm, of, summer, ., I, love, the, freedom, of, these, days, ,, but, I, ’, m, also, mindful, that, in, a, few, weeks, time, we, ’, ll, be, back, at, school, ,, which, means, the, chaos, of, the, new, term, ,, the, demands, of, work, that, come, with, the, change, of, the, season, and, the, start, of, harvest, on, our, farm, will, descend, upon, us, like, a, ton, of]",NOUN VERB ADP DET PUNCT PROPN PROPN X X X X PROPN X X PUNCT X X NOUN X PROPN PUNCT PROPN X X X PROPN X X X X X PUNCT X PROPN X X X PROPN X X X X X PUNCT PROPN PROPN X X X X X PROPN X X X PROPN PUNCT X X PROPN PROPN X X X X X X X X X X X X PUNCT X X X X X X NOUN PUNCT PROPN X X X X X X X X X X NOUN PUNCT SPACE PROPN X PROPN X X X X PROPN PUNCT PROPN X X X X X NOUN PUNCT X X X X X X PROPN X NOUN PUNCT ADP X X X X X X PUNCT X ADP X NOUN X X X X X X X X X X X X PRON SCONJ ADJ PUNCT X X X PROPN X X PROPN NOUN PUNCT X X X X X X X X X X X PROPN X X X X X X X X X X X X ADJ X X X,0.039711191335740074,0.3659846547314573,188,831,0.19148936170212766,0.20926505231659695
+"[Men, Jesus, saith, unto, them, ,, If, I, will, that, he, tarry, till, I, come, ,, what, is, that, to, thee, ?, Follow, thou, me, ., –, John, 21:22, 
+
+, I, have, long, had, this, idea, that, ,, like, the, disciples, on, the, road, to, Emmaus, ,, we, would, all, meet, the, Lord, as, he, makes, his, final, journey, up, the, mountain, to, heaven, (, Matthew, 24:27, ), ., 
+
+, Not, everyone, we, know, who, walks, with, Christ, will, meet, him, on, the, same, day, ., In, Christ, ’, s, parable, of, the, laborers, in, the, vineyard, ,, we, don, ’, t, earn, more, or, less, for, coming, to, the, gate, at, a, different, hour, ., The, reward, is, always, the, same, ,, and, the, owner, pays, them, the, same, ,, regardless, of, when, they, came, (, Matthew, 20:8, ), ., 
+
+, We, who, have, placed, our, faith, in, the, name, of, Jesus, meet, the, Bridegroom, each, day, when, we, call, it, quits, before, our, day, is, over, ., Like, a]",CCONJ PROPN ADJ ADJ X PUNCT PROPN X X X X X X X X PUNCT X X X NUM NOUN PUNCT VERB X X PUNCT PUNCT PROPN NUM SPACE ADP X X X X X X PUNCT ADV X X X X X X PROPN PUNCT X X X X X PROPN X X X X X PROPN X X X X NOUN PUNCT PROPN NUM PUNCT PUNCT SPACE X X X X X X X PROPN X X X X X X X PUNCT NOUN PROPN X PROPN X X X X X X PROPN PUNCT X X X X X X X X ADP PROPN X X PROPN SCONJ X X X PUNCT PROPN X X X X X PUNCT X X PROPN X X X X PUNCT X X X X X PUNCT PROPN NUM PUNCT PUNCT SPACE X X X X X X X X X X PROPN X X PROPN X X X X X X PROPN X X X X ADP PUNCT ADV X,0.06976744186046512,0.3962170087976539,171,731,0.23391812865497075,0.17258250499624697
+"[Dei, kom, til, aku, 
+
+, On, October, 14th, ,, my, mother, passed, away, from, ovarian, cancer, ., Three, months, ago, ,, when, the, doctors, told, us, that, she, would, die, this, quickly, ,, it, was, like, being, knocked, over, by, a, giant, falling, tree, and, landing, up, to, my, neck, in, mud, ., I, couldn, ’, t, breathe, ., And, that, ’, s, never, exactly, pleasant, ., My, whole, world, changed, ., In, a, literal, way, ., The, world, spun, ., The, earth, shifted, under, my, feet, ., Nothing, was, stable, anymore, ., 
+
+, And, with, that, ,, my, life-to-do, list, went, out, the, window, ., I, couldn, ’, t, think, of, anything, but, my, mom, ., How, to, best, be, with, her, ., How, to, cope, with, her, illness, ., How, to, help, the, family, with, the, logistics, of, her, care, and, the, arrangements, that, followed, her, death, ., How, to, heal, from, her, loss, ., In, the, final, week, ,, my, work, was, to, be, with, her, in, the, hospital, and, hospice, ., And, after, that, ,, it, was, to, hold, the, family, together, ,, and, take]",NUM VERB ADP NOUN SPACE ADP PROPN NUM PUNCT X X X X X X NOUN PUNCT PROPN PROPN X PUNCT X X X X X X X X X X X PUNCT X X ADV ADJ NOUN ADP NOUN X X NOUN X X NOUN X X X X X X PUNCT ADP NOUN X NOUN ADJ PUNCT X X X PROPN ADV X ADV PUNCT X X X X PUNCT X X X X PUNCT PROPN PROPN PROPN PUNCT PROPN PROPN NOUN ADP X X PUNCT X X X X PUNCT SPACE X X X PUNCT X PROPN X X X X PROPN PUNCT ADP NOUN X X X X X X X X PUNCT ADJ NUM ADJ X PROPN ADV PUNCT PROPN NUM X X ADV NOUN PUNCT PROPN NUM X X PROPN X X X X X X X X X X X ADV NOUN PUNCT X X X X ADV NOUN PUNCT X X X X PUNCT X X X X X PROPN X X X X X X PUNCT X X X PUNCT X X X X X PROPN X PUNCT X X,0.04819277108433735,0.3869142125480154,189,830,0.19047619047619047,0.20803707682214162
+"[Frå, brev, som, H.G., Wells, sendte, til, sin, svoger, Arnold, Marriott, 1902-17, 
+
+, (, from, the, letters, H.G., Wells, sent, to, his, brother-in-law, Arnold, Marriott, in, 1902-17, ), 
+
+, Wells, as, seen, by, himself, 
+
+, In, an, article, ,, ', My, Memories, of, Sir, H.G., ', (, published, in, The, Listener, 12, jan, 1937, ), Winston, Churchill, had, said, ,, in, his, customary, manner, ,, that, ', Wells, is, the, outstanding, prophetical, figure, of, our, era'., As, Wells, wrote, in, a, letter, to, Arnold, Marriott, in, 1920, :, ', I, suppose, Churchill, does, really, think, this, ., No, one, else, thinks, it'., 
+
+, Already, in, 1902, Wells's, opinions, of, himself, had, made, a, strong, impression, on, Marriott, ., ', He, regards, himself, as, one, of, the, greatest, intellects, ,, at, once, an, artist]",INTJ NOUN PRON PROPN PROPN VERB ADP PRON NOUN PROPN PROPN PROPN SPACE PUNCT X X NOUN PROPN PROPN ADJ NUM X X PROPN PROPN X PROPN PUNCT SPACE PROPN PROPN X X X SPACE X X X PUNCT PUNCT PROPN PROPN X PROPN X PUNCT PUNCT X X PROPN PROPN NUM PROPN NUM PUNCT PROPN PROPN X X PUNCT X X PROPN NOUN PUNCT X PUNCT PROPN X X NOUN X PROPN X X PROPN PROPN PROPN X X X VERB NUM PROPN PROPN X NUM PUNCT PUNCT ADP NOUN PROPN X X X X PUNCT X X X X ADJ SPACE PROPN X NUM PROPN X X X X X X X X X PROPN PUNCT PUNCT X X X X X X X X NOUN PUNCT SCONJ PROPN ADV NOUN,0.0770392749244713,0.4311908646003262,133,662,0.13533834586466165,0.10199324360179103
+"[Ein, dag, då, jag, kunde, komma, hem, ., 
+
+, The, 4th, of, June, ,, I, could, come, home, 
+
+, This, is, what, the, busdriver, wrote, on, the, bus, ., Since, yesterday, one, is, able, to, travel, to, Sweden, again, ., He, is, happy, ., 
+
+, Yes, ,, yesterday, one, could, travel, ., I, ’, m, now, on, my, way, home, ., I, ’, ve, been, in, Denmark, for, two, and, a, half, weeks, ., I, feel, so, empty, and, lost, ., I, left, my, home, in, order, to, be, around, my, parents, ,, my, siblings, ,, my, grandparents, and, some, nieces, of, mine, ., Now, I, just, want, to, be, “, home, ”, ,, but, I, ’, m, not, home, ,, I, ’, m, home, ., This, is, my, home, ., 
+
+, I, ’, ve, visited, my, parents, ,, siblings, ,, grandparents, ,, niece, and, two, nephews, ., And, I, ’, m, so, grateful, to, be, able, to, do, that, ,, even, though, I, know, that, it, ’, s, wrong, and, I, shouldn, ’, t, be, doing, that, ., 
+
+, It, ’, s, insecurity, ,, a, lot]",X NOUN X X X X X PUNCT SPACE PROPN PROPN X PROPN PUNCT ADP X X X SPACE ADJ X X X PROPN PROPN X X X PUNCT PROPN PROPN X X X X ADJ NUM PROPN X PUNCT X X X PUNCT SPACE X PUNCT X X X X PUNCT ADP ADJ NOUN X X X X X PUNCT ADP X X X X PROPN ADP X X X X NOUN PUNCT ADP X X X X X PUNCT ADP PROPN X X X NOUN X X PROPN X PROPN PUNCT X X PUNCT X X X X X X PRON PUNCT PROPN ADP X X X X PUNCT X PUNCT PUNCT X ADP X NOUN X X PUNCT ADP ADJ NOUN PROPN PUNCT ADJ X X X PUNCT SPACE ADP X X X X PROPN PUNCT NOUN PUNCT X PUNCT X X X NOUN PUNCT PROPN ADP X NOUN X X NUM VERB X X X X PUNCT X X ADP X X X X PROPN X X ADP NOUN ADJ X X X X PUNCT SPACE PROPN X PROPN PROPN PUNCT PROPN PROPN,0.0603448275862069,0.401792890262752,187,696,0.2192513368983957,0.3103094193242467
+"[Han, skunda, seg, etter, kongen, nokon, ute, tusen, år, på, et, berg, ute, i, Siberia, ,, og, det, var, før, de, ting, som, du, forstår, er, en, ting, ., 
+
+, Fantastic, !, 
+
+, But, of, course, ,, this, was, only, a, very, rough, sketch, ,, so, don, ’, t, expect, me, (, the, artist, ), to, come, knocking, on, your, door, any, time, soon, with, the, finished, painting, …, 
+
+, Well, ,, perhaps, not, in, this, life, at, least, …, but, then, again, ,, you, never, know, !, 
+
+, “, Don, ’, t, worry, about, being, famous, ,, worry, about, being, in, the, process, of, making, something, great, !, ”, 
+
+, So, says, the, great, late, American, artist, Robert, Henri, ,, and, ,, hey, ,, this, is, definitely, something, we, should, keep, in, mind, at, all, times, and, as, often, as, possible, !, 
+
+, For, the, rest, of, us, however, ,, being, in, the, process, of, whatever, we, are, doing, at, all, times, would, definitely, be, a, blessing, ,, wouldn, ’, t, it, ?, !, 
+
+, Stay]",PRON VERB PRON ADP PROPN PROPN ADP NUM NOUN ADP DET NOUN ADP ADP PROPN PUNCT CCONJ PRON AUX SCONJ DET NOUN PRON PRON VERB AUX DET NOUN PUNCT SPACE PROPN PUNCT SPACE X X X PUNCT X X X X X PROPN NOUN PUNCT X X X X X X PUNCT X NOUN PUNCT X X X X X X X X X X X X X PUNCT SPACE PROPN PUNCT X X X X X X X PUNCT X X X PUNCT X ADV VERB PUNCT SPACE PUNCT PROPN X X X X X X PUNCT X X X X X X X X X X PUNCT PUNCT SPACE X X X X X PROPN NOUN PROPN PROPN PUNCT X PUNCT X PUNCT X X X X X X X X VERB SCONJ X X X X NOUN X X PUNCT SPACE ADP X NOUN X X X PUNCT X X X X X X X X X X X X X X X X X PUNCT X X PROPN PROPN PUNCT PUNCT SPACE ADJ,0.059602649006622516,0.39189801699716764,177,755,0.23163841807909605,0.16837561267216958
+"[Det, vart, sommarväxels, mellan, Göran, and, Johan, ., Detta, är, deras, sista, show, i, hela, sommaren, –, och, vi, vill, höra, vilken, musik, de, tänker, på, i, nästa, semester, ., 
+
+, Som, ofta, diskuteras, också, förkortningar, –, som, ”, Göran, ”, och, “, Johan, ”, –, som, en, kortform, för, ”, Göran, Jonasson, ”, och, ”, Johan, Eriksson, ”, ., 
+
+, Två, vänner, tar, på, sig, ett, av, olika, roller, –, Göran, är, idag, så, kallad, stjälsparty, och, “, Johan, ”, är, den, som, jobbar, ., 
+
+, Musikerna, diskuteras, mer, eller, varför, den, är, den, bästa, ., Detta, är, en, helt, unik, show, !, 
+
+, Det, här, är, den, mest, 50-åriga, musikshowen, i, radios, och, tv, .]",PRON VERB X NOUN PROPN X PROPN PUNCT X X X X X ADP PROPN NOUN PUNCT X PRON ADJ PROPN DET NOUN PRON NOUN ADP ADP NOUN NOUN PUNCT SPACE ADP NOUN NOUN PROPN PROPN PUNCT ADP PUNCT PROPN PUNCT X PUNCT X PUNCT PUNCT SCONJ DET NOUN X PUNCT PROPN PROPN PUNCT X PUNCT PROPN PROPN PUNCT PUNCT SPACE PROPN NOUN VERB ADP ADV NUM ADP PROPN NOUN PUNCT PROPN X ADV ADV NOUN NOUN X PUNCT X PUNCT X PRON PRON PROPN PUNCT SPACE PROPN NOUN ADJ CCONJ PROPN X X X X PUNCT X X DET ADJ ADJ NOUN PUNCT SPACE X X X DET ADJ ADJ ADJ ADP X X X PUNCT,0.08239700374531835,0.4162474226804116,117,534,0.23931623931623933,0.03336955020018522
+"[So, var, detta, har, hänt, !, 
+
+, Yesterday, I, had, booked, appointment, to, take, my, car, to, the, garage, to, check, and, hopefully, resolve, all, the, problems, with, the, car, ., And, while, we, ’, re, at, it, ,, check, all, other, systems, ., I, picked, up, the, car, ,, which, now, runs, better, and, without, those, nasty, sounds, of, the, clutch, ,, but, at, the, same, time, noticed, the, right, front, tire, was, a, bit, bigger, ,, than, the, other, tires, ., Well, ,, we, paid, more, the, car, to, cover, the, damage, of, the, other, one, ,, so, that, ’, s, nothing, to, worry, about, !, 
+
+, We, start, our, trip, ,, I, start, my, navigation, system, ,, and, it, ’, s, giving, directions, on, the, motorway, ,, I, wonder, ., And, then, I, notice, ,, why, it, ’, s, giving, directions, ,, because, I, ’, m, now, going, to, Germany, !, Well, ,, now, ,, who, can, screw, up, to, go, north, ,, to, the, motorway, and, then, take, the, first, exit, to, the, right, and, suddenly, drive, to, Germany, ?, The, worst, thing, is, that, the, car, is, still, on, UK]",X AUX X VERB ADJ PUNCT SPACE PROPN ADP X X X X X X X X X PROPN X X X X X DET X X X X X PUNCT X X X X PROPN X PROPN PUNCT X X X X PUNCT ADP X X X X PUNCT X X NOUN X X X X PROPN X X X X PUNCT X X X X X X X X X PROPN X X X VERB PUNCT X X X X PUNCT PROPN PUNCT X X X X X X X X X X X X X PUNCT X X X PROPN PROPN X X X PUNCT SPACE X X X NOUN PUNCT ADP NOUN X X NOUN PUNCT X X X NOUN X X X X NOUN PUNCT ADP NOUN PUNCT X X PROPN PROPN PUNCT X X X NOUN X X PUNCT X ADP ADJ NOUN X X X PROPN PUNCT PROPN PUNCT X PUNCT X X X X X X PROPN PUNCT X X X X X X X X X X X X X X VERB NUM PROPN PUNCT PROPN X X X X X X X X X PROPN,0.04778972520908005,0.3800761421319793,195,837,0.2512820512820513,0.225195767923606
+"[Han, snudde, seg, gjennom, kjæringåpent, enn, en, gang, ‒, da, tog, han, sin, blåste, av, ., 
+
+, -, 
+
+, "", You're, so, good, ,, Han, 😉, "", ,, sa, den, store, ., 
+
+, -, 
+
+, Mama, þunglaði, mik, þess, að, þú, fært, þig, til, þjálfur, í, svo, skor, ., Vísa, þú, til, mín, og, þitt, móður, eru, hvíta, til, fjarlæg, !, 
+
+, -, 
+
+, You're, so, pretty, ,, you'd, make, a, great, model, 
+
+, -, 
+
+, Mom, ,, you, should, watch, more, anime, 
+
+, #, #, Icelandic, 
+
+, Finnur, Magnússon, ,, better, known, as, Finnur, the, Great, ,, is, a, famous, Icelander, ., He, was, a, poet, ,, farmer, ,, storyteller, ,, politician, and, one, of, the, leading, figures, of, the, Icel]",PRON VERB PRON ADP NOUN ADP DET NOUN ADJ SCONJ NOUN PRON PRON VERB ADP PUNCT SPACE PUNCT SPACE PUNCT X X X PUNCT PRON ADV PUNCT PUNCT VERB DET ADJ PUNCT SPACE PUNCT SPACE PROPN VERB ADJ PROPN PROPN X VERB NOUN ADP PROPN PROPN NOUN NOUN PUNCT NOUN ADV ADP NOUN CCONJ ADJ NOUN ADV PROPN ADP NOUN PUNCT SPACE PUNCT SPACE X X X PUNCT PROPN X X X X SPACE PUNCT SPACE PROPN PUNCT X X X X ADJ SPACE NOUN PROPN PROPN SPACE PROPN PROPN PUNCT X X X PROPN X PROPN PUNCT X X X PROPN PUNCT X X X X PUNCT NOUN PUNCT NOUN PUNCT PROPN X X X X X X X X PROPN,0.09780439121756487,0.4425221238938057,122,501,0.22131147540983606,0.15181963835216303
+"[Då, dei, hadde, landar, på, Istanbul-flyplasset, ., 
+
+, This, place, where, he, landed, 
+, is, not, where, one, begins, 
+, (, and, in, this, case, the, place, is, Istanbul, ), 
+, not, a, place, at, all, ,, really, 
+, like, a, line, you, draw, 
+, that, begins, before, the, page, 
+
+, or, like, a, sentence, that, begins, 
+, somewhere, else, 
+, so, that, the, only, thing, the, beginner, 
+, can, do, is, start, ,, and, start, 
+, taking, this, place, apart, ., 
+
+, This, place, :, 
+, a, city, of, three, continents, ,, the, place, 
+, where, the, Silk, Road, divided, 
+, nation, from, nation, ,, the, site, of, the, Byzantine, Empire, 
+, and, the, capital, of, the, Ottomans, ,, 
+, culture, and, language, a, mixture, 
+, with, a, trace, of, each, ., 
+
+, This, place, where, he, 
+, had, not, yet, landed, 
+, was, where, he, had, begun, ., 
+
+, From, Lines, Made, by, Walking, (, Princeton, –, 2015, ), 
+
+, From, :, “, Wide, Awake]",X X VERB ADJ ADP NOUN PUNCT SPACE ADJ PROPN X X X SPACE X X X X PROPN SPACE PUNCT X X X X X X X PROPN PUNCT SPACE X X PROPN SCONJ DET PUNCT VERB SPACE ADV X X X X SPACE X X X X X SPACE X ADJ X X X X SPACE NOUN NOUN SPACE X X X X X X X SPACE X X X NOUN PUNCT X X SPACE X X X X PUNCT SPACE ADJ PROPN PUNCT SPACE X PROPN X X PROPN PUNCT X X SPACE X X PROPN PROPN NOUN SPACE X X X PUNCT X X X X PROPN PROPN SPACE X X X X X PROPN PUNCT SPACE PROPN X X X PROPN SPACE X X X X X PUNCT SPACE ADJ PROPN X X SPACE X X X X SPACE X X X X X PUNCT SPACE PROPN PROPN PROPN X PROPN PUNCT PROPN PUNCT NUM PUNCT SPACE ADJ PUNCT PUNCT PROPN PROPN,0.07625899280575539,0.4023219814241475,167,695,0.17365269461077845,0.04657278623180912
+"[Kva, er, det, best, og, mest, skolespesialisterna, som, jobber, med, i, Norge, ?, Hvor, er, de, ?, Og, hva, er, 2018-pengerne, ?, 
+
+, Det, er, her, som, du, finner, ut, ., 
+
+, Akkurat, som, hverandre, ,, så, var, vi, de, som, tilrettelagde, skoledage, for, ungdommen, ., Det, er, den, som, jobber, mest, med, i, skoleåret, som, blir, den, viktigste, ., 
+
+, Vi, vil, vise, deg, verdens, beste, og, mest, skolespesialisterna, som, jobber, med, i, Norge, ., I, de, siste, fire, skoleår, har, vi, hadde, 2, mellomklasseboksa, ,, 2, ildbokse, ,, 1, låsparkering, for, tlf, og, 1, for, bil, ,, 1, sikkerhetspersonal, for, å, sikre, mellomklassepark]",PROPN AUX PRON ADJ CCONJ ADJ NOUN PRON VERB ADP ADP PROPN PUNCT ADV AUX PRON PUNCT CCONJ PRON AUX NUM PUNCT SPACE PRON AUX ADV PRON PRON VERB ADP PUNCT SPACE ADV ADP PRON PUNCT ADV VERB PRON PRON PRON ADJ NOUN ADP NOUN PUNCT PRON AUX PRON PRON VERB ADJ ADP ADP NOUN PRON VERB DET ADJ PUNCT SPACE PRON AUX VERB PRON NOUN ADJ CCONJ ADJ NOUN PRON VERB ADP ADP PROPN PUNCT ADP DET ADJ NUM NOUN AUX PRON VERB NUM ADP PUNCT NUM NOUN PUNCT NUM NOUN ADP NOUN CCONJ NUM ADP NOUN PUNCT NUM NOUN SCONJ PART VERB NOUN,0.07485604606525911,0.3843644067796616,105,521,0.6,0.16816229714213246
+"[So, sprang, hanen, ,, which, means, that, the, rooster, had, begun, its, daily, call, ., It, happened, at, exactly, 3:17, on, that, cloudy, April, morning, in, Lusaka, ,, Zambia, ’, s, capital, ,, the, sound, echoing, off, the, walls, of, the, house, I, was, staying, in, ., After, the, birdsong, ,, though, ,, for, a, moment, ,, silence, –, the, quietest, you, can, imagine, –, descended, ., And, then, ,, from, the, surrounding, city, ,, the, sound, of, music, began, to, fill, the, air, ., Bars, and, restaurants, blasted, music, into, the, early-morning, ,, as, they, might, into, the, wee, hours, on, Friday, and, Saturday, ., Then, came, the, sound, of, sermonising, ., In, the, distance, ,, it, was, just, the, murmur, of, a, voice, ,, but, it, was, clear, it, was, the, morning, sermon, of, a, church, somewhere, ., 
+
+, I, lay, and, listened, to, the, music, and, the, sermon, ,, the, two, alternating, against, each, other, ., It, is, strange, to, hear, such, music, at, such, a, time, of, day, .]",ADJ VERB NOUN PUNCT X X X X X X X X X X PUNCT X NOUN SCONJ X X X X X PROPN X X PROPN PUNCT PROPN X PROPN PROPN PUNCT X X X X X X X X PROPN ADP X X X PUNCT X X X PUNCT ADV PUNCT ADP ADP NOUN PUNCT PROPN PUNCT X X X X X PUNCT NOUN PUNCT X X PUNCT X X PROPN PROPN PUNCT X X X PROPN X X X X X PUNCT PROPN X PROPN PROPN PROPN X X NOUN PUNCT X X X X X PROPN X X PROPN X PROPN PUNCT X X X X X NOUN PUNCT X X X PUNCT X X X X X X X X PUNCT X X X X X X X X PROPN X X PROPN ADJ PUNCT SPACE ADP X X X X X PROPN X X X PUNCT X X X X X X PUNCT X X ADJ X X X PROPN X X X X X X PUNCT,0.054455445544554455,0.3879841897233201,173,808,0.19653179190751446,0.21148674063220893
+"[I, det, same, stil, som, siste, år, ble, det, hytta, til, på, Skjom, 691., 70, meter, ., 
+
+, Skjom, Hytta, (, 691., 70, møter, ), Skjom, Hytta, is, situated, high, up, on, the, west, side, of, the, Jotunheimen, Mountains, at, 1950, meters, ., It, is, a, great, and, beautiful, alpine, destination, ., As, well, as, its, unique, location, ,, Skjom, features, a, good, service, building, ., The, hytta, has, a, full, restaurant, ,, a, big, living, room, with, fireplace, and, TV, ,, a, playroom, ,, WCs, and, showers, ., 
+
+, From, Lom, Ski, Center, follow, the, road, towards, Sogndal, for, approximately, 20, kilometers, to, Vågåmo, ., The, hytta, is, well, marked, on, the, left, hand, side, of, the, road, ., If, you, are, coming, from, Gudvangen, by, Fjord, 11, ,, look, out, for, Sogndal, and, follow, the, signs]",ADP DET ADJ NOUN ADP ADJ NOUN VERB PRON NOUN ADP ADP PROPN PROPN NUM NOUN PUNCT SPACE PROPN PROPN PUNCT VERB NUM NOUN PUNCT PROPN PROPN X X X X X X PROPN NOUN X X PROPN PROPN SCONJ NUM NOUN PUNCT X X X X X X X X PUNCT PROPN X X X X X PUNCT PROPN X X X X X PUNCT PROPN NOUN X X ADJ NOUN PUNCT X X X PROPN X X X X PUNCT X X PUNCT PROPN X X PUNCT SPACE PROPN PROPN PROPN PROPN X X X X PROPN ADP PROPN NUM NOUN NUM PROPN PUNCT PROPN NOUN X X NOUN X X X X X X X X PUNCT X X X X X PROPN NOUN PROPN NUM PUNCT X X ADP PROPN X X DET X,0.0803030303030303,0.42887070376432074,138,660,0.2246376811594203,0.1652841540235868
+"[For, det, første, lægger, jeg, lederne, til, hver, serie, ., Der, er, væsentligt, at, læse, instruktionerne, ,, hvad, det, handler, om, ,, så, man, får, oplyste, ,, om, man, kan, bruge, en, bestemt, figur, ., Hvis, man, bruger, en, figur, ,, skal, man, betale, for, en, åbent, licens, ., Det, har, jeg, også, være, skæv, på, ,, at, man, selv, vil, bruge, en, figur, i, et, lille, fælgende, kortspil, ,, så, de, har, gjort, noget, for, at, få, folk, til, at, betale, for, at, bruge, materiale, fra, dem, ., 
+
+, Idee, til, en, første, serie, 
+
+, Man, har, kunne, få, tænder, med, ., Med, en, simpel, teknik, kan, man, lave, mascaren, dengang, man, sætter, kortet, ned, ., 
+
+, Med, først, et, simp]",ADP DET ADJ NOUN PRON NOUN ADP DET NOUN PUNCT ADV AUX NOUN SCONJ NOUN NOUN PUNCT PROPN PRON VERB ADP PUNCT CCONJ PRON VERB ADJ PUNCT SCONJ PRON AUX VERB DET ADJ NOUN PUNCT SCONJ PRON VERB DET NOUN PUNCT AUX PRON VERB ADP DET NOUN NOUN PUNCT PRON AUX PRON ADV AUX NOUN ADP PUNCT SCONJ PRON DET AUX VERB DET NOUN ADP DET ADJ ADJ NOUN PUNCT CCONJ PRON AUX VERB PROPN SCONJ SCONJ ADJ NOUN SCONJ SCONJ VERB SCONJ SCONJ ADJ NOUN ADP PRON PUNCT SPACE PROPN ADP DET ADJ NOUN SPACE PRON AUX AUX VERB NOUN ADP PUNCT ADP DET ADJ NOUN AUX PRON ADJ NOUN NOUN PRON VERB NOUN ADP PUNCT SPACE ADP ADV DET NOUN,0.06126126126126126,0.3779051383399217,122,555,0.5573770491803278,0.10533243712030761
+"[Då, han, hadde, tjent, nok, på, det, svenska, märket, ,, började, han, lägga, till, i, ett, antal, mindre, engelska, konstruktioner, ., Han, fick, kära, för, sitt, lilla, föremål, och, utvecklade, lite, efter, lite, en, känsla, för, den, engelska, motorcykeln, till, alla, dess, fina, komponenter, ,, speciellt, i, avbrottsfria, transmissioner, och, olika, chock-dämpande, förbättringar, ., I, ett, fåtal, år, fortsatte, han, med, att, testa, den, engelska, tekniken, utanför, London, ,, innan, han, 1914, flyttade, till, Brittiska, Indien, för, att, tjänstgöra, i, indiska, armén, ., 
+
+, Hans, fortsatta, arbete, med, motorcyklar, i, Indien, pågick, parallellt, med, en, uppstickning]",VERB PRON AUX VERB ADV ADP DET ADJ NOUN PUNCT NOUN PRON X X ADP NUM NOUN ADJ ADJ NOUN PUNCT PRON PROPN VERB PROPN PRON ADJ X X PROPN ADJ NOUN ADJ DET ADJ X X X X X X ADV PROPN NOUN PUNCT ADJ ADP PROPN NOUN X PROPN PROPN NOUN PUNCT ADP NUM ADJ NOUN VERB PRON ADP X X DET ADJ NOUN PROPN PROPN PUNCT VERB PRON NUM NOUN X PROPN PROPN X X PROPN ADP PROPN PROPN PUNCT SPACE PROPN NOUN PROPN ADP NOUN ADP PROPN PROPN ADJ ADP DET NOUN,0.06712564543889846,0.3892105263157892,96,581,0.34375,0.029810053660144813
+"[Ja, ja, de, skal, få, få, at, vide, !, Ja, ., 🙂, 
+
+, I, had, a, blast, at, Copenhagen, ’, s, 27th, annual, Danish, Science, Festival, ., Last, week, I, attended, this, event, for, my, 7th, time, and, for, the, first, time, with, a, special, mission, ., This, time, I, was, the, chairperson, for, The, Danish, Young, Academy, of, Science, (, DYAS, ), ., DYAS, is, a, group, of, 26, young, Danish, researchers, who, represent, all, disciplines, within, the, Danish, Humanities, ,, Social, Sciences, ,, Health, and, Medical, Sciences, ,, and, Natural, /, Mathematical, Sciences, ., 
+
+, As, the, chairperson, of, DYAS, I, was, not, responsible, for, the, planning, this, year, ’, s, events, ,, but, rather, to, be, there, to, help, when, needed, and, to, represent, DYAS, ., DYAS, got, its, own, booth, at, the, Festival, ., At, our, booth, we, sold, merchandise, such, as, our, T-shirts, ,, bags, ,, stickers, ,, and, magnets, ., With, the, money, we, make, from, the, festival, we, support]",INTJ NOUN PRON AUX VERB VERB SCONJ ADJ PUNCT INTJ PUNCT ADV SPACE ADP X X X SCONJ PROPN X PROPN X X PROPN PROPN PROPN PUNCT X PROPN ADP X ADJ NOUN ADP X X X X X PROPN X X X X X X PUNCT ADJ X X X X PROPN ADP PROPN PROPN PROPN PROPN X PROPN PUNCT PROPN PUNCT PUNCT PROPN X X X X NUM X PROPN X X NOUN X NOUN X X PROPN PROPN PUNCT PROPN PROPN PUNCT PROPN X PROPN PROPN PUNCT X PROPN PUNCT PROPN PROPN PUNCT SPACE PROPN X PROPN X PROPN X X X X ADP X X X X X PROPN PROPN PUNCT X X X VERB PROPN NUM X X X X X NOUN PROPN PUNCT X X X X PROPN SCONJ PROPN PROPN PUNCT SCONJ X X X X PROPN X X X PROPN PUNCT PROPN PUNCT NOUN PUNCT X PROPN PUNCT X X X X X X X X X NOUN,0.0654911838790932,0.39785234899328803,166,794,0.2289156626506024,0.14750096302500781
+"[Då, eg, fekk, høyra, at, Tøyen, Zoo, i, Oslo, kom, til, å, gå, ned, ,, kjedet, meg, ut, ., Men, jeg, er, god, nok, hovelig, å, få, utspill, fra, lokalpolitiet, på, YouTube, ., Hei, !,  , Jeg, elskar, disse, slags, videoa, .,  , Som, sannslekker, sier, jeg, :, Tenn, som, jeg, hører, om, er, det, ,, å, høre, om, en, andre, slags, tenn, …, 
+
+, I, have, always, had, interest, in, the, way, women, of, the, modern, society, work, ., The, way, they, take, care, of, themselves, ,, the, way, they, see, themselves, ,, and,  , as, a, result, what, effect, it, has, on, their, surroundings, ., With,  , help, from, various, sources, of, information, ,, I, have, developed, an, approach, that, I, intend, to, use, as, the, basis, of, what, can, serve, as,  , a, starting, point, .]",X X X PROPN SCONJ PROPN PROPN ADP PROPN VERB SCONJ PART VERB ADP PUNCT VERB PRON ADP PUNCT CCONJ PRON AUX ADJ ADV ADJ PART VERB NOUN ADP NOUN ADP PROPN PUNCT INTJ PUNCT SPACE PRON VERB DET NOUN NOUN PUNCT SPACE SCONJ NOUN VERB PRON PUNCT NOUN PRON PRON VERB ADP AUX PRON PUNCT PART VERB ADP DET DET NOUN VERB PUNCT SPACE ADP X X X X X X X X X X PROPN X NOUN PUNCT X X X X X X X PUNCT X X X X X PUNCT X SPACE X X X X X X X X X NOUN PUNCT ADJ SPACE X X X X X X PUNCT ADP X X X X X ADP X X X X X X X X X X PROPN SPACE X X PROPN PUNCT,0.06991869918699187,0.3778445229681982,139,615,0.35251798561151076,0.2210827335403329
+"[I, Aurlandselva, var, andelen, presmoltet, av, fødene, til, atterselkene, ., I, samme, periode, etterkaste, to, ugjeld, ,, hvor, et, lille, ugjeld, nedstrømmes, 19., I, Aurlandsfjorden, og, et, større, ugjeld, 8., I, Aurlandsfjorden, ., Middelse, båtnede, vann, med, 4,1, promil, også, ,, litt, mer, enn, den, 3,9, promila, i, Hordaland, 1991., Joker, spilleforretning, 
+
+, Livsmedel, (, lign, ., Norsk, :, Spisemiddel, ), er, materiale, ,, vi, mennesker, tar, inn, til, kroppsvasking, og, energiproduksjon, ., Livsmedel, brukes, også, til, å, få, vitaminer, og, mineraler, inn, på, kroppens, behov, ., Livsmedel, må, væ]",ADP PROPN AUX NOUN VERB ADP NOUN ADP NOUN PUNCT ADP DET NOUN PROPN NUM NOUN PUNCT ADV DET ADJ PROPN PROPN PROPN ADP PROPN CCONJ DET ADJ NOUN NUM ADP PROPN PUNCT NOUN ADJ NOUN ADP NUM NOUN ADV PUNCT ADJ ADJ ADP DET NUM PROPN ADP PROPN NUM ADJ NOUN SPACE NOUN PUNCT NOUN PUNCT ADJ PUNCT PROPN PUNCT AUX NOUN PUNCT PRON NOUN VERB ADP ADP NOUN CCONJ NOUN PUNCT NOUN VERB ADV SCONJ PART VERB NOUN CCONJ NOUN ADP ADP NOUN NOUN PUNCT NOUN AUX VERB,0.08301158301158301,0.40742004264392356,90,518,0.4222222222222222,0.03985494523003312
+"[Det, vart, berre, ei, hås, ., (, Knut, Hamsun, ,, 1891, ,, Eng, trans, ., Hunger, ), 
+
+, The, novel, Hunger, was, first, published, in, 1890, ,, and, it, was, later, included, in, his, collection, The, Hunger, and, Kristin, Laura, ,, which, was, published, in, 1917., Hamsun, wrote, the, book, when, he, was, in, financial, distress, and, he, went, hungry, for, weeks, ,, in, order, to, experience, a, little, bit, of, what, the, poor, in, Bergen, suffered, when, they, couldn, ’, t, make, ends, meet, ., 
+
+, Hamsun, was, a, great, writer, ,, but, to, me, ,, in, this, book, he, went, too, far, ., His, protagonist, ,, the, young, man, who, calls, himself, simply, Hamsund, ,, is, the, epitome, of, the, selfish, and, pitiful, ,, petty, bourgeois, Bohemian, ,, a, self-pitying, “, aesthete, ”, who, just, wants, to, live, the, life, of, a, “, real, artist, ”, ., 
+
+, The, way, Hamsund, behaves, is, the, opposite, of, what]",PRON VERB X DET X PUNCT PUNCT PROPN PROPN PUNCT NUM PUNCT PROPN PROPN PUNCT PROPN PUNCT SPACE PROPN PROPN PROPN X X X X NUM PUNCT X X X VERB X X X X PROPN PROPN X PROPN PROPN PUNCT X X X X X PROPN X X X X X X X X X X X X NOUN ADP NOUN PUNCT X X X X X X X X X X X X PROPN X X X X X X X X X PUNCT SPACE PROPN X X X X PUNCT X X X PUNCT X X X X X ADJ NOUN PUNCT NOUN NOUN PUNCT PROPN X X X X X X PROPN PUNCT X X X X X X X X PUNCT NOUN X PROPN PUNCT PROPN X PUNCT NOUN PUNCT X X X X X X X X X PUNCT X NOUN PUNCT PUNCT SPACE PROPN X PROPN X X X X X X,0.06403269754768393,0.4152992700729924,159,734,0.16981132075471697,0.20847744748630895
+"[Ei, lita, kjøle, av, austavind, ., 
+
+, Coolness, from, an, austrian, wind, ., 
+
+, If, you, know, a, little, about, Norse, mythology, ,, you, know, Yggdrasil, ’, s, roots, are, guarded, by, NIðhöggr, (, Nið, ), and, Na̱uðr, (, Noaðr, ), ,, the, serpent, and, the, eagle, ., 
+
+, Noaðr, the, eagle, looks, upward, (, fylgja, (, fylgja, ), ), and, sees, the, future, ,, while, Nið, the, serpent, looks, down, (, hamr, (, hamr, ), ), with, hate, and, envy, ., 
+
+, With, the, word, austavind, ,, I, try, to, express, the, twofold, sense, of, the, Norse, world, tree, ,, Yggdrasil, ., Ygg, (, Yggr, ȳgra, ,, “, Squeezer, ”, ), is, the, name, of, the, god, odr, (, Odinn, ,, the, ønd, ), ., 
+
+, The, tree, is, a, bridge, between, heaven, and, hell, (, áss]",DET PRON VERB ADP NOUN PUNCT SPACE PROPN X ADV NOUN NOUN PUNCT SPACE X X X X X X PROPN X PUNCT X VERB PROPN X PROPN PROPN PROPN PROPN PROPN PROPN PUNCT PROPN PUNCT X NOUN PUNCT PROPN PUNCT PUNCT X X X X X PUNCT SPACE PROPN X PROPN PROPN PROPN PUNCT PROPN PUNCT NOUN PUNCT PUNCT X X X X PUNCT X PROPN X PROPN PROPN PROPN PUNCT PROPN PUNCT NOUN PUNCT PUNCT X X X NOUN PUNCT SPACE PROPN X NOUN NOUN PUNCT ADP X X X X X X X X PROPN X X PUNCT PROPN PUNCT PROPN PUNCT PROPN X PUNCT PUNCT PROPN PUNCT PUNCT X X X X X X PROPN PUNCT PROPN PUNCT X PROPN PUNCT PUNCT SPACE X X X X PROPN PROPN PROPN X X PUNCT NOUN,0.08657243816254417,0.42611218568665254,138,566,0.16666666666666666,0.14959989399137222
+"[Praktisk, tolka, for, skule, og, kunnskapskollegier, 
+
+, #, Dummy, head, for, educational, uses, 
+
+, -, A, dummy, head, for, educational, use, 
+, -, Price, 8, 000, kr., ex, ., mva, 
+, -, Can, be, mounted, on, a, tripod, ,, head, height, 20, cm, 
+, -, 175, cm, long, cable, ,, can, be, extended, with, an, extension, cable, 
+, -, Shipping, all, over, the, world, 
+, -, All, microphones, can, be, used, on, the, dummy, head, 
+, -, Can, be, connected, with, one, microphone, to, a, Dante, network, ,, or, connected, to, the, Zoom, F6, via, XLR, and, use, 2, microphones, on, the, dummy, head, 
+, -, Connect, 2, channels, from, the, Zoom, F6, to, the, dummy, head, and, control, the, microphone, levels, in, the, interface, of, the, audio, recorder, Zoom, F6, 
+, -, Control, of, levels, can, also, be, done, in, the, audio, software, ,, Cubase, ,, Protools, etc., 
+, -, One, channel, from, each, microphone, goes, to, the, F6, and]",ADJ NOUN ADP NOUN CCONJ PROPN SPACE NOUN X X ADP X X SPACE PUNCT PROPN X X X X X SPACE PUNCT NOUN NUM NUM NOUN NOUN PUNCT NOUN SPACE PUNCT PROPN X X X X X PUNCT NOUN PROPN NUM NOUN SPACE PUNCT NUM NOUN X X PUNCT X X X X X X X SPACE PUNCT PROPN X ADP X X SPACE PUNCT DET X X X ADJ X X X X SPACE PUNCT PROPN X X X X PROPN X X PROPN X PUNCT X X X X PROPN PROPN ADP PROPN X X NUM NOUN X X X X SPACE PUNCT PROPN NUM NOUN X X PROPN PROPN X X X X X X X X X X X X X X X PROPN PROPN PROPN SPACE PUNCT PROPN X X X X X X X X X NOUN PUNCT PROPN PUNCT PROPN ADV SPACE PUNCT PROPN X X X X X X X PROPN X,0.06368563685636856,0.4168069666182872,161,738,0.16770186335403728,0.09422371669122988
+"[Han, hevder, dette, blir, siste, gang, jeg, må, skrive, et, innlegg, for, denne, klassen, ., Høster-året, skal, jeg, falt, inn, i, fjor, ., Kan, det, være, så, ?, 
+
+, Jeg, får, litt, utklikk, av, å, skrive, et, innlegg, hvert, uke, ., Men, det, har, også, vært, som, noen, ganger, med, små, strømme, av, innspill, jeg, så, ønsker, det, er, litt, bedre, ., Men, hva, er, bedre, ?, 
+
+, Jeg, blir, bedre, som, jeg, er, nå, ., Jeg, er, veldig, veldig, bedre, enn, jeg, var, da, jeg, ble, student, ., Hva, er, for, bedre, ?, Hvor, kan, utklikka, skjærende, østes, i, meg, ?, 
+
+, Det, er, jeg, ikke, helt, sikkert, på, ., Men, vi, kom, frem, til, noe, som, ble, veldig]",PRON VERB PRON VERB ADJ NOUN PRON AUX VERB DET NOUN ADP DET NOUN PUNCT NOUN AUX PRON VERB ADP ADP NOUN PUNCT AUX PRON AUX ADV PUNCT SPACE PRON VERB ADJ NOUN SCONJ PART VERB DET NOUN DET NOUN PUNCT CCONJ PRON AUX ADV AUX ADP DET NOUN ADP ADJ VERB ADP NOUN PRON ADV VERB PRON AUX ADJ ADJ PUNCT CCONJ PRON AUX ADJ PUNCT SPACE PRON VERB ADJ PRON PRON AUX ADV PUNCT PRON AUX ADJ ADJ ADJ SCONJ PRON AUX SCONJ PRON VERB NOUN PUNCT PRON AUX ADV ADJ PUNCT ADV AUX NOUN ADJ DET ADP PRON PUNCT SPACE PRON AUX PRON PART ADJ ADJ ADP PUNCT CCONJ PRON VERB ADP ADP PRON PRON VERB ADJ,0.06273764258555133,0.3885534591194969,120,526,0.6833333333333333,0.20013744359322921
+"[Kvinnheringen, har, tidlegare, skrive, om, de, norske, hjemmesidene, til, Lekeland, ,, Kjerringås, ,, Nordby, og, Bøkerå, ,, alle, av, Firma, Brønnøysund, ., Det, er, muntre, og, fremragende, hjemmesider, med, hele, bildegalerier, for, varer, og, detaljer, samt, hoveddelene, ,, og, det, får, jeg, så, en, stor, beundring, for, ., 
+
+, På, kvinnheringen, er, der, en, artikel, skrevet, til, Nordby, fra, Firma, Brønnøysund, ., 
+
+, Her, er, en, del, av, Norges, gamle, leksaker, med, den, gamle, skikkelsen, av, en, dreng, under, oppdrag, til, skogen, ,, med, bjørne, ,, bjørgsprett, ,, jente, og, en, stundtids, hjul, (, møttebord, ), med, snyller, mellomstasjon, for, kort]",NOUN VERB PROPN VERB ADP DET ADJ NOUN ADP PROPN PUNCT PROPN PUNCT PROPN CCONJ PROPN PUNCT PRON ADP NOUN PROPN PUNCT PRON AUX ADJ CCONJ ADJ NOUN ADP ADJ NOUN ADP NOUN CCONJ NOUN CCONJ NOUN PUNCT CCONJ PRON VERB PRON VERB DET ADJ NOUN ADP PUNCT SPACE ADP NOUN AUX ADV DET NOUN VERB ADP PROPN ADP NOUN PROPN PUNCT SPACE ADV AUX DET NOUN ADP PROPN ADJ NOUN ADP DET ADJ NOUN ADP DET NOUN ADP NOUN ADP NOUN PUNCT ADP NOUN PUNCT NOUN PUNCT NOUN CCONJ DET NOUN NOUN PUNCT NOUN PUNCT ADP NOUN NOUN ADP ADJ,0.06654676258992806,0.3891518737672591,101,556,0.4752475247524752,0.16067893141179704
+"[Undulat, med, bur, til, salgs, 29/5/2023, 
+
+, Undulat, med, bur, til, salgs, 29/5/2023, |, Gå, til, hovedinnholdsarkivet, 
+
+, #, Underwater, acoustic, monitoring, of, the, Baltic, Sea, 
+
+, #, #, #, Acoustic, data, from, Baltic, Sea, monitored, since, the, 60's, 
+
+, The, Baltic, Sea, Research, Institute, (, Baltic, Sea, Research, Institute, ), was, established, in, 1960., Among, the, institute's, first, tasks, was, installation, of, underwater, recorder, in, the, Baltic, Sea, ., Since, 1961, ,, researchers, at, BALTIC, have, monitored, the, sound, environment, in, the, Baltic, Sea, ., 
+
+, The, system, is, designed, to, record, sounds, in, the, water, up, to, a, depth, of, 10, m, ,, and, it, is, thus, not, surprising, that, the, records, are, mainly, of, biological, origin, ., The, first, recordings, were, done, in, Danish, waters, ,, but, in, the, 70]",PROPN ADP NOUN ADP NOUN NUM SPACE PROPN ADP NOUN ADP NOUN NUM PUNCT VERB ADP NOUN SPACE NOUN PROPN X X X X PROPN PROPN SPACE NOUN NOUN NOUN PROPN NOUN ADJ PROPN PROPN PROPN PROPN ADJ NOUN SPACE PROPN PROPN PROPN PROPN PROPN PUNCT PROPN PROPN PROPN PROPN PUNCT X X X X VERB X PROPN ADJ X X X X X PROPN X X PROPN PROPN PUNCT PROPN NUM PUNCT PROPN SCONJ PROPN ADJ PROPN X X X X X PROPN PROPN PUNCT SPACE PROPN NOUN PROPN NOUN NUM NOUN X X X X X X X X X NUM NOUN PUNCT X X X X X X X X X X X X PROPN PROPN PUNCT PROPN X X X X X PROPN X PUNCT X X X NUM,0.07334273624823695,0.412030303030303,133,709,0.18796992481203006,0.16770679778442224
+"[Like, tydelege, har, ordførar, Jenny-Wren, Olney, og, Annelis, Bjerkås, ,, så, vil, vi, tversover, alle, sosiale, ,, økonomiske, og, generell, særskilnader, ,, gjennom, sine, værk, i, teater, og, underholdning, støtte, og, føre, videre, den, andre, personens, ønske, om, at, få, kvalitet, innen, kunst, -, og, sørge, for, at, et, spennende, kunstnerisk, udviklingsmiljø, skaper, øvrige, kunstnere, til, å, vite, seg, både, frem, og, tilbake, på, sin, kunstart, ., 
+
+, Stellar, has, been, part, of, Norway, ’, s, cultural, landscape, for, over, 10, years, ,, and, throughout, this, time, the, company, has, grown, and, transformed, in, order, to, reflect, the, development, of, the, industry, ,, as, well, as, its, own, ambition, level, ., In, January, 2017, they, made, the, shift, from]",ADV NOUN VERB PROPN PROPN PROPN CCONJ PROPN PROPN PUNCT ADV AUX PRON NOUN DET ADJ PUNCT ADJ CCONJ ADJ NOUN PUNCT ADP PRON NOUN ADP NOUN CCONJ NOUN NOUN CCONJ VERB ADJ DET DET NOUN NOUN SCONJ SCONJ VERB NOUN ADP NOUN PUNCT CCONJ VERB SCONJ SCONJ DET ADJ ADJ NOUN VERB ADJ NOUN SCONJ PART VERB PRON CCONJ ADP CCONJ ADP ADP PRON NOUN PUNCT SPACE PROPN X X X X PROPN X PROPN PROPN PROPN ADP ADP NUM X PUNCT X X X X X X X X X X X NOUN X X X X X X X PUNCT X X X X X X X PUNCT NOUN PROPN NUM X X X X X,0.0684931506849315,0.3879934210526314,119,657,0.35294117647058826,0.17002772439608244
+"[Hjertelig, takk, for, gåver, og, medhjelp, !, Til, en, stor, del, var, dette, mötestedet, finansiert, av, staten, ,, mens, 30, %, v.v, ., var, hvor, mange, som, så, lite, ,, men, som, gav, litt, eller, mye, mer, ,, så, blant, annet, også, Doktor, Jørgen, Randers, !, 
+
+, Med, dette, kan, vi, gjerne, også, stå, toppopp, fra, fredag, og, lørdag, !, 
+
+, Og, neste, aften, blir, den, siste, aften, av, denne, skole, ., Og, det, er, spesielt, neste, aften, som, vi, er, mega, takk, for, godt, gjort, hjelp, sammen, med, Gunnar, Mervin, og, Arild, Stavrål, ., 
+
+, Lige, nå, skal, vi, sike, og, gå, opp, med, alt, hva, vi, har, lært, (, sa, godt, som, mulig, ), ., Og, gjøre, k]",ADJ NOUN ADP NOUN CCONJ NOUN PUNCT ADP DET ADJ NOUN AUX DET NOUN VERB ADP NOUN PUNCT SCONJ NUM NOUN NOUN PUNCT AUX ADV ADJ PRON ADV ADJ PUNCT CCONJ PRON VERB ADJ CCONJ ADJ ADJ PUNCT CCONJ ADP DET ADV NOUN PROPN PROPN PUNCT SPACE ADP PRON AUX PRON ADV ADV VERB ADP ADP NOUN CCONJ NOUN PUNCT SPACE CCONJ DET NOUN VERB DET ADJ NOUN ADP DET NOUN PUNCT CCONJ PRON AUX ADJ DET NOUN PRON PRON AUX PROPN NOUN ADP ADJ VERB NOUN ADV ADP PROPN PROPN CCONJ PROPN PROPN PUNCT SPACE NOUN ADV AUX PRON ADJ CCONJ VERB ADP ADP PRON PRON PRON AUX VERB PUNCT VERB ADJ ADP ADJ PUNCT PUNCT CCONJ VERB NOUN,0.08630393996247655,0.384297520661156,120,533,0.6333333333333333,0.12515837381600567
+"[Det, er, det, store, spørsmålet, gjennom, hele, 2021, ,, og, sannsynligvis, blir, det, i, år, 2022, :, hva, skjer, med, bitcoin, ?, 
+
+, Det, er, utåpent, spørring, i, tiden, på, dette, skrevet, ., Med, et, markedet, som, bare, kommer, kraftig, bare, 2, uker, før, søkelysene, er, denne, saker, lest, enn, enda, større, enn, det, ., 
+
+, #, #, Bitcoin, kryptonøkler, 
+
+, Ved, første, øyeblikk, ,, Bitcoin, krypto, kaskad, kommer, hvis, du, er, uvisst, om, du, vil, egen, Bitcoin, nøkler, du, har, ., Siden, en, Bitcoin, adresse, kun, kan, ha, en, enkelt, transaksjon, til, den, ,, har, du, ikke, noe, håp, om, å, sette, et, spesielt, tegn, på, Bitcoin, du, får, til, bort, ., I, dag]",PRON VERB DET ADJ NOUN ADP ADJ NUM PUNCT CCONJ ADV VERB PRON ADP NOUN NUM PUNCT PRON VERB ADP NOUN PUNCT SPACE PRON VERB ADJ NOUN ADP NOUN ADP DET VERB PUNCT ADP DET NOUN PRON ADV VERB ADJ ADV NUM NOUN ADP NOUN AUX DET NOUN VERB ADP ADV ADJ ADP PRON PUNCT SPACE NOUN PROPN PROPN NOUN SPACE ADP ADJ NOUN PUNCT PROPN NOUN NOUN VERB SCONJ PRON AUX ADJ SCONJ PRON VERB DET PROPN NOUN PRON VERB PUNCT SCONJ DET PROPN NOUN ADV AUX VERB DET ADJ NOUN ADP PRON PUNCT VERB PRON PART DET NOUN SCONJ PART VERB DET ADJ NOUN ADP PROPN PRON VERB ADP ADP PUNCT ADP NOUN,0.07272727272727272,0.38682634730538956,115,550,0.6086956521739131,0.12523453490677453
+"[Mannen, er, funnet, på, en, gullvei, utenfor, Kebnekaise, fjell, i, Lappland, i, nordvest, Sverige, som, en, del, av, nordisk, mangaforsking, ., I, denne, fallet, ble, dette, veldig, svært, og, forvirrende, å, åpne, med, de, neste, søktildelinger, ,, de, som, er, funnet, etter, økonomisk, ekspertis, ., Aftalen, om, kjorepassager, med, Lufthansa, er, gjeldene, på, nett, fra, 13., Januar, 2012-15., Mai, 2013, (, herunder, 13., Desember, 2012, og, 13., Januar, 2013, ), ., I, alle, områder, er, fagfolk, mer, og, mer, ute, på, streik, denne, vikken, ,, de, som, oppvarmet, norske, busseskap, (, BKS, ), med, krav]",NOUN AUX VERB ADP DET NOUN ADP PROPN NOUN ADP PROPN ADP ADP PROPN SCONJ DET NOUN ADP ADJ NOUN PUNCT ADP DET NOUN VERB PRON ADJ ADJ CCONJ ADJ PART VERB ADP DET DET NOUN PUNCT PRON PRON AUX VERB ADP ADJ NOUN PUNCT NOUN ADP NOUN ADP PROPN AUX NOUN ADP NOUN ADP ADJ NOUN NUM PROPN NUM PUNCT ADV ADJ NOUN NUM CCONJ ADJ NOUN NUM PUNCT PUNCT ADP DET NOUN AUX NOUN ADJ CCONJ ADJ ADP ADP NOUN DET NOUN PUNCT PRON PRON VERB ADJ NOUN PUNCT PROPN PUNCT ADP NOUN,0.08431372549019608,0.39431670281995657,95,510,0.5157894736842106,0.09043268212470079
+"[Ulykka, skjedde, ved, ei, avkøyring, ., Det, virkelig, blir, kjemperfart, nå, ,, og, det, gir, lite, god, fornemmelse, ., Ulika, fart, og, uligartede, virkemåter, ., 
+
+, Fra, nyetterdag, ,, jeg, gikk, med, min, elbil, mot, en, buss, på, avkøring, ., Da, jeg, kom, til, minplass, ,, fikk, jeg, syn, på, den, og, tilsynelatende, en, avpassagerer, som, jærnbindt, med, bussens, troløft, ., Dette, er, lite, vanskelig, å, komme, utav, ., Jeg, kom, derigjennom, med, å, komme, på, andres, ferske, i, øyenene, ,, jeg, trak, opp, på, troløftet, og, løftet, sig, etter, vinden, som, er, det, mest, mulige, ,, jeg, åpnet, døren, til, myse, ,, og, jeg, sluttet]",NOUN VERB ADP DET NOUN PUNCT PRON ADJ VERB NOUN ADV PUNCT CCONJ PRON VERB ADJ ADJ NOUN PUNCT ADJ NOUN CCONJ ADJ NOUN PUNCT SPACE ADP NOUN PUNCT PRON VERB ADP PRON NOUN ADP DET NOUN ADP NOUN PUNCT SCONJ PRON VERB ADP NOUN PUNCT VERB PRON NOUN ADP PRON CCONJ ADJ DET NOUN ADP ADJ ADP NOUN NOUN PUNCT PRON AUX ADJ ADJ PART VERB NOUN PUNCT PRON VERB ADV SCONJ PART VERB ADP DET ADJ ADP NOUN PUNCT PRON NOUN ADP ADP NOUN CCONJ VERB ADV ADP NOUN PRON AUX DET ADJ ADJ PUNCT PRON VERB NOUN ADP NOUN PUNCT CCONJ PRON VERB,0.0583804143126177,0.3982572614107888,106,531,0.5283018867924528,0.1551421512120713
+"[Vi, veit, nok, i, dag, at, brystkreft, gjerne, opptreder, spesielt, åt, tiden, vi, er, i, ferd, med, å, bære, bare, barn, ., Det, har, jo, vært, på, TV, ,, i, medier, ., Vi, er, meget, opptatt, av, brystkreft, ., Det, er, meningen, fordi, hører, en, på, det, hendte, ., 
+
+, Og, det, er, viktig, å, skjønne, ., Faktisk, kommer, det, 1.000, kreft, i, meg, i, blant, andre, enkelt, på, denne, planeten, ., 
+
+, Men, hvis, de, 1.000, kreftene, som, er, i, meg, bare, åt, og, svarar, på, gjerne, kunne, vi, gjøre, noe, for, å, minske, dem, ., Hvis, vi, enda, bara, fikk, dem, på, avstand, de, skulle, være, ., 
+
+, Her, kan, du, lese, noe, om]",PRON VERB ADV ADP NOUN SCONJ NOUN ADV NOUN ADJ VERB NOUN PRON AUX SCONJ NOUN SCONJ PART VERB ADV NOUN PUNCT PRON AUX ADV AUX ADP NOUN PUNCT ADP NOUN PUNCT PRON AUX ADV ADJ ADP NOUN PUNCT PRON AUX NOUN ADV VERB PRON ADP PRON VERB PUNCT SPACE CCONJ PRON AUX ADJ PART VERB PUNCT ADJ VERB PRON NUM NOUN ADP PRON ADP ADP DET ADJ ADP DET NOUN PUNCT SPACE CCONJ SCONJ DET NUM NOUN PRON AUX ADP PRON ADV VERB CCONJ NOUN ADP ADV AUX PRON VERB PRON SCONJ PART VERB PRON PUNCT SCONJ PRON ADV X VERB PRON ADP NOUN PRON AUX VERB PUNCT SPACE ADV AUX PRON VERB PRON ADP,0.07326732673267326,0.3926315789473688,116,505,0.6724137931034483,0.22755925431931237
+"[Men, du, skulde, høyrt, og, gæres, glede, ., Men, er, det, men, vil, men, ikke, menn, ,, men, mer, vil, men, de, vil, ikkje, menn, uten, kvinner, ,, djevelens, dusine, ,, han, som, utklede, engle, kvinnen, av, fjorden, av, juvet, av, fjol, ., Men, det, vil, være, til, ., 
+
+, Men, ær, men, skulda, vissest, vissest, gæres, glede, ., Fjöl, menn, ., Men, er, nok, men, vil, men, nok, –, gæres, fyl, ,, gæres, fyl, ,, gæres, fyl, ,, gæres, fyl, ., 
+
+, I, am, a, writer, ,, activist, and, organizer, ., Born, in, Trondheim, ,, Norway, ,, I, grew, up, on, the, border, of, Trondheim, and, the, village, of, Åmotvold–between, the, urban, and, wilderness, ., Raised, by, artists, ,, I, was, from, the, start, exposed, to, theater, ,, books, ,, art, and]",CCONJ PRON VERB PROPN CCONJ PROPN NOUN PUNCT CCONJ AUX PRON CCONJ VERB CCONJ PART NOUN PUNCT CCONJ ADJ VERB CCONJ PRON VERB VERB NOUN ADP NOUN PUNCT NOUN NOUN PUNCT PRON PRON ADJ NOUN NOUN ADP NOUN ADP NOUN ADP ADJ PUNCT CCONJ PRON AUX VERB ADP PUNCT SPACE CCONJ NOUN CCONJ NOUN ADJ ADJ X NOUN PUNCT ADJ NOUN PUNCT CCONJ AUX ADV CCONJ VERB CCONJ ADV PUNCT VERB NOUN PUNCT VERB NOUN PUNCT VERB NOUN PUNCT VERB NOUN PUNCT SPACE ADP X X X PUNCT X X X PUNCT PROPN X PROPN PUNCT PROPN PUNCT ADP NOUN X X X X X PROPN X X PROPN X X X X X X PUNCT ADJ X X PUNCT ADP X X X X PROPN NUM NOUN PUNCT PROPN PUNCT NOUN X,0.06960950764006792,0.37644444444444486,133,589,0.3458646616541353,0.11623535480018196
+"[Dagen, etter, var, båten, tilbake, ., Ingen, kunne, være, kommet, ombest, ,, og, de, voksna, var, alle, trist, ., 
+
+, Heiðar, og, Pétur, hyllet, fra, båten, og, bar, fødelur, ., Þau, var, snúaðar, ,, en, snúaðar, ., Þat, er, kyn, af, vera, með, því, skaut, ,, en, verður, ekki, taka, stuð, og, aldrei, eiga, ., 
+
+, Gottur, hevit, um, alt, sem, væri, ,, að, fyrsta, hér, og, særst, kringar, ., Þeið, komu, aftur, og, aftur, að, kalla, Pétur, en, Pétur, snúu, Þeim, og, vant, þeir, ,, en, tók, Þeir, hans, húska, að, býja, um, ,, þetta, og, andlegu, ., 
+
+]",NOUN ADP AUX NOUN ADP PUNCT PRON AUX AUX VERB ADJ PUNCT CCONJ DET NOUN AUX PRON ADJ PUNCT SPACE PROPN CCONJ PROPN VERB ADP NOUN CCONJ VERB PROPN PUNCT PROPN AUX NOUN PUNCT DET NOUN PUNCT PROPN AUX X X X X PROPN PROPN PUNCT DET NOUN X X PROPN CCONJ X X PUNCT SPACE PROPN PROPN PROPN X X X PUNCT X X X CCONJ ADV NOUN PUNCT NOUN NOUN NOUN CCONJ NOUN X X PROPN DET PROPN ADV PROPN CCONJ VERB NOUN PUNCT DET NOUN ADJ PRON PROPN X X PROPN PUNCT NOUN CCONJ NOUN PUNCT SPACE,0.09174311926605505,0.4185529715762269,100,436,0.32,0.03193071462626485
+"[Frosken, var, veldig, redd, Han, fikk, blasert, av, blodet, 
+, I, etter, 5, minutter, døde, han, av, sin, skade, 
+, Alle, vant, denne, mannen, som, var, en, legende, 
+, Men, natten, når, du, sover, 
+, Kan, en, meld, deg, døden, 
+
+, The, last, day, is, the, day, I, die, :, 
+
+, The, last, day, is, the, day, I, die, 
+, The, last, day, is, the, day, I, die, 
+, I'm, coming, I'm, coming, I'm, dying, 
+, And, what, will, you, have, to, show, ?, 
+
+, (, repeat, to, fade, ), 
+
+, Last, Day, :, Nokken, 
+
+, "", Cold, and, alone, she, lies, 
+, So, cold, it, feels, like, death, 
+, But, she, still, breathes, 
+, And, she, knows, the, last, day, is, upon, us, 
+
+, The, day, we've, waited, for, 
+, The, last, day, 
+, It, has, come, and, gone, ,, 
+, A, memory, ,, 
+, And, everything, is, different, now, 
+
+, Her, eyes, will, not, stay, open, 
+, The, world, will, not]",NOUN AUX ADJ ADJ PRON AUX VERB ADP NOUN SPACE ADP ADP NUM NOUN VERB PRON ADP PRON NOUN SPACE PRON VERB DET NOUN PRON AUX DET ADJ SPACE CCONJ NOUN SCONJ PRON VERB SPACE AUX DET NOUN PRON NOUN SPACE PROPN X X X X X ADP NOUN PUNCT SPACE PROPN X X X X X ADP NOUN SPACE PROPN X X X X X ADP NOUN SPACE PROPN PROPN PROPN X X X SPACE X X X X X NUM NOUN PUNCT SPACE PUNCT NOUN X ADJ PUNCT SPACE PROPN PROPN PUNCT PROPN SPACE PUNCT PROPN X X X X SPACE X X X ADJ ADV NOUN SPACE X X X X SPACE X X X X X X X X X SPACE X X PROPN X ADP SPACE PROPN X X SPACE X X X X X PUNCT SPACE PROPN X PUNCT SPACE X X X X X SPACE ADV X X X X X SPACE PROPN X X X,0.07366771159874608,0.3833616298811547,163,638,0.2822085889570552,0.03979001363047007
+"[Goddag, karar, sagde, eg, og, hans, søster, ,, hvorfor, hun, alltid, gikk, med, ham, ., Hun, gikk, ikke, på, sømmersken, ,, enn, hun, gikk, nøytralt, og, gitt, om, mans, og, ikke, gjeldt, sin, og, gikk, med, bror, sin, altid, overalt, de, gikk, sammen, og, var, også, med, ham, ., 
+
+, Kristin, Lavransdatter, 
+
+, Haven, ’, t, been, feeling, very, “, together, ”, for, a, while, ., This, week, in, particular, was, a, blur, ,, and, I, haven, ’, t, been, sleeping, very, well, –, I, find, it, hard, to, wind, down, when, my, mind, doesn, ’, t, know, which, task, to, focus, on, first, ,, and, I, end, up, lying, awake, for, hours, until, the, sun, comes, up, before, I, finally, fall, asleep, ., 
+
+, So, I, haven, ’, t, blogged, ,, and, I, haven, ’, t, commented, on, anyone, ’, s, blogs, ,, and, I, haven, ’, t, been, as, active, on, Twitter, and, Instagram, as, I, ’, d, like, to, be]",NOUN PROPN VERB X CCONJ PRON NOUN PUNCT ADV PRON ADV VERB ADP PRON PUNCT PRON VERB PART ADP NOUN PUNCT SCONJ PRON VERB ADJ CCONJ VERB ADP NOUN CCONJ PART VERB PRON CCONJ VERB ADP NOUN PRON NOUN ADV PRON VERB ADV CCONJ AUX ADV ADP PRON PUNCT SPACE PROPN PROPN SPACE PROPN X X X X X PUNCT X PUNCT ADP X X PUNCT ADJ X X X X X X PUNCT X ADP NOUN X X X X X X PUNCT ADP X X ADJ X X X X X X X ADJ NOUN X X X X PROPN X X PUNCT X X X X NOUN X ADP NOUN X X PROPN X X X ADP NOUN X X PUNCT SPACE PROPN PROPN NOUN X PROPN NOUN PUNCT X ADP NOUN X PROPN PROPN X X X NOUN NOUN PUNCT X ADP NOUN X X X PROPN X X PROPN X PROPN PROPN ADP ADJ PROPN ADV NUM VERB,0.05822416302765648,0.3946394984326011,163,687,0.37423312883435583,0.17318838675646717
+"[Jeg, er, ekstremt, tilfreds, med, udenrigstelefonen, som, jeg, besøgte, kort, tid, siden, ., Først, er, den, helt, smuk, og, funktionel, og, anbefaler, jeg, 100, %, malpractice, med, kundeservice, ., 
+
+, #, Samsung, Galaxy, A60, Overview, 
+
+, Samsung, unleashed, its, mid-budget, series, phones, in, the, name, of, Galaxy, A, ,, which, recently, added, three, more, series, namely, Galaxy, A20, ,, A30, and, A50., Now, the, fourth, variant, added, to, the, Galaxy, A, family, is, the, Galaxy, A60, and, it's, exclusive, to, China, so, far, ., The, company, has, released, a, teaser, video, showcasing, that, the, smartphone, will, come, with, a, 32MP, in-display, selfie, camera, ., So, let's, see, what, else, we, can, expect, from, this, new, Galaxy, A, smartphone, ., 
+
+, #, #, Design, 
+
+, The, handset, will, come, with, a, 6.39-]",PRON AUX ADJ ADJ ADP NOUN PRON PRON ADJ ADJ NOUN ADV PUNCT ADV AUX DET ADJ ADJ CCONJ NOUN CCONJ VERB PRON NUM NOUN NOUN ADP NOUN PUNCT SPACE NOUN PROPN PROPN PROPN PROPN SPACE PROPN X X X PROPN PROPN X X X X PROPN PROPN PUNCT X X X X X PROPN PROPN PROPN PROPN PUNCT PROPN X X X X X NOUN X X X PROPN PROPN PROPN PROPN X PROPN PROPN X X X X PROPN X NOUN PUNCT PROPN X X PROPN X VERB X X X X X X X X X X PROPN NOUN X PUNCT X X X X X X X X X X PROPN PROPN X X PUNCT SPACE NOUN NOUN PROPN SPACE PROPN X X X X X PROPN,0.07580174927113703,0.4313029827315549,131,686,0.2595419847328244,0.1501610496666583
+"[Det, er, ei, trist, melding, men, den, er, en, nødvendig, melding, for, å, skru, den, sommerfele, klimaet, og, den, vakre, varme, glede, i, hjerter, ., 
+
+, Det, var, en, vakker, dag, i, Mysen, med, søstrennes, brudes, glede, i, dagens, kristningsdags, fest, ., 
+
+, Midt, i, gleden, fikk, jeg, melding, om, at, min, beste, kjæreste, ,, min, ven, ,, Niels, Gjernes, ,, har, død, i, natten, ., 
+
+, Niels, Gjernes, hadde, sykdommen, Crohns, ,, en, inflammation, i, tarmkanalen, som, kan, være, uhelbart, ., 
+
+, Niels, Gjernes, var, en, ung, mann, som, gjort, meget, i, sine, 25, leveårer, ., 
+
+, Siden, starten, av, Gudvinden, 79, har, N]",PRON AUX DET ADJ NOUN CCONJ PRON AUX DET ADJ NOUN SCONJ PART VERB DET ADJ NOUN CCONJ DET ADJ ADJ NOUN ADP NOUN PUNCT SPACE PRON AUX DET ADJ NOUN ADP PROPN ADP NOUN PROPN NOUN ADP NOUN NOUN NOUN PUNCT SPACE ADV ADP NOUN VERB PRON NOUN SCONJ SCONJ PRON ADJ NOUN PUNCT PRON NOUN PUNCT PROPN PROPN PUNCT AUX NOUN ADP NOUN PUNCT SPACE PROPN PROPN VERB NOUN PROPN PUNCT DET NOUN ADP NOUN PRON AUX AUX ADJ PUNCT SPACE PROPN PROPN AUX DET ADJ NOUN PRON VERB ADV ADP PRON NUM NOUN PUNCT SPACE ADP NOUN ADP NOUN NUM VERB NOUN,0.07254901960784314,0.3773535791757047,105,510,0.4666666666666667,0.10389369883802542
+"[Etter, forvaltningslova, har, P4, rett, til, å, avbrøke, valgasembling, ., Rekruttering, er, rett, utsett, ., Gyltene, var, P4, vinner, og, hadde, svar, på, blant, annet, sitt, motiver, for, å, legga, seg, inn, ., 
+
+, Eva-Mari, Gyltene, :, I, P4-teama, etter, 18, års, hjemmelengsel, og, næring, ., Det, er, en, del, med, å, legges, inn, i, dette, teamet, ,, vi, gjør, det, til, neste, 10-12, år, ., Lokalt, var, det, 2017, og, 2019, de, sist, det, ble, en, ny, chef, ,, utover, ., Det, hadde, det, hatt, med, at, hva, vi, mener, vil, være, hva, P4, skal, kunne, være, i, de, neste, årene, ,, og, med, min, styrke, som, ledende, i, daglig, drift, og, i, ut]",ADP NOUN AUX PROPN NOUN SCONJ PART VERB NOUN PUNCT NOUN AUX ADJ VERB PUNCT NOUN AUX PROPN VERB CCONJ VERB NOUN ADP ADP DET PRON NOUN SCONJ PART VERB PRON ADP PUNCT SPACE NOUN PROPN PUNCT ADP NOUN ADP NUM NOUN NOUN CCONJ NOUN PUNCT PRON AUX DET NOUN SCONJ PART VERB ADP ADP DET NOUN PUNCT PRON VERB PRON ADP DET NUM NOUN PUNCT ADJ VERB PRON NUM CCONJ NUM DET ADV PRON VERB DET ADJ NOUN PUNCT ADP PUNCT PRON AUX PRON VERB SCONJ SCONJ PRON PRON VERB AUX AUX PRON PROPN AUX AUX AUX SCONJ DET DET NOUN PUNCT CCONJ ADP PRON NOUN SCONJ ADJ ADP ADJ NOUN CCONJ ADP ADP,0.08679245283018867,0.40166320166320246,115,530,0.6347826086956522,0.13915804311214325
+"[Det, er, heilt, mindblowing, kva, mange, ting, som, kan, hjelpe, noen, til, å, spise, helse, og, gladd, enn, annars, –, forhold, pa, hovedveien, kan, da, ikke, vera, lengre, pustelsesreglerne, sa, i, tidligere, blog, :, 5, ting, som, er, hjelpfullt, for, å, spise, tilsatt, !, Jeg, tror, da, at, denne, artikkelen, blir, hjelpfullt, for, mange, ,, herunder, meg, selv, ,, slik, at, jeg, skal, bruke, det, som, kroppslyd, for, meg, selv, neste, gang, jeg, ikke, kan, hjelpe, deg, ., Selvom, den, er, veldig, lengt, ,, det, var, en, fornemme, oppførsel, av, de, to, til, å, ha, delt, den, med, meg, og, jeg, kan, sannsynligvis, vært, for, langt, borte, for,  , å, klare, den, maksimalt, som, er, tilgjeng]",PRON AUX ADJ PROPN PROPN ADJ NOUN PRON AUX VERB PRON SCONJ PART VERB NOUN CCONJ NOUN ADP NOUN PUNCT NOUN PROPN NOUN AUX ADV PART ADJ ADJ NOUN VERB ADP ADJ NOUN PUNCT NUM NOUN PRON AUX ADJ SCONJ PART VERB ADJ PUNCT PRON VERB ADV SCONJ DET NOUN AUX VERB ADP ADJ PUNCT ADV PRON DET PUNCT ADV SCONJ PRON AUX VERB PRON SCONJ NOUN ADP PRON DET DET NOUN PRON PART AUX VERB PRON PUNCT ADJ PRON AUX ADJ ADJ PUNCT PRON AUX DET ADJ NOUN ADP DET NUM SCONJ PART AUX VERB PRON ADP PRON CCONJ PRON AUX ADV AUX ADV ADJ ADP SCONJ SPACE PART VERB DET ADJ PRON AUX NOUN,0.0603448275862069,0.368738229755181,116,580,0.6724137931034483,0.18222455747273206
+"[Men, eg, er, ikkje, vanlige, ., I, don, ’, t, even, know, what, it, ’, s, like, to, be, a, man, ., I, do, have, a, few, friends, who, are, men, ., My, daddy, is, a, man, ., I, ’, ve, watched, many, of, them, ., What, I, know, is, men, don, ’, t, always, know, what, they, want, ., They, ’, re, always, looking, at, a, woman, with, their, heads, up, looking, down, her, shirt, ., They, don, ’, t, know, what, they, want, ,, they, ’, re, always, thinking, with, their, penis, ., They, ’, re, always, after, the, pussy, ., I, don, ’, t, want, to, be, like, that, ., I, want, to, be, an, egalitarian, that, ’, s, what, I, want, ., I, want, to, be, a, good, mother, ,, a, good, wife, ,, a, good, partner, ., I, want, to, give, my, children, everything, that, I, have, ., This, is, the, reason, that, I, always, have, to, go, to, parties, with, my, sisters, ., They, have, a, whole, other, kind, of, energy, ., They, ’, re, not, afraid, of, anything, ., They, ’, re, fearless, ., They, don, ’, t, want, to, be]",CCONJ PRON AUX ADV ADJ PUNCT ADP PROPN X PROPN X X X X X PROPN ADV NUM VERB ADJ PRON PUNCT ADP X X X X X X X CCONJ PUNCT X X X X PRON PUNCT ADP X X X X X X PUNCT PROPN ADP X NOUN CCONJ X X X X X X X X PUNCT PROPN X PROPN PROPN NOUN SCONJ PROPN PROPN X X X X X X ADV NOUN PUNCT PROPN X X X X X X X PUNCT X X PROPN X NOUN X X X PUNCT PROPN X PROPN X X X X PUNCT ADP PROPN X X X NUM VERB ADV NOUN PUNCT ADP ADV NUM VERB ADV PROPN X X X X ADP X PUNCT ADP ADV X X X X X PUNCT X X X PUNCT X X NOUN PUNCT ADP X X X X X X X X NOUN PUNCT ADJ X X X X X X X X X NUM NOUN X X X PUNCT PROPN X X X X X X X PUNCT X X X X X X X PUNCT PROPN X PROPN PROPN PUNCT PROPN X X X X NUM VERB,0.04078947368421053,0.375021097046415,198,760,0.2676767676767677,0.26718608702305374
+"[Det, finst, i, alle, fall, 
+
+, Especially, when, you, are, just, beginning, your, online, music, experience, ,, the, possibilities, and, options, for, marketing, yourself, seem, endless, ., What, kind, of, website, do, you, want, ?, How, about, a, blog, ?, What, ’, s, the, best, way, to, put, your, social, networking, sites, together, ?, Do, I, need, a, YouTube, site, ?, How, do, I, stream, my, music, ?, Why, do, I, need, a, website, ,, anyway, ?, 
+
+, The, good, news, is, that, there, is, no, wrong, answer, to, the, majority, of, these, questions, ., (, Well, ,, maybe, a, terrible, ,, poorly, designed, website, is, wrong, ., ), The, questions, are, valid, and, should, be, asked, before, you, begin, to, decide, what, is, most, important, in, your, quest, to, get, noticed, online, ., 
+
+, The, truth, is, ,, a, professional, ,, well-designed, web, site, with, social, networking, links, is, not, necessarily, the, first, step, you, need, to, take, ., There, ’, s, a, process, you, should, follow, if, you, want, to, become, a, visible, and, successful, online, musician, ., This, article, will, tell, you, how, ., 
+
+, What, Do, You, Have, To, Say, ?, 
+
+, What]",DET X ADP DET NOUN SPACE PROPN X X X X X X X PROPN PROPN PUNCT X X X X X X X X X PUNCT X X X X X X X PUNCT X X X X PUNCT X X PROPN X ADJ X X X X X PROPN X X PUNCT VERB X X PROPN PROPN PROPN PUNCT X X ADP X X X PUNCT X X X X X PROPN PUNCT INTJ PUNCT SPACE X X X X X X X X X X X X X X X X PUNCT PUNCT PROPN PUNCT X X X PUNCT VERB PROPN PROPN X X PUNCT PUNCT PROPN X X X X X X X X X X X X X X X X X X X X X PROPN ADJ PUNCT SPACE PROPN X X PUNCT X X PUNCT NOUN X PROPN X X PROPN PROPN X X PROPN X X X X X X X PUNCT PROPN X PROPN X X X X X X X X X X X X X PROPN PROPN PROPN PUNCT X X X X X PROPN PUNCT SPACE PROPN PROPN PROPN PROPN PROPN PROPN PUNCT SPACE PROPN,0.044919786096256686,0.3945146726862286,197,935,0.19289340101522842,0.14803552395940003
+"[Nokre, kommunar, får, midlar, til, kostnader, vidare, i, tillegg, til, NOK, 30, mll, ., 06.07.2019, 
+
+, #, The, Norwegian, Environment, Agency, -, a, national, contact, point, for, the, EU, Climate, and, Energy, Governance, 
+
+, 05.07.2019, 
+
+, In, Norway, we, are, preparing, a, national, plan, for, 2050, and, measures, to, be, implemented, to, reduce, greenhouse, gas, emissions, ., 
+
+, The, Norwegian, Environment, Agency, ’, s, (, NEA, ), role, in, the, climate, and, energy, work, is, to, provide, the, public, authorities, concerned, with, information, and, analyses, that, form, the, basis, for, decisions, and, to, perform, independent, monitoring, of, the, measures, introduced, to, reduce, greenhouse, gas, emissions, ., 
+
+, NEA, is, also, a, contact, for, national, authorities, to, learn, about, EU, climate, and, energy, requirements, (, eg., on, vehicle, emissions, ), .]",ADJ PROPN VERB PROPN ADP NOUN PROPN ADP NOUN ADP PROPN NUM NOUN PUNCT NUM SPACE NOUN PROPN PROPN PROPN PROPN PUNCT PROPN X PROPN PROPN ADP PROPN PROPN PROPN X PROPN PROPN SPACE X SPACE PROPN PROPN X X NOUN X X NOUN ADP NUM X X X VERB X NUM ADV PROPN X X PUNCT SPACE PROPN PROPN PROPN PROPN PUNCT NOUN PUNCT PROPN PUNCT X X X X X X X X X X X X PROPN PROPN X X X X X NOUN DET NOUN ADP X X X NOUN X X X X X X NUM X PROPN X X PUNCT SPACE PROPN X X X PROPN ADP PROPN PROPN X X X PROPN X X X PROPN PUNCT X X X X PUNCT PUNCT,0.06802721088435375,0.40166180758017495,130,735,0.23846153846153847,0.08425199626500869
+"[På, eit, tidspunkt, såg, det, ut, som, det, blev, ., En, jakt, på, ei, svart, bille, ., 
+
+, Ei, jakt, som, startet, på, eit, fora-thread, ., Da, vi, fikk, kjent, med, Åge, Skaane, som, e, eit, mykkelt, interessant, figur, ,, så, gikk, det, opp, eit, par, ting, av, gangen, ., Etter, at, vi, hadde, fodda, bokken, ,, så, begyndte, vi, å, jobbe, med, noen, musikk, ., 
+
+, Jeg, synes, jeg, får, ei, lite, lime, i, møte, med, Åges, musikk, ., Ei, lime, slik, jeg, tånt, jeg, måtte, tenke, på, å, gjøre, ei, bok, om, ., En, ting, som, hadde, egne, kanskje, nogle, ganger, sjuttiåring, ,, en, av, de, gamle, lime-fiskene, i, middelalderen, ., 
+
+, Da]",ADP DET NOUN VERB PRON ADP SCONJ PRON X PUNCT DET NOUN ADP DET ADJ NOUN PUNCT SPACE DET NOUN PRON VERB ADP X NOUN PUNCT SCONJ PRON AUX VERB ADP PROPN PROPN PRON VERB PART ADJ ADJ NOUN PUNCT ADV VERB PRON ADP DET NOUN NOUN ADP NOUN PUNCT SCONJ SCONJ PRON VERB VERB NOUN PUNCT ADV VERB PRON PART VERB ADP DET NOUN PUNCT SPACE PRON VERB PRON VERB DET ADJ NOUN ADP NOUN ADP PROPN NOUN PUNCT DET VERB ADV PRON PROPN PRON AUX VERB SCONJ PART VERB DET NOUN ADP PUNCT DET NOUN PRON VERB DET ADV ADJ NOUN NOUN PUNCT DET ADP DET ADJ NOUN ADP NOUN PUNCT SPACE SCONJ,0.06640625,0.3882505399568044,115,512,0.591304347826087,0.04219026491285902
+"[Fredag, skreiv, Bergens, Tidende, at, Nye, Målarskolen, har, startet, et, program, for, særlig, utvikling, på, Haukelidbakken, ., 
+
+, Neste, søndag, 29., november, er, forsøksstilstand, på, programmet, ., 
+
+, #, #, Høyt, med, utvikling, i, Bergen, 
+
+, Bergens, Tidende, Skivet, 
+
+, #, #, #, Høyt, med, utvikling, 
+
+, Artikkelen, er, skrevet, av, Olso, Solem, og, Anne, Husebekk, ., 
+
+, Foto, :, Marita, Gjermundsen, 
+
+, #, #, #, Bærekraftig, klinikk, oppgjøret, for, Haukelid, bakken, 
+
+, Nordhordland, 
+
+, #, #, #, I, hjemmekompani, og, med, kunstnerisk, værktoe, 
+
+, Nordhordland, 
+
+, #, #, #, Utfordrende, kunst, 
+
+, Nordhordland, 
+]",NOUN VERB PROPN PROPN SCONJ ADJ NOUN AUX VERB DET NOUN ADP ADJ NOUN ADP PROPN PUNCT SPACE DET NOUN ADJ NOUN AUX NOUN ADP NOUN PUNCT SPACE NOUN NOUN ADJ ADP NOUN ADP PROPN SPACE PROPN PROPN NOUN SPACE NOUN NOUN NOUN ADJ ADP NOUN SPACE NOUN AUX VERB ADP PROPN PROPN CCONJ PROPN PROPN PUNCT SPACE NOUN PUNCT PROPN PROPN SPACE NOUN NOUN PROPN ADJ NOUN NOUN ADP PROPN NOUN SPACE PROPN SPACE NOUN NOUN NOUN ADP NOUN CCONJ ADP ADJ NOUN SPACE PROPN SPACE NOUN NOUN PROPN ADJ NOUN SPACE PROPN SPACE,0.08548707753479125,0.4454185022026429,95,503,0.25263157894736843,0.1294259039603253
+"[Erklæring, frå, lege, om, tilstanden, i, Norge, ., 
+
+, Oslopressen, skrev, :, 
+
+, >, Norway, will, begin, restricting, entry, to, Britain, —, which, is, suffering, from, the, fastest, spreading, coronavirus, epidemic, in, Europe, —, later, this, week, ,, a, Norwegian, official, said, on, Monday, ., 
+, >, 
+, >, “, There, will, be, restrictions, for, travel, from, the, U.K., from, Thursday, ., And, that, will, be, a, bit, more, strict, than, today, ,, ”, Ingrun, Høyland, ,, a, spokeswoman, for, the, government, ’, s, emergency, preparedness, agency, ,, told, public, broadcaster, NRK, ., 
+, >, 
+, >, The, U.K., had, the, most, single-day, fatalities, ever, —, with, a, record, 1,325, reported, on, Saturday, ., 
+
+, En, skal, jo, komme, mekka, en, reisning, ., 
+
+, Er, det, ikke, lengere, helt, veldig, utroligt, ?, 
+
+, Meg, har, jeg, ikke, noe, som, på, noen, måte, kan, fane, opp, en, f]",NOUN X NOUN ADP NOUN ADP PROPN PUNCT SPACE NOUN VERB PUNCT SPACE PUNCT PROPN X X NOUN PROPN X PROPN PUNCT X X X X X X PROPN X X X X PUNCT VERB ADJ X PUNCT X PROPN X X X X PUNCT SPACE PUNCT SPACE PUNCT PUNCT PROPN X X PROPN ADP X X X X X PROPN PUNCT X X X X X X X X X X PUNCT PUNCT PROPN PROPN PUNCT X X ADP X X X PROPN PROPN NOUN NOUN PUNCT X X VERB PROPN PUNCT SPACE PUNCT SPACE PUNCT PROPN PROPN X X X PROPN NOUN X PUNCT X X X X X X PROPN PUNCT SPACE PRON AUX ADV VERB NOUN DET NOUN PUNCT SPACE VERB PRON PART ADJ ADJ ADJ ADJ PUNCT SPACE PRON VERB PRON PART PRON PRON ADP DET NOUN AUX NOUN ADP DET NOUN,0.07735583684950774,0.42809667673715956,147,711,0.2653061224489796,0.177647334257184
+"[Nei, eg, ser, ikkje, anna, jon, nokkurri, eitt, hvordi, ., Alli, tveir, eru, í, samræmi, því, þeir, eru, óveitandi, ., Við, vinna, í, freyjulegt, verk, við, ., 
+
+, We, are, all, working, in, the, unknown, ., Both, you, and, I, are, unknowing, ., We, create, in, divine, union, ., 
+
+, #, In, the, beginning, 
+
+, Sanna, Särkkä, 
+
+, I, was, not, supposed, to, become, an, artist, ., 
+
+, I, was, meant, to, become, a, nurse, and, a, doctor, ., My, father, was, a, doctor, and, my, mother, worked, for, her, husband, ,, in, his, practice, ., My, family, ,, my, relatives, ’, and, my, neighbours, ’, opinions, ,, and, ultimately, the, educational, system, of, my, home, town, ,, all, were, on, my, way, to, being, a, nurse, and, a, doctor, ., But, deep, inside, me, I, knew, I, was, an, artist, ,, I, had, to, become, one, ., With, a, lot, of, resistance, ,, I, started, a, three, year, Fine]",INTJ X VERB X PROPN PROPN PROPN X NOUN PUNCT PROPN X X X X PROPN X X X PUNCT X X PROPN PROPN NOUN X PUNCT SPACE X X X X X X X PUNCT X X X X X NOUN PUNCT X X X X X PUNCT SPACE NOUN PROPN X X SPACE PROPN PROPN SPACE ADP X X X X X X NOUN PUNCT SPACE ADP X X X X X X X X X PUNCT X X X X X X X X X ADP ADV NOUN PUNCT X X X PUNCT NOUN PROPN PUNCT X X X X X X X X PUNCT X X X X X X X X PROPN PUNCT X X X X X X X X X X X X PUNCT X X X X ADP ADV ADP X X NOUN PUNCT ADP X X X X PUNCT X X X X PROPN PUNCT X X X X PROPN PROPN,0.06312769010043041,0.3945370370370377,160,697,0.2125,0.20531459066686186
+"[Eg, prøvde, å, snu, hingstenen, på, dette, filmenet, som, jeg, er, på, tvang, til, å, bruke, der, gjev, tjokker, til, slutt, ,, gjennom, å, bruke, et, "", tjenesteplis""-filter, ., Når, jeg, lager, dette, i, Photoshop, ,, slutter, jeg, bare, med, ved, å, tusse, på, grunnen, ,, men, etter, at, jeg, lagrer, det, ,, prøver, jeg, å, laste, det, opp, på, min, webpage, direkte, fra, Photoshop, ., Dette, kan, jeg, ikke, gjøre, selv, ,, så, jeg, må, bruke, et, "", tjenesteplis, "", til, dette, ,, hvilket, jeg, gjør, ved, å, bruke, Jing, ,, som, er, en, service, fra, Techsmith, ., 
+
+, Man, vet, jo, ,, at, denne, stund, ,, er, det, en, del, utvikling, for, å, kunne, sette, opp, noen, nettsider, ,, men, for, så, mye, er]",PROPN VERB PART VERB NOUN ADP DET NOUN PRON PRON AUX SCONJ NOUN SCONJ PART VERB SCONJ NOUN NOUN ADP NOUN PUNCT SCONJ PART VERB DET PUNCT NOUN PUNCT SCONJ PRON VERB PRON ADP PROPN PUNCT VERB PRON ADV ADP SCONJ PART VERB ADP NOUN PUNCT CCONJ SCONJ SCONJ PRON VERB PRON PUNCT VERB PRON PART VERB PRON ADP ADP PRON NOUN ADJ ADP PROPN PUNCT PRON AUX PRON PART VERB ADV PUNCT CCONJ PRON AUX VERB DET PUNCT NOUN PUNCT ADP PRON PUNCT DET PRON VERB SCONJ PART VERB PROPN PUNCT PRON AUX DET NOUN ADP PROPN PUNCT SPACE PRON VERB ADV PUNCT SCONJ DET NOUN PUNCT VERB PRON DET NOUN NOUN SCONJ PART AUX VERB ADP DET NOUN PUNCT CCONJ ADP ADV ADJ AUX,0.06654991243432574,0.40011494252873564,126,571,0.6587301587301587,0.1835828075173904
+"[Sjølv, om, kvantitative, data, manglar, 
+
+, Taking, into, account, the, fact, that, the, project, has, been, funded, by, the, Norwegian, Government, and, implemented, as, its, aid, in, Zimbabwe, ,, we, would, have, been, expected, to, come, across, quantitative, data, on, the, impact, that, the, project, has, had, on, the, beneficiaries, ’, lives, ., The, fact, that, we, did, not, come, across, any, such, data, ,, was, a, clear, indication, that, the, project, managers, are, not, conversant, with, how, development, aid, works, ., The, project, ,, if, it, was, to, pass, muster, as, a, well-conceived, project, ,, should, have, come, with, a, data, collection, methodology, which, is, then, used, to, gather, data, on, the, various, interventions, that, it, has, undertaken, ., To, be, more, explicit, ,, one, would, have, expected, to, see, documents, detailing, the, methodology, that, was, to, be, employed, in, data, gathering, in, the, project, ’, s, inception, report, ., In, addition, to, that, ,, the, mid-term, and, the, end, of, the, project, reports, should, have, also, had, data, that, was, collected, as, part, of, monitoring, and, evaluation, activities, ., The, fact]",PROPN ADP ADJ NOUN NOUN SPACE X X X X X X X X X X X X X PROPN PROPN X X X X X X PROPN PUNCT X X X X X X X X ADJ NOUN ADP X X X X X X X X X X ADJ NOUN PUNCT PROPN X X X X X X X X X NOUN PUNCT X X X X X X X X X X X X PROPN X X X PUNCT PROPN X PUNCT X X X X NOUN ADP PROPN X X X PUNCT X X X X X X X X X X X X X X NOUN X X X X X X X NOUN PUNCT NUM VERB ADJ NOUN PUNCT X X X X X X PROPN X X X X X X X PROPN X X NOUN X X X X PROPN X NOUN PUNCT X X X X PUNCT X X X X X X X X X X X X X X X X X X X X X X X X PUNCT PROPN PROPN,0.03842264914054601,0.36697872340425414,183,989,0.16393442622950818,0.18846015486109194
+"[Her, kjem, eg, til, å, siste, opp, til, etter, aker, ., Hvordan, finner, du, til, å, vite, dette, på, forundene, ., Den, ulike, morgenar, kan, du, være, kule, nok, for, å, få, en, grunn, for, at, bli, gjenbrukt, som, kaffe, og, kuk, ., 
+
+, #, #, Een, liten, avtale, 
+
+, You, can, use, an, affiliate, link, when, you, publish, a, review, of, a, new, WordPress, theme, ,, or, when, you, write, an, article, about, a, new, WordPress, plugin, ., This, way, ,, you, ’, re, still, promoting, the, product, (, and, earning, some, money, ), ,, while, encouraging, people, to, visit, the, site, to, get, the, full, review, ., This, is, particularly, useful, if, you, ’, re, a, freelance, WordPress, designer, ,, as, it, shows, that, you, are, up-to-date, with, the, current, market, trends, ., Alternatively, ,, if, you, ’, re, running, a, general, site, that, talks, about, a, particular, sector, ,, an, affiliate, link, allows, you, to, recommend, a, specific, company, based, on, your, experience, ., 
+]",ADV VERB PROPN SCONJ PART VERB ADP ADP ADP PROPN PUNCT ADV VERB PRON SCONJ PART VERB PRON ADP NOUN PUNCT DET ADJ ADJ AUX PRON AUX ADJ ADV SCONJ PART VERB DET NOUN SCONJ SCONJ AUX VERB SCONJ NOUN CCONJ NOUN PUNCT SPACE NOUN NOUN PROPN ADJ NOUN SPACE X X X X X X X X X X X X X PROPN PROPN PROPN PUNCT X X X X X X X X PROPN PROPN NOUN PUNCT ADJ X PUNCT X X X X X X X PUNCT X X X NOUN PUNCT PUNCT X NOUN PROPN X X X X X X X X PROPN PUNCT ADJ X X X X X X PROPN PROPN PROPN PROPN NOUN PUNCT X X X X X X X X X X X NOUN PUNCT NOUN PUNCT X X X X X X PROPN X X X X X X NOUN PUNCT ADV X X X X X X X X X X X X X PUNCT SPACE,0.05361596009975062,0.3877822045152711,168,802,0.30952380952380953,0.186360312691224
+"[Saulus, hadde, lært, om, det, heliga, ,, 
+
+, som, han, kunde, uttrykke, i, latin, ,, og, 
+
+, om, det, ydmyktige, ,, som, han, kunde, 
+
+, prisa, på, norsk, ., 
+
+, Det, hørte, til, hverdag, med, hjemme, :, 
+
+, om, den, helige, troen, ,, 
+
+, om, bøddelene, ,, 
+
+, om, apostlene, ,, 
+
+, om, den, fattende, brodern, 
+
+, og, den, døende, brudren, ., 
+
+, Han, fikk, vite, i, skolen, ,, 
+
+, og, måtte, fortelle, fadren, det, ., 
+
+, Far, blev, redet, i, bokverket, når, 
+
+, Saulus, begynte, å, få, nye, tanker, og, mynder, ., 
+
+, —, Knut, Hamsun, *, 
+
+, When, I, started, out, with, this, blog, (, and, indeed, the, first, few, entries, are, here, ;, in, case, you, ’, re, interested, ), some, three, years, ago, ,, I, described, myself, as]",PROPN AUX VERB ADP PRON ADJ PUNCT SPACE PRON PRON NOUN VERB ADP NOUN PUNCT CCONJ SPACE ADP DET ADJ PUNCT PRON PRON NOUN SPACE NOUN ADP NOUN PUNCT SPACE PRON VERB ADP NOUN ADP ADP PUNCT SPACE ADP DET ADJ NOUN PUNCT SPACE ADP NOUN PUNCT SPACE ADP NOUN PUNCT SPACE ADP DET ADJ NOUN SPACE CCONJ DET ADJ NOUN PUNCT SPACE PRON AUX VERB ADP NOUN PUNCT SPACE CCONJ AUX VERB NOUN PRON PUNCT SPACE NOUN X NOUN ADP NOUN SCONJ SPACE PROPN VERB PART VERB ADJ NOUN CCONJ NOUN PUNCT SPACE PUNCT PROPN PROPN PUNCT SPACE PROPN X X X X X X PUNCT X X X X X PROPN PROPN PROPN PUNCT X X X X PROPN NOUN PUNCT X X X X PUNCT ADP PROPN PROPN PROPN,0.07971014492753623,0.3965009940357864,132,552,0.30303030303030304,0.13474047609866632
+"[Tomas, gjekk, ein, varm, sumardag, og, klaa, den, dina, påsir, ., Du, ser, et, spil, i, en, gjall, ., Hvaet, er, det, ?, 
+
+, The, first, thing, to, know, about, this, riddle, is, that, Tomas, gjekk, ein, varm, sumardag, is, not, English, ., It, ’, s, German, ., And, I, ’, m, not, Norwegian, ., The, closest, I, get, is, to, pronounce, “, sumardag, ”, as, “, samdoy, ., ”, Why, have, I, not, just, put, in, the, Norwegian, translation, ?, Because, I, just, made, it, up, ., It, isn, ’, t, a, real, riddle, ,, it, ’, s, a, pretend, riddle, ., It, doesn, ’, t, really, matter, what, language, I, use, because, it, isn, ’, t, really, about, reading, ., 
+
+, Riddles, get, at, the, heart, of, reading, ., In, order, to, understand, them, well, you, need, to, have, at, least, a, fair, amount, of, background, knowledge, ., You, need, to, know, ,, for, example, ,, what, klaa, means, ., The, language, and, style, of, the, riddle, matter, quite, a, bit]",PROPN X X X NOUN CCONJ VERB DET NOUN X PUNCT PRON VERB DET NOUN ADP DET NOUN PUNCT NOUN AUX PRON PUNCT SPACE PROPN X X NUM X X X PROPN X X X X X X NOUN X X PROPN PUNCT X X NOUN PROPN PUNCT PROPN ADP X NOUN X PROPN PUNCT PROPN X ADP X X X PROPN PUNCT NOUN PUNCT X PUNCT X PUNCT PUNCT X X X X X X X X PROPN NOUN PUNCT PROPN ADP X X X X PUNCT X X X PROPN X X PROPN PUNCT X X PROPN X PROPN PROPN PUNCT X X ADJ X PROPN X X X X X X X X X X X X NOUN PUNCT SPACE PROPN X SCONJ X X X NOUN PUNCT NOUN NOUN X X X X X X X X X X X X X X X X PUNCT X X NUM NOUN PUNCT ADP NOUN PUNCT X PROPN NOUN PUNCT PROPN X X PROPN X X PROPN PROPN X X X,0.06241519674355495,0.4022383720930229,173,737,0.26011560693641617,0.24042671100753674
+"[Borte, på, Vindheim, hadde, folk, her, ., Borte, på, den, avstod, ,, som, jeg, er, i, nu, ,, her, i, Valborg, ,, på, Birkholm, ,, er, jeg, alene, ., 
+
+, Ef, oss, er, allt, her, hos, oss, ,, oss, enar, og, oss, tuekne, ., Nok, er, det, sja, fint, det, er, hva, man, kan, fa, her, paa, Birkholm, ,, oss, enar, enar, og, tuekne, ., 
+
+, Vår, husfar, ., Vår, husfar, kom, aldri, meir, til, Valborg, ,, kom, aldri, meir, her, inn, pa, Birkholm, ., Vår, husfar, kom, fjorten, ar, siden, heim, og, satte, oss, saman, i, Valborg, ,, fa, ., Aage, Møller, ,, pa, den, gaa, alteid, en, ,, heim, ., 
+
+, Han, bar, seg, pa, heim, ., Han, kom, pa, vindheimsgaa, til, Valborg, fyra, a]",ADP ADP PROPN VERB NOUN ADV PUNCT ADP ADP DET PROPN PUNCT PRON PRON VERB ADP ADV PUNCT ADV ADP PROPN PUNCT ADP PROPN PUNCT AUX PRON ADV PUNCT SPACE NOUN PRON AUX ADV ADV ADP PRON PUNCT PRON PROPN CCONJ PRON ADJ PUNCT ADV AUX PRON NOUN ADJ PRON AUX PRON PRON AUX VERB ADV PROPN PROPN PUNCT PRON PROPN PROPN CCONJ ADJ PUNCT SPACE PRON NOUN PUNCT PRON NOUN VERB ADV PROPN ADP PROPN PUNCT VERB ADV ADV ADV ADP PROPN PROPN PUNCT PRON NOUN VERB NUM NOUN X ADP CCONJ VERB PRON PROPN ADP PROPN PUNCT X PUNCT PROPN PROPN PUNCT PROPN DET X NOUN DET PUNCT ADP PUNCT SPACE PRON VERB PRON X X PUNCT PRON VERB PROPN PROPN ADP PROPN X X,0.06589147286821706,0.40295503211991346,127,516,0.48031496062992124,0.09665126698252238
+"[Eit, anna, vilkår, som, ligg, i, vår, hos, forhold, som, virkelig, vil, tjene, til, at, få, noen, til, å, lese, denne, artikkelen, ., En, fremgangmelding, skrevet, som, et, slags, gammeldags, brevsending, til, gode, unge, dameklørere, som, bor, i, tusen, og, hundrede, hjemme, ., En, ulike, spesialtjeneste, som, har, blitt, oppfunnet, på, slike, tusen, år, tilbake, i, norsk, historie, ,, det, er, det, jeg, føler, ikke, varmert, å, spørre, etter, av, flest, norske, medier, i, dag, ., Selv, om, en, avdelt, og, isolert, del, av, Norge, kanskje, har, noen, gjentagelser, for, å, ha, fått, tilbakemeldinger, ,, uten, at, noen, av, disse, ville, være, av, den, type, som, dette, skjedde, med, ,, så]",X PROPN NOUN PRON VERB ADP NOUN ADP NOUN PRON ADJ AUX VERB SCONJ SCONJ VERB PRON SCONJ PART VERB DET NOUN PUNCT DET NOUN VERB SCONJ DET NOUN ADJ NOUN ADP ADJ ADJ NOUN PRON VERB ADP NOUN CCONJ NOUN ADP PUNCT DET ADJ NOUN PRON AUX AUX VERB ADP DET NOUN NOUN ADP ADP ADJ NOUN PUNCT PRON AUX PRON PRON VERB PART VERB PART VERB ADP ADP ADJ ADJ NOUN ADP NOUN PUNCT ADV SCONJ DET ADJ CCONJ ADJ NOUN ADP PROPN ADV VERB DET NOUN SCONJ PART AUX VERB NOUN PUNCT SCONJ SCONJ DET ADP PRON AUX AUX ADP DET NOUN PRON PRON VERB ADP PUNCT ADV,0.05163511187607573,0.3625187969924827,111,581,0.6756756756756757,0.14378206180502717
+"[Det, hadde, rent, så, vondt, –, det, var, sikkert, ., Men, jeg, tenkte, ,, hvis, jeg, røyter, ikke, lengere, ,, kunne, jeg, finne, en, god, kremering, igen, ,, og, det, stod, i, vinduet, ., 
+
+, #, #, Oder, ., 
+
+, For, a, long, ,, long, time, we've, all, heard, about, the, dangers, of, "", creepy-crawlies, "", ,, the, fear, these, spiders, and, insects, inspire, ,, the, way, they're, often, portrayed, in, the, media, and, even, in, children's, films, and, stories, ., 
+
+, But, does, the, threat, really, exist, ?, How, much, harm, do, these, harmless, little, critters, cause, ?, Is, it, really, necessary, to, protect, yourself, against, them, ?, Is, it, not, ,, in, fact, ,, the, other, way, around, ?, 
+
+, We've, already, looked, at, some, of, the, benefits, insects, have, to, us, ., Their, amazing, ability, to, detect, danger, ,, to, smell, ,, their, amazing, sight, and, their, ability, to, fly, have, given, them, survival]",PRON VERB ADJ ADV ADJ PUNCT PRON AUX ADJ PUNCT CCONJ PRON VERB PUNCT SCONJ PRON VERB PART ADJ PUNCT AUX PRON VERB DET ADJ NOUN NOUN PUNCT CCONJ PRON VERB ADP NOUN PUNCT SPACE NOUN NOUN PROPN PUNCT SPACE ADP X X PUNCT X X X X X X X X X PUNCT PROPN PUNCT PUNCT X X X X X X X PUNCT X X X NOUN PROPN X X X X X X X X X X PUNCT SPACE X X X X X X PUNCT X X X X X PROPN PROPN PROPN PROPN PUNCT X X X PROPN X X X X X PUNCT X X X PUNCT X X PUNCT X X X X PUNCT SPACE X X X X X X X X X X X X PUNCT X X X X X NOUN PUNCT NUM NOUN PUNCT X X X X X X NUM NOUN X PROPN X X,0.06174496644295302,0.380488505747126,157,745,0.24203821656050956,0.19562425826947089
+"[Ja, spring, etter, doktaren, sa, mine, ei, mottet, hjelp, ,, og, skjønt, etter, tre, år, ei, blitt, frisatt, fra, sykehuset, ,, er, min, situasjon, ikke, værlig, gjort, bedre, ., Jeg, kan, fortsatt, ikke, jobbe, ,, og, jeg, er, i, dag, litt, bedre, ., Man, må, skjulle, så, for, de, flest, mulig, ., Bekymringer, på, hjalp, fra, doktorerne, ,, derfor, må, man, skjule, det, ., 
+
+, Mine, av, de, tottste, er, på, nabo-guttere, som, kommer, og, låter, av, det, der, ., Når, jeg, er, blitt, forberet, å, gå, ut, på, gaten, ,, er, det, så, godt, ., Skal, jeg, bare, sitt, døde, tilbake, ?, I, god, familientid, ?, Da, forsikre, eggekampe, hver, dag, vi, så, godt, kan, oss, ., 
+
+]",INTJ NOUN ADP NOUN VERB PRON DET NOUN NOUN PUNCT CCONJ ADJ ADP NUM NOUN DET AUX VERB ADP NOUN PUNCT AUX PRON NOUN PART ADJ VERB ADJ PUNCT PRON AUX ADV PART VERB PUNCT CCONJ PRON AUX ADP NOUN ADJ ADJ PUNCT PRON AUX VERB ADV ADP DET ADJ ADJ PUNCT NOUN ADP VERB ADP NOUN PUNCT ADV AUX PRON VERB PRON PUNCT SPACE PRON ADP DET ADJ AUX ADP NOUN PRON VERB CCONJ NOUN ADP PRON ADV PUNCT SCONJ PRON AUX VERB VERB PART VERB ADP ADP NOUN PUNCT AUX PRON ADV ADJ PUNCT AUX PRON ADV PRON ADJ ADP PUNCT ADP ADJ NOUN PUNCT SCONJ NOUN NOUN DET NOUN PRON ADV ADJ AUX PRON PUNCT SPACE,0.06851851851851852,0.4040325865580445,119,540,0.6470588235294118,0.18442239888153453
+"[I, det, året, som, var, 1979, ,, kort, før, jeg, skulle, være, 14, år, gammel, ,, så, blev, jeg, udnævnt, til, "", styrke, "", (, "", lead, "", ), i, "", Cub, Scouts, "", ,, som, var, lillebrødrene, til, scouttrupperne, ., Jeg, var, dog, ikke, meget, begejstret, for, denne, hæder, ., Det, skyldtes, kulørte, og, skummade, skjorte, ,, der, pådrog, mig, tilnavnet, "", Smurfridderen, "", ., Men, det, måtte, lige, være, ., 
+
+, Kun, at, støjning, ,, og, fordi, der, måtte, lige, holde, et, møde, i, våren, 1980, på, en, lille, bondegård, blomstrede, ganske, vist, heksebalsamer, fra, vor, skovdominerende, lokal, ,, som, er, hjemsted, for]",ADP DET NOUN PRON AUX NUM PUNCT ADJ SCONJ PRON AUX AUX NUM NOUN ADJ PUNCT ADV X PRON ADJ ADP PUNCT NOUN PUNCT PUNCT PUNCT X PUNCT PUNCT ADP PUNCT PROPN PROPN PUNCT PUNCT PRON AUX NOUN ADP NOUN PUNCT PRON AUX ADV PART ADV NOUN ADP DET NOUN PUNCT PRON VERB ADJ CCONJ NOUN NOUN PUNCT ADV VERB X NOUN PUNCT PROPN PUNCT PUNCT CCONJ PRON AUX ADJ VERB PUNCT SPACE ADV SCONJ NOUN PUNCT CCONJ SCONJ ADV AUX ADJ VERB DET NOUN ADP NOUN NUM ADP DET ADJ NOUN ADJ ADV VERB NOUN ADP NOUN ADJ NOUN PUNCT PRON AUX NOUN ADP,0.08964143426294821,0.42512141280353255,105,502,0.4666666666666667,0.14267216111472106
+"[Så, strauk, Per, bort, i, Lidköping, med, Lidköpings, TIF, (, 2, ), 
+
+, (, Stockholm, ,, Sweden, ), ., 
+
+, The, TIF, is, an, organization, which, was, part, of, the, Flying, Group, ., 
+
+, Here, are, pictures, of, Per's, Sopwith, Cuckoo, (, 3, ), which, was, built, from, an, Expert-Kit, ., The, 2, other, aircraft, were, originally, intended, to, be, built, as, ', Randolphs', however, both, have, a, different, (, German, ), registration, number, ., 
+
+, The, third, aircraft, is, also, known, as, ', Iris', and, Per, is, looking, for, the, registration, number, ., 
+
+, Also, see, :, A-7124, 
+
+, Flying, Pictures, ., (, 5, ), 
+
+, Back, to, the, Lidköpings, TIF, page, ., 
+
+, Back, to, the, Flying, Group, index, page, ., 
+
+, Click, here, for, a, random, picture, from, this, website, .]",ADV NOUN PROPN ADP ADP PROPN ADP PROPN PROPN PUNCT NUM PUNCT SPACE PUNCT PROPN PUNCT PROPN PUNCT PUNCT SPACE PROPN PROPN X X X X X X X X PROPN PROPN PUNCT SPACE PROPN X X X X PROPN PROPN PUNCT NUM PUNCT X X X X X PROPN PUNCT PROPN X X PROPN X X ADV NUM X ADJ PROPN PUNCT PROPN NOUN X X X X PUNCT PROPN PUNCT PROPN PROPN PUNCT SPACE PROPN X PROPN X X X X PUNCT PROPN X PROPN X NOUN ADP PROPN X X PUNCT SPACE PROPN X PUNCT PROPN SPACE PROPN PROPN PUNCT PUNCT NUM PUNCT SPACE PROPN NUM X PROPN PROPN PROPN PUNCT SPACE ADP X X PROPN PROPN NOUN PROPN PUNCT SPACE PROPN PROPN ADP X X X X X PROPN PUNCT,0.09001636661211129,0.47120996441281054,134,611,0.1865671641791045,0.10042488613599743
