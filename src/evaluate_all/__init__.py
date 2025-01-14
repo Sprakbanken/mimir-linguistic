@@ -3,12 +3,8 @@ import json
 import pandas as pd
 from pathlib import Path
 from transformers import GenerationConfig, set_seed
-from analogies import predict_analogies
-from idioms import predict_idioms
 from lexical_diversities import calculate_lexical_diversity_scores
-from no_honest import calculate_HONEST_score
 from readability import calculate_lix_scores
-from synonyms import predict_synonyms
 import torch
 from utils import (
     get_model_and_tokenizer,
@@ -91,77 +87,17 @@ def get_parser() -> ArgumentParser:
         "--seed", type=int, default=42, help="Random seed for sampling and generation"
     )
     parser.add_argument(
-        "--delimiter",
-        "-d",
-        help="Special token to pad around analogy words for generation",
-        default="#",
-    )
-    parser.add_argument(
-        "--num_examples_a",
-        type=int,
-        help="Number of analogies to use for testing (maximum 17807)",
-        default=0,
-    )
-    parser.add_argument(
-        "--n_shots",
-        "-n",
-        type=int,
-        help="Number of analogy examples to show model before test example",
-        default=0,
-    )
-    parser.add_argument(
         "--ns",
         type=int,
         nargs="+",
         default=[3, 4],
         help="Ns for N-gram diversity score",
     )
-    parser.add_argument(
-        "--prompt_i",
-        help="Custom prompt to include before idiom",
-        default="Idiom:\n",
-    )
-    parser.add_argument(
-        "--texts_per_prompt_honest",
-        "-k",
-        type=int,
-        help="Number of outputs for each HONEST prompt",
-        default=5,
-    )
-    parser.add_argument(
-        "--plot_scores",
-        action="store_true",
-        default=False,
-        help="Will plot HONEST scores if flagged",
-    )
-    parser.add_argument(
-        "--prompt_pre",
-        help="Custom prompt to include before synonym example",
-        default="Hvilket ord hører ikke hjemme i lista?:\n",
-    )
-    parser.add_argument(
-        "--prompt_post",
-        help="Custom prompt to include after synonym example",
-        default="\nOrdet som ikke hører hjemme er:",
-    )
-    parser.add_argument(
-        "--num_examples_s",
-        type=int,
-        help="Number of synonym lists to use for testing (maximum 33909)",
-        default=1000,
-    )
-    parser.add_argument(
-        "--num_list_examples",
-        type=int,
-        help="Number of synonyms to use in each example",
-        default=2,
-    )
     return parser
 
 
 def main():
     import os
-
     os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
     parser = get_parser()
@@ -276,80 +212,9 @@ def main():
                 output_dir=output_lang_dir,
             )
 
-    # STEP 3: Run all the text generation tasks
-    # We only look at first predicted word for these tasks
-    model.generation_config.min_new_tokens = 1
-    model.generation_config.max_new_tokens = 5
-    model.generation_config.num_return_sequences = 1
-
-    predict_analogies(
-        num_examples=args.num_examples_a,
-        grammar_only=True,
-        n_shots=args.n_shots,
-        delimiter=args.delimiter,
-        batch_size=args.batch_size,
-        model=model,
-        tokenizer=tokenizer,
-        tokenizer_params=args.tokenizer_params,
-        output_dir=get_output_dir(output_dir / "analogies/"),
-    )
-
-    predict_idioms(
-        prompt=args.prompt_i,
-        model=model,
-        tokenizer=tokenizer,
-        tokenizer_params=args.tokenizer_params,
-        output_dir=get_output_dir(output_dir / "idioms/"),
-    )
-
-    predict_synonyms(
-        model=model,
-        tokenizer=tokenizer,
-        tokenizer_params=args.tokenizer_params,
-        prompt_pre=args.prompt_pre,
-        prompt_post=args.prompt_post,
-        num_examples=args.num_examples_s,
-        num_list_examples=args.num_list_examples,
-        batch_size=args.batch_size,
-        output_dir=get_output_dir(output_dir / "synonyms/"),
-    )
-
-    # Set same config values as main method in no_honest
-    model.generation_config.num_return_sequences = args.texts_per_prompt_honest
-    model.generation_config.do_sample = True
-    model.generation_config.pad_token_id = tokenizer.eos_token_id
-    model.generation_config.max_new_tokens = 10
-
-    calculate_HONEST_score(
-        model=model,
-        tokenizer=tokenizer,
-        tokenizer_params=args.tokenizer_params,
-        k=args.texts_per_prompt_honest,
-        plot_scores=args.plot_scores,
-        batch_size=args.batch_size,
-        output_dir=get_output_dir(output_dir / "honest/"),
-    )
-    torch.cuda.empty_cache()
-
-    # STEP 4: Create jsonl for hf space
-    df = pd.read_csv(output_dir / "analogies/generated_text.csv")
-    analogy_accuracy = len(df[df.correct_prediction]) / len(df)
-
-    df = pd.read_csv(output_dir / "idioms/generated_text.csv")
-    idioms_accuracy = len(df[df.correct_prediction]) / len(df)
-    nno_df = df[df.language == "nno"]
-    idioms_accuracy_nno = len(nno_df[nno_df.correct_prediction]) / len(nno_df)
-    nob_df = df[df.language == "nob"]
-    idioms_accuracy_nob = len(nob_df[nob_df.correct_prediction]) / len(nob_df)
-
-    df = pd.read_csv(output_dir / "synonyms/generated_text.csv")
-    synonyms_accuracy = len(df[df.correct_prediction]) / len(df)
-
-    honest_score_file = output_dir / "honest/overall_honest_score.txt"
-    honest_score = float(honest_score_file.read_text())
-
     df = pd.read_csv(output_dir / "lexical_diversity/scores_across_texts.csv")
     lex_div_scores = {k: v[0] for k, v in df.to_dict().items()}
+
     lex_dir = output_dir / "lexical_diversity"
     for e in lex_dir.iterdir():
         if e.is_dir():
@@ -360,6 +225,7 @@ def main():
 
     df = pd.read_csv(output_dir / "readability/scores_across_texts.csv")
     lix_scores = {"lix_score": df.lix_score[0]}
+
     lix_dir = output_dir / "readability"
     for e in lix_dir.iterdir():
         if e.is_dir():
@@ -368,32 +234,6 @@ def main():
             lix_scores[f"lix_score_{langcode}"] = df.lix_score[0]
 
     dicts = [
-        {
-            "dataset": "analogies",
-            "model": args.model_id,
-            "results": [{"accuracy": analogy_accuracy}],
-        },
-        {
-            "dataset": "idioms",
-            "model": args.model_id,
-            "results": [
-                {
-                    "accuracy": idioms_accuracy,
-                    "accuracy_nno": idioms_accuracy_nno,
-                    "accuracy_nob": idioms_accuracy_nob,
-                }
-            ],
-        },
-        {
-            "dataset": "synonyms",
-            "model": args.model_id,
-            "results": [{"accuracy": synonyms_accuracy}],
-        },
-        {
-            "dataset": "Norwegian_HONEST",
-            "model": args.model_id,
-            "results": [{"HONEST_score": honest_score}],
-        },
         {
             "dataset": "lexical_diversity",
             "model": args.model_id,
