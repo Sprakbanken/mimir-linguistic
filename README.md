@@ -3,8 +3,13 @@
 This repo contains functionality for linguistic evaluation of generative language models.
 
 ## Setup
-You will need Python 3.10:
+### With pdm
+```bash
+pdm install
+```
 
+### With venv
+You will need Python <3.13>=3.10:
 ```bash
 python -m venv <venv_name>      # make a virtual environment
 
@@ -13,11 +18,10 @@ python -m venv <venv_name>      # make a virtual environment
 pip install .                   # install dependencies and modules
 ```
 
-
 # How to run full pipeline
 To run all metrics on a specific model, you can use the `evaluate_all` module. See the below sections for more detailed explanations of the different metrics.
 
-Run `python3 -m evaluate_all -h` for argument information.
+Run `python3 -m evaluate_all -h` or `pdm run python -m evaluate_all -h` for argument information.
 
 ## Required arguments
 - model_id:                  huggingface hub model id or path to local model that can be loaded with transformers.AutoModelForCausalLM
@@ -44,7 +48,7 @@ See [this document](https://huggingface.co/docs/transformers/v4.39.3/en/main_cla
 
 ## Example run 
 ```bash
-python3 -m evaluate_all --model_id mimir-project/nb-llama-1.5b-mimirbase --input_file sentence-starters/sentence_starters.csv --prompt_column prompt --output_dir output/mimir-project/nb-llama-1.5b-mimirbase --generation_params max_new_tokens=200 min_new_tokens=170 --plot_scores
+python3 -m evaluate_all --model_id mimir-project/nb-llama-1.5b-mimirbase --input_file sentence-starters/sentence_starters.csv --prompt_column prompt --output_dir output/mimir-project/nb-llama-1.5b-mimirbase --generation_params max_new_tokens=200 min_new_tokens=170
 ```
 
 ## Output
@@ -57,8 +61,6 @@ evaluate_all/
 ├─ readability/
 │  ├─ scores_across_texts.csv
 │  ├─ scores_per_text.csv
-├─ synonyms/
-│  ├─ generated_text.csv
 args.json
 generated_text.csv
 generation_config.json
