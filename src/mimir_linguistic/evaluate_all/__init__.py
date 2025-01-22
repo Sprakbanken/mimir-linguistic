@@ -3,10 +3,10 @@ import json
 import pandas as pd
 from pathlib import Path
 from transformers import GenerationConfig, set_seed
-from lexical_diversities import calculate_lexical_diversity_scores
-from readability import calculate_lix_scores
+from mimir_linguistic.lexical_diversities import calculate_lexical_diversity_scores
+from mimir_linguistic.readability import calculate_lix_scores
 import torch
-from utils import (
+from mimir_linguistic.utils import (
     get_model_and_tokenizer,
     get_quantized_model_and_tokenizer,
     arglist_to_kwarg_dict,
@@ -98,6 +98,7 @@ def get_parser() -> ArgumentParser:
 
 def main():
     import os
+
     os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
     parser = get_parser()

@@ -3,7 +3,7 @@ import json
 import pandas as pd
 from pathlib import Path
 from transformers import GenerationConfig, set_seed
-from utils import (
+from mimir_linguistic.utils import (
     get_model_and_tokenizer,
     get_quantized_model_and_tokenizer,
     batch_generate,

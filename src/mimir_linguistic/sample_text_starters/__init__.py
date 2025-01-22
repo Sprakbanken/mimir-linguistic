@@ -7,7 +7,7 @@ import pandas as pd
 from pathlib import Path
 import random
 import re
-from utils import get_output_dir, arglist_to_kwarg_dict
+from mimir_linguistic.utils import get_output_dir, arglist_to_kwarg_dict
 
 
 def tokenize(text: str) -> list[str]:

@@ -2,8 +2,8 @@ from argparse import ArgumentParser
 from pathlib import Path
 from diversity import compression_ratio, ngram_diversity_score
 from lexical_diversity import lex_div as ld
-from lexical_diversities.SelfBleu import SelfBleu
-from utils import get_output_dir
+from mimir_linguistic.lexical_diversities.SelfBleu import SelfBleu
+from mimir_linguistic.utils import get_output_dir
 import pandas as pd
 import spacy
 

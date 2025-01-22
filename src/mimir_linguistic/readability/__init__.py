@@ -3,7 +3,7 @@ from pathlib import Path
 import pandas as pd
 import nb_tokenizer
 import re
-from utils import get_output_dir
+from mimir_linguistic.utils import get_output_dir
 
 
 def split_sentences(tokens, split_chars=[".", "!", "?"]):
