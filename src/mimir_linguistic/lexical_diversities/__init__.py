@@ -42,7 +42,7 @@ def calculate_lexical_diversity_scores(
     results["number_of_tokens"] = len(ld.tokenize(texts_concat))
     results["str_len"] = len(texts_concat)
 
-    with open("src/lexical_diversities/stopwords.txt") as f:
+    with open("src/mimir_linguistic/lexical_diversities/stopwords.txt") as f:
         stopwords = set(f.read().split("\n"))
 
     def stopword_density(tokenized_text):
