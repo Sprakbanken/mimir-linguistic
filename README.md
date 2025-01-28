@@ -4,7 +4,7 @@ This repo contains the code and results of linguistic evaluation of the models t
 See paper preprint (accepted for NoDaLiDa 2025) [here](https://arxiv.org/abs/2412.09460)  
 See press release and report [here](https://www.nb.no/pressemeldinger/forskningsprosjekt-viser-rettighetsbelagt-innhold-gir-norske-sprakmodeller-hoy-kvalitet/) (Norwegian only) 
 
-## Results 
+## Mímir results 
 See the results of the linguistic evaluation in [results/](results)  
 
 The results used for the technical report are [results/contrastive-10x/results_table.csv](results/contrastive-10x/results_table.csv)
