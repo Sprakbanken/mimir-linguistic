@@ -1,6 +1,15 @@
-# Linguistic evaluation of generative language models
+# Linguistic evaluation of generative language models (Mímir project)
 
-This repo contains functionality for linguistic evaluation of generative language models.
+This repo contains the code and results of linguistic evaluation of the models trained in the [Mímir project](https://www.ntnu.edu/norllm/the-project-mimir-on-copyrighted-content).  
+See paper preprint (accepted for NoDaLiDa 2025) [here](https://arxiv.org/abs/2412.09460)  
+See press release and report [here](https://www.nb.no/pressemeldinger/forskningsprosjekt-viser-rettighetsbelagt-innhold-gir-norske-sprakmodeller-hoy-kvalitet/) (Norwegian only) 
+
+## Results 
+See the results of the linguistic evaluation in [results/](results)  
+
+The results used for the technical report are [results/contrastive-10x/results_table.csv](results/contrastive-10x/results_table.csv)
+
+See how the tables were created in [notebooks/create_results_tables.ipynb](notebooks/create_results_tables.ipynb)
 
 ## Setup
 ### With pdm
