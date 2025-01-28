@@ -1,4 +1,4 @@
-model,compression_ratio_nob,compression_ratio_nno,lix_score_nob,lix_score_nno,self_bleu_nob,self_bleu_nno,inverese_compression_nob,inverese_compression_nno,min_max_lix_nob,min_max_lix_nno,inverse_sb_nob,inverse_sb_nno,average,rank
+model,compression_ratio_nob,compression_ratio_nno,lix_score_nob,lix_score_nno,self_bleu_nob,self_bleu_nno,inverse_compression_nob,inverse_compression_nno,min_max_lix_nob,min_max_lix_nno,inverse_sb_nob,inverse_sb_nno,average,rank
 mimir-7b-books,7.35,6.095,30.9058830532,23.4644702443,0.5020689967,0.32838413800000005,13.60544217687075,16.406890894175554,72.735292367,91.33882438925,49.793100329999994,67.16158619999999,51.84018939288271,14.0
 mimir-7b-factual,6.11,5.493,28.7125260593,25.425101768,0.5065071402,0.31800459210000004,16.366612111292962,18.20498816675769,78.21868485175,86.43724558,49.349285980000005,68.19954078999999,52.796059579966766,7.0
 mimir-7b-fiction,6.391,5.575,23.2401076672,20.2828902445,0.5099431235,0.3150096269,15.647003598810826,17.937219730941703,91.899730832,99.29277438875002,49.00568765,68.49903731,57.046908918417095,1.0
