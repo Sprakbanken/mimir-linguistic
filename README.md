@@ -1,7 +1,7 @@
 # Linguistic evaluation of generative language models (Mímir project)
 
 This repo contains the code and results of linguistic evaluation of the models trained in the [Mímir project](https://www.ntnu.edu/norllm/the-project-mimir-on-copyrighted-content).  
-See paper preprint (accepted for NoDaLiDa 2025) [here](https://arxiv.org/abs/2412.09460)  
+See paper [here](https://dspace.ut.ee/items/a111af0f-9aaf-422b-a69f-6f25ce99f25d)  
 See press release and report [here](https://www.nb.no/pressemeldinger/forskningsprosjekt-viser-rettighetsbelagt-innhold-gir-norske-sprakmodeller-hoy-kvalitet/) (Norwegian only) 
 
 ## Mímir results 
