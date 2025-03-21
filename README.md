@@ -28,9 +28,10 @@ pip install .                   # install dependencies and modules
 ```
 
 # How to run full pipeline
-To run all metrics on a specific model, you can use the `evaluate_all` module. See the below sections for more detailed explanations of the different metrics.
+To run all metrics on a specific model, you can use the `mimir_linguistic.evaluate_all` module, or just the outer `mimir_linguistic` module.  
+See the below sections for more detailed explanations of the different metrics.
 
-Run `python3 -m evaluate_all -h` or `pdm run python -m evaluate_all -h` for argument information.
+Run `python3 -m mimir_linguistic -h` or `pdm run python -m mimir_linguistic -h` for argument information.
 
 ## Required arguments
 - model_id:                  huggingface hub model id or path to local model that can be loaded with transformers.AutoModelForCausalLM
@@ -56,9 +57,18 @@ See [this document](https://huggingface.co/docs/transformers/v4.15.0/main_classe
 See [this document](https://huggingface.co/docs/transformers/v4.39.3/en/main_classes/text_generation#transformers.GenerationConfig) for paramaters that can be used with `--generation_params`
 
 ## Example run 
+
+### With pdm
 ```bash
-python3 -m evaluate_all --model_id mimir-project/nb-llama-1.5b-mimirbase --input_file sentence-starters/sentence_starters.csv --prompt_column prompt --output_dir output/mimir-project/nb-llama-1.5b-mimirbase --generation_params max_new_tokens=200 min_new_tokens=170
+pdm run python -m mimir_linguistic --model_id mimir-project/nb-llama-1.5b-mimirbase --input_file sentence-starters/sentence_starters.csv --prompt_column prompt --output_dir output/mimir-project/nb-llama-1.5b-mimirbase --generation_params max_new_tokens=200 min_new_tokens=170
 ```
+
+
+### With venv
+```bash
+python3 -m mimir_linguistic --model_id mimir-project/nb-llama-1.5b-mimirbase --input_file sentence-starters/sentence_starters.csv --prompt_column prompt --output_dir output/mimir-project/nb-llama-1.5b-mimirbase --generation_params max_new_tokens=200 min_new_tokens=170
+```
+
 
 ## Output
 Will create the following directory structure in `output_dir`:
@@ -76,11 +86,12 @@ generation_config.json
 results.jsonl
 ```
 
-`results.jsonl`  contains overall results for all tasks in the evaluate_all pipeline
+`results.jsonl`  contains overall results for all tasks in the `evaluate_all` pipeline
 
 # Lexical diversity module
 
-The following metrics may be used with the module "lexical_diviersities". For evaluation, metrics on generated text should be compared with the same metrics on training material within the same domain.
+The following metrics may be used with the module `mimir_linguistic.lexical_diviersities`.  
+For evaluation, metrics on generated text should be compared with the same metrics on training material within the same domain.
 
 - Type-token ratio
 - Moving average type-token ratio
@@ -91,59 +102,66 @@ The following metrics may be used with the module "lexical_diviersities". For ev
 
 ## How to use
 
-```bash
-python3 -m lexical_diversities  --input_file <texts.csv>                                                
-                                --text_column <column name in the CSV where the texts can be found>     
-                                --ns    <list of Ns for N-gram diversity score>                                  
-                                --output_dir    <output directory>
-```
+`pdm run python -m mimir_linguistic.lexical_diversities` or `python3 -m mimir_linguistic.lexical_diversities`
 
-Generates the following files:
+### Arguments:
+- input_file: a text .csv file with generated text                                                
+- text_column: column name in the CSV where the generated text is
+- ns: list of Ns for N-gram diversity score                              
+- output_dir: output directory
+
+## Generates the following files:
 - `<output_dir>/lexical_diversity/scores_per_text.csv`
 - `<output_dir>/lexical_diversity/scores_across_texts.csv`
 
 # Readability module
-Measures the readability of generated text. Currently implemented:
+Measures the readability of generated text. 
+
+Currently implemented:
 - Lix score
 
 ## How to use
+`pdm run python -m mimir_linguistic.readability` or `python3 -m mimir_linguistic.readability`
 
-```bash
-python3 -m readability  --input_file <texts.csv>                                                
-                                --text_column <column name in the CSV where the texts can be found>
-                                --output_dir    <output directory>
-```
+### Arguments:  
+- input_file: a text .csv file with generated text                                                
+- text_column: column name in the CSV where the generated text is
+- output_dir:    output directory
 
-Generates the following files:
+## Generates the following files:
 - `<output_dir>/readability/scores_per_text.csv`
 - `<output_dir>/readability/scores_across_texts.csv`
 
 # Generation utility module
-
-In order to generate text for evaluation, use the generation module.  
+In order to generate text for evaluation, use the generation module. 
 It loads a model with the transformers library and a .csv file with prompts to generate from.  
 
-Required paramaters:
-```
---input_file        <.csv file with prompts>
---prompt_column     <prompt column in input_file>
---texts_per_prompt  <number of texts to generate for each prompt>
---seed              <random seed for text generation>
---model_id          <HuggingFace model id or local path>      
---output_dir        <output directory>        
-```
-Optional parameters:
-```
---hf_token          <hf token with read access (private models)>                
---quantize_bits     <4 or 8 bit, model quantization>                            
---eos_token         <custom eos_token>                                          
---tokenizer_params  <sequence with key=value pairs for the tokenizer>           
---generation_params <sequence with key=value pairs for the generation config>   
-```
+
+## How to use:
+
+`pdm run python -m mimir_linguistic.generate` or `python3 -m mimir_linguistic.generate`
+
+
+### Required arguments:
+- input_file: .csv file with prompts
+- prompt_column: prompt column in input_file
+- texts_per_prompt: number of texts to generate for each prompt
+- seed: random seed for text generation
+- model_id: HuggingFace model id or local path      
+- output_dir: output directory
+
+### Optional arguments:
+
+- hf_token:           hf token with read access (private models)               
+- quantize_bits:      4 or 8 bit, model quantization                            
+- eos_token:          custom eos_token                                          
+- tokenizer_params:   sequence with key=value pairs for the tokenizer    
+- generation_params:  sequence with key=value pairs for the generation config
+
 See [this document](https://huggingface.co/docs/transformers/v4.15.0/main_classes/tokenizer#transformers.PreTrainedTokenizerBase.__call__) for paramaters that can be used with  `--tokenizer_params`  
 See [this document](https://huggingface.co/docs/transformers/v4.39.3/en/main_classes/text_generation#transformers.GenerationConfig) for paramaters that can be used with `--generation_params`
 
-Generates the following files:
+## Generates the following files:
 - `<output_dir>/<evaluation_name>/args.json`           
 - `<output_dir>/<evaluation_name>/generated_text.csv`         
 - `<output_dir>/<evaluation_name>/generation_config.json` 
