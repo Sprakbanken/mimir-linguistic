@@ -1,3 +1,3 @@
-from generate import main
+from mimir_linguistic.generate import main
 
 main()
