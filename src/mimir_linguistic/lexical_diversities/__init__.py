@@ -6,6 +6,9 @@ from mimir_linguistic.lexical_diversities.SelfBleu import SelfBleu
 from mimir_linguistic.utils import get_output_dir
 import pandas as pd
 import spacy
+import nltk
+
+nltk.download("punkt_tab")
 
 
 def calculate_lexical_diversity_scores(
