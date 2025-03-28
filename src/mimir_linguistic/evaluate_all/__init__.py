@@ -191,11 +191,13 @@ def main():
     scores_per_text.to_csv(lex_output_dir / "scores_per_text.csv", index=False)
     scores_across_texts.to_csv(lex_output_dir / "scores_across_texts.csv", index=False)
 
-    calculate_lix_scores(
+    lix_output_dir = get_output_dir(output_dir / "readability/")
+    scores_per_text, scores_across_texts = calculate_lix_scores(
         df=df,
         text_column="generated_text",
-        output_dir=get_output_dir(output_dir / "readability/"),
     )
+    scores_per_text.to_csv(lix_output_dir / "scores_per_text.csv", index=False)
+    scores_across_texts.to_csv(lix_output_dir / "scores_across_texts.csv", index=False)
 
     if args.lang_column:
         for lang, df_ in df.groupby("language"):
@@ -213,10 +215,13 @@ def main():
 
             output_lang_dir = get_output_dir(output_dir / "readability" / lang)
 
-            calculate_lix_scores(
+            scores_per_text, scores_across_texts = calculate_lix_scores(
                 df=df_,
                 text_column="generated_text",
-                output_dir=output_lang_dir,
+            )
+            scores_per_text.to_csv(output_lang_dir / "scores_per_text.csv", index=False)
+            scores_across_texts.to_csv(
+                output_lang_dir / "scores_across_texts.csv", index=False
             )
 
     df = pd.read_csv(output_dir / "lexical_diversity/scores_across_texts.csv")

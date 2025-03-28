@@ -50,19 +50,20 @@ def lix_score(text):
         return -1
 
 
-def calculate_lix_scores(df: pd.DataFrame, text_column: str, output_dir: Path):
+def calculate_lix_scores(
+    df: pd.DataFrame, text_column: str
+) -> tuple[pd.DataFrame, pd.DataFrame]:
+    """Calculate LIX readability scores for each text and all texts together in df."""
+    df = df.copy()
     df["tokenized_text"] = df[text_column].apply(nb_tokenizer.tokenize)
     df["lix_score"] = df["tokenized_text"].apply(lix_score)
-    df[["tokenized_text", "lix_score"]].to_csv(
-        output_dir / "scores_per_text.csv", index=False
-    )
+    scores_per_text = df[["tokenized_text", "lix_score"]]
 
     results = {}
     tokens_whole_corpus = sum(list(df["tokenized_text"]), [])
     results["lix_score"] = lix_score(tokens_whole_corpus)
-    pd.DataFrame(results, index=[0]).to_csv(
-        output_dir / "scores_across_texts.csv", index=False
-    )
+    scores_across_texts = pd.DataFrame(results, index=[0])
+    return scores_per_text, scores_across_texts
 
 
 def main():
@@ -96,6 +97,10 @@ def main():
     output_dir = args.output_dir / "readability/"
     output_dir = get_output_dir(output_dir)
 
-    calculate_lix_scores(df=df, text_column=args.text_column, output_dir=output_dir)
+    scores_per_text, scores_across_texts = calculate_lix_scores(
+        df=df, text_column=args.text_column, output_dir=output_dir
+    )
 
+    scores_per_text.to_csv(output_dir / "scores_per_text.csv", index=False)
+    scores_across_texts.to_csv(output_dir / "scores_across_texts.csv", index=False)
     print(f"See results at {output_dir}")
