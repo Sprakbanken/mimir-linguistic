@@ -34,11 +34,7 @@ def calculate_lexical_diversity_scores(
 
     texts_concat = " ".join(df[text_column])
 
-    # Self-Bleu (is_fast=False does not rely on sampling)
-    df["text_id"] = range(len(df))
-    selfbl = SelfBleu(test_text=list(df[text_column]))
-    df["self_bleu"] = df["text_id"].apply(selfbl.get_bleu_one_hypothesis)
-    results["self_bleu"] = selfbl.get_score(is_fast=False)
+    df["self_bleu"] = self_bleu_texts(df[text_column])
 
     results["simple_ttr"] = ld.ttr(texts_concat)
     results["moving_average_ttr"] = ld.mattr(texts_concat)
