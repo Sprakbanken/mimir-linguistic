@@ -2,15 +2,38 @@ from argparse import ArgumentParser
 from pathlib import Path
 from diversity import compression_ratio, ngram_diversity_score
 from lexical_diversity import lex_div as ld
-from mimir_linguistic.lexical_diversities.SelfBleu import SelfBleu
+from mimir_linguistic.lexical_diversities.self_bleu import self_bleu_texts
 from mimir_linguistic.utils import get_output_dir
 import pandas as pd
 import spacy
+import nltk
+
+nltk.download("punkt_tab")
+
+STOP_WORD_FILE = Path(__file__).parent / "stopwords.txt"
+STOP_WORDS = set(STOP_WORD_FILE.read_text().split("\n"))
+
+
+def stopword_density(tokenized_text: list[str]) -> float:
+    return len([t for t in tokenized_text if str(t).lower() in STOP_WORDS]) / len(
+        tokenized_text
+    )
 
 
 def calculate_lexical_diversity_scores(
-    df: pd.DataFrame, text_column: str, ns: list[int], output_dir: Path
-):
+    df: pd.DataFrame, text_column: str, ns: list[int]
+) -> tuple[pd.DataFrame, pd.DataFrame]:
+    """Calculate lexical diversity scores for each text and all texts together in df.
+    Returns two dataframes: one with scores per text and one with scores across all texts.
+    Calculates the following scores:
+        - self-bleu
+        - compression ratio
+        - part-of-speech compression_ratio
+        - n_gram_diversity_score
+        - type_token_ratio
+        - moving_average_type_token_ratio
+        - stopword_density
+    """
     nlp = spacy.load("nb_core_news_lg")
     docs = pd.Series(nlp.pipe(df[text_column]))
 
@@ -31,31 +54,18 @@ def calculate_lexical_diversity_scores(
 
     texts_concat = " ".join(df[text_column])
 
-    # Self-Bleu (is_fast=False does not rely on sampling)
-    df["text_id"] = range(len(df))
-    selfbl = SelfBleu(test_text=list(df[text_column]))
-    df["self_bleu"] = df["text_id"].apply(selfbl.get_bleu_one_hypothesis)
-    results["self_bleu"] = selfbl.get_score(is_fast=False)
+    df["self_bleu"] = self_bleu_texts(df[text_column])
 
     results["simple_ttr"] = ld.ttr(texts_concat)
     results["moving_average_ttr"] = ld.mattr(texts_concat)
     results["number_of_tokens"] = len(ld.tokenize(texts_concat))
     results["str_len"] = len(texts_concat)
 
-    with open("src/mimir_linguistic/lexical_diversities/stopwords.txt") as f:
-        stopwords = set(f.read().split("\n"))
-
-    def stopword_density(tokenized_text):
-        return len([t for t in tokenized_text if str(t).lower() in stopwords]) / len(
-            tokenized_text
-        )
-
     df["stopword_density"] = df.tokenized_text.apply(stopword_density)
     results["stopword_density"] = stopword_density(
         [token for text in df.tokenized_text for token in text]
     )
-
-    df[
+    scores_per_text = df[
         [
             "tokenized_text",
             "parts_of_speech",
@@ -66,10 +76,9 @@ def calculate_lexical_diversity_scores(
             "stopword_density",
             "self_bleu",
         ]
-    ].to_csv(output_dir / "scores_per_text.csv", index=False)
-
-    df = pd.DataFrame(results, index=[0])
-    df.to_csv(output_dir / "scores_across_texts.csv", index=False)
+    ]
+    scores_across_texts = pd.DataFrame(results, index=[0])
+    return scores_per_text, scores_across_texts
 
 
 def main():
@@ -109,8 +118,11 @@ def main():
     output_dir = get_output_dir(output_dir)
 
     df = pd.read_csv(args.input_file)
-    calculate_lexical_diversity_scores(
-        df=df, text_column=args.text_column, ns=args.ns, output_dir=output_dir
+    scores_per_text, scores_across_texts = calculate_lexical_diversity_scores(
+        df=df, text_column=args.text_column, ns=args.ns
     )
 
+    scores_per_text.to_csv(output_dir / "scores_per_text.csv", index=False)
+
+    scores_across_texts.to_csv(output_dir / "scores_across_texts.csv", index=False)
     print(f"See results at {output_dir}")
