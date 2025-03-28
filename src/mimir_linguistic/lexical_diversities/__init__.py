@@ -3,6 +3,7 @@ from pathlib import Path
 from diversity import compression_ratio, ngram_diversity_score
 from lexical_diversity import lex_div as ld
 from mimir_linguistic.lexical_diversities.self_bleu import self_bleu_texts
+from mimir_linguistic.lexical_diversities.stopwords import stop_words
 from mimir_linguistic.utils import get_output_dir
 import pandas as pd
 import spacy
@@ -10,12 +11,9 @@ import nltk
 
 nltk.download("punkt_tab")
 
-STOP_WORD_FILE = Path(__file__).parent / "stopwords.txt"
-STOP_WORDS = set(STOP_WORD_FILE.read_text().split("\n"))
-
 
 def stopword_density(tokenized_text: list[str]) -> float:
-    return len([t for t in tokenized_text if str(t).lower() in STOP_WORDS]) / len(
+    return len([t for t in tokenized_text if str(t).lower() in stop_words]) / len(
         tokenized_text
     )
 
