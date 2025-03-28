@@ -181,12 +181,15 @@ def main():
     # STEP 2: Calculate lexical diversity and readability scores on the generated text
     df = pd.read_csv(output_dir / "generated_text.csv")
 
-    calculate_lexical_diversity_scores(
+    scores_per_text, scores_across_texts = calculate_lexical_diversity_scores(
         df=df,
         text_column="generated_text",
         ns=args.ns,
-        output_dir=get_output_dir(output_dir / "lexical_diversity/"),
     )
+
+    lex_output_dir = get_output_dir(output_dir / "lexical_diversity/")
+    scores_per_text.to_csv(lex_output_dir / "scores_per_text.csv", index=False)
+    scores_across_texts.to_csv(lex_output_dir / "scores_across_texts.csv", index=False)
 
     calculate_lix_scores(
         df=df,
@@ -198,11 +201,14 @@ def main():
         for lang, df_ in df.groupby("language"):
             output_lang_dir = get_output_dir(output_dir / "lexical_diversity" / lang)
             df_.index = range(len(df_))
-            calculate_lexical_diversity_scores(
+            scores_per_text, scores_across_texts = calculate_lexical_diversity_scores(
                 df=df_,
                 text_column="generated_text",
                 ns=args.ns,
-                output_dir=output_lang_dir,
+            )
+            scores_per_text.to_csv(output_lang_dir / "scores_per_text.csv", index=False)
+            scores_across_texts.to_csv(
+                output_lang_dir / "scores_across_texts.csv", index=False
             )
 
             output_lang_dir = get_output_dir(output_dir / "readability" / lang)
