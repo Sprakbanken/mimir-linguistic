@@ -10,6 +10,15 @@ import nltk
 
 nltk.download("punkt_tab")
 
+STOP_WORD_FILE = Path(__file__).parent / "stopwords.txt"
+STOP_WORDS = set(STOP_WORD_FILE.read_text().split("\n"))
+
+
+def stopword_density(tokenized_text: list[str]) -> float:
+    return len([t for t in tokenized_text if str(t).lower() in STOP_WORDS]) / len(
+        tokenized_text
+    )
+
 
 def calculate_lexical_diversity_scores(
     df: pd.DataFrame, text_column: str, ns: list[int], output_dir: Path
@@ -40,14 +49,6 @@ def calculate_lexical_diversity_scores(
     results["moving_average_ttr"] = ld.mattr(texts_concat)
     results["number_of_tokens"] = len(ld.tokenize(texts_concat))
     results["str_len"] = len(texts_concat)
-
-    with open("src/mimir_linguistic/lexical_diversities/stopwords.txt") as f:
-        stopwords = set(f.read().split("\n"))
-
-    def stopword_density(tokenized_text):
-        return len([t for t in tokenized_text if str(t).lower() in stopwords]) / len(
-            tokenized_text
-        )
 
     df["stopword_density"] = df.tokenized_text.apply(stopword_density)
     results["stopword_density"] = stopword_density(
