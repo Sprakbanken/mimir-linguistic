@@ -86,13 +86,6 @@ def get_parser() -> ArgumentParser:
     parser.add_argument(
         "--seed", type=int, default=42, help="Random seed for sampling and generation"
     )
-    parser.add_argument(
-        "--ns",
-        type=int,
-        nargs="+",
-        default=[3, 4],
-        help="Ns for N-gram diversity score",
-    )
     return parser
 
 
@@ -184,7 +177,6 @@ def main():
     scores_per_text, scores_across_texts = calculate_lexical_diversity_scores(
         df=df,
         text_column="generated_text",
-        ns=args.ns,
     )
 
     lex_output_dir = get_output_dir(output_dir / "lexical_diversity/")
@@ -206,7 +198,6 @@ def main():
             scores_per_text, scores_across_texts = calculate_lexical_diversity_scores(
                 df=df_,
                 text_column="generated_text",
-                ns=args.ns,
             )
             scores_per_text.to_csv(output_lang_dir / "scores_per_text.csv", index=False)
             scores_across_texts.to_csv(

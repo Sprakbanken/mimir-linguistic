@@ -93,11 +93,7 @@ results.jsonl
 The following metrics may be used with the module `mimir_linguistic.lexical_diviersities`.  
 For evaluation, metrics on generated text should be compared with the same metrics on training material within the same domain.
 
-- Type-token ratio
-- Moving average type-token ratio
 - Compression ratio
-- Part-of-speech compression ratio   
-- Stop word density
 - SELF-BLEU
 
 ## How to use
@@ -107,7 +103,6 @@ For evaluation, metrics on generated text should be compared with the same metri
 ### Arguments:
 - input_file: a text .csv file with generated text                                                
 - text_column: column name in the CSV where the generated text is
-- ns: list of Ns for N-gram diversity score                              
 - output_dir: output directory
 
 ## Generates the following files:
