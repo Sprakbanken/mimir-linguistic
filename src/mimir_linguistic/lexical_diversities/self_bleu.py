@@ -5,7 +5,7 @@
 import nltk
 
 
-def self_bleu_texts(texts: list[str], ngram=3):
+def self_bleu_texts(texts: list[str], ngram=3) -> list[float]:
     """Rewritten from https://github.com/geek-ai/Texygen/blob/master/utils/metrics/SelfBleu.py"""
     tokenized_reference = [nltk.word_tokenize(text) for text in texts]
     weights = tuple((1.0 / ngram for _ in range(ngram)))
